@@ -1,0 +1,38 @@
+name: JSP-000826 Lean validation environment
+on:
+  push:
+    branches: [jsp-000826-lean-validation-20260917]
+    paths: [.github/workflows/jsp-000826-lean-validation.yml]
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Fetch and authenticate the official Lean 4.24.0 archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --max-time 300 \
+            https://github.com/leanprover/lean4/releases/download/v4.24.0/lean-4.24.0-linux.tar.zst \
+            --output lean-4.24.0-linux.tar.zst
+          echo 'b14f5e5159219dd1a1956c3b806813319f5e94ccd5bdfd56f54520609a5bb5ec  lean-4.24.0-linux.tar.zst' > SHA256SUMS
+          sha256sum --check SHA256SUMS
+          tar --zstd -xf lean-4.24.0-linux.tar.zst
+          ./lean-4.24.0-linux/bin/lean --version | tee version.log
+          printf '%s\n' 'import Std' 'theorem environment_probe (n : Nat) : n + 0 = n := by omega' '#print axioms environment_probe' > EnvironmentProbe.lean
+          ./lean-4.24.0-linux/bin/lean EnvironmentProbe.lean | tee probe.log
+      - name: Preserve the unmodified authenticated toolchain for local verification
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: official-lean-4.24.0-linux
+          path: |
+            lean-4.24.0-linux.tar.zst
+            SHA256SUMS
+            version.log
+            EnvironmentProbe.lean
+            probe.log
+          compression-level: 0
+          retention-days: 7
+          if-no-files-found: error
