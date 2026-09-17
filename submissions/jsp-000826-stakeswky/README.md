@@ -41,6 +41,8 @@ The current research notes record the following work:
 6. Several component sequences arising from this family have been shown in the working notes to satisfy stronger shape properties such as unimodality or log-concavity, but these component facts have **not** yet been assembled into a proof that `P_t` is unimodal for every `t`.
 7. **52 registered parameter instances** of the family, together with several directed search tracks, have been checked computationally in the research process without finding a counterexample.
 
+The large search counts above come from bounded and directed computational experiments. They are **not** claimed to exhaust all trees or forests up to any vertex order.
+
 Items 2–7 above are reported here as the state of the submitting research notes. This initial snapshot does not present them as independently reproduced results, and it does not ask the awards repository to certify them.
 
 ## What has not been established
