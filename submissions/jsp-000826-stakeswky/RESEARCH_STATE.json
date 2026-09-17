@@ -1,102 +1,46 @@
 {
   "schema_version": 1,
-  "updated_utc_date": "2026-09-17",
+  "updated_utc_date": "2026-09-18",
   "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
   "repository": "stakeswky/awards",
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "f92788e1f178d7bc9c64631c8a7c33b601270d40",
-  "checkpoint_identity": "Use the Git commit containing this file; the file deliberately does not claim its own not-yet-created SHA.",
+  "last_read_head": "5a78ec39b3ed6f59e16e4a3f23b7b0d14f33b1e6",
+  "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
+  "previous_checkpoint": "5a78ec39b3ed6f59e16e4a3f23b7b0d14f33b1e6:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
-    "claim": "Use a log-concave perturbation lemma and a five-term quartic certificate to strengthen the uniform palette theorem; exhaust the small finite prefix separately.",
-    "result": "E and P are log-concave for all permitted mixtures with integer t>=24; all mixtures at t=1..4 have an exact complete finite certificate. The heterogeneous t=5..23 gap remains. The general r/h corridor threshold remains 47.",
-    "proof": "followup/LC_STABILITY.md",
-    "source": [
-      "followup/stability_certificate.py",
-      "followup/small_palette_study.py",
-      "followup/finish_stability_study.py",
-      "followup/audit_stability_frontier.py",
-      "followup/test_stability.py"
-    ],
-    "evidence": "followup/stability_results.json",
-    "old_threshold_certificate_replayed": true,
-    "quartic_finite_positive_indices": 41,
-    "quartic_positive_tail_coefficients": 5,
-    "graph_records": 12909,
-    "graph_record_breakdown": {
-      "complete_palette_t1_t4": 12649,
-      "outside_palette_probes": 256,
-      "controls": 4
-    },
-    "within_batch_unlabelled_structures": 12909,
-    "original_counterexamples": 0,
-    "full_coefficients_compared": 622589,
-    "independently_rebuilt_root_hub_splits": 25699,
-    "split_coefficients_compared": 2400056,
-    "subset_corridor_failures_reexamined": 46,
-    "global_corridor_failures_among_them": 0,
-    "program_tests_passed": 28,
-    "new_program_tests": 12,
+    "task": "Publish pending v3 reproducible source before continuing structural research",
+    "source_packet": "publication_v3/README.md",
+    "manifest": "publication_v3/SOURCE_PACKET.json",
+    "source_files_in_packet": 67,
+    "historical_lean_modules_reconstructed_and_hash_matched": 176,
+    "v3_lean_modules_reconstructed_and_hash_matched": 6,
+    "publication_program_tests_passed": 12,
     "fresh_lean_build": false,
-    "external_peer_review": false,
-    "complete_deterministic_replay": "All 12909 graph records, selected-frontier diagnostics and quartic certificate regenerated with matching hashes."
+    "new_counterexample_search": false,
+    "raw_v3_logs_hosted_here": false,
+    "result": "Fully reconstructible sources and archived receipts are published; historical program and Lean results are not asserted to have been freshly rerun."
   },
   "proved_scope": [
-    {
-      "name": "Identical-(3,5) branch family",
-      "parameters": "all integer t>=1",
-      "status": "Previously recorded written proof plus exact finite certificates, not fully Lean formalized"
-    },
-    {
-      "name": "21-type heterogeneous palette",
-      "parameters": "any mixture of (1,s), 3<=s<=17; (2,s), 4<=s<=8; and (3,5)",
-      "conclusions": "E and P log-concave for t=1..4 by complete finite verification and for every t>=24 by written proof plus exact algebra; distinguished r/h corridor verified at t=1..4 and remains generally proved for t>=47.",
-      "status": "Written proof and exact computation, not a new Lean run or external review. No all-palette t=5..23 claim."
-    },
-    {
-      "name": "14-vertex auxiliary tree and generic corridor lemmas",
-      "status": "Historical Lean 4.31.0 build recorded; NOT an original-problem solution",
-      "publication_gap": "Full archived 176-module sources are not yet hosted on this branch; core logs and hashes alone are not replayable source."
-    }
+    {"name":"Identical-(3,5) family","parameters":"all integer t>=1","status":"Previously recorded written proof plus exact finite certificates; not fully Lean formalized"},
+    {"name":"Original 21-type palette","parameters":"t=1..5 and t>=24","status":"Finite-prefix computation plus written infinite-tail proof; full original problem unresolved"},
+    {"name":"Expanded 59-type palette","parameters":"t=1..3 and t>=24","status":"Archived bounded computation plus written uniform proof; common r/h corridor generally covered only at t>=47"},
+    {"name":"Finite auxiliary graph, corridor lemmas and integer stability lemma","status":"Historical native Lean 4.31.0 results; exact source reconstruction now public","remaining":"Fresh official distribution replay, standard-interface bridges and independent external review remain separate"}
   ],
   "next_tasks": [
-    {
-      "priority": 1,
-      "task": "Review the local LC stability lemma and the five-term monotonicity argument in LC_STABILITY.md; independently regenerate the quartic and finite-prefix certificate. Treat a failed sufficient bound at t=23 as a method failure, not a graph counterexample."
-    },
-    {
-      "priority": 2,
-      "task": "Publish the previously checked 176-module finite Lean certificate source tree or a fully reconstructing generator and hashes, then replay with a pinned official toolchain. The historical source-publication gap must not be silently treated as complete."
-    },
-    {
-      "priority": 3,
-      "task": "Investigate heterogeneous palette mixtures t=5..23 and branches outside the common coefficient hypotheses. Do not continue original-counterexample hunting inside the now-proved t=1..4 or t>=24 palette ranges except controls. Preserve direct unweighted checks."
-    },
-    {
-      "priority": 4,
-      "task": "Study the all-forest corridor conjecture or general DP formal correctness. A large gap at just root/hub is not an all-vertex gap: all 46 such current probes were explained by other vertices. Extract any genuinely nonunimodal conditional forest."
-    }
+    {"priority":1,"task":"Seek and audit a structural branch-insertion invariant covering all remaining mixed palette sizes, rather than enumerating more multisets. Test any proposed closure against exact coefficients before attempting an induction."},
+    {"priority":2,"task":"Retain bounded direct original-problem checks on general trees and forests; extract any nonunimodal conditional forest. A failed stronger invariant is not an Erdos counterexample."},
+    {"priority":3,"task":"Replay the now-public exact finite Lean sources using a pinned official toolchain and audit statement/interface correspondence. Do not label source reconstruction as a fresh Lean build."}
   ],
   "remaining_gaps": [
     "Full Erdos #993 proof or counterexample",
-    "All heterogeneous palette mixtures with 5<=t<=23; general distinguished r/h corridor below t=47 outside the finite prefix",
-    "Global forest corridor theorem or counterexample",
-    "General fast-DP Lean correctness and full restricted-family Lean formalization",
-    "Full public finite Lean source publication and official-toolchain replay",
-    "External review and current global proof-claim/novelty verification",
-    "Missing round-3 full historical archive; no all-round global deduplication claim"
+    "Original palette t=6..23 and expanded palette t=4..23 under this work",
+    "All-forest corridor theorem or counterexample",
+    "General fast-DP formal correctness and entire family Lean formalization",
+    "Official-toolchain replay, independent external review and global novelty verification",
+    "Missing round-3 full historical archive and no all-round global deduplication claim"
   ],
-  "recurring_continuation": {
-    "created": true,
-    "cadence": "daily morning in America/Los_Angeles, flexible schedule",
-    "first_scheduled_date": "2026-09-18",
-    "behavior": "Read repository state, execute one bounded task, synchronize completed evidence to the Draft PR, report blocking conditions.",
-    "limits": "Not continuous execution or a GitHub Action. Tool availability and authorization are checked at each run."
-  },
-  "completion": {
-    "current": false,
-    "required": "A complete original-statement proof or valid explicit unweighted tree/forest counterexample, independently reproducible graph/count checks, actual formal-source replay and axiom audit.",
-    "on_success": "Publish final verification package, notify user, disable recurring task; do not self-award or change live prize records."
-  }
+  "recurring_continuation": {"created":true,"cadence":"daily morning America/Los_Angeles, flexible","limits":"Historical scheduling configuration, not continuous computation; task execution depends on available tools"},
+  "completion": {"current":false,"required":"Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit","on_success":"Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"}
 }
