@@ -6,24 +6,41 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "ffdc73d09db28280e25905fa4d3f5b9fc841bf5f",
+  "last_read_head": "f92788e1f178d7bc9c64631c8a7c33b601270d40",
   "checkpoint_identity": "Use the Git commit containing this file; the file deliberately does not claim its own not-yet-created SHA.",
   "current_work": {
-    "claim": "Refine the common 21-type heterogeneous-branch sufficient bounds, retaining all binomial terms.",
-    "result": "Written proof and exact certificate: E and P log-concave for all t>=45; r/h corridor certified for all t>=47.",
-    "proof": "followup/THRESHOLD_REFINEMENT.md",
-    "source": ["followup/threshold_certificate.py", "followup/continued_probe.py", "followup/test_threshold.py"],
-    "evidence": "followup/threshold_results.json",
-    "bound_values_compared": 25700,
-    "LC_indices_checked": 25650,
-    "corridor_square_indices_checked": 24012,
-    "new_graph_records": 134,
-    "graph_record_breakdown": {"outside_palette_probes": 128, "boundary_controls": 6},
-    "within_batch_unlabelled_structures": 134,
+    "claim": "Use a log-concave perturbation lemma and a five-term quartic certificate to strengthen the uniform palette theorem; exhaust the small finite prefix separately.",
+    "result": "E and P are log-concave for all permitted mixtures with integer t>=24; all mixtures at t=1..4 have an exact complete finite certificate. The heterogeneous t=5..23 gap remains. The general r/h corridor threshold remains 47.",
+    "proof": "followup/LC_STABILITY.md",
+    "source": [
+      "followup/stability_certificate.py",
+      "followup/small_palette_study.py",
+      "followup/finish_stability_study.py",
+      "followup/audit_stability_frontier.py",
+      "followup/test_stability.py"
+    ],
+    "evidence": "followup/stability_results.json",
+    "old_threshold_certificate_replayed": true,
+    "quartic_finite_positive_indices": 41,
+    "quartic_positive_tail_coefficients": 5,
+    "graph_records": 12909,
+    "graph_record_breakdown": {
+      "complete_palette_t1_t4": 12649,
+      "outside_palette_probes": 256,
+      "controls": 4
+    },
+    "within_batch_unlabelled_structures": 12909,
     "original_counterexamples": 0,
-    "program_tests_passed": 16,
+    "full_coefficients_compared": 622589,
+    "independently_rebuilt_root_hub_splits": 25699,
+    "split_coefficients_compared": 2400056,
+    "subset_corridor_failures_reexamined": 46,
+    "global_corridor_failures_among_them": 0,
+    "program_tests_passed": 28,
+    "new_program_tests": 12,
     "fresh_lean_build": false,
-    "external_peer_review": false
+    "external_peer_review": false,
+    "complete_deterministic_replay": "All 12909 graph records, selected-frontier diagnostics and quartic certificate regenerated with matching hashes."
   },
   "proved_scope": [
     {
@@ -34,8 +51,8 @@
     {
       "name": "21-type heterogeneous palette",
       "parameters": "any mixture of (1,s), 3<=s<=17; (2,s), 4<=s<=8; and (3,5)",
-      "conclusions": "E and P log-concave for t>=45; distinguished r/h corridor for t>=47",
-      "status": "Written proof plus exact rational and algebraic checks; no fresh Lean run or external review"
+      "conclusions": "E and P log-concave for t=1..4 by complete finite verification and for every t>=24 by written proof plus exact algebra; distinguished r/h corridor verified at t=1..4 and remains generally proved for t>=47.",
+      "status": "Written proof and exact computation, not a new Lean run or external review. No all-palette t=5..23 claim."
     },
     {
       "name": "14-vertex auxiliary tree and generic corridor lemmas",
@@ -46,23 +63,24 @@
   "next_tasks": [
     {
       "priority": 1,
-      "task": "Audit THRESHOLD_REFINEMENT.md and its uniform coefficient bounds from the committed source. Check finite coverage and fresh regeneration hashes before any further theorem extension."
+      "task": "Review the local LC stability lemma and the five-term monotonicity argument in LC_STABILITY.md; independently regenerate the quartic and finite-prefix certificate. Treat a failed sufficient bound at t=23 as a method failure, not a graph counterexample."
     },
     {
       "priority": 2,
-      "task": "Investigate heterogeneous palette t<45 and structurally different branches; retain whole-sequence unweighted checks. Do not use a failed bound at t=44 or t=46 as a graph counterexample. Prefer an exact parameter claim or a new structural obstruction over evaluation counts."
+      "task": "Publish the previously checked 176-module finite Lean certificate source tree or a fully reconstructing generator and hashes, then replay with a pinned official toolchain. The historical source-publication gap must not be silently treated as complete."
     },
     {
       "priority": 3,
-      "task": "Publish the complete finite Lean certificate sources or a source generator plus exact generated-source hashes, then replay with a pinned official toolchain. Retrieve the authorized Unified_Research_v2 archive when tools permit; if unavailable, report this rather than treating source hashes as source."
+      "task": "Investigate heterogeneous palette mixtures t=5..23 and branches outside the common coefficient hypotheses. Do not continue original-counterexample hunting inside the now-proved t=1..4 or t>=24 palette ranges except controls. Preserve direct unweighted checks."
     },
     {
       "priority": 4,
-      "task": "Study all-forest corridor necessity or general DP correctness. The corridor conjecture is unproved; smaller conditional forests that fail unimodality must be extracted and independently validated."
+      "task": "Study the all-forest corridor conjecture or general DP formal correctness. A large gap at just root/hub is not an all-vertex gap: all 46 such current probes were explained by other vertices. Extract any genuinely nonunimodal conditional forest."
     }
   ],
   "remaining_gaps": [
     "Full Erdos #993 proof or counterexample",
+    "All heterogeneous palette mixtures with 5<=t<=23; general distinguished r/h corridor below t=47 outside the finite prefix",
     "Global forest corridor theorem or counterexample",
     "General fast-DP Lean correctness and full restricted-family Lean formalization",
     "Full public finite Lean source publication and official-toolchain replay",
