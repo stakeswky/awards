@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "updated_utc_date": "2026-09-17",
+  "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
+  "repository": "stakeswky/awards",
+  "branch": "jsp-000826-research-snapshot",
+  "pull_request": 1,
+  "pr_must_remain_draft": true,
+  "last_read_head": "ffdc73d09db28280e25905fa4d3f5b9fc841bf5f",
+  "checkpoint_identity": "Use the Git commit containing this file; the file deliberately does not claim its own not-yet-created SHA.",
+  "current_work": {
+    "claim": "Refine the common 21-type heterogeneous-branch sufficient bounds, retaining all binomial terms.",
+    "result": "Written proof and exact certificate: E and P log-concave for all t>=45; r/h corridor certified for all t>=47.",
+    "proof": "followup/THRESHOLD_REFINEMENT.md",
+    "source": ["followup/threshold_certificate.py", "followup/continued_probe.py", "followup/test_threshold.py"],
+    "evidence": "followup/threshold_results.json",
+    "bound_values_compared": 25700,
+    "LC_indices_checked": 25650,
+    "corridor_square_indices_checked": 24012,
+    "new_graph_records": 134,
+    "graph_record_breakdown": {"outside_palette_probes": 128, "boundary_controls": 6},
+    "within_batch_unlabelled_structures": 134,
+    "original_counterexamples": 0,
+    "program_tests_passed": 16,
+    "fresh_lean_build": false,
+    "external_peer_review": false
+  },
+  "proved_scope": [
+    {
+      "name": "Identical-(3,5) branch family",
+      "parameters": "all integer t>=1",
+      "status": "Previously recorded written proof plus exact finite certificates, not fully Lean formalized"
+    },
+    {
+      "name": "21-type heterogeneous palette",
+      "parameters": "any mixture of (1,s), 3<=s<=17; (2,s), 4<=s<=8; and (3,5)",
+      "conclusions": "E and P log-concave for t>=45; distinguished r/h corridor for t>=47",
+      "status": "Written proof plus exact rational and algebraic checks; no fresh Lean run or external review"
+    },
+    {
+      "name": "14-vertex auxiliary tree and generic corridor lemmas",
+      "status": "Historical Lean 4.31.0 build recorded; NOT an original-problem solution",
+      "publication_gap": "Full archived 176-module sources are not yet hosted on this branch; core logs and hashes alone are not replayable source."
+    }
+  ],
+  "next_tasks": [
+    {
+      "priority": 1,
+      "task": "Audit THRESHOLD_REFINEMENT.md and its uniform coefficient bounds from the committed source. Check finite coverage and fresh regeneration hashes before any further theorem extension."
+    },
+    {
+      "priority": 2,
+      "task": "Investigate heterogeneous palette t<45 and structurally different branches; retain whole-sequence unweighted checks. Do not use a failed bound at t=44 or t=46 as a graph counterexample. Prefer an exact parameter claim or a new structural obstruction over evaluation counts."
+    },
+    {
+      "priority": 3,
+      "task": "Publish the complete finite Lean certificate sources or a source generator plus exact generated-source hashes, then replay with a pinned official toolchain. Retrieve the authorized Unified_Research_v2 archive when tools permit; if unavailable, report this rather than treating source hashes as source."
+    },
+    {
+      "priority": 4,
+      "task": "Study all-forest corridor necessity or general DP correctness. The corridor conjecture is unproved; smaller conditional forests that fail unimodality must be extracted and independently validated."
+    }
+  ],
+  "remaining_gaps": [
+    "Full Erdos #993 proof or counterexample",
+    "Global forest corridor theorem or counterexample",
+    "General fast-DP Lean correctness and full restricted-family Lean formalization",
+    "Full public finite Lean source publication and official-toolchain replay",
+    "External review and current global proof-claim/novelty verification",
+    "Missing round-3 full historical archive; no all-round global deduplication claim"
+  ],
+  "recurring_continuation": {
+    "created": true,
+    "cadence": "daily morning in America/Los_Angeles, flexible schedule",
+    "first_scheduled_date": "2026-09-18",
+    "behavior": "Read repository state, execute one bounded task, synchronize completed evidence to the Draft PR, report blocking conditions.",
+    "limits": "Not continuous execution or a GitHub Action. Tool availability and authorization are checked at each run."
+  },
+  "completion": {
+    "current": false,
+    "required": "A complete original-statement proof or valid explicit unweighted tree/forest counterexample, independently reproducible graph/count checks, actual formal-source replay and axiom audit.",
+    "on_success": "Publish final verification package, notify user, disable recurring task; do not self-award or change live prize records."
+  }
+}
