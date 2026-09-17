@@ -1,80 +1,33 @@
-# JSP-000826 / Erdős Problem #993 — scoped research snapshot
+# JSP-000826 / Erdos #993 — research progress
 
-This directory records a bounded research snapshot for **JSP-000826 / Erdős Problem #993** as of **2026-09-17**.
+Research account: `stakeswky`. Date: 2026-09-17.
 
-- Justin Sun Prize catalog entry: [JSP-000826](https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0801-0900.md#JSP-000826)
-- Problem page: [Erdős Problem #993](https://www.erdosproblems.com/993)
-- Submitting account: `stakeswky`
-- Proposed contributor placeholder, if later needed by the organizers: `RECIPIENT-JSP-000826-A`
+**This is a research record, not a solution submission. No counterexample to the full tree/forest problem or universal proof is claimed.** Catalog, eligibility, candidate, award, recipient, and payment records are unchanged.
 
-## Scope
+## Current packet
 
-This is a **scoped computational and structural research record**. It does **not** claim a proof or disproof of Erdős Problem #993. It does not request a change to the catalog status, candidate status, award status, recipient status, or payment status.
+- [v2 progress and verification scope](progress/v2-2026-09-17.md)
+- [Artifact identities and evidence levels](evidence/v2-manifest.json)
+- [Recorded Lean target/axiom output](evidence/lean-v2-core.log)
 
-The purpose of this initial packet is to give the current research state a public, reviewable timestamp while the full problem remains open.
+The earlier chronology-only snapshot remains in Git at commit `1bd0f79d639439571b240fd3c0163d609b486bdb`. This update supersedes its statements that the specified parameter family had no general proof and that no finite Lean certificate had been run. It does not supersede the unsolved status of the full problem in this work.
 
-## Problem
+## Mathematical scope
 
-For a forest `F`, let `i_k(F)` be the number of independent sets of `F` having exactly `k` vertices. Erdős Problem #993 asks whether the finite sequence
+For a finite forest F, i_k(F) counts independent vertex sets of size k. A disproof needs a legal forest and exact indices i < j with i_i(F) > i_(i+1)(F) and i_j(F) < i_(j+1)(F). Failure of log-concavity or of a weighted sequence is not enough. A disconnected forest counterexample must not be advertised as a tree counterexample.
 
-`i_0(F), i_1(F), ..., i_α(F)`
+The specified family T_t has level sizes 1, 1, t, 3t, 15t. Put S=(1+x)^5+x, Q=S^3, H=Q+x(1+x)^15. Its polynomial is P_t=(1+x)H^t+xQ^t. The v2 working proof establishes log-concavity of this family for positive integer t using an unbounded inequality argument and exact finite certificates. That family proof is **not** a Lean theorem for all t and has not received external peer review.
 
-is always unimodal.
+The recorded Lean run checks a separate 14-vertex tree, its actual independent-set counts, an auxiliary leaf-alignment counterexample, and general sequence lemmas. It does **not** check Erdos #993.
 
-A proof must cover every forest. A disproof requires one explicit forest whose independence sequence is not unimodal.
+## Evidence limitations
 
-## Current research snapshot
+The archive and source hashes identify the conversation's research artifacts. This public progress packet is not the complete v2 archive: a checksum is not a public download or an independently reproduced proof. Full historical logs and the complete 176-module Lean source tree are not represented as uploaded here. The third-round full-data archive remains unavailable in the supplied materials. Later additions must identify precisely what can be replayed from this branch alone.
 
-The current research notes record the following work:
+All historical evaluation counts include repeated graphs and/or relabellings. No new exhaustive vertex-order bound is claimed. This work used OpenAI ChatGPT assistance; different implementations developed in the same session are not external independent verification.
 
-1. **Eight research rounds** have been carried out, combining direct counterexample search, structured search, and analysis of parameterized tree families.
-2. The main counterexample-search campaign records approximately **5,989,791 evaluations** with **no counterexample found in the searched space**.
-3. Research rounds 7–8 record **185,540 deduplicated structures** after the stated deduplication stage, again with no counterexample found among those structures.
-4. A parameterized tree family `T_t` has been isolated for structural study. The current notes contain a derivation of an independence-polynomial decomposition of the form
+## Attribution and award boundary
 
-   `P_t(x) = (1 + x) H(x)^t + x Q(x)^t`.
+Proposed contributor placeholder, only if subsequently needed by organizers: `RECIPIENT-JSP-000826-A`. No unconfirmed personal identity or private contact/payment data is included. A timestamp does not establish priority, exclusive reservation, solver status, or award entitlement.
 
-5. The current notes also record the family invariant
-
-   `α(T_t) = 16t + 1`.
-
-6. Several component sequences arising from this family have been shown in the working notes to satisfy stronger shape properties such as unimodality or log-concavity, but these component facts have **not** yet been assembled into a proof that `P_t` is unimodal for every `t`.
-7. **52 registered parameter instances** of the family, together with several directed search tracks, have been checked computationally in the research process without finding a counterexample.
-
-The large search counts above come from bounded and directed computational experiments. They are **not** claimed to exhaust all trees or forests up to any vertex order.
-
-Items 2–7 above are reported here as the state of the submitting research notes. This initial snapshot does not present them as independently reproduced results, and it does not ask the awards repository to certify them.
-
-## What has not been established
-
-The following points remain open in this work:
-
-- No counterexample to Erdős Problem #993 has been found.
-- No proof of Erdős Problem #993 has been completed.
-- No proof has been completed that the whole parameterized family `T_t` has a unimodal independence sequence for every `t`.
-- The finite computations do not imply the universal statement for all forests.
-- No complete Lean theorem for the claimed full problem has been successfully kernel-checked.
-- No organizer-designated independent verification is claimed.
-
-Therefore the correct mathematical status of JSP-000826 remains **Open**.
-
-## Evidence and reproducibility status
-
-This first snapshot records scope and chronology only. The full search source, configurations, seeds where applicable, deduplication rules, machine-readable outputs, hashes, and Lean sources/logs are **not included in this initial packet**.
-
-Those artifacts should be added in later revisions as fixed, reproducible evidence before any stronger verification or candidate-status request is made. In particular, future evidence should distinguish:
-
-- exhaustive finite checks from heuristic or directed searches;
-- proved symbolic identities from experimentally observed identities;
-- locally checked code from independently reproduced results;
-- a finite Lean certificate from a theorem equivalent to the full Erdős #993 statement.
-
-## Priority and award boundary
-
-This commit and pull request provide a public timestamp for the contents of this research snapshot. They do **not** by themselves establish mathematical priority, exclusive reservation, solver status, formal candidate status, award entitlement, or payment rights. Any such determination belongs to the organizers and requires the repository's published review and verification process.
-
-No existing problem-bank flags, candidate records, award records, recipient profiles, published decisions, or payment records are modified by this submission.
-
-## Assistance disclosure
-
-The research process and preparation of this snapshot used OpenAI ChatGPT assistance. The submission is presented for public intake and review, not as independent verification.
+This progress remains on the existing draft research PR. No upstream submission, merge to main, or prize-status change is requested by these files.

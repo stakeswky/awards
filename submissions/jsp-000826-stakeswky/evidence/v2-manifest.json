@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-09-17",
+  "problem": "JSP-000826 / Erdos #993",
+  "original_problem_status": "unresolved_in_this_project",
+  "publication_kind": "progress_snapshot_not_full_archive",
+  "archive": {
+    "filename": "Erdos993_Unified_Research_v2.zip",
+    "bytes": 12200392,
+    "sha256": "99f1c935ac90e70fe3aec27002747d39d36303b09373002e058b47bfae643c6a",
+    "availability": "supplied conversation artifact; not uploaded to this Git branch"
+  },
+  "archived_files": [
+    {"path": "notes/family_all_parameters.md", "bytes": 11759, "sha256": "a502eac1fac372036bf5a112f8dfad2973618b7a130e4c15e532afc4b8f4d241"},
+    {"path": "lean/Tree14Certificate.lean", "bytes": 11706, "sha256": "0f94c8141e38a8566955709450bfbc3490f05af7a7fff174b47aebe71ce26e11"},
+    {"path": "lean/CorridorChecked.lean", "bytes": 6809, "sha256": "bf49fd5ae9c3b96a172b30e091e843a173fe4a9ca18e794f4b1445deb9ad7ffc"},
+    {"path": "results/lean_build_receipts.json", "bytes": 92651, "sha256": "65bdb142b965265445a443ea3f4c8efc9c3c115511ae76ad0c525521427abf1d"}
+  ],
+  "included_core_log": {"path": "lean-v2-core.log", "bytes": 629, "sha256": "aa291eb8277e1acc8b969f789aacf4a32dc333aed83360ed124b77661b9e6518"},
+  "publication_checks": {"program_tests_passed": 8, "saved_source_log_bindings": 176, "fresh_lean_rebuild_in_this_step": false},
+  "lean_record": {
+    "version": "4.31.0",
+    "compiler_commit": "68218e876d2a38b1985b8590fff244a83c321783",
+    "library_sha256": "844963455a7800b417b067a3c7ad6cb86c34286b54be596b1e2b1e3808d6b718",
+    "successful_source_modules_in_archived_run": 176,
+    "axiom_free_targets": ["tree14_formal_certificate", "tree14_no_valley", "corridor_no_valley", "two_decompositions_no_valley"],
+    "full_problem_certificate": false,
+    "all_parameter_family_lean_proof": false,
+    "official_release_byte_comparison": false,
+    "external_independent_review": false
+  },
+  "known_missing": ["round3 full-data archive", "complete v2 source archive on this Git branch", "formal general-tree DP correctness", "external mathematical review"]
+}
