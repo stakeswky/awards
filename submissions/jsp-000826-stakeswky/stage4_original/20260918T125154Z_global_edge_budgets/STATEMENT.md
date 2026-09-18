@@ -16,7 +16,7 @@ PROOF_ATTEMPT gives proofs, independent of the numerical tables, of:
 
 * Exact degree-weighted endpoint slack and three coefficient-level valley budgets, followed by legitimate sums over edges and vertices.
 * W_k=sum_e (Z_e)_k counts k-subsets inducing exactly one edge. For k>=2, W_k=(k-1)P_(k-1)-K_(k-2), where K_r sums component counts of F-N[S] over independent r-subsets S. A second available-pair identity and a blocked-extension/star budget are proved.
-* For every nonisolated v, x product_(e incident v) C_e = B_v A_v^(d(v)-1). For an isolate-free forest with c components, product_e C_e=P^(c-1) product_v A_v^(d(v)-1). These retain complete real-forest products and all other-component factors.
+* For every nonisolated v, x product_(e incident v) C_e = B_v A_v^(d(v)-1). For a nonempty isolate-free forest with c components, product_e C_e=P^(c-1) product_v A_v^(d(v)-1). These retain complete real-forest products and all other-component factors.
 * Leaf/support slope consequences and a telescoped endpoint budget; deleting or contracting a leaf edge adds no independent minimality information beyond the smaller leaf-deleted forest.
 * An exact candidate linear functional for the flow attempt. It does not provide a valid directed-growth contradiction.
 

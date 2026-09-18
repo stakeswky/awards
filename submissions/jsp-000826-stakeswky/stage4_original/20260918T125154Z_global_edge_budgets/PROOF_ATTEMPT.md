@@ -114,13 +114,13 @@ Multiplying these displayed actual products, each M_z appears exactly d(v)-1 tim
 
 R occurs to power d(v) on both sides by construction; there is no inference about coefficients after canceling it.
 
-A global identity follows. Suppose F is isolate-free and has c components. For each directed edge w->v let M_(w->v) count the component on the w side after cutting that edge. For one connected component, the product of all C_e contains each directed M_(w->v) exactly d(v)-1 times, the same multiplicity as in product_v A_v^(d(v)-1), if the other-component factors are temporarily written separately, not discarded.
+A global identity follows. Suppose F is nonempty, isolate-free and has c components. For each directed edge w->v let M_(w->v) count the component on the w side after cutting that edge. For one connected component, the product of all C_e contains each directed M_(w->v) exactly d(v)-1 times, the same multiplicity as in product_v A_v^(d(v)-1), if the other-component factors are temporarily written separately, not discarded.
 
 Now fix an original component t with n_t vertices and m_t edges. On the left of the full-forest product, its whole polynomial occurs as an outside-component factor m-m_t times. In product_v A_v^(d(v)-1) it occurs 2(m-m_t)-(n-n_t) times. Because m-m_t=(n-n_t)-(c-1), multiplying by P^(c-1) makes these exponents equal. This verifies EVERY factor's multiplicity and proves
 
     product_e C_e = P^(c-1) product_v A_v^(d(v)-1). (4.2)
 
-All exponents are nonnegative under the stated no-isolates hypothesis. This is checked on genuinely disconnected inputs as well as trees. Combining (4.2) with the inherited full identity C_e Z_e=B_u B_v gives
+All exponents are nonnegative under the stated nonempty, no-isolates hypotheses. The empty forest separately has P=1 and is unimodal; no negative exponent is used for it. This is checked on genuinely disconnected inputs as well as trees. Combining (4.2) with the inherited full identity C_e Z_e=B_u B_v gives
 
     P^(c-1) product_v A_v^(d(v)-1) product_e Z_e
       = product_v B_v^d(v).                       (4.3)

@@ -10,7 +10,7 @@
   "legal_original_counterexample": false,
   "J_H": "UNRESOLVED",
   "RSM": "UNRESOLVED",
-  "first_unproved_connection": "UNCHANGED: incompatibility of all actual lexicographically minimal forest residual configurations; HEREDITARY J_H and original RSM remain unproved alternatives",
+  "first_unproved_connection": "UNCHANGED: incompatibility of all actual lexicographically minimal forest residual configurations; HEREDITARY J_H and RSM remain unproved alternatives",
   "new_scoped_deductions": [
     {
       "id": "G1",
@@ -30,7 +30,7 @@
       "id": "G3",
       "claim": "Complete vertex-star and whole-forest product identities with component factors retained",
       "proof": "PROOF_ATTEMPT.md section 4",
-      "scope": "Nonisolated vertex; isolate-free forest for global identity",
+      "scope": "Nonisolated vertex; nonempty isolate-free forest for global identity",
       "status": "PROVED_WITH_SCOPE"
     },
     {
