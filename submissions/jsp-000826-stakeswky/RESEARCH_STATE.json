@@ -6,7 +6,7 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82",
+  "last_read_head": "36467feaa5bd486979077b97ad2bac5a75805986",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
   "previous_checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
@@ -107,5 +107,44 @@
     "current": false,
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
     "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
-  }
+  },
+  "latest_original_attempt": "stage2_original/20260918T_original_joint_modes/STATEMENT.md",
+  "stage2_original_runs": [
+    {
+      "run_id": "20260918T_original_joint_modes",
+      "baseline_head": "36467feaa5bd486979077b97ad2bac5a75805986",
+      "package": "stage2_original/20260918T_original_joint_modes/README.md",
+      "statement": "stage2_original/20260918T_original_joint_modes/STATEMENT.md",
+      "proof_attempt": "stage2_original/20260918T_original_joint_modes/PROOF_ATTEMPT.md",
+      "review": "stage2_original/20260918T_original_joint_modes/REVIEW.md",
+      "verdict": "stage2_original/20260918T_original_joint_modes/VERDICT.json",
+      "verification": "stage2_original/20260918T_original_joint_modes/certificates/CLEAN_REPLAY.json",
+      "original_math": "NOT_CLOSED",
+      "original_formal": "NOT_ESTABLISHED",
+      "first_unproved_bridge": "Residual real-forest leaf-support signed-minor assertion RSM; exact quantifiers in STATEMENT.md section 4",
+      "proved_reductions": "Actual all-vertex decomposition, joint sign bounds including D<=U+1, minimum-counterexample residual interval U<=i<j<D, isolated/K2 exclusions, leaf-support polarity, valley-forced negative minor, and conditional RSM => ORIGINAL",
+      "auxiliary_refutations": "Every leaf good under LOCAL; unlocalized all-leaf minor; abstract shape-only insertion. None refutes ORIGINAL or the residual RSM assertion.",
+      "fixed_stress_records": 193,
+      "whole_and_specified_deletion_counts": 15499,
+      "excluded_records": [],
+      "original_counterexample_found": false,
+      "max_D_minus_U": 1,
+      "nonvacuous_residual_RSM_graph_checks": 0,
+      "finite_data_limit": "All tested graphs have D<=U+1; the difficult two-index residual case was not exercised.",
+      "clean_source_replay_commands": 4,
+      "complete_replay_outputs_compared": true,
+      "review_type": "SAME_MODEL_SELF_REVIEW; not external peer review",
+      "family_math": "Inherited PROVED_COMPUTER_ASSISTED at baseline; exact B59 all t>=1; no fresh full replay or extension",
+      "family_formal": "Inherited NOT_ESTABLISHED; unchanged",
+      "fresh_lean_environment_probe": "BLOCKED: command not found, exit 127",
+      "top_level_original_lean_source": false,
+      "original_lean_build": "NOT_RUN",
+      "original_axiom_audit": "NOT_RUN",
+      "publication": "SYNCED in the commit containing this state; post-write commit receipt accompanies the delivery archive",
+      "full_raw_diagnostics_git_hosted": false,
+      "raw_evidence": "Complete inputs, all-vertex coefficients and logs in the conversation archive; reconstructible from committed source; compact material counts are Git-hosted",
+      "preserved_previous_current_work": true,
+      "ci_is_mathematical_evidence": false
+    }
+  ]
 }

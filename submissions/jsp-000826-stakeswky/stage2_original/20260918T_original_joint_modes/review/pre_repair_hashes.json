@@ -1,0 +1,8 @@
+{
+  "src/forest_counts.py": "fc9cc06f157895f907cd06e56e3215b97dffadaf4cd2827d6e74a9777106c904",
+  "src/verify_material.py": "2e38c35c55e0eb979bf36df249bffb5acc8112116ead736df1cbf84f49eb34db",
+  "src/run_diagnostics.py": "d0bf6a4b34a8e37b24155db7c2e17643163c0fd5b65bae023e29c003c1178bc8",
+  "logs/material_run.log": "5fbd45b1a8a895b9cc897715dbf9a78f86db472b349a87c42fde2051ddb633d3",
+  "logs/diagnostic_run.log": "53a829ee2655893dc227a5f22f58ab22bd6c13aa696bb22f4b61859d042315c3",
+  "certificates/summary.json": "d8397aeb9c3271a0e1343df9fe7ca21f4ef4af783e4f905fc94c30344816107d"
+}
