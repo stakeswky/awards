@@ -1,0 +1,8 @@
+{
+  "run_id": "20260918T112220Z_edge_minimal",
+  "local_archive_replay": "PASS",
+  "fresh_commands": 3,
+  "complete_outputs_compared": 8,
+  "comparison": "parsed JSON and full bytes",
+  "note": "This is a synchronized compact receipt of the local continuation run; repository CI is not mathematical evidence."
+}
