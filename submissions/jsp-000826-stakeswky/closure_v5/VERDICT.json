@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "family_math": {
+    "status": "PROVED_COMPUTER_ASSISTED",
+    "claim": "FAMILY-LC, hence FAMILY",
+    "palette_size": 59,
+    "parameters": "Every integer t>=1; arbitrary mixtures with repetition",
+    "proof": "MAIN_PROOF.md",
+    "review": "Same-model self-review; not external peer review"
+  },
+  "family_formal": {
+    "status": "NOT_ESTABLISHED",
+    "top_level_build": "NOT_RUN",
+    "axiom_audit": "NOT_RUN",
+    "complete_Lean_source": false,
+    "details": "formal/STATUS.md"
+  },
+  "original_math": {
+    "status": "NOT_CLOSED",
+    "proof": false,
+    "unweighted_nonunimodal_forest_found": false,
+    "specific_extension_gap": "MAIN_PROOF.md section 12"
+  },
+  "original_formal": {
+    "status": "NOT_ESTABLISHED",
+    "top_level_build": "NOT_RUN"
+  },
+  "publication": {
+    "status": "SYNCED",
+    "repository": "stakeswky/awards",
+    "branch": "jsp-000826-research-snapshot",
+    "pr": 1,
+    "draft_required": true,
+    "merged": false,
+    "commit_identity": "The Git commit containing this file; exact post-write SHA is recorded separately in PUBLICATION_RECEIPT.json in the delivered archive.",
+    "scope": "submissions/jsp-000826-stakeswky/ only",
+    "upstream_solution_claim": false,
+    "independent_external_review": false,
+    "public_payload": "Full statement/proof/review, verification source, compact certificates and fresh verification record. Complete raw inputs/logs accompany the conversation archive."
+  }
+}

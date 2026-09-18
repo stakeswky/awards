@@ -1,0 +1,28 @@
+{
+  "input_archive_name": "Erdos993_New_Window_Proof_Pack(1).zip",
+  "input_archive_sha256": "993d5bd4be3a22ead5cc6ad88e0f55c5dee9cd6fe9be17bf28d08bb9f7d30d01",
+  "repository": "stakeswky/awards",
+  "branch": "jsp-000826-research-snapshot",
+  "pr": 1,
+  "initial_observed_head": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82",
+  "initial_pr_draft": true,
+  "read_files": [
+    "00_READ_FIRST.md",
+    "RESEARCH_HANDOFF.md",
+    "prompts/01_MASTER.md",
+    "prompts/02_REVIEW.md",
+    "prompts/03_REPAIR_AND_DELIVER.md",
+    "reference/perturbation/followup/HETEROGENEOUS.md",
+    "reference/perturbation/followup/MIXTURE_PERTURBATION.md",
+    "reference/v2/notes/family_all_parameters.md",
+    "nested v4 notes/BRANCH_INSERTION.md",
+    "repository CONTRIBUTING.md",
+    "repository RESEARCH_PROTOCOL.md",
+    "repository RESEARCH_STATE.json"
+  ],
+  "AGENTS_in_observed_recursive_tree": false,
+  "old_logs_used_as_fresh_evidence": false,
+  "v4_integrated": true,
+  "original_research_claim": false,
+  "review_type": "same-model adversarial self-review"
+}

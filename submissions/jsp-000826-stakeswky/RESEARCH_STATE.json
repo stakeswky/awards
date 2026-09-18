@@ -6,10 +6,40 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "5a78ec39b3ed6f59e16e4a3f23b7b0d14f33b1e6",
+  "last_read_head": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
-  "previous_checkpoint": "5a78ec39b3ed6f59e16e4a3f23b7b0d14f33b1e6:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "previous_checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
+    "task": "Complete the all-parameter B59 FAMILY proof and audit the separate ORIGINAL/formal boundaries",
+    "package": "closure_v5/README.md",
+    "statement": "closure_v5/STATEMENT.md",
+    "proof": "closure_v5/MAIN_PROOF.md",
+    "review": "closure_v5/REVIEW.md",
+    "verdict": "closure_v5/VERDICT.json",
+    "verification": "closure_v5/certificates/VERIFICATION.json",
+    "family_math": "PROVED_COMPUTER_ASSISTED: E and P log-concave, hence unimodal, for every t>=1 and every repeated B59 mixture",
+    "family_formal": "NOT_ESTABLISHED: no complete top-level Lean source, build, or axiom audit",
+    "original_math": "NOT_CLOSED",
+    "original_formal": "NOT_ESTABLISHED",
+    "review_type": "SAME_MODEL_SELF_REVIEW; not external peer review",
+    "fresh_python_version": "3.13.5",
+    "fresh_commands_completed": 46,
+    "all_fresh_commands_exit_zero": true,
+    "prefix_multisets": 37819,
+    "two_three_branch_ULC_block_multisets": 37760,
+    "middle_parameter_slices": "All t=4..23, with a proved compression to the full integer S/epsilon/k box",
+    "middle_interior_records": 1322020,
+    "middle_nonzero_neighbor_conditions": 2424400,
+    "infinite_tail": "Every t>=24, proved monotonicity plus 109 exact small-index checks and a positive quadratic identity",
+    "bounded_original_graph_records": 176,
+    "whole_and_conditional_forest_counts": 10064,
+    "original_counterexample_found": false,
+    "v4_control": "25-to-30 vertex LC failure recounted; delta=-219; still unimodal; outside B59",
+    "raw_logs_hosted_here": false,
+    "raw_evidence_location": "Full raw inputs, per-slice certificates, clean-run logs and retained failures are in the accompanying conversation archive; compact Git evidence is reproducible from committed source."
+  },
+  "preserved_previous_work": {
+    "checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82",
     "task": "Publish pending v3 reproducible source before continuing structural research",
     "source_packet": "publication_v3/README.md",
     "manifest": "publication_v3/SOURCE_PACKET.json",
@@ -20,27 +50,62 @@
     "fresh_lean_build": false,
     "new_counterexample_search": false,
     "raw_v3_logs_hosted_here": false,
-    "result": "Fully reconstructible sources and archived receipts are published; historical program and Lean results are not asserted to have been freshly rerun."
+    "result": "Fully reconstructible sources and archived receipts remain unchanged; historical program and Lean results are not asserted to have been freshly rerun."
   },
   "proved_scope": [
-    {"name":"Identical-(3,5) family","parameters":"all integer t>=1","status":"Previously recorded written proof plus exact finite certificates; not fully Lean formalized"},
-    {"name":"Original 21-type palette","parameters":"t=1..5 and t>=24","status":"Finite-prefix computation plus written infinite-tail proof; full original problem unresolved"},
-    {"name":"Expanded 59-type palette","parameters":"t=1..3 and t>=24","status":"Archived bounded computation plus written uniform proof; common r/h corridor generally covered only at t>=47"},
-    {"name":"Finite auxiliary graph, corridor lemmas and integer stability lemma","status":"Historical native Lean 4.31.0 results; exact source reconstruction now public","remaining":"Fresh official distribution replay, standard-interface bridges and independent external review remain separate"}
+    {
+      "name": "Expanded 59-type palette, including the original 21-type subpalette",
+      "parameters": "All integer t>=1; arbitrary repeated mixtures",
+      "status": "Complete computer-assisted mathematical proof of log-concavity of E/P and actual graph-count correspondence; not Lean-formalized; same-model review only",
+      "proof": "closure_v5/MAIN_PROOF.md"
+    },
+    {
+      "name": "Identical-(3,5) family",
+      "parameters": "all integer t>=1",
+      "status": "Previously recorded written proof retained; also covered by the new B59 theorem"
+    },
+    {
+      "name": "Distinguished r/h corridor results",
+      "status": "Earlier restricted statements retained; the new E/P theorem does not enlarge the claimed all-vertex or r/h corridor scope"
+    },
+    {
+      "name": "Finite auxiliary graph, corridor lemmas and integer stability lemma",
+      "status": "Historical native Lean 4.31.0 results; exact source reconstruction remains public",
+      "remaining": "Fresh official distribution replay, standard-interface bridges and independent external review remain separate"
+    }
+  ],
+  "closed_mathematical_gaps": [
+    "Original palette t=6..23 and expanded palette t=4..23, for E/P log-concavity and unimodality, are covered by the integrated all-parameter B59 proof."
   ],
   "next_tasks": [
-    {"priority":1,"task":"Seek and audit a structural branch-insertion invariant covering all remaining mixed palette sizes, rather than enumerating more multisets. Test any proposed closure against exact coefficients before attempting an induction."},
-    {"priority":2,"task":"Retain bounded direct original-problem checks on general trees and forests; extract any nonunimodal conditional forest. A failed stronger invariant is not an Erdos counterexample."},
-    {"priority":3,"task":"Replay the now-public exact finite Lean sources using a pinned official toolchain and audit statement/interface correspondence. Do not label source reconstruction as a fresh Lean build."}
+    {
+      "priority": 1,
+      "task": "Address ORIGINAL directly. A precise unproved sufficient extension is the all-forest existence of a vertex with conditional mode intervals at distance at most one; see closure_v5/MAIN_PROOF.md section 12. Do not assume it is true or infer general forests from B59."
+    },
+    {
+      "priority": 2,
+      "task": "Formalize the actual all-parameter FAMILY statement and its graph semantics, ULC convolution, finite checker soundness/coverage and infinite argument; run clean sources on a pinned official toolchain and audit transitive axioms."
+    },
+    {
+      "priority": 3,
+      "task": "Obtain genuinely independent mathematical review; retain bounded direct unweighted tree/forest checks and extract smaller nonunimodal conditional forests if any occur."
+    }
   ],
   "remaining_gaps": [
-    "Full Erdos #993 proof or counterexample",
-    "Original palette t=6..23 and expanded palette t=4..23 under this work",
-    "All-forest corridor theorem or counterexample",
-    "General fast-DP formal correctness and entire family Lean formalization",
+    "Full Erdos #993 proof or explicit legal unweighted nonunimodal forest",
+    "All-forest corridor existence theorem or a refutation of that sufficient extension",
+    "General fast-DP formal correctness and entire all-parameter FAMILY Lean formalization",
     "Official-toolchain replay, independent external review and global novelty verification",
     "Missing round-3 full historical archive and no all-round global deduplication claim"
   ],
-  "recurring_continuation": {"created":true,"cadence":"daily morning America/Los_Angeles, flexible","limits":"Historical scheduling configuration, not continuous computation; task execution depends on available tools"},
-  "completion": {"current":false,"required":"Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit","on_success":"Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"}
+  "recurring_continuation": {
+    "created": true,
+    "cadence": "daily morning America/Los_Angeles, flexible",
+    "limits": "Historical scheduling configuration, not continuous computation; task execution depends on available tools"
+  },
+  "completion": {
+    "current": false,
+    "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
+    "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
+  }
 }
