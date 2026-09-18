@@ -1,0 +1,15 @@
+{
+  "intended_array": "stage3_original_runs",
+  "preserve_current_work": true,
+  "entry": {
+    "run_id": "20260918T112220Z_edge_minimal",
+    "baseline_head": "f4148f358a6ab214f30f07bfe52cde4768231f89",
+    "package": "stage3_original/20260918T112220Z_edge_minimal/README.md",
+    "original_math": "NOT_CLOSED",
+    "structural_progress": "NO_STRUCTURAL_ADVANCE",
+    "publication": "SYNCED",
+    "residual_graphs": 0,
+    "eligible_RSM_tests": 0,
+    "first_unproved_bridge": "UNCHANGED: HEREDITARY J_H; alternative direct route still lacks incompatibility of all actual forest residual configurations; RSM remains unresolved"
+  }
+}
