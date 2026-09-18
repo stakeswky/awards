@@ -1,0 +1,15 @@
+{
+  "algorithm": "git_blob_sha1",
+  "generated_utc": "2026-09-18T15:34:45Z",
+  "files": {
+    "PROOF.md": "fc817aea0b32a201078a2e238e5db22c4ad1828b",
+    "README.md": "0adfc742a9d5f36e3bc32efc5fc872563d1f8c60",
+    "REVIEW.md": "be87e93a0650f183f4917ba285fb2b80ab2cf4e8",
+    "STATEMENT.md": "9d32507df76468a1433bfe9f6382e9916d5d9ad2",
+    "VERDICT.json": "53afb58ec6750e3dff1ba610b9c2843aa35a2514",
+    "certificates/EXTERNAL_EVIDENCE.json": "d1078b6c2b9308794109839b42f7c3b1f8ad4965",
+    "certificates/TRANSCRIPTION_CHECK.json": "9888dd50d4e7069d7a00da74642857462646948e",
+    "src/check_summary.py": "4cf582b2fa2f40e35a58bdb4a3d4fa200bbc909a"
+  },
+  "note": "Git blob object IDs of the published UTF-8 bytes. HASHES.json is intentionally not self-hashed."
+}
