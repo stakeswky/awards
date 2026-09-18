@@ -1,0 +1,9 @@
+{
+  "finding": "First revision fixed exact seed repetition but could expand relabeled isomorphic forests. No original mathematical claim was made.",
+  "repair": "Add exact whole-forest rooted-parenthesis canonical type for discovery deduplication; retain individual graphs and all vertex profiles. This is NOT root polynomial compression.",
+  "budget_changed": false,
+  "rounds": 3,
+  "max_proposals": 222,
+  "initial_result": "146 proposals, 141 distinct labeled edge lists; source and complete outputs retained in provenance/pre_repair/",
+  "final_result": "See certificates/search_summary.json after the repaired fresh run."
+}

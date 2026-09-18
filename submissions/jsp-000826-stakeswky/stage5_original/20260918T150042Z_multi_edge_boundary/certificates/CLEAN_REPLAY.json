@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-09-18T15:18:34.128165+00:00",
+  "finished_utc": "2026-09-18T15:18:40.336873+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_sha256": {
+    "boundary.py": "279918983f8d9695315857d3443a379d793771a43708938659838f830cb30ffc",
+    "checks.py": "60f466f073cea40e47f753b35235c3fb7d08aec90dea2f38b14d0ade0ed5613d",
+    "compact.py": "21253226555009c88578d1f925e183da9c46279d73c03fdaf4d4329eab005024",
+    "forest.py": "9d6420c2ee6a32bc9706110087bf81e57abb00775db65bf40628951bfbe07123",
+    "multi_edge.py": "55804d3d1211a88b15c205d056922a444d73deaa6dda46182453e2065fa015a2",
+    "profiles.py": "b71b0f7e5a87f4de02489013bb7a529ebcc3990ef885b3979af3389542bae321",
+    "regressions.py": "76f7d4ba95bb9f75e140db724601c9cd428a9d13d40e7047a17624afc539d333",
+    "replay.py": "79a01fea7610c64112608e359f0fe6b96197c688a42dcf9b1247ad3c59f04864",
+    "search.py": "d3c3896ea6af3bd0656a0317923260ca37f98a0f9517b65cf8b18f4cca5badec",
+    "seeds.json": "4543a3a4f083a99d1bb4f7dd177a7ef4ed9f56d4412e9550dc6803da19cf9a5a"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/checks.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "logs/replay_checks.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/boundary.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "logs/replay_boundary.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/search.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "logs/replay_search.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/regressions.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "logs/replay_regressions.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/compact.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "logs/replay_compact.py.log"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "interaction_material.json",
+      "bytes": 929981,
+      "sha256": "7c4e989e4c05af690d39c0df53aa878da75b3b2a63868b824249b73589d310b1",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "checks_summary.json",
+      "bytes": 380,
+      "sha256": "ff67c8ff59f8ceebd88cdff99af24b64d2a78fa58e72d0666a9c6baeff21068b",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "mode_witness.json",
+      "bytes": 970,
+      "sha256": "bfc099d64faf00be0a76ea1be94f8a4521c01f87536232d0c44fd1b2d436a8fb",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "boundary_witness.json",
+      "bytes": 52301,
+      "sha256": "b6aed69f7814200cc85185429951c715a14aaf6b69bc174a76c4057ade0ab950",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "boundary_summary.json",
+      "bytes": 463,
+      "sha256": "838cf4f2d6d61ebb53f142ec7c68ed118a16f981881988d9b49df5dba53ee95d",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "discovery_records.json",
+      "bytes": 1187216,
+      "sha256": "eeb31eaca1d2fb2eec285c43c9bdccd481c12587c39061d3526a91dd979c581e",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "discovery_attempts.json",
+      "bytes": 22181,
+      "sha256": "ba2b00310c18f7756beafb8ee4b9f906a02b7a3c9747e5a9c9503eebf1b351b1",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "discovery_material.json",
+      "bytes": 1025636,
+      "sha256": "9e438edf7de04edf857f3ff446e6407df13d273d4cc76846dc309765bf27d5ad",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "incidents.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "search_summary.json",
+      "bytes": 1563,
+      "sha256": "524982fe53464e12158d7ec23d59301a04c325925ea98326ef621df92463f1df",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "regression_summary.json",
+      "bytes": 383,
+      "sha256": "3606c2ea84b52d7423d38a4558860f7f53c7ba81e675a922cc4df02e81ae5e32",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "NATIVE_EVIDENCE.json",
+      "bytes": 9866,
+      "sha256": "d6e828391b79a9f9404ac69271991875c6ddec22fef296745572023e68c7d000",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    },
+    {
+      "file": "native_summary.json",
+      "bytes": 158,
+      "sha256": "04874b6cc90d9cafd811f02bfafe57e4f360b0f59497d5f1c42c1bf8aabbf890",
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true
+    }
+  ],
+  "excluded_output_fields": [],
+  "temporary_directory_removed": true,
+  "review": "SAME_MODEL_SELF_REVIEW",
+  "independent_external_review": false,
+  "original_proved": false,
+  "formal_build": "NOT_RUN"
+}
