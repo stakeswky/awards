@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "python_executable": "/opt/pyvenv/bin/python",
+  "flags": [
+    "-S",
+    "-B"
+  ],
+  "commands": [
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/edge_diagnostics.py",
+        "--controls",
+        "inputs/controls.json",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.458369,
+      "log": "logs/clean_replay/01.log"
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/hereditary.py",
+        "--inputs",
+        "certificates/inputs.json",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.421879,
+      "log": "logs/clean_replay/02.log"
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/coverage_regression.py",
+        "--inputs",
+        "certificates/inputs.json",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.981671,
+      "log": "logs/clean_replay/03.log"
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/integrate.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.169353,
+      "log": "logs/clean_replay/04.log"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "DATA_FILES.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 1363,
+      "sha256": "d7ac0460d18d1e6e70da2e4f8905ed307c87c5d2d71af733e0df43b0d08a725a"
+    },
+    {
+      "file": "bad_leaf_hereditary.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 20245,
+      "sha256": "214db4d1b860185771bc4f3f8b77708fc82bbadbe1a8fcad8474693e3576a6ec"
+    },
+    {
+      "file": "coverage_regression_material.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 236898,
+      "sha256": "878b29f3535788d4135d1830a30af729ffb3be2737ce0cc859414edc17ab5f35"
+    },
+    {
+      "file": "coverage_regression_summary.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 321,
+      "sha256": "fb2a27e6214a07e1e5f8556afca59ec8457080e1fa79c5ace6c615f6480f693f"
+    },
+    {
+      "file": "edge_material.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 1905256,
+      "sha256": "e2ed8a715d8667aed075fee89319b90293d7dfcdbf0deaafad66b2568417adfd"
+    },
+    {
+      "file": "edge_summary.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 506,
+      "sha256": "1665d0e199816aeab69cdc07aab1a3adf1264e537eee48fd4649c352bb702efd"
+    },
+    {
+      "file": "graph_status.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 17823,
+      "sha256": "69732c95e01f81b0b20505b20022d7789264c0b1aec859d99ddb9b25eff216be"
+    },
+    {
+      "file": "hereditary_material.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 3611131,
+      "sha256": "5c2f66f1918da525c2d6e8a8a1fd4e09d5d767e3c7b9234d74a720d90a7258e4"
+    },
+    {
+      "file": "hereditary_summary.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 426,
+      "sha256": "b5fa574acfb83d60a2c0ed1d52b5e0ba23030af4ca9762fbe9120297e050d3ca"
+    },
+    {
+      "file": "inputs.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 96222,
+      "sha256": "ae62ea72501e2a288cc1537541a6f2fb9300b96711d46039c6b75f943edf2aa8"
+    },
+    {
+      "file": "integrated_summary.json",
+      "complete_parsed_JSON_equal": true,
+      "all_bytes_equal": true,
+      "bytes": 1278,
+      "sha256": "1623e10bc044e2e11d6ffc6e95b834d99fdce344c2756c79c9a2cdc12da13d51"
+    }
+  ],
+  "temporary_path": "/tmp/erdos993-phase3-clean-3jowr3pl",
+  "temporary_directory_removed": true,
+  "source_sha256": {
+    "clean_replay.py": "2e606ce58055488f4f923b75ee6040056df1c07f2e20e39be9e2dbe9a6257ca7",
+    "coverage_regression.py": "1ce7e47f324941d344a6e2d2399c21a55779cdc7c9254ecaea1b3f9e18808636",
+    "edge_diagnostics.py": "7913da6d19d124fc7323e602f0b5e9e42f00a82502a32097bfea19862ab45a5b",
+    "forest_counts.py": "fc9cc06f157895f907cd06e56e3215b97dffadaf4cd2827d6e74a9777106c904",
+    "hereditary.py": "60d4973bb999cac3ee0f4d76b2838b5e6502a628b8fe1362af7504a788fa5f1f",
+    "integrate.py": "e86990a06132690c9f7dff8aa4599463a4194009d8b141d7a5d327ce699f434f"
+  },
+  "input_sha256": {
+    "controls.json": "2e6911a538a13b5209aff1d9f980093010483b4cc3a4f6ffd65fef19beeeabaf"
+  },
+  "fresh_replay_scope": "Only this Phase-3 fixed batch, complete hereditary compression, direct coverage regression and integration; no B59 or historical full replay",
+  "independent_external_review": false,
+  "top_level_Lean_build": false
+}

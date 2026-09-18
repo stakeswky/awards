@@ -1,0 +1,109 @@
+{
+  "run_id": "20260918T103200Z_edge_compatibility",
+  "baseline_head": "5169aa045816af5a87f5cf17341592ecb3ec8139",
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "formal_environment": "NOT_PROBED",
+  "family_math": {
+    "status": "PROVED_COMPUTER_ASSISTED",
+    "source_sha": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "inherited": true,
+    "changed": false,
+    "fresh_full_replay": false
+  },
+  "family_formal": {
+    "status": "NOT_ESTABLISHED",
+    "source_sha": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "inherited": true,
+    "changed": false,
+    "fresh_build": false
+  },
+  "auxiliary_claims": [
+    {
+      "name": "E1",
+      "claim": "Actual-edge partition and cut-edge products with R retained; coefficientwise B_u[k],B_v[k]<=C_uv[k-1]",
+      "premises": "Finite simple unweighted forest and an actual edge",
+      "status": "PROVED",
+      "proof": "PROOF_ATTEMPT.md section 2"
+    },
+    {
+      "name": "E2",
+      "claim": "Uniform early/late mode bands and opposite selected leaf/support roles",
+      "premises": "Nonempty forest, LOCAL, D>=U+2",
+      "status": "PROVED",
+      "proof": "PROOF_ATTEMPT.md section 3.1",
+      "limitation": "Necessary only, not a contradiction"
+    },
+    {
+      "name": "E3",
+      "claim": "Same-role C signs and mixed-edge a>=c+s OR d>=b+t",
+      "premises": "HEREDITARY and actual valley DeltaP_i=-s<0<DeltaP_j=t; actual edge, selected roles as defined",
+      "status": "PROVED",
+      "proof": "PROOF_ATTEMPT.md section 3.2",
+      "limitation": "No full-forest incompatibility proved"
+    },
+    {
+      "name": "H1",
+      "claim": "Rooted-signature recursion covers every induced vertex subset exactly with multiplicity",
+      "premises": "Finite simple forest; implementation completes within explicit limits",
+      "status": "PROVED",
+      "proof": "HEREDITARY_COVERAGE.md sections 1-3"
+    },
+    {
+      "name": "EVERY_LEAF_H",
+      "claim": "For every nonempty unweighted simple forest with no isolates/K2 components and HEREDITARY, every leaf has conditional mode distance <=1",
+      "status": "REFUTED",
+      "witness": "certificates/bad_leaf_hereditary.json",
+      "limitation": "Existing tree-11 with newly completed full premise audit; does not refute J_H or ORIGINAL"
+    },
+    {
+      "name": "J_H",
+      "claim": "Every nonempty simple unweighted forest without isolated or K2 components satisfying HEREDITARY has D<=U+1",
+      "status": "UNRESOLVED"
+    },
+    {
+      "name": "RSM",
+      "claim": "Unchanged Stage-2 RSM: every residual pair in every nonempty isolate-free HEREDITARY forest has some leaf blocking that pair; no extra K2 premise",
+      "status": "UNRESOLVED",
+      "exact_quantifiers": "STATEMENT.md section 2"
+    }
+  ],
+  "structural_progress": "NO_STRUCTURAL_ADVANCE",
+  "first_gap": "J_H universal bound, or incompatibility of actual residual slopes; unchanged RSM remains an alternative unproved bridge",
+  "gap_changed": false,
+  "residual_graphs": 0,
+  "residual_pairs": 0,
+  "eligible_RSM_tests": 0,
+  "premise_coverage": {
+    "LOCAL_graphs": 60,
+    "HEREDITARY_graphs": 7,
+    "HEREDITARY_unknown_graphs": 53
+  },
+  "new_deductions_reduce_original_domain": false,
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "fresh_replay": {
+    "status": "PASS",
+    "commands": 4,
+    "all_outputs_compared": 11,
+    "full_parsed_JSON_and_bytes_equal": true,
+    "receipt": "certificates/CLEAN_REPLAY.json"
+  },
+  "formal_source": false,
+  "formal_build": "NOT_RUN",
+  "formal_axiom_audit": "NOT_RUN",
+  "external_review": "NOT_PERFORMED",
+  "exclusions": [],
+  "not_run": [
+    "Unbounded search or general all-forest verification",
+    "Full HEREDITARY checks for other 53 main records",
+    "Full FAMILY replay or new FAMILY formalization",
+    "Top-level ORIGINAL Lean source/build/axiom audit",
+    "Independent external peer review"
+  ],
+  "publication": {
+    "initial_state": "LOCAL_ONLY",
+    "actual_outcome": "Read PUBLICATION_RECEIPT.json in the delivery archive, created only after the actual GitHub write/readbacks; no future SHA is asserted here."
+  },
+  "project_complete": false,
+  "ci_is_mathematical_evidence": false
+}

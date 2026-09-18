@@ -6,7 +6,7 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "36467feaa5bd486979077b97ad2bac5a75805986",
+  "last_read_head": "5169aa045816af5a87f5cf17341592ecb3ec8139",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
   "previous_checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
@@ -108,7 +108,7 @@
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
     "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
   },
-  "latest_original_attempt": "stage2_original/20260918T_original_joint_modes/STATEMENT.md",
+  "latest_original_attempt": "stage3_original/20260918T103200Z_edge_compatibility/STATEMENT.md",
   "stage2_original_runs": [
     {
       "run_id": "20260918T_original_joint_modes",
@@ -144,6 +144,48 @@
       "full_raw_diagnostics_git_hosted": false,
       "raw_evidence": "Complete inputs, all-vertex coefficients and logs in the conversation archive; reconstructible from committed source; compact material counts are Git-hosted",
       "preserved_previous_current_work": true,
+      "ci_is_mathematical_evidence": false
+    }
+  ],
+  "stage3_original_runs": [
+    {
+      "run_id": "20260918T103200Z_edge_compatibility",
+      "baseline_head": "5169aa045816af5a87f5cf17341592ecb3ec8139",
+      "package": "stage3_original/20260918T103200Z_edge_compatibility/README.md",
+      "statement": "stage3_original/20260918T103200Z_edge_compatibility/STATEMENT.md",
+      "proof_attempt": "stage3_original/20260918T103200Z_edge_compatibility/PROOF_ATTEMPT.md",
+      "gap": "stage3_original/20260918T103200Z_edge_compatibility/GAP.md",
+      "review": "stage3_original/20260918T103200Z_edge_compatibility/REVIEW.md",
+      "verdict": "stage3_original/20260918T103200Z_edge_compatibility/VERDICT.json",
+      "verification": "stage3_original/20260918T103200Z_edge_compatibility/certificates/CLEAN_REPLAY.json",
+      "original_math": "NOT_CLOSED",
+      "original_formal": "NOT_ESTABLISHED",
+      "formal_environment": "NOT_PROBED",
+      "structural_progress": "NO_STRUCTURAL_ADVANCE",
+      "first_unproved_bridge": "Universal HEREDITARY joint bound J_H, or incompatibility of actual all-edge residual slopes; unchanged RSM remains an unproved alternative",
+      "new_deductions": "Actual cut-edge factors with R retained; mode-band leaf/support polarity; necessary same-role signs and mixed-edge a>=c+s OR d>=b+t. No full-forest contradiction or reduced remaining domain.",
+      "finite_premise_result": "Existing 23-vertex bad-leaf witness is now fully HEREDITARY: 8388607 proper subsets covered via 22174 rooted signatures. Whole sequence unimodal, U=D=8, good vertex 0. Refutes EVERY-leaf strengthening only.",
+      "graph_records": 60,
+      "inherited_controls": 4,
+      "new_graph_records": 56,
+      "LOCAL_graphs": 60,
+      "HEREDITARY_graphs": 7,
+      "HEREDITARY_unknown_graphs": 53,
+      "residual_graphs": 0,
+      "residual_pairs": 0,
+      "eligible_RSM_tests": 0,
+      "original_counterexample_found": false,
+      "fresh_replay_commands": 4,
+      "complete_outputs_compared": 11,
+      "review_type": "SAME_MODEL_SELF_REVIEW",
+      "family_math": "Inherited PROVED_COMPUTER_ASSISTED from 36467feaa5bd486979077b97ad2bac5a75805986; unchanged; no fresh full replay",
+      "family_formal": "Inherited NOT_ESTABLISHED; unchanged; no fresh build",
+      "publication": "This run is appended in the commit containing this state; the post-write receipt is in the delivery archive.",
+      "git_hosted": "23 native files: proof attempt, definitions, gap, review, six tested sources, fixed controls, compact summaries and replay receipt",
+      "full_raw_diagnostics_git_hosted": false,
+      "raw_evidence": "Full coefficients, signatures, witnesses, logs and provenance in the delivery archive; raw computational material reconstructible from committed source",
+      "preserved_previous_current_work": true,
+      "exclusions": [],
       "ci_is_mathematical_evidence": false
     }
   ]
