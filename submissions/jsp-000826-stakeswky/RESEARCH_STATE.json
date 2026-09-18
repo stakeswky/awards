@@ -6,7 +6,7 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "f4148f358a6ab214f30f07bfe52cde4768231f89",
+  "last_read_head": "0fa61cd78b271690c60e7ec7b838b1b6fcc7aeaf",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
   "previous_checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
@@ -108,7 +108,7 @@
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
     "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
   },
-  "latest_original_attempt": "stage3_original/20260918T112220Z_edge_minimal/STATEMENT.md",
+  "latest_original_attempt": "stage4_original/20260918T125154Z_global_edge_budgets/STATEMENT.md",
   "stage2_original_runs": [
     {
       "run_id": "20260918T_original_joint_modes",
@@ -208,6 +208,47 @@
       "original_counterexample_found": false,
       "review_type": "SAME_MODEL_SELF_REVIEW",
       "publication": "SYNCED",
+      "preserved_previous_current_work": true,
+      "ci_is_mathematical_evidence": false
+    }
+  ],
+  "stage4_original_runs": [
+    {
+      "run_id": "20260918T125154Z_global_edge_budgets",
+      "baseline_head": "0fa61cd78b271690c60e7ec7b838b1b6fcc7aeaf",
+      "package": "stage4_original/20260918T125154Z_global_edge_budgets/README.md",
+      "statement": "stage4_original/20260918T125154Z_global_edge_budgets/STATEMENT.md",
+      "proof_attempt": "stage4_original/20260918T125154Z_global_edge_budgets/PROOF_ATTEMPT.md",
+      "gap": "stage4_original/20260918T125154Z_global_edge_budgets/GAP.md",
+      "review": "stage4_original/20260918T125154Z_global_edge_budgets/REVIEW.md",
+      "verdict": "stage4_original/20260918T125154Z_global_edge_budgets/VERDICT.json",
+      "verification": "stage4_original/20260918T125154Z_global_edge_budgets/certificates/CLEAN_REPLAY.json",
+      "original_math": "NOT_CLOSED",
+      "original_formal": "NOT_ESTABLISHED",
+      "structural_progress": "NO_STRUCTURAL_ADVANCE",
+      "first_gap_reduced": false,
+      "first_unproved_bridge": "UNCHANGED: all-real-forest residual incompatibility; HEREDITARY J_H and original RSM remain unresolved alternatives",
+      "new_deductions": "Exact global endpoint slack, one-edge/component and blocked-extension/star double counts, full star/forest product identities, explicit leaf/support budgets; no global residual contradiction",
+      "J_H": "UNRESOLVED",
+      "RSM": "UNRESOLVED",
+      "structural_discovery_records": 243,
+      "maximum_order": 50,
+      "max_D_minus_U": 1,
+      "residual_graphs": 0,
+      "residual_pairs": 0,
+      "eligible_RSM_tests": 0,
+      "original_counterexample_found": false,
+      "full_material_records": 11,
+      "fresh_HEREDITARY_controls": 4,
+      "fresh_replay_commands": 3,
+      "complete_outputs_compared": 8,
+      "review_type": "SAME_MODEL_SELF_REVIEW",
+      "formal_build": "NOT_RUN",
+      "formal_axiom_audit": "NOT_RUN",
+      "git_hosted": "Native proof, source, readable graph/count certificates, complete replay receipt and logs; all uploaded bytes checked before publication",
+      "full_raw_diagnostics_git_hosted": false,
+      "raw_evidence": "Complete raw discovery P and all material A/B/C/H/Z/deletion/contraction arrays in delivery archive; reconstructible from self-contained committed source",
+      "publication": "Appended in the commit containing this state; actual post-write receipt in delivery archive",
       "preserved_previous_current_work": true,
       "ci_is_mathematical_evidence": false
     }

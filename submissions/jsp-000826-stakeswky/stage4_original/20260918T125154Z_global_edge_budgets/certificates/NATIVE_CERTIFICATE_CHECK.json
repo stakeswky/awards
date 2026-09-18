@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "complete_native_values_equal_replayed_material": true,
+  "material_graphs": 11,
+  "ratio_vertex_arrays": 22,
+  "ratio_edge_records": 9,
+  "native_tree_sha": "723b92af455cbd6806ebf184b0efc5a17b2c71b0",
+  "git_blob_sha": {
+    "MATERIAL_GRAPHS.json": "25eb4efd79cd54b98804ef6a80b48661ac0f6b7d",
+    "RATIO_WITNESS.json": "08cdbf72c1a2a772a49fda5de9f1b57c6344685e"
+  },
+  "source_material_full_replay": "CLEAN_REPLAY.json",
+  "raw_and_lossless_complete_material": "delivery archive and reproducible native sources",
+  "rejected_upload": "../provenance/REJECTED_TRANSPORT.json"
+}

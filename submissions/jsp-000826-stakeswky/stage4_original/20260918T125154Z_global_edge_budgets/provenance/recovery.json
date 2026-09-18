@@ -1,0 +1,32 @@
+{
+  "repository": "stakeswky/awards",
+  "branch": "jsp-000826-research-snapshot",
+  "initial_live_head": "0fa61cd78b271690c60e7ec7b838b1b6fcc7aeaf",
+  "initial_pr_draft": true,
+  "initial_pr_merged": false,
+  "read_math_chains": [
+    "stage2_original/20260918T_original_joint_modes",
+    "stage3_original/20260918T103200Z_edge_compatibility",
+    "stage3_original/20260918T112220Z_edge_minimal"
+  ],
+  "read_proof_blobs": {
+    "stage2_PROOF_ATTEMPT": "34475106c02789a11fbf26ac4bdece3c5f837f7e",
+    "edge_compatibility_PROOF_ATTEMPT": "c9b7b671d812f00072564fa233ef1b7b9a4dfa27",
+    "edge_minimal_PROOF_ATTEMPT": "3f55869c9521ea6ddf73791a6a4bc2a32e02f53e"
+  },
+  "additional_readings": [
+    "RESEARCH_PROTOCOL.md",
+    "RESEARCH_STATE.json",
+    "CONTRIBUTING.md",
+    "Stage-2 full compact material table and clean receipt",
+    "edge_compatibility HEREDITARY_COVERAGE.md and integrated/replay certificates",
+    "edge_minimal edge_summary and compact replay receipt"
+  ],
+  "stage2_standalone_GAP": "Not present; complete first gap read in proof section 9",
+  "provenance_finding": "Latest edge_minimal proof does not supply formulas for claimed further endpoint budgets; none imported without a new proof",
+  "historical_raw_runs_freshly_replayed": false,
+  "current_sources_self_contained": true,
+  "runtime_git_clone": "Failed on DNS; not treated as lack of GitHub connector access or as a local worktree",
+  "outside_user_machine_used": false,
+  "literature_dependency": "NONE; bounded primary-source checks did not supply a full-forest closure and no global latest/novelty claim is made"
+}

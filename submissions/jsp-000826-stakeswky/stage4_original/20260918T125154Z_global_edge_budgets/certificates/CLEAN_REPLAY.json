@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "source_sha256": {
+    "check.py": "36dc44e28af8a17f020f32a0bf50e3bbbb4f57b83ac5c27f567be6de2f1a0aef",
+    "clean_replay.py": "2a823b01f97529faa237c77b0631f6346cbda22fdbdd44b62dd2908de51393e5",
+    "compact.py": "dc6ef38bc0cbd66d44d99d0c2d4d426e629bfd5b7b601f4df018cd33851bb68d",
+    "forest.py": "9d6420c2ee6a32bc9706110087bf81e57abb00775db65bf40628951bfbe07123",
+    "search.py": "9b9ae72e91c2b6b6656c87e496f83294c8f3f5ef804f00c4a95b9367416348b7"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/check.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "certificates/replay_check.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/search.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "certificates/replay_search.py.log"
+    },
+    {
+      "argv": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/compact.py",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "log": "certificates/replay_compact.py.log"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "material.json",
+      "bytes": 144753,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "e95595af543b6c0e32d718b1a10d934ec21e0d2a02b330059f9576e9ae95c81a"
+    },
+    {
+      "file": "checks_summary.json",
+      "bytes": 953,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "58b1c75483563b089aaad840e5fd3374c56abfa481730773c8e8ca7c7c5e4fea"
+    },
+    {
+      "file": "search_records.json",
+      "bytes": 277137,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "0658c5b59fe5779f2971acfb26f460e1872d15fe187e3c23087d9a97430fa113"
+    },
+    {
+      "file": "search_material.json",
+      "bytes": 273008,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "711ded3d6760b458de1d4ac008c92514f0b281ab3aacddfd3a6d72139209ae36"
+    },
+    {
+      "file": "search_summary.json",
+      "bytes": 1165,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "39908637ac2ed063c8bffd6d132df3ba439c9e98199a2f1515e4ce5a3ee4f40e"
+    },
+    {
+      "file": "material_compact.json",
+      "bytes": 331744,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "75a10170409a3e5c39b50628a1e47270e92ca09a2c69570bd3cba9291500078d"
+    },
+    {
+      "file": "material_compact.json.gz.b64",
+      "bytes": 56437,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": null,
+      "sha256": "29042b2a2c149d218f38b283f7dc74a17fa73200ea6b8cbe5d08736c96885b5c"
+    },
+    {
+      "file": "EVIDENCE.json",
+      "bytes": 729,
+      "full_bytes_equal": true,
+      "full_parsed_JSON_equal": true,
+      "sha256": "63d77051276184d3512169fa088ac980f9c81784381a9ff7a5410a59c982a2cf"
+    }
+  ],
+  "review": "SAME_MODEL_SELF_REVIEW; different algorithms are not external peer review",
+  "original_proved": false,
+  "formal_build": "NOT_RUN",
+  "temporary_directory_removed": true
+}

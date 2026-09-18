@@ -1,0 +1,14 @@
+{
+  "attempt": "UTF-8 base64 material fragment 01",
+  "expected_blob": "cf0da4ed12477ac38bad9d0370fe052635b2b509",
+  "returned_blob": "745eaa2c5a7126619953ad93f59cfe02db266838",
+  "disposition": "REJECTED_BEFORE_COMMIT_OR_REF_UPDATE",
+  "raw_material_unchanged": true,
+  "replacement": "Native MATERIAL_GRAPHS.json and RATIO_WITNESS.json, tested native source, and full delivery archive; no unverified compressed fragment is linked in the branch.",
+  "additional_native_transport_repair": {
+    "rejected_blob": "6981f6587be4618700bdef0c111dc36cdef5ddbb",
+    "corrected_blob": "08cdbf72c1a2a772a49fda5de9f1b57c6344685e",
+    "scope": "One surplus trailing zero and trailing whitespace in transmitted JSON; original local data unchanged; corrected complete bytes match local original",
+    "branch_had_not_been_updated": true
+  }
+}

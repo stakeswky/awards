@@ -1,0 +1,118 @@
+{
+  "run_id": "20260918T125154Z_global_edge_budgets",
+  "recovery_head": "0fa61cd78b271690c60e7ec7b838b1b6fcc7aeaf",
+  "delivery_category": "E",
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "structural_progress": "NO_STRUCTURAL_ADVANCE",
+  "first_gap_reduced": false,
+  "original_proof": false,
+  "legal_original_counterexample": false,
+  "J_H": "UNRESOLVED",
+  "RSM": "UNRESOLVED",
+  "first_unproved_connection": "UNCHANGED: incompatibility of all actual lexicographically minimal forest residual configurations; HEREDITARY J_H and original RSM remain unproved alternatives",
+  "new_scoped_deductions": [
+    {
+      "id": "G1",
+      "claim": "Exact degree-weighted endpoint slack and telescoped two-position coefficient budgets",
+      "proof": "PROOF_ATTEMPT.md section 2",
+      "scope": "Every forest for slack; polarized actual valley for budgets",
+      "status": "PROVED_WITH_SCOPE"
+    },
+    {
+      "id": "G2",
+      "claim": "All-edge correction W counts one-edge induced subsets; W_(r+2)=(r+1)P_(r+1)-K_r and blocked-extension/star budget",
+      "proof": "PROOF_ATTEMPT.md section 3",
+      "scope": "Actual independent sets and residual forest component counts",
+      "status": "PROVED_WITH_SCOPE"
+    },
+    {
+      "id": "G3",
+      "claim": "Complete vertex-star and whole-forest product identities with component factors retained",
+      "proof": "PROOF_ATTEMPT.md section 4",
+      "scope": "Nonisolated vertex; isolate-free forest for global identity",
+      "status": "PROVED_WITH_SCOPE"
+    },
+    {
+      "id": "G4",
+      "claim": "Exact attempted potential sum, role-specific leaf/support budgets and leaf-edge redundancy",
+      "proof": "PROOF_ATTEMPT.md sections 5-6",
+      "scope": "Specified genuine valley and hereditary premises",
+      "status": "PROVED_WITH_SCOPE",
+      "terminal_growth_contradiction": false
+    }
+  ],
+  "unlocalized_ratio_diagnostic": {
+    "HEREDITARY": "VERIFIED",
+    "all_eight_coefficients_positive": true,
+    "negative": {
+      "edge": [
+        0,
+        1
+      ],
+      "k": 2,
+      "signed_cross_product": -7408
+    },
+    "negative_graph": "disconnected_control",
+    "positive": {
+      "edge": [
+        1,
+        4
+      ],
+      "k": 4,
+      "signed_cross_product": 42471
+    },
+    "positive_graph": "disconnected_control",
+    "scope": "UNLOCALIZED_ONLY; neither residual J_H nor RSM refuted"
+  },
+  "auxiliary_route_refuted_with_full_residual_premises": false,
+  "evidence": {
+    "structural_discovery_records": 243,
+    "maximum_order": 50,
+    "max_D_minus_U": 1,
+    "residual_graphs": 0,
+    "residual_pairs": 0,
+    "eligible_RSM_tests": 0,
+    "fixed_controls": 7,
+    "selected_discovery_material": 4,
+    "fresh_HEREDITARY_fixed_controls": 4,
+    "fresh_HEREDITARY_other_records": "UNKNOWN; historical old23 certificate not rescinded or represented as fresh",
+    "finite_regression_labeled_forests_0_through_5": 340,
+    "isomorphism_census": false,
+    "every_discovery_P_two_algorithms": true,
+    "material_all_vertex_edge_arrays_two_algorithms": true,
+    "independent_zero_one_edge_DP": true,
+    "full_replay_receipt": "certificates/CLEAN_REPLAY.json"
+  },
+  "formal": {
+    "top_level_source": false,
+    "build": "NOT_RUN",
+    "axiom_audit": "NOT_RUN",
+    "environment_version_probe": "NOT_RUN"
+  },
+  "family": {
+    "math": "INHERITED_PROVED_COMPUTER_ASSISTED",
+    "formal": "INHERITED_NOT_ESTABLISHED",
+    "baseline_sha": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "expanded": false,
+    "fresh_full_replay": false
+  },
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "independent_external_peer_review": false,
+  "publication": {
+    "required_branch": "jsp-000826-research-snapshot",
+    "required_pr": 1,
+    "draft_required": true,
+    "merge_permitted": false,
+    "actual_result": "Record only after successful writes in PUBLICATION_RECEIPT.json"
+  },
+  "ci_is_mathematical_evidence": false,
+  "background_work_promised": false,
+  "limitations": [
+    "No nonvacuous residual configuration",
+    "No universal sign estimate for K differences or edge-OR partitions",
+    "No proved coefficient-mode inequality from full convolution identities",
+    "No forbidden sink for potential propagation",
+    "Two graft rounds reused identical best seeds; second round added no new exact graph record"
+  ]
+}
