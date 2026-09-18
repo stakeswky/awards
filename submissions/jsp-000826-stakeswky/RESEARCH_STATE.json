@@ -6,7 +6,7 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "5169aa045816af5a87f5cf17341592ecb3ec8139",
+  "last_read_head": "f4148f358a6ab214f30f07bfe52cde4768231f89",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
   "previous_checkpoint": "e2784872fbaef79e084f54f6f16ebf7c1b7e9b82:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "current_work": {
@@ -108,7 +108,7 @@
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
     "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
   },
-  "latest_original_attempt": "stage3_original/20260918T103200Z_edge_compatibility/STATEMENT.md",
+  "latest_original_attempt": "stage3_original/20260918T112220Z_edge_minimal/STATEMENT.md",
   "stage2_original_runs": [
     {
       "run_id": "20260918T_original_joint_modes",
@@ -186,6 +186,29 @@
       "raw_evidence": "Full coefficients, signatures, witnesses, logs and provenance in the delivery archive; raw computational material reconstructible from committed source",
       "preserved_previous_current_work": true,
       "exclusions": [],
+      "ci_is_mathematical_evidence": false
+    },
+    {
+      "run_id": "20260918T112220Z_edge_minimal",
+      "baseline_head": "f4148f358a6ab214f30f07bfe52cde4768231f89",
+      "package": "stage3_original/20260918T112220Z_edge_minimal/README.md",
+      "statement": "stage3_original/20260918T112220Z_edge_minimal/STATEMENT.md",
+      "proof_attempt": "stage3_original/20260918T112220Z_edge_minimal/PROOF_ATTEMPT.md",
+      "gap": "stage3_original/20260918T112220Z_edge_minimal/GAP.md",
+      "review": "stage3_original/20260918T112220Z_edge_minimal/REVIEW.md",
+      "verdict": "stage3_original/20260918T112220Z_edge_minimal/VERDICT.json",
+      "original_math": "NOT_CLOSED",
+      "original_formal": "NOT_ESTABLISHED",
+      "structural_progress": "NO_STRUCTURAL_ADVANCE",
+      "first_unproved_bridge": "UNCHANGED: HEREDITARY J_H; alternative direct route still lacks incompatibility of all actual forest residual configurations; RSM remains unresolved",
+      "new_deductions": "Lexicographically minimal counterexample gives all edge-deleted and edge-contracted forests unimodal; exact Z=x^2H identities and endpoint coefficient budgets added; scalar relaxation rejected by budget.",
+      "residual_graphs": 0,
+      "residual_pairs": 0,
+      "eligible_RSM_tests": 0,
+      "original_counterexample_found": false,
+      "review_type": "SAME_MODEL_SELF_REVIEW",
+      "publication": "SYNCED",
+      "preserved_previous_current_work": true,
       "ci_is_mathematical_evidence": false
     }
   ]
