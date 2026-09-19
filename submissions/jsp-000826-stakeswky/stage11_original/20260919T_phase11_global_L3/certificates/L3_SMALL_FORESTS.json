@@ -1,0 +1,373 @@
+{
+  "claim": "For every finite forest on at most 11 vertices, L3=p3^2-p2*p4 is nonnegative.",
+  "environment": {
+    "networkx": "3.6.1",
+    "python": "3.13.5"
+  },
+  "expected_forest_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 6,
+    "5": 10,
+    "6": 20,
+    "7": 37,
+    "8": 76,
+    "9": 153,
+    "10": 329,
+    "11": 710
+  },
+  "expected_tree_counts": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 6,
+    "7": 11,
+    "8": 23,
+    "9": 47,
+    "10": 106,
+    "11": 235
+  },
+  "forest_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 6,
+    "5": 10,
+    "6": 20,
+    "7": 37,
+    "8": 76,
+    "9": 153,
+    "10": 329,
+    "11": 710
+  },
+  "formal_status": "NOT_LEAN; exact Python finite certificate only",
+  "generator_boundary": "NetworkX 3.6.1 nonisomorphic_trees supplies one representative of every free-tree isomorphism class; forests are all multisets of those representatives with total order <=11.",
+  "minimum_L3_by_n": {
+    "1": {
+      "L3": 0,
+      "component_type_ids": [
+        0
+      ],
+      "invariants": {
+        "m": 0,
+        "n": 1,
+        "s": 0,
+        "t": 0
+      },
+      "p": [
+        1,
+        1
+      ]
+    },
+    "10": {
+      "L3": 1525,
+      "component_type_ids": [
+        178
+      ],
+      "invariants": {
+        "m": 9,
+        "n": 10,
+        "s": 17,
+        "t": 21
+      },
+      "p": [
+        1,
+        10,
+        36,
+        65,
+        75,
+        57,
+        28,
+        8,
+        1
+      ]
+    },
+    "11": {
+      "L3": 3186,
+      "component_type_ids": [
+        406
+      ],
+      "invariants": {
+        "m": 10,
+        "n": 11,
+        "s": 21,
+        "t": 28
+      },
+      "p": [
+        1,
+        11,
+        45,
+        96,
+        134,
+        128,
+        84,
+        36,
+        9,
+        1
+      ]
+    },
+    "2": {
+      "L3": 0,
+      "component_type_ids": [
+        0,
+        0
+      ],
+      "invariants": {
+        "m": 0,
+        "n": 2,
+        "s": 0,
+        "t": 0
+      },
+      "p": [
+        1,
+        2,
+        1
+      ]
+    },
+    "3": {
+      "L3": 0,
+      "component_type_ids": [
+        0,
+        1
+      ],
+      "invariants": {
+        "m": 1,
+        "n": 3,
+        "s": 0,
+        "t": 0
+      },
+      "p": [
+        1,
+        3,
+        2
+      ]
+    },
+    "4": {
+      "L3": 0,
+      "component_type_ids": [
+        1,
+        1
+      ],
+      "invariants": {
+        "m": 2,
+        "n": 4,
+        "s": 0,
+        "t": 0
+      },
+      "p": [
+        1,
+        4,
+        4
+      ]
+    },
+    "5": {
+      "L3": 1,
+      "component_type_ids": [
+        5
+      ],
+      "invariants": {
+        "m": 4,
+        "n": 5,
+        "s": 3,
+        "t": 2
+      },
+      "p": [
+        1,
+        5,
+        6,
+        1
+      ]
+    },
+    "6": {
+      "L3": 15,
+      "component_type_ids": [
+        9
+      ],
+      "invariants": {
+        "m": 5,
+        "n": 6,
+        "s": 5,
+        "t": 4
+      },
+      "p": [
+        1,
+        6,
+        10,
+        5,
+        1
+      ]
+    },
+    "7": {
+      "L3": 69,
+      "component_type_ids": [
+        18
+      ],
+      "invariants": {
+        "m": 6,
+        "n": 7,
+        "s": 7,
+        "t": 6
+      },
+      "p": [
+        1,
+        7,
+        15,
+        12,
+        5,
+        1
+      ]
+    },
+    "8": {
+      "L3": 240,
+      "component_type_ids": [
+        37
+      ],
+      "invariants": {
+        "m": 7,
+        "n": 8,
+        "s": 10,
+        "t": 10
+      },
+      "p": [
+        1,
+        8,
+        21,
+        24,
+        16,
+        6,
+        1
+      ]
+    },
+    "9": {
+      "L3": 645,
+      "component_type_ids": [
+        80
+      ],
+      "invariants": {
+        "m": 8,
+        "n": 9,
+        "s": 13,
+        "t": 14
+      },
+      "p": [
+        1,
+        9,
+        28,
+        41,
+        37,
+        21,
+        7,
+        1
+      ]
+    }
+  },
+  "scope": {
+    "max_vertices": 11,
+    "unlabelled_forests": 1347,
+    "unlabelled_tree_types": 436
+  },
+  "tree_counts": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 6,
+    "7": 11,
+    "8": 23,
+    "9": 47,
+    "10": 106,
+    "11": 235
+  },
+  "verification": {
+    "all_L3_nonnegative": "PASS",
+    "coefficient_entries_compared": 10342,
+    "forest_record_stream_sha256": "dc0c85dc6e13e9f1be5e334084992bddc95c3a1ca654c8613377fd13a6616d65",
+    "p2_p3_p4_closed_form_vs_literal_subset": "PASS",
+    "tree_dp_vs_literal_subset": "PASS",
+    "tree_manifest_sha256": "89b887f5ecec6ffdd4b42e2f2d527ba2d5bd0e9b663a3418acc04543fc9db8a8"
+  },
+  "zero_cases": [
+    {
+      "component_type_ids": [
+        0
+      ],
+      "n": 1,
+      "p": [
+        1,
+        1
+      ]
+    },
+    {
+      "component_type_ids": [
+        0,
+        0
+      ],
+      "n": 2,
+      "p": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "component_type_ids": [
+        1
+      ],
+      "n": 2,
+      "p": [
+        1,
+        2
+      ]
+    },
+    {
+      "component_type_ids": [
+        0,
+        1
+      ],
+      "n": 3,
+      "p": [
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "component_type_ids": [
+        2
+      ],
+      "n": 3,
+      "p": [
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "component_type_ids": [
+        1,
+        1
+      ],
+      "n": 4,
+      "p": [
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "component_type_ids": [
+        3
+      ],
+      "n": 4,
+      "p": [
+        1,
+        4,
+        3
+      ]
+    }
+  ]
+}
