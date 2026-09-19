@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/compensation.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.167,
+      "log_sha256": "48ea7a17c15b37cdfb16c5b88f5d47bdf065e5e3cf53a3c3198b61930c5ad957"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/regressions.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.172,
+      "log_sha256": "c9840c0f632017091e73ff3493155b6c9accb35420037c5c7e451fb06ab3bdd0"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/directed_barrier.py"
+      ],
+      "exit_code": 0,
+      "seconds": 19.49,
+      "log_sha256": "341ce71a109503f852174dc9f12ddc33cfcd095b90d69cced863ac3c7cb3427d"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/diagnostics.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.063,
+      "log_sha256": "691d229218e244a8e2af395bc35a6ba2558fc521fa71536424a9e60731381cfb"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/compact.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.033,
+      "log_sha256": "0b8550082bf14e54996d2842ab708997f0875266c501f95a2d8182610be6152a"
+    }
+  ],
+  "outputs": {
+    "COMPENSATION.json": {
+      "sha256": "e6b0767c8abde8b6106c6d9b35a74cce6f983f79c7b47782a6526f0b4c3e7579",
+      "bytes": 184987,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "REGRESSIONS.json": {
+      "sha256": "549cece995eeac5fb641889a51c39e03cc8826d1ca63e9adf31730154ea3cc86",
+      "bytes": 1449,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "BARRIER_RECORDS.jsonl.gz": {
+      "sha256": "3f1c52590edd3c4e2ad03e6d223c4b63f2a3896a426f27a3512949c6af2a8f0b",
+      "bytes": 5526156,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "BARRIER_MATERIALS.jsonl.gz": {
+      "sha256": "387acd90e34d8b780a7a9188b192dd776a0968fde83ece83258adfccf18b1e7f",
+      "bytes": 1070783,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "BARRIER_SUMMARY.json": {
+      "sha256": "026c8ac88d32f7092d25f60ca735d463182a8078662cb701f27d5548abbd8cca",
+      "bytes": 978,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "PROPOSALS.json": {
+      "sha256": "1114c9947bf69738cc89197a09f1a77cc957a3fce230e0a5c7aa94c45dde6a93",
+      "bytes": 66435,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "DIAGNOSTICS.json": {
+      "sha256": "fb4f05f342d506b233d27cdeea413e865669331adc31bb5be920dbb2d590815a",
+      "bytes": 94549,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "NATIVE_CERTIFICATE.json": {
+      "sha256": "4229728eb9f108b2d2054e672552b671d2f361d97ddad1e2c63335bafaaa518f",
+      "bytes": 15966,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    }
+  },
+  "source_sha256": {
+    "src/availability.py": "ed5102760fad470f9321948d6b2f2a3dc63f1ad0ef1130135dada86e2fc336d2",
+    "src/build_inputs.py": "38d2838e8327b82d5d47967b965de233afd32bcf9306e648d2658b95ea4142ac",
+    "src/compact.py": "8db06c9cdaa26e9e028d78407aabfb2d8cb03aca733fb8b757601370dbc21f57",
+    "src/compensation.py": "65ae17e92404e473076da0e0d7c8c21be02dc76bdd9d32e62011b3395e4c2179",
+    "src/diagnostics.py": "248b30cfd77ec41aa35049219d28373a9d5073fd7abbd7d335eb8dbeb98041ff",
+    "src/directed_barrier.py": "02c2e4d42eb4cc56e77bd2354fd29c1d7c3168e8c49a243c53656a16dd89a6fd",
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/regressions.py": "cd10b01e808c0c94f1dbf3b9633ad6b466c5af3bd120f481293188edeb6a6593",
+    "src/replay.py": "ed3020150e82101ac54f4f171eafcc784a9d03db03a1ce7c1543700546cd6468"
+  },
+  "input_sha256": {
+    "inputs/PRIOR_PROVENANCE.json": "0f29a9c0a2990e0006f354f63e09a05ee9d89f7591cbb4c854d1746b4cb26485",
+    "inputs/prior_codes.jsonl.gz": "239226a9d69c099b9e37386a3932415396c3da92e877bf94aece062b46b9793a"
+  },
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "fresh_directory_removed": true,
+  "independent_external_review": false,
+  "fresh_Lean_build": "NOT_RUN",
+  "original_math": "NOT_CLOSED"
+}

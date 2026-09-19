@@ -1,0 +1,785 @@
+{
+  "compensation": {
+    "status": "PASS",
+    "finite_H3k_range": [
+      1,
+      25
+    ],
+    "finite_H3k_cases": 25,
+    "analytic_H3k_range": "ALL k>=26, written geometric bound and LC mode argument",
+    "analytic_general_region": "ALL t>=1, all ki>=1 satisfying 2(m+1)^2*(prod(1+(2/3)^ki)-1)<1",
+    "simple_uniform_subregion": "ALL t>=1 and k>=16(t+1), for t equal branch parameters k",
+    "no_arbitrary_nonLC_exterior_or_product_claim": true,
+    "original_math": "NOT_CLOSED"
+  },
+  "finite_H3k_modes": [
+    {
+      "k": 1,
+      "A_modes": [
+        3,
+        3
+      ],
+      "P_modes": [
+        3,
+        3
+      ],
+      "arrays_sha256": "e97c69d603ef1e500dc46b6f3462df7cd8e2b13935bc1096158220964d833ead"
+    },
+    {
+      "k": 2,
+      "A_modes": [
+        5,
+        5
+      ],
+      "P_modes": [
+        5,
+        5
+      ],
+      "arrays_sha256": "635d994e32fbb5ae42b0df712a4ea69a798e4a011d29f32cd78d1bffec0de709"
+    },
+    {
+      "k": 3,
+      "A_modes": [
+        6,
+        6
+      ],
+      "P_modes": [
+        7,
+        7
+      ],
+      "arrays_sha256": "8b4832480239b471337b5d76770cba393a990fb18b89fccd3c7ce9731dc52643"
+    },
+    {
+      "k": 4,
+      "A_modes": [
+        8,
+        8
+      ],
+      "P_modes": [
+        9,
+        9
+      ],
+      "arrays_sha256": "c1d63562d0b254d55e280c771a15c68aafd6464fdf9af92bf44f4a912b8a565c"
+    },
+    {
+      "k": 5,
+      "A_modes": [
+        10,
+        10
+      ],
+      "P_modes": [
+        11,
+        11
+      ],
+      "arrays_sha256": "5bbe317cf4dfedcadb91b1a3111e12f7a8e621bf067fff710e5d667405e134f5"
+    },
+    {
+      "k": 6,
+      "A_modes": [
+        12,
+        12
+      ],
+      "P_modes": [
+        13,
+        13
+      ],
+      "arrays_sha256": "61c17cff4e54e750be16593f8e252ed6ebd3b1afc07f7a85db8015af33e4a35a"
+    },
+    {
+      "k": 7,
+      "A_modes": [
+        14,
+        14
+      ],
+      "P_modes": [
+        15,
+        15
+      ],
+      "arrays_sha256": "09f9fc4076b054de80d322c01ebdd7bf407f54fabcd99051075b7e6c21cc3077"
+    },
+    {
+      "k": 8,
+      "A_modes": [
+        16,
+        16
+      ],
+      "P_modes": [
+        17,
+        17
+      ],
+      "arrays_sha256": "c04478190360e977a31ea9ea21ac99285e27ff171e3e4e2166f0763df47e7759"
+    },
+    {
+      "k": 9,
+      "A_modes": [
+        18,
+        18
+      ],
+      "P_modes": [
+        19,
+        19
+      ],
+      "arrays_sha256": "d3f857a5e205b59cfea484d11e5e73822af1576539bb59f874018ef375fedd98"
+    },
+    {
+      "k": 10,
+      "A_modes": [
+        20,
+        20
+      ],
+      "P_modes": [
+        21,
+        21
+      ],
+      "arrays_sha256": "4c218ea361828097c97b5fe84a8c1df674cde2aec69f9012f6670ad706bfa73e"
+    },
+    {
+      "k": 11,
+      "A_modes": [
+        22,
+        22
+      ],
+      "P_modes": [
+        23,
+        23
+      ],
+      "arrays_sha256": "92a6eb540791cca9d1e5bf8b92bca9a51a8321259ddac7159ac932f829edabae"
+    },
+    {
+      "k": 12,
+      "A_modes": [
+        24,
+        24
+      ],
+      "P_modes": [
+        25,
+        25
+      ],
+      "arrays_sha256": "57c342d830d4521e0e71e970cfed39fba110fcd6bd0ab2304f4436d5ecd79e6a"
+    },
+    {
+      "k": 13,
+      "A_modes": [
+        26,
+        26
+      ],
+      "P_modes": [
+        27,
+        27
+      ],
+      "arrays_sha256": "c01a414226f340bfd094e1dbe0f15f0a69af25099e36fe024050987d96364ca0"
+    },
+    {
+      "k": 14,
+      "A_modes": [
+        28,
+        28
+      ],
+      "P_modes": [
+        29,
+        29
+      ],
+      "arrays_sha256": "f7d6643b1aa34d4613e992372f7b69abe27af4e111d4e70cdc3f659ae12c7ffa"
+    },
+    {
+      "k": 15,
+      "A_modes": [
+        30,
+        30
+      ],
+      "P_modes": [
+        31,
+        31
+      ],
+      "arrays_sha256": "e78bb103840f805cb6e94903e6d7264b64006d80302ad4153e2adc233c699d2e"
+    },
+    {
+      "k": 16,
+      "A_modes": [
+        32,
+        32
+      ],
+      "P_modes": [
+        33,
+        33
+      ],
+      "arrays_sha256": "805bcb4b93d2b9e694f49233527ac8ddb7df757661dffb11b26a0862bcce2ba8"
+    },
+    {
+      "k": 17,
+      "A_modes": [
+        34,
+        34
+      ],
+      "P_modes": [
+        35,
+        35
+      ],
+      "arrays_sha256": "fce46f8e9b249667e18ef769b7dd53b13538c3c4a0ff57c4a6aa65c8a271c40b"
+    },
+    {
+      "k": 18,
+      "A_modes": [
+        36,
+        36
+      ],
+      "P_modes": [
+        37,
+        37
+      ],
+      "arrays_sha256": "2119e3db1c0399af0cd8a9ad7d97eb5291dcf3bec2c5978825ac96802431a0bd"
+    },
+    {
+      "k": 19,
+      "A_modes": [
+        38,
+        38
+      ],
+      "P_modes": [
+        39,
+        39
+      ],
+      "arrays_sha256": "e1900d7401651f1834818ee4d23d0a5251ede96686f9621e76ca97e79b2288d9"
+    },
+    {
+      "k": 20,
+      "A_modes": [
+        40,
+        40
+      ],
+      "P_modes": [
+        41,
+        41
+      ],
+      "arrays_sha256": "c60bc59b7ad6239703f2e783e3a995527d247a58768b9f8a2d22e0bf71e025ce"
+    },
+    {
+      "k": 21,
+      "A_modes": [
+        42,
+        42
+      ],
+      "P_modes": [
+        43,
+        43
+      ],
+      "arrays_sha256": "cdce1c7df1c74bc02eca7eac6dfe40d81a1c187fe6135cd944ac222361e31011"
+    },
+    {
+      "k": 22,
+      "A_modes": [
+        44,
+        44
+      ],
+      "P_modes": [
+        45,
+        45
+      ],
+      "arrays_sha256": "fdce7b964a1323b2cb1659e31d8b0d09ce4fd847b66a88f3f2b4d59c98703f47"
+    },
+    {
+      "k": 23,
+      "A_modes": [
+        46,
+        46
+      ],
+      "P_modes": [
+        47,
+        47
+      ],
+      "arrays_sha256": "7a40431e06521af390c436289d95faf57db2bed0e36ff956d96f6e9ab6e87fd3"
+    },
+    {
+      "k": 24,
+      "A_modes": [
+        48,
+        48
+      ],
+      "P_modes": [
+        49,
+        49
+      ],
+      "arrays_sha256": "a4ff678abf5c977bf762895f04f846f94c3b227ab5c096cbe7643fa1baea5145"
+    },
+    {
+      "k": 25,
+      "A_modes": [
+        50,
+        50
+      ],
+      "P_modes": [
+        51,
+        51
+      ],
+      "arrays_sha256": "e68c1c9c6a1711eee600d53882ec08424262d9093b96624b1f079b4b20f734f7"
+    }
+  ],
+  "formula_controls": [
+    {
+      "ks": [
+        26,
+        26,
+        26
+      ],
+      "n": 160,
+      "condition": true,
+      "mass_bound": [
+        16236859459213426414027497779731890176,
+        16423203268260658146231467800709255289
+      ],
+      "A_modes": [
+        52,
+        52
+      ],
+      "B_modes": [
+        52,
+        52
+      ],
+      "P_modes": [
+        53,
+        53
+      ]
+    },
+    {
+      "ks": [
+        29,
+        29,
+        29
+      ],
+      "n": 178,
+      "condition": true,
+      "mass_bound": [
+        117495880458018173863168777655420289286144,
+        323257909929174534292273980721360271853387
+      ],
+      "A_modes": [
+        58,
+        58
+      ],
+      "B_modes": [
+        58,
+        58
+      ],
+      "P_modes": [
+        59,
+        59
+      ]
+    },
+    {
+      "ks": [
+        40,
+        40,
+        40
+      ],
+      "n": 244,
+      "condition": true,
+      "mass_bound": [
+        14276515935389567853183703394105172607711975168198836224,
+        1797010299914431210413179829509605039731475627537851106401
+      ],
+      "A_modes": [
+        80,
+        80
+      ],
+      "B_modes": [
+        80,
+        80
+      ],
+      "P_modes": [
+        81,
+        81
+      ]
+    },
+    {
+      "ks": [
+        31,
+        37,
+        42
+      ],
+      "n": 224,
+      "condition": true,
+      "mass_bound": [
+        318478078582932021898751702681069561792266804133888,
+        3381391913522726342930221472392241170198527451848561
+      ],
+      "A_modes": [
+        73,
+        73
+      ],
+      "B_modes": [
+        73,
+        74
+      ],
+      "P_modes": [
+        74,
+        74
+      ]
+    },
+    {
+      "ks": [
+        20,
+        30,
+        80
+      ],
+      "n": 264,
+      "condition": false,
+      "mass_bound": [
+        1114241986395233633947237605633066171713052259070544536190058496,
+        106111661199647248543687855752712667991103904330482569981872649
+      ],
+      "A_modes": [
+        87,
+        87
+      ],
+      "B_modes": [
+        87,
+        87
+      ],
+      "P_modes": [
+        87,
+        87
+      ]
+    },
+    {
+      "ks": [
+        32
+      ],
+      "n": 66,
+      "condition": true,
+      "mass_bound": [
+        1039382085632,
+        205891132094649
+      ],
+      "A_modes": [
+        21,
+        21
+      ],
+      "B_modes": [
+        21,
+        22
+      ],
+      "P_modes": [
+        22,
+        22
+      ]
+    },
+    {
+      "ks": [
+        48,
+        48
+      ],
+      "n": 195,
+      "condition": true,
+      "mass_bound": [
+        845013172564911678481348582690371166797824,
+        6362685441135942358474828762538534230890216321
+      ],
+      "A_modes": [
+        64,
+        64
+      ],
+      "B_modes": [
+        64,
+        64
+      ],
+      "P_modes": [
+        65,
+        65
+      ]
+    },
+    {
+      "ks": [
+        64,
+        64,
+        64
+      ],
+      "n": 388,
+      "condition": true,
+      "mass_bound": [
+        48607825715576916142622556087602795391489856085514300450473928035944168530309898305536,
+        40483766022843281411184472189571654752207506882090305742200116101065766026718820758174775041
+      ],
+      "A_modes": [
+        128,
+        128
+      ],
+      "B_modes": [
+        128,
+        128
+      ],
+      "P_modes": [
+        129,
+        129
+      ]
+    },
+    {
+      "ks": [
+        80,
+        80,
+        80,
+        80
+      ],
+      "n": 645,
+      "condition": true,
+      "mass_bound": [
+        357567738885522055848121947487377571892264407864042274339927934806058878508804027434547870013929661830398188143320377541749555246764025362513920,
+        53034563756811568276275389286796045212913872559915390427787289793974665208946312051018530237137819804528341536463366304485898038735812179407593870194489
+      ],
+      "A_modes": [
+        213,
+        213
+      ],
+      "B_modes": [
+        213,
+        214
+      ],
+      "P_modes": [
+        214,
+        214
+      ]
+    }
+  ],
+  "barrier_search": {
+    "status": "PASS_FINITE_STRESS_SURFACE",
+    "proposals": 288,
+    "duplicate_types": 0,
+    "historical_types_excluded": 0,
+    "accepted_types": 288,
+    "maximum_order": 234,
+    "disconnected": 72,
+    "all_P_dual_recounted": 288,
+    "all_AB_computed": 82272,
+    "edge_moment_dual_recounts": 40776,
+    "all_AB_dual_recounted_materials": 6,
+    "material_AB_dual_recounts": 2808,
+    "moment_indices": 20940,
+    "middle_weak_descent_tests": 428,
+    "middle_strict_descent_tests": 428,
+    "middle_barrier_violations": 0,
+    "middle_mean_availability_increases": 0,
+    "prefix_LC_violations": 0,
+    "original_valleys": 0,
+    "residual_graphs": 0,
+    "residual_pairs": 0,
+    "max_D_minus_U": 1,
+    "HEREDITARY": "UNKNOWN for all new records",
+    "new_relative_to": "Fixed Phase7 and Phase8 canonical inventories, not all research history",
+    "all_forest_coverage": false,
+    "core_gap_reduced": false,
+    "selected_material_ids": [
+      "v286",
+      "v254",
+      "v287",
+      "v255",
+      "v285",
+      "v253"
+    ]
+  },
+  "H64_mean_increase": [
+    {
+      "k": 31,
+      "mu": [
+        99264,
+        1076964787
+      ],
+      "variance": [
+        141180230234004,
+        1159853152437955369
+      ],
+      "mean_residual_edges": [
+        15390,
+        1076964787
+      ],
+      "availability_drift_numerator": 1127421473376,
+      "no_rebound_slack_numerator": 3526689201538272,
+      "LC_slack_numerator": -36067633806336,
+      "weak_descent": true,
+      "strict_descent": true,
+      "middle_step": false,
+      "next_increase": false
+    }
+  ],
+  "H64_aggregate_masses": [
+    {
+      "k": 19,
+      "positive_availability_mass": 93632311742970,
+      "negative_availability_mass": 1786588049587650,
+      "edge_compensation": 1214855397298740,
+      "total": -478100340545940,
+      "weak_descent": false
+    },
+    {
+      "k": 20,
+      "positive_availability_mass": 2083005315961044,
+      "negative_availability_mass": 733173480,
+      "edge_compensation": 1294864366405944,
+      "total": 3377868949193508,
+      "weak_descent": false
+    },
+    {
+      "k": 21,
+      "positive_availability_mass": 5533661516010048,
+      "negative_availability_mass": 0,
+      "edge_compensation": 1195692081817560,
+      "total": 6729353597827608,
+      "weak_descent": true
+    },
+    {
+      "k": 30,
+      "positive_availability_mass": 1036063653524,
+      "negative_availability_mass": 0,
+      "edge_compensation": 32282337996,
+      "total": 1068345991520,
+      "weak_descent": true
+    },
+    {
+      "k": 31,
+      "positive_availability_mass": 3243876,
+      "negative_availability_mass": 0,
+      "edge_compensation": 30780,
+      "total": 3274656,
+      "weak_descent": true
+    }
+  ],
+  "regressions": {
+    "status": "PASS",
+    "forest_controls": 16,
+    "literal_subsets": 102223,
+    "nonforest_controls": [
+      {
+        "clique_size": 9,
+        "n": 15,
+        "P": [
+          1,
+          15,
+          15,
+          20,
+          15,
+          6,
+          1
+        ],
+        "valleys": [],
+        "forest": false
+      },
+      {
+        "clique_size": 10,
+        "n": 16,
+        "P": [
+          1,
+          16,
+          15,
+          20,
+          15,
+          6,
+          1
+        ],
+        "valleys": [
+          [
+            1,
+            2
+          ]
+        ],
+        "forest": false
+      }
+    ],
+    "plateau_regression": [
+      1,
+      4,
+      3,
+      3,
+      4
+    ],
+    "perturbation_without_LC_counterexample": {
+      "B": [
+        1,
+        20,
+        180,
+        960,
+        3360,
+        8064,
+        13440,
+        15360,
+        11520,
+        5120,
+        1024
+      ],
+      "E": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "P": [
+        1,
+        21,
+        200,
+        1140,
+        4320,
+        11424,
+        21504,
+        28800,
+        26880,
+        16640,
+        6144,
+        1025,
+        1,
+        2
+      ],
+      "valleys": [
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "actual_forest": false
+    },
+    "invalid_forest_rejections": 3,
+    "all_forest_coverage": false
+  },
+  "source_sha256": {
+    "availability.py": "ed5102760fad470f9321948d6b2f2a3dc63f1ad0ef1130135dada86e2fc336d2",
+    "build_inputs.py": "38d2838e8327b82d5d47967b965de233afd32bcf9306e648d2658b95ea4142ac",
+    "compact.py": "8db06c9cdaa26e9e028d78407aabfb2d8cb03aca733fb8b757601370dbc21f57",
+    "compensation.py": "65ae17e92404e473076da0e0d7c8c21be02dc76bdd9d32e62011b3395e4c2179",
+    "diagnostics.py": "248b30cfd77ec41aa35049219d28373a9d5073fd7abbd7d335eb8dbeb98041ff",
+    "directed_barrier.py": "02c2e4d42eb4cc56e77bd2354fd29c1d7c3168e8c49a243c53656a16dd89a6fd",
+    "engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "regressions.py": "cd10b01e808c0c94f1dbf3b9633ad6b466c5af3bd120f481293188edeb6a6593",
+    "replay.py": "ed3020150e82101ac54f4f171eafcc784a9d03db03a1ce7c1543700546cd6468"
+  },
+  "raw_sha256": {
+    "COMPENSATION.json": "e6b0767c8abde8b6106c6d9b35a74cce6f983f79c7b47782a6526f0b4c3e7579",
+    "DIAGNOSTICS.json": "fb4f05f342d506b233d27cdeea413e865669331adc31bb5be920dbb2d590815a",
+    "BARRIER_RECORDS.jsonl.gz": "3f1c52590edd3c4e2ad03e6d223c4b63f2a3896a426f27a3512949c6af2a8f0b",
+    "BARRIER_MATERIALS.jsonl.gz": "387acd90e34d8b780a7a9188b192dd776a0968fde83ece83258adfccf18b1e7f",
+    "PROPOSALS.json": "1114c9947bf69738cc89197a09f1a77cc957a3fce230e0a5c7aa94c45dde6a93"
+  },
+  "hosting": "Full raw arrays and prior inventory are in the delivery ZIP; source reconstitutes them. This compact file is not the complete raw archive."
+}
