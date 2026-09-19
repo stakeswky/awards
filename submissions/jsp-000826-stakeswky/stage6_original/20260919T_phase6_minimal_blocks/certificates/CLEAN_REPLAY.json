@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/audit_selected_external.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.032,
+      "log_sha256": "2762ac12aeac63d314c35bf153bc36f91436312cb0bfd05b8a999419adfdd55a"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/check_hereditary64.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.419,
+      "log_sha256": "9282c44c1eef46297fccd427c8d2bce383e6a998b0159b6718bfe0dc04cc8dd2"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/directed_terminal_search.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.96,
+      "log_sha256": "5c8d0b4763bb7240d7b89115051471e1f32cb4d712ce73d30c5f18caf158dcab"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/large_block_obstruction.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.025,
+      "log_sha256": "305dd02fa5f3d98397d19264c1f16791db79f9877fe607832877c74bb8cfe515"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/regressions.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.057,
+      "log_sha256": "41111b6cfae0f23b315291295da384c9b29cb1db4e0784bd39fe1bca2eb0a306"
+    },
+    {
+      "command": [
+        "python",
+        "-S",
+        "-B",
+        "src/compact.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.151,
+      "log_sha256": "e3fb7fcafc28531e1d925643140fff3f4190c20a442c4ddd9bbacdd85260f740"
+    }
+  ],
+  "outputs": {
+    "external_selected_check.json": {
+      "sha256": "af8fb51335b6d7c8a67784bbf49b25736a415568ebe09552fb4b8c2ab26db7a5",
+      "bytes": 749,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "hereditary64_summary.json": {
+      "sha256": "ee87516eccbede2ef2208f434aa8332962a9677ddd5469065330e0e06a93a6c5",
+      "bytes": 1177,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "terminal64_witness.json": {
+      "sha256": "d2b31d4b0ccf1fa8ee112387781ab88fa5ba453c2e78342c99f3af8f85436842",
+      "bytes": 106496,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "directed_search_full.json": {
+      "sha256": "ad1ac82b9beb3e8962cc265614b0907f670fac8d1fe911de4786cc4e6919f472",
+      "bytes": 22270186,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "directed_search_summary.json": {
+      "sha256": "ebab03d610929f89794afe529f30f3194a4accbf7f36e360cc7e59df7fcf49a1",
+      "bytes": 950,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "large_block_obstruction.json": {
+      "sha256": "b7d43812d91e2b459b4f5f038f5960ebb8cbdc717da657662831d34612a7af93",
+      "bytes": 406055,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "regressions.json": {
+      "sha256": "876151394ecdd1dd365b0f7850be091fa92d0dd758074fda0f7b85b75607c553",
+      "bytes": 389,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "NATIVE_CERTIFICATE.json": {
+      "sha256": "a43323d0d858fb32d210f14a24ca5346fd24649ad46375a6fde4544b9dca596d",
+      "bytes": 15448,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    }
+  },
+  "source_sha256": {
+    "src/audit_selected_external.py": "254e54c6b5a5d5bb600338c0e58daab01dd6b513583de41fd10e60d9b54aa7aa",
+    "src/check_hereditary64.py": "d91e12d39ff659ef84aea192dc344801119ea694e087f2a248504bd4a0be9533",
+    "src/compact.py": "ba45f4bed782b5a39c7fdcbb5f6d53d1659b097cfd6bef9ccbc9d05f431cbc12",
+    "src/directed_terminal_search.py": "d800cc4a9e3dc40dfc0229078aff125fad51ec284a32f914320fc6eaf0ef84f9",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/large_block_obstruction.py": "f6e569151e59ffb8a3a4d8fe91361f43d2f8410d12ff3eebaf8fd144dac201c1",
+    "src/regressions.py": "d7d1cedc0d2d491c7adfc4fbde4b8b677f678a56d3c7d27b156ebd30cd4a8e70",
+    "src/run_clean_replay.py": "6294886cdd0924fc6e482df9bedc429321dc324523a2d0f6c9ca15b947e2bbf6"
+  },
+  "input_sha256": {
+    "sources/selected_external_trees.json": "127bfa876f34b598f0b095539e4deb884bff16f4bf0c522f3cdf46a2e6682407"
+  },
+  "fresh_temporary_directory_removed": true,
+  "all_full_outputs_and_arrays_compared": true,
+  "independent_external_review": false,
+  "fresh_Lean_run": false,
+  "original_math": "NOT_CLOSED"
+}

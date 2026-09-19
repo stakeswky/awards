@@ -1,0 +1,19 @@
+{
+  "external_repository": "scinet-ai/math-number-theory",
+  "external_commit": "fafb35784d4235c9e5dd701fd3b2c1f4955ae9ec",
+  "provenance": "Mathematical parent arrays and coefficient data transcribed from the pinned public files. No third-party program was copied into src/.",
+  "index_order": "order26_exceptions.txt, order28_nonlogconcave_trees.txt, order29_nonlogconcave_trees.txt, order30_nonlogconcave_trees.txt; original file order, zero-based bank indices, as poly993.py specifies",
+  "trees": [
+    {"index":0,"n":26,"source_path":"erdos-993/results/order26_exceptions.txt","source_line":1,"source_blob":"6d60d23c2e97bd25c046a3bd1c21be944bd9aac1","par":[0,1,2,3,4,3,6,3,8,3,10,2,12,13,12,15,12,17,1,19,20,21,1,23,1,25],"seq":[1,26,300,2037,9089,28147,62183,98968,112870,90178,48086,15498,2372,48,1]},
+    {"index":1,"n":26,"source_path":"erdos-993/results/order26_exceptions.txt","source_line":2,"source_blob":"6d60d23c2e97bd25c046a3bd1c21be944bd9aac1","par":[0,1,2,3,2,5,2,7,2,9,1,11,12,11,14,11,16,11,18,1,20,21,20,23,20,25],"seq":[1,26,300,2040,9142,28551,63933,103736,121376,100144,55499,18683,2979,51,1]},
+    {"index":145,"n":30,"source_path":"erdos-993/results/order30_nonlogconcave_trees.txt","source_line":118,"source_blob":"b962857c068d474ddffb16bec6c3280d244e0931","par":[0,1,2,3,2,5,2,7,2,9,2,11,1,13,14,13,16,13,18,13,20,1,22,23,22,25,22,27,22,29],"seq":[1,30,406,3299,18051,70605,204213,444859,735067,918524,855799,577379,267123,76126,10238,77,1]}
+  ],
+  "selected_H2_pairs": [
+    {"indices":[0,145],"seq":[1,56,1486,24892,295824,2657470,18772033,107082535,502638386,1968079192,6492385609,18174354153,43386638740,88597100991,154962408110,232077360966,296998647704,323516775577,298141830507,230427544757,147542272437,76940496635,31896011974,10144039276,2341347539,356431479,29447139,765692,16306,125,1]},
+    {"indices":[1,145],"seq":[1,56,1486,24895,295967,2660682,18817318,107532827,506001746,1987700704,6584146606,18524597916,44491618764,91503737268,161373287370,243968771097,315559084843,347849333969,324817069748,254699475424,165666553391,87864701758,37083497483,12014876157,2824354829,436630127,36142641,846330,17144,128,1]}
+  ],
+  "H2_source_path":"erdos-993-forests/results/lane_a_H2_members.txt",
+  "H2_source_blob":"0efdc9bac7b4d57702d7459c2e2398162090b60d",
+  "full_external_census_rerun":false,
+  "full_external_H2_H3_rerun":false
+}
