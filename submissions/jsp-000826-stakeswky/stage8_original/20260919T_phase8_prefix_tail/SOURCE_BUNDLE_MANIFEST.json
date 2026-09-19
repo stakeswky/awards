@@ -1,0 +1,88 @@
+{
+  "archive": "SOURCE_BUNDLE.tar.xz",
+  "archive_sha256": "c9f7252db46d9d202fa19f7ab962c6eccc5b4e2b755c4eead6d2fb8d86df8f8b",
+  "archive_bytes": 22920,
+  "files": {
+    "src/audit.py": {
+      "bytes": 5197,
+      "sha256": "301a359262dc531248cfb37640ec29028ad9e5821fe3956e032d75066460d692"
+    },
+    "src/audit_baseline.py": {
+      "bytes": 1804,
+      "sha256": "b3538854ac50e19cebe011a8e89ca657cacc8e5b0836ddc00109f7d5dcc1582b"
+    },
+    "src/engine.py": {
+      "bytes": 4585,
+      "sha256": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2"
+    },
+    "src/forest_exact.py": {
+      "bytes": 8560,
+      "sha256": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172"
+    },
+    "src/lc_bridge.py": {
+      "bytes": 2421,
+      "sha256": "e7466136ccdaa89cf41b2a116a3de91c3d82dc4cd5eed72da312311e3cd3a01d"
+    },
+    "src/morph_search.py": {
+      "bytes": 10225,
+      "sha256": "c22cc818281540f6cdb287ed9ed533182f77e231ebd6fcdaab3063dbfc47e43e"
+    },
+    "src/pairing.py": {
+      "bytes": 3559,
+      "sha256": "5ffe72d02906a16b7caa5166065477417e628649d769702e7196fe2400fb6382"
+    },
+    "src/positions.py": {
+      "bytes": 3032,
+      "sha256": "421933899177ac48c22311557d6367a50f83e7c771757fbcff0055995060aaca"
+    },
+    "src/regressions.py": {
+      "bytes": 2388,
+      "sha256": "6c6ff5f5e2e8277078edec58641ef58eabb7d681adf0e6d29277f4565fcef65f"
+    },
+    "src/replay.py": {
+      "bytes": 3316,
+      "sha256": "7aa47493f82df1ff1425808c6553e5e346c78d43989d2625f0c8de2c85c7197c"
+    },
+    "sources/phase7_bank.json": {
+      "bytes": 73690,
+      "sha256": "aa17fa8bca771f52746356df981684308865242eabb8df7abbd2bd644346df8e"
+    },
+    "provenance/prior_position_audit.json": {
+      "bytes": 2930,
+      "sha256": "fc589bbdeef492b7984f992ffd4b49bd6e110ccc347a07885d63b6849902a42b"
+    }
+  },
+  "excluded_cached_input": "sources/prior_codes.jsonl.gz is provided in the delivery ZIP; reconstruct from the prior Phase7 raw streams with src/audit_baseline.py. This is actual graph exclusion bookkeeping, not a missing mathematical input.",
+  "parts": [
+    {
+      "path": "SOURCE_BUNDLE.part01",
+      "bytes": 6000,
+      "sha256": "82c03185c46e2ff263ae3a597194e34ddd46506034cc9d34c763a6e9c048043b"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part02",
+      "bytes": 6000,
+      "sha256": "e6d0e7d0a39dd74b883d018b3dd4d51364e447d95fdbe3908c1f6d899838be8b"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part03",
+      "bytes": 6000,
+      "sha256": "4c65bb7554145b95ae17f5217791eea350ecc41810248e64e8567bbbbc1d8bd9"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part04",
+      "bytes": 6000,
+      "sha256": "14d1d3abc15c8bb1e6408ee67a2a86b380e9660e5dde982970f2b5edc878b4dc"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part05",
+      "bytes": 6000,
+      "sha256": "f03fc42de61c2dac2d92f3afe599787adb86d2fd02f05df2ce15e5388183b3d3"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part06",
+      "bytes": 560,
+      "sha256": "6b5bfd33a37b300d393e6d6feaed429bb868756abb73a35f6133fac2dc593e54"
+    }
+  ]
+}

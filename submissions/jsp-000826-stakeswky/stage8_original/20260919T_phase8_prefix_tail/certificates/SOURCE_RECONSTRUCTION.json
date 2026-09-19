@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "stdout": "PASS: all native source/input hashes verified and reconstructed\n",
+  "files": 12,
+  "exact_bytes_match": true,
+  "fresh_temporary_directory_removed": true
+}

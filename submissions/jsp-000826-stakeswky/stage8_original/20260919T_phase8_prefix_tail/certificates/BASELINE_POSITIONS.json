@@ -1,0 +1,39 @@
+{
+  "scope": "Existing arrays and graph identities reread; not new graphs or a fresh DP recount",
+  "counts": {
+    "bridge": {
+      "records": 7111,
+      "non_LC": 5542,
+      "b0_prefix_break": 0,
+      "beta_prefix_break": 0,
+      "beta_stricter": 3642,
+      "tail_violations": 0
+    },
+    "slide": {
+      "records": 942,
+      "non_LC": 652,
+      "b0_prefix_break": 0,
+      "beta_prefix_break": 0,
+      "beta_stricter": 0,
+      "tail_violations": 0
+    },
+    "forest": {
+      "records": 546,
+      "non_LC": 518,
+      "b0_prefix_break": 0,
+      "beta_prefix_break": 0,
+      "beta_stricter": 413,
+      "tail_violations": 0
+    },
+    "corridor": {
+      "records": 283,
+      "non_LC": 106,
+      "b0_prefix_break": 0,
+      "beta_prefix_break": 0,
+      "beta_stricter": 0,
+      "tail_violations": 0
+    }
+  },
+  "early_break_examples": [],
+  "graphs": 8882
+}
