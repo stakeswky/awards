@@ -1,0 +1,8 @@
+{
+  "status":"PASS",
+  "files":7,
+  "all_source_bytes_equal":true,
+  "stdout":"PASS: verified and reconstructed 7 source files\n",
+  "temporary_directory_removed":true,
+  "github_part_blob_shas":["2e963066e862475cd682682c6b7ff3a41314390f","93d61a36019afe9524897342306b1c549b33b114","d229c5dd517536bea3eaaf7565157653da77c4a7"]
+}

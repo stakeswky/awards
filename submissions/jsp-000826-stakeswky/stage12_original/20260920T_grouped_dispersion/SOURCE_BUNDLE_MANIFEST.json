@@ -1,0 +1,19 @@
+{
+  "compressed_sha256": "131edf89e0e191b45db0e88a81b33a6585c7731fb704c4b9e4a484594e25989c",
+  "encoding": "base64(zlib(JSON file-content map))",
+  "files": {
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/regressions.py": "7a10583a76adf15919df6d4448b0d98f3dbf29374b62a504efcca63de0909c0d",
+    "src/replay.py": "5f7fdf71d8323a5725d07c6a2b618f2f375a1cea7e5e8c72e42bc94c6b795820",
+    "src/separator.py": "fcda5ad06c44158354557ff1f520cbae181c45ee24d40a6cac2d1a593a6ca69d",
+    "src/verify_family.py": "e0de4b556e1c57f4e05433313782d6cc557c66d2b1425b6c32acc5e0ae1c1020",
+    "src/verify_fixed.py": "d63c1041b1b9b18b428c063fed5ecd68c6eb4806a4264fdd24d54ce3146d4d44"
+  },
+  "json_sha256": "b5134f2b19de11008856928f0026139ec8a9fc3d36296983a97fe5f5f4455a93",
+  "parts": [
+    {"path":"SOURCE_BUNDLE.part01","sha256":"ba3457ca1540e5b09aa63b4ff66c7d6e4321c9fcda07b76d2e4e197d13f03fc1"},
+    {"path":"SOURCE_BUNDLE.part02","sha256":"1953b966f96f6144b852db56dc32eeca12fbee17dd5848b9438619bb803da2bc"},
+    {"path":"SOURCE_BUNDLE.part03","sha256":"10b6eda0626dac4bb13a1ccaedabfb85ba8771389eacb92cde0e6e592d02ddd5"}
+  ]
+}

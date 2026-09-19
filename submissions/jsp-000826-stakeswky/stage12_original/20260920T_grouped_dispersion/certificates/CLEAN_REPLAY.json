@@ -1,0 +1,35 @@
+{
+  "Lean_build": "NOT_RUN",
+  "all_forest_coverage": false,
+  "commands": [
+    {"command":["python","-S","-B","src/verify_fixed.py"],"elapsed_seconds":29.1585,"exit_code":0,"log_sha256":"3d06c01604ec03bfe056ee7cc95a026bdccb86f072cd66a15c02cdefab48a08e"},
+    {"command":["python","-S","-B","src/verify_family.py"],"elapsed_seconds":0.04883,"exit_code":0,"log_sha256":"ce53d6197252c73496a40bed894abf93eb79246a498e64f3b65201aa9d9a32b9"},
+    {"command":["python","-S","-B","src/regressions.py"],"elapsed_seconds":0.037836,"exit_code":0,"log_sha256":"1ad3fbeab13d9965a108d8e01a01703600ca58b6403add474292f51468bb68bd"}
+  ],
+  "grouped_bound": "REFUTED",
+  "independent_peer_review": false,
+  "original_math": "NOT_CLOSED",
+  "outputs": {
+    "CONNECTED_WITNESS.json":{"bytes":9951934,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"c4deb07b309faf857925176fea4245f6c395f3f2e252a2292013e4bbf46b0c12"},
+    "DISCONNECTED_WITNESS.json":{"bytes":3831472,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"998310024c459076f7e6f7a02c47e13515797ae745231e193c007fa37c9150b5"},
+    "FAMILY_CERTIFICATE.json":{"bytes":9514,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"4c1541e29c3bd82ec4779661f726a5690361421ca72d60abf4c9dc2c28d3fc22"},
+    "HEREDITARY_BASE_CERTIFICATE.json":{"bytes":11483,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"94ce3294045134f643dd67e9bc052f8ea9356af18dfc73ddb85440e1822b1abc"},
+    "REGRESSIONS.json":{"bytes":11942,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"917b810f0927fc0dba02c24c6a26bcd9e1bf498e8e22ecc90ae5ef0f270fd31e"},
+    "WITNESS_SUMMARY.json":{"bytes":5313,"comparison":"ALL_BYTES_NO_EXCLUDED_FIELDS","sha256":"ae2a8bd6be002754ae1e0680ab71f825b18eab3dd85c330f1b7c4b2ae3bfd0c5"}
+  },
+  "platform":"Linux-6.18.44-x86_64-with-glibc2.41",
+  "python":"3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "runtime_finished_utc":"2026-09-19T17:14:45.231204+00:00",
+  "runtime_started_utc":"2026-09-19T17:14:15.962597+00:00",
+  "source_sha256": {
+    "src/engine.py":"bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/forest_exact.py":"897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/regressions.py":"7a10583a76adf15919df6d4448b0d98f3dbf29374b62a504efcca63de0909c0d",
+    "src/replay.py":"5f7fdf71d8323a5725d07c6a2b618f2f375a1cea7e5e8c72e42bc94c6b795820",
+    "src/separator.py":"fcda5ad06c44158354557ff1f520cbae181c45ee24d40a6cac2d1a593a6ca69d",
+    "src/verify_family.py":"e0de4b556e1c57f4e05433313782d6cc557c66d2b1425b6c32acc5e0ae1c1020",
+    "src/verify_fixed.py":"d63c1041b1b9b18b428c063fed5ecd68c6eb4806a4264fdd24d54ce3146d4d44"
+  },
+  "status":"PASS",
+  "temporary_directory_removed":true
+}
