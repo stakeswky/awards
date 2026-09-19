@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "original_math": "NOT_CLOSED",
+  "structural_progress": "NO_STRUCTURAL_ADVANCE",
+  "lanes": {
+    "bridge": {
+      "records": 7111,
+      "new_vs_supplied_phase6_inventory": 7111,
+      "all_AB_computed": 2162730,
+      "unimodal": 7111,
+      "non_log_concave": 5542,
+      "LOCAL": 7111,
+      "residual_pairs": 0,
+      "maximum_order": 248
+    },
+    "slide": {
+      "records": 942,
+      "new_vs_supplied_phase6_inventory": 942,
+      "all_AB_computed": 241152,
+      "unimodal": 942,
+      "non_log_concave": 652,
+      "LOCAL": 942,
+      "residual_pairs": 0,
+      "maximum_order": 128
+    },
+    "forest": {
+      "records": 546,
+      "new_vs_supplied_phase6_inventory": 541,
+      "all_AB_computed": 277270,
+      "unimodal": 546,
+      "non_log_concave": 518,
+      "LOCAL": 546,
+      "residual_pairs": 0,
+      "maximum_order": 525
+    },
+    "corridor": {
+      "records": 283,
+      "new_vs_supplied_phase6_inventory": 283,
+      "all_AB_computed": 58298,
+      "unimodal": 283,
+      "non_log_concave": 106,
+      "LOCAL": 283,
+      "residual_pairs": 0,
+      "maximum_order": 103
+    }
+  },
+  "distinct_forests_within_run": 8882,
+  "new_vs_supplied_phase6_inventory": 8877,
+  "historical_overlaps": [
+    {
+      "id": "f0000",
+      "prior_id": "formula_k10_r2",
+      "n": 128
+    },
+    {
+      "id": "f0004",
+      "prior_id": "t006",
+      "n": 116
+    },
+    {
+      "id": "f0046",
+      "prior_id": "formula_k8_r2",
+      "n": 104
+    },
+    {
+      "id": "f0091",
+      "prior_id": "formula_k10_r3",
+      "n": 192
+    },
+    {
+      "id": "f0381",
+      "prior_id": "formula_k8_r3",
+      "n": 156
+    }
+  ],
+  "conditional_component30_only_controls": [
+    "f0025",
+    "f0260"
+  ],
+  "maximum_order": 525,
+  "all_vertex_AB_arrays_computed": 2739450,
+  "whole_P_dual_algorithm_recounts": 8882,
+  "D_minus_U_distribution": {
+    "0": 8595,
+    "1": 287
+  },
+  "residual_graphs": 0,
+  "residual_pairs": 0,
+  "eligible_RSM_tests": 0,
+  "legal_original_counterexamples": 0,
+  "HEREDITARY": "UNKNOWN for new records; no all-proper-induced-subforest verification here",
+  "material_graphs_all_vertex_dual_recounted": 25,
+  "material_vertex_AB_dual_recounts": 8490,
+  "brute_control_subsets": 2050,
+  "brute_control_AB_arrays": 72,
+  "multiplication_controls": 120,
+  "sequence_controls": 5,
+  "global_novelty": "NOT_CLAIMED; deduplication is relative to the supplied fixed Phase6 inventory only",
+  "finite_UNSAT": "NOT_RUN",
+  "all_forest_coverage": false,
+  "first_core_gap_reduced": false,
+  "source_sha256": {
+    "audit.py": "eef8c7cbec4a7ac61425797d02ee049c138646b91cc402c7fde14255362ee5e8",
+    "bridge_search.py": "6467556ca0c0b788508d9fded534193475a36e54438b29503c3304d087e1a189",
+    "build_bank.py": "8b9ebc515bce7d0cce4cf81392afb0f7fb12a2b78ad75d75d2544cd431c3d2da",
+    "corridor_search.py": "f2ea02d54add6ff16bf6ae24eb5d595813d5de339c88387455cc182ee61b889a",
+    "engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "forest_search.py": "456cd44b1d423da260f52330e899e9a3217671a5ed2938e61c6f80bfa8f8c34d",
+    "replay.py": "494242ca77708724a5988a197b977835a1aea8db4d7f824b388c6430c57f4725",
+    "slide_search.py": "df5d0edf7f2ef0ef5040ca4309af64d1139fc369d16f750a0e7903b9f3ff36e7"
+  },
+  "record_sha256": {
+    "bridge": "12d2e5c03d22b20eeef898480cb47cba2282e04e52f60e1f9ce29311131dca52",
+    "slide": "522f803d8a80d55b4bacc4a6adb172bac8a0c8b3eea74d77f0ae46dd0e3e22ea",
+    "forest": "7866cef0c6e8c4b1a14b7d793756a35e16d897b2083cd12b8175cc382cb2bcfe",
+    "corridor": "f71e9e830c1caef2711f86a7e02d511390ca6fb50a3527db25850b6738ed6267"
+  }
+}
