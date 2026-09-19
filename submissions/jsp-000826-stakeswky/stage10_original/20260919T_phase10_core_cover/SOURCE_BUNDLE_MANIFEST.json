@@ -1,0 +1,25 @@
+{
+  "format": "gzip-base64-json-native-source-v1",
+  "payload_sha256": "19dcf5f415fc845b90d3710ac43fa43f29ab704b5be21b1e82d41408d06ee15b",
+  "json_sha256": "81322ed0e0ab32e1e42a63547e605f9d3ab50fa384c562a4a2c708d9c8a86d92",
+  "parts": [
+    "SOURCE_BUNDLE.part01",
+    "SOURCE_BUNDLE.part02",
+    "SOURCE_BUNDLE.part03",
+    "SOURCE_BUNDLE.part04"
+  ],
+  "members": {
+    "src/availability.py": "ed5102760fad470f9321948d6b2f2a3dc63f1ad0ef1130135dada86e2fc336d2",
+    "src/compact.py": "46051635a84fbd638cc42bdcbe058b0daccc4572f02a42472aae9a9b29ed18e7",
+    "src/core_cover.py": "d6f63a4d22559a5276a2d1dc0fc2a603b595ad911437b3da92b353c6ace9657b",
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/explore.py": "9b3eeb82f1e76b39f7058215761057bfdc3899c5b2ec69d2787a5ec2e1b45826",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/history_audit.py": "830ce1bb46a3a96c3851730519982525899b5b2d9528b13a49a34736bb31f7c4",
+    "src/mixture_audit.py": "4347885af8db9ede1d0d2506a1f372c0e16d8e5d3dc8b50f2bf18454597ffeb2",
+    "src/regressions.py": "9aa5bf9562b88600a7e9dc0d258bf849e7c76cc9bc14a627e45fcf1e6c46dd10",
+    "src/replay.py": "c2f60add2f99929f9600176ca53ae00a87c6f2c38ede4652826659dfe337c671"
+  },
+  "prior_inventory_included": false,
+  "history_input": "Optional old comparison inventory is in the delivery ZIP. New mathematics does not use it."
+}

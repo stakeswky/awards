@@ -1,0 +1,49 @@
+{
+  "run_id": "20260918T150042Z_multi_edge_boundary",
+  "initial_remote_head": "eb4ab96170356a4846d15315af40d1bbde998f59",
+  "initial_remote_tree": "9541a82bfb70e4ead7747c6fa5bc101214466eeb",
+  "initial_pr": {
+    "number": 1,
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "protocol_blob": "32a1f2e37f6df29757e11f6c8018128290292de6",
+  "state_blob": "49d05d0a6ba9d1da372c38c5b19cce8d9fb7ac2a",
+  "current_state_recovered_from": "The supplied Phase-4 archive STATE_AFTER.json; its Git blob identity equals the newly fetched remote state.",
+  "prompt_pack_sha256": "68dad1955ea22bf51c125346b438099cc0c1b59a8cbb2af55fe14092aa13ad7e",
+  "read_instructions": [
+    "00_READ_FIRST.md",
+    "HANDOFF.md",
+    "prompts/01_MASTER.md",
+    "prompts/02_REVIEW.md",
+    "prompts/03_REPAIR_AND_DELIVER.md"
+  ],
+  "prior_rounds_read": [
+    "stage2_original/20260918T_original_joint_modes",
+    "stage3_original/20260918T103200Z_edge_compatibility",
+    "stage3_original/20260918T112220Z_edge_minimal",
+    "stage4_original/20260918T125154Z_global_edge_budgets"
+  ],
+  "scope_correction_read": true,
+  "prior_source_read": [
+    "stage4 src/forest.py",
+    "stage4 src/search.py",
+    "stage4 src/check.py"
+  ],
+  "source_copy": {
+    "path": "src/forest.py",
+    "original_git_blob": "ea0f8f3dc56d0175cbffa80ffec22afe6a0e4b94",
+    "unchanged": true
+  },
+  "applicable_repo_instructions": "RESEARCH_PROTOCOL.md, CONTRIBUTING.md and LICENSE; recursive remote tree had no AGENTS.md.",
+  "live_vs_archive": "Stage-2 and Stage-4 selected native document/source identities matched archive bytes; Stage-3 required notes were read directly live. The longer historical Stage-3 continuation archive is not represented as identical to the shorter native notes.",
+  "local_clone": "NOT_AVAILABLE: attempted git clone failed resolving github.com; authenticated connector reads succeeded. No clean-worktree claim.",
+  "historical_work_not_replayed": [
+    "All-parameter FAMILY proof/formalization",
+    "Old23 complete 8388607-subset HEREDITARY run",
+    "Prior full searches and Lean modules"
+  ],
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "source_and_math_attribution": "OpenAI ChatGPT assisted this run; original question and previous research attribution retained; no global novelty claim."
+}

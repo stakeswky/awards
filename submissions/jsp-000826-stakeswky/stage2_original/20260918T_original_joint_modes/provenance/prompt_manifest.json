@@ -1,0 +1,35 @@
+{
+  "archive_sha256": "ed1d7b7b6b53bad0fa0fbd33fc315d2e713af1488ab966de412405ea01bf2bdd",
+  "files_verified": {
+    "version": "2026-09-18-design",
+    "purpose": "Phase 2 task prompts; no research execution claimed",
+    "repository_head_read": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "files": {
+      "00_READ_FIRST.md": {
+        "bytes": 1867,
+        "sha256": "7bc1e60ea8ac1baa980ac9e82d6147ca0361b5d058bd8715b5491c92d2838000"
+      },
+      "DESIGN_NOTES.md": {
+        "bytes": 2432,
+        "sha256": "155593084f95994e903bbd7d388d612791356cff6857f77e606084194a1039ac"
+      },
+      "START_PROMPT.md": {
+        "bytes": 865,
+        "sha256": "923087e13320d3b40025d36db4a7cabad8b027775689f104b12b63c492f14835"
+      },
+      "prompts/01_MASTER.md": {
+        "bytes": 14254,
+        "sha256": "68899eaf61077e338258b63239d310c8cafa088845082a455d5227860ee78382"
+      },
+      "prompts/02_REVIEW.md": {
+        "bytes": 3137,
+        "sha256": "abe1e5ac2228d504f75478de02a94a850834de009fd8f129000d5d3329fcc90f"
+      },
+      "prompts/03_REPAIR_AND_DELIVER.md": {
+        "bytes": 2302,
+        "sha256": "8d1605049e1d041107ec98417a6f3aa30543512f7850661f02412b4217ae820c"
+      }
+    }
+  },
+  "base_head": "36467feaa5bd486979077b97ad2bac5a75805986"
+}

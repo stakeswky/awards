@@ -1,0 +1,129 @@
+{
+  "run_id": "20260919T_phase10_core_cover",
+  "baseline_head": "86f0c47070ae80dbd5316c44ec766e8f3c72ffd8",
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "core_barrier_status": "UNPROVED",
+  "core_elimination_status": "NO_STRUCTURAL_ADVANCE",
+  "first_core_gap_reduced": false,
+  "structural_progress": "SCOPED_ARBITRARY_CORE_PRIVATE_ARM_THEOREM",
+  "scoped_domain_reduction": true,
+  "scoped_theorem": {
+    "core": "Arbitrary finite core shape and component count; vertex-cover private paths imposed",
+    "criterion": "a>=24; M>=24q; 2*5^r*(M+r+1)^(r+1)*((1+(3/2)*2^(-floor(a/6)))^h-1)<1",
+    "equal_arm_region": "All q>=1, every core and nonempty cover, all integers a>=192(q+1)^2",
+    "nonLC_product_region": "All t>=1 disjoint T(a,a,a), a>=192(4t+1)^2; every component non-LC",
+    "proof": "Complete written proof using the known Basit-Galvin tail; independent of finite controls",
+    "known_tail_dependency": true,
+    "arbitrary_uncoated_exteriors": "NOT_COVERED",
+    "novelty": "NOT_ESTABLISHED"
+  },
+  "search": {
+    "status": "PASS_FINITE_DIRECTED_STUDY",
+    "seed": 993102026,
+    "order_cap": 840,
+    "lanes": {
+      "attached_exterior": {
+        "graphs": 54,
+        "max_n": 221,
+        "nonLC": 0,
+        "barrier_premises": 374
+      },
+      "free_core": {
+        "graphs": 30,
+        "max_n": 153,
+        "nonLC": 2,
+        "barrier_premises": 76
+      },
+      "nonLC_components": {
+        "graphs": 48,
+        "max_n": 535,
+        "nonLC": 48,
+        "barrier_premises": 293
+      },
+      "relocation": {
+        "graphs": 101,
+        "max_n": 153,
+        "nonLC": 0,
+        "barrier_premises": 497
+      }
+    },
+    "proposals": 251,
+    "accepted_types": 233,
+    "duplicate_types": 18,
+    "old_types": 0,
+    "over_cap": 0,
+    "new_relative_to": "Within-run types; independent HISTORY_CHECK.json compares the fixed Phase7/8/9 inventory",
+    "historical_filtering_applied": false,
+    "new_graphs": 233,
+    "max_n": 535,
+    "all_P_dual_recounts": 233,
+    "all_AB_computed": 83710,
+    "material_AB_dual_recounts": 5920,
+    "material_graphs": 12,
+    "material_edge_recounts": 2930,
+    "distinct_whole_subtree_operations": 119,
+    "middle_weak_descent_tests": 1240,
+    "middle_barrier_violations": 0,
+    "middle_availability_increases": 0,
+    "prefix_failures": 0,
+    "residual_pairs": 0,
+    "valleys": 0,
+    "max_D_minus_U": 1,
+    "max_components": 7,
+    "HEREDITARY": "UNKNOWN",
+    "all_forest_coverage": false,
+    "original_math": "NOT_CLOSED",
+    "core_gap_reduced": false,
+    "selected_ids": [
+      "x0014",
+      "x0015",
+      "x0019",
+      "x0082",
+      "x0105",
+      "x0123",
+      "x0172",
+      "x0148",
+      "x0157",
+      "x0228",
+      "x0227",
+      "x0231"
+    ]
+  },
+  "theorem_controls": {
+    "count": 4,
+    "maximum_order": 4616,
+    "whole_polynomial_algorithms": 3,
+    "largest_components": [
+      2308,
+      2308
+    ],
+    "largest_components_both_nonLC": true,
+    "all_AB_recount_claim": false,
+    "small_correspondence_controls": 30,
+    "added_to_new_search_count": false
+  },
+  "mixture_checks": {
+    "actual_root_materials": 2,
+    "actual_component_materials": 3,
+    "literal_subset_root_checks": 10626,
+    "general_variance_bound_proved": false
+  },
+  "BARRIER": "UNPROVED_AND_UNREFUTED_FOR_FORESTS",
+  "PREFIX_BETA": "UNPROVED_AND_UNREFUTED",
+  "J_H": "UNRESOLVED",
+  "RSM": "UNRESOLVED",
+  "legal_original_counterexample": false,
+  "global_minimality": "NOT_CLAIMED",
+  "HEREDITARY": "UNKNOWN for all new graphs",
+  "fresh_clean_replay": "PASS_6_PROGRAMS_10_COMPLETE_OUTPUTS_ALL_BYTES",
+  "external_component30_census_H2_H3_rerun": false,
+  "small_component_indices": "247 only conditionally; unchanged",
+  "previous_family_work": "PRESERVED_UNCHANGED",
+  "Lean_build": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "independent_external_review": false,
+  "project_complete": false,
+  "PR_must_remain_Draft": true
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260918T112220Z_edge_minimal",
+  "graph_record_occurrences": 510,
+  "base_records": 5,
+  "edge_operation_records": 204,
+  "source_factor_records": 301,
+  "all_LOCAL": true,
+  "max_D_minus_U": 1,
+  "residual_graphs": 0,
+  "residual_pairs": 0,
+  "eligible_RSM_tests": 0,
+  "fresh_HEREDITARY_base_graphs": 2,
+  "fresh_proper_subsets": 1150,
+  "original_counterexample_found": false,
+  "scope_note": "Occurrence counts, not a claim of globally new or pairwise nonisomorphic graphs."
+}

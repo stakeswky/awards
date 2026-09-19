@@ -1,0 +1,27 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "seed": 99320260918,
+  "regressions": {
+    "labeled_forests_per_order": [
+      1,
+      1,
+      2,
+      7,
+      38,
+      291
+    ],
+    "labeled_forests_total": 340,
+    "all_graph_whole_and_2n_deletions_dp_recursion_and_bruteforce": true,
+    "unimodal_sequence_pair_tests": 16641,
+    "stored_padded_coefficient_slots": 21149
+  },
+  "input_records": 193,
+  "completed": 193,
+  "excluded": [],
+  "original_candidates": [],
+  "single_vertex_failures": [],
+  "joint_failures": [],
+  "max_D_minus_U": 1,
+  "all_split_polynomials_recomputed": 15499,
+  "elapsed_seconds": 7.28329
+}

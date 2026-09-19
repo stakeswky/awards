@@ -1,0 +1,28 @@
+{
+  "format": "base64 concatenated parts -> xz -> JSON UTF8 file map",
+  "parts": [
+    "SOURCE_BUNDLE.part01",
+    "SOURCE_BUNDLE.part02",
+    "SOURCE_BUNDLE.part03"
+  ],
+  "compressed_sha256": "1b941ed1a66e3614b72a67080282103d6d227f82cdf305b261dc6c2818bf8f18",
+  "files": {
+    "src/availability.py": "ed5102760fad470f9321948d6b2f2a3dc63f1ad0ef1130135dada86e2fc336d2",
+    "src/build_inputs.py": "38d2838e8327b82d5d47967b965de233afd32bcf9306e648d2658b95ea4142ac",
+    "src/compact.py": "8db06c9cdaa26e9e028d78407aabfb2d8cb03aca733fb8b757601370dbc21f57",
+    "src/compensation.py": "65ae17e92404e473076da0e0d7c8c21be02dc76bdd9d32e62011b3395e4c2179",
+    "src/diagnostics.py": "248b30cfd77ec41aa35049219d28373a9d5073fd7abbd7d335eb8dbeb98041ff",
+    "src/directed_barrier.py": "02c2e4d42eb4cc56e77bd2354fd29c1d7c3168e8c49a243c53656a16dd89a6fd",
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/regressions.py": "cd10b01e808c0c94f1dbf3b9633ad6b466c5af3bd120f481293188edeb6a6593",
+    "src/replay.py": "ed3020150e82101ac54f4f171eafcc784a9d03db03a1ce7c1543700546cd6468",
+    "inputs/PRIOR_PROVENANCE.json": "0f29a9c0a2990e0006f354f63e09a05ee9d89f7591cbb4c854d1746b4cb26485"
+  },
+  "archive_only_input": {
+    "inputs/prior_codes.jsonl.gz": {
+      "sha256": "239226a9d69c099b9e37386a3932415396c3da92e877bf94aece062b46b9793a",
+      "rebuild": "python src/build_inputs.py /path/to/Erdos993_Phase8"
+    }
+  }
+}

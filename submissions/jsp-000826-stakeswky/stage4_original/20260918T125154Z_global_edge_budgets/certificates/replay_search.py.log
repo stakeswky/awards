@@ -1,0 +1,115 @@
+{
+  "records": 243,
+  "maximum_order": 50,
+  "LOCAL_records": 243,
+  "max_D_minus_U": 1,
+  "residual_graphs": 0,
+  "residual_pairs": 0,
+  "original_candidates": [],
+  "not_LOCAL": [],
+  "HEREDITARY": "UNKNOWN except any small fully checked incident/material records",
+  "stopped_on_candidate": false,
+  "round_seeds": [
+    [
+      "g0063",
+      "g0013",
+      "g0016",
+      "g0044"
+    ],
+    [
+      "g0063",
+      "g0013",
+      "g0016",
+      "g0044"
+    ]
+  ],
+  "best": [
+    {
+      "id": "g0063",
+      "n": 32,
+      "U": 12,
+      "D": 13,
+      "bad_vertices": [
+        3,
+        9,
+        15,
+        21
+      ],
+      "origin": {
+        "kind": "paired_hubs",
+        "a": 4,
+        "b": 1,
+        "r": 5,
+        "s": 3,
+        "length": 0
+      }
+    },
+    {
+      "id": "g0013",
+      "n": 19,
+      "U": 7,
+      "D": 8,
+      "bad_vertices": [
+        4,
+        11
+      ],
+      "origin": {
+        "kind": "paired_hubs",
+        "a": 1,
+        "b": 1,
+        "r": 5,
+        "s": 7,
+        "length": 1
+      }
+    },
+    {
+      "id": "g0016",
+      "n": 19,
+      "U": 7,
+      "D": 8,
+      "bad_vertices": [
+        4,
+        13
+      ],
+      "origin": {
+        "kind": "paired_hubs",
+        "a": 1,
+        "b": 1,
+        "r": 7,
+        "s": 5,
+        "length": 1
+      }
+    },
+    {
+      "id": "g0044",
+      "n": 38,
+      "U": 14,
+      "D": 15,
+      "bad_vertices": [
+        14,
+        20,
+        26,
+        32
+      ],
+      "origin": {
+        "kind": "paired_hubs",
+        "a": 2,
+        "b": 4,
+        "r": 3,
+        "s": 5,
+        "length": 2
+      }
+    }
+  ],
+  "full_two_algorithm_material": [
+    "g0063",
+    "g0013",
+    "g0016",
+    "g0044"
+  ],
+  "each_complete_P_recounted": true,
+  "exact_edge_list_deduplication": true,
+  "unlabeled_isomorphism_deduplication": false,
+  "no_random_trees": true,
+  "scope": "Fixed structural discovery; not a theorem or additional support from vacuous residual tests"
+}

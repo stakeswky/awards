@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "external_direct_forests_le_30": 52068524664,
+    "non_lc_tree_counts_by_order": {
+      "26": 2,
+      "28": 19,
+      "29": 7,
+      "30": 121
+    },
+    "non_lc_tree_total": 149,
+    "pair_lc": 11078,
+    "pair_multisets": 11175,
+    "pair_non_lc": 97,
+    "products_checked_levels_2_3": 21998,
+    "triple_candidates": 10823,
+    "triple_hereditary_lc": 111,
+    "triple_hereditary_non_lc": 0,
+    "triple_nonhereditary": 10712
+  },
+  "kind": "TRANSCRIPTION_ONLY",
+  "scope": "integer relations in imported external summary; no graph enumeration",
+  "status": "PASS"
+}

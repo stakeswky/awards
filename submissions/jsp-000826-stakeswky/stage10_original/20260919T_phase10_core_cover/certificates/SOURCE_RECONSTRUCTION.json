@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "source_files": 10,
+  "all_bytes_equal": true,
+  "fresh_directory_removed": true
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS_COMPLETE_SEGMENTED_AUDIT",
+  "records": 3206,
+  "ranges": [[1,2002],[2003,2402],[2403,2802],[2803,3202],[3203,3206]],
+  "full_coefficients_compared": 173320,
+  "root_hub_splits": 6412,
+  "split_coefficients": 677989,
+  "log_sha256": "5bab426336001c5b9f50a79beaf96e76057a1ce7de2ca8aa70b4748f8956a53f",
+  "source_sha256": {
+    "audit_study.py": "9eaf1f51211d8367710e9e40f6fc059629449ea18d0a1e13e28904ec5acd7cc2",
+    "branch_study.py": "2baf20350a971accd6de5a7a1cd984dfb053200c4ea3eaa068c593f00909b4e2",
+    "test_branch_study.py": "d1d0ff5f82a4fe4164169762778ecb25653f84f6c26c6c0032a20172899bd063"
+  },
+  "scope": "Formula/packed DP/deletion recursion; no Lean build in this follow-up; same-session implementations.",
+  "excluded_partial_runs": ["deletion-audit.log", "audit-2003-3202.log"]
+}

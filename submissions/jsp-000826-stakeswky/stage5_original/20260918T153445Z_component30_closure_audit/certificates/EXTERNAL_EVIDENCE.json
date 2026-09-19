@@ -1,0 +1,50 @@
+{
+  "kind": "PINNED_EXTERNAL_EVIDENCE",
+  "retrieved_utc_date": "2026-09-18",
+  "external_repository": "scinet-ai/math-number-theory",
+  "external_commit": "fafb35784d4235c9e5dd701fd3b2c1f4955ae9ec",
+  "scinet_finding": {
+    "id": "25b8f9a4-efab-4707-9b77-18d3702ecbb3",
+    "published": "2026-07-28",
+    "reported_independent_reproduction": "2026-08-04",
+    "direct_forests_at_most_30": 52068524664,
+    "status_boundary": "External finding says the unrestricted conjecture remains open."
+  },
+  "closure": {
+    "non_log_concave_trees": 149,
+    "orders": {"26": 2, "28": 19, "29": 7, "30": 121},
+    "pair_multisets_checked": 11175,
+    "pair_non_log_concave": 97,
+    "triple_candidates_checked": 10823,
+    "hereditary_triple_candidates": 111,
+    "hereditary_triple_non_log_concave": 0,
+    "products_checked_levels_2_3": 21998
+  },
+  "github_blobs": {
+    "erdos-993-forests/lane_a_closure.py": "400c98e69d1ec8e35640fa1ec0bc36a91fcbd444",
+    "erdos-993-forests/poly993.py": "3d1cdb932dfa2cccc0623eda02fa3e1928f142d9",
+    "erdos-993-forests/results/lane_a_closure.txt": "07c504ff1a6d1319b14ffc7e4998d75fd1232509",
+    "erdos-993-forests/results/lane_a_H2_members.txt": "0efdc9bac7b4d57702d7459c2e2398162090b60d",
+    "erdos-993/results/order26_exceptions.txt": "6d60d23c2e97bd25c046a3bd1c21be944bd9aac1",
+    "erdos-993/results/order28_nonlogconcave_trees.txt": "dfb91c4679780733252a28060e7be51004cda79c",
+    "erdos-993/results/order29_nonlogconcave_trees.txt": "55b74acedde7cef4f16d647739891768013f024b",
+    "erdos-993/results/order30_nonlogconcave_trees.txt": "b962857c068d474ddffb16bec6c3280d244e0931"
+  },
+  "classical_inputs": [
+    {
+      "authors": "S. G. Hoggar",
+      "title": "Chromatic polynomials and logarithmic concavity",
+      "journal": "Journal of Combinatorial Theory, Series B 16 (1974), 248-254",
+      "doi": "10.1016/0095-8956(74)90071-9",
+      "used_for": "convolution/product closure of positive log-concave finite sequences"
+    },
+    {
+      "authors": "J. Keilson and H. Gerber",
+      "title": "Some results for discrete unimodality",
+      "journal": "Journal of the American Statistical Association 66 (1971), 386-389",
+      "doi": "10.1080/01621459.1971.10482273",
+      "used_for": "log-concavity with interval support equals strong unimodality"
+    }
+  ],
+  "reproducibility_note": "The external independent review reports a stale session-specific path in build_qsets.py that can stop one clean-clone verify.sh route. This run does not claim that external path issue is fixed."
+}

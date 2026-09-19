@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "program": "build_bank.py",
+      "exit_code": 0,
+      "seconds": 0.076,
+      "log_sha256": "058c91103800fb27b35284bf0abc6329d13ba75007e3c9346d3a6d71edcbb1d5"
+    },
+    {
+      "program": "bridge_search.py",
+      "exit_code": 0,
+      "seconds": 157.371,
+      "log_sha256": "5c8d495808ca08912c8ccdec0332e13807075999f1c99ec3555bd645344d9733"
+    },
+    {
+      "program": "slide_search.py",
+      "exit_code": 0,
+      "seconds": 19.312,
+      "log_sha256": "1ec15880a109dc85e1a3c53c27f4af5d0fee806212741d36bc0dcb4fae28f186"
+    },
+    {
+      "program": "forest_search.py",
+      "exit_code": 0,
+      "seconds": 26.253,
+      "log_sha256": "544d4af9cca5d9133235b5db49ac10e5c645022930a1d9f208bcd7f47c9d7386"
+    },
+    {
+      "program": "corridor_search.py",
+      "exit_code": 0,
+      "seconds": 10.23,
+      "log_sha256": "1f8a6c31bd531dfcdf2f52165ca18301306bf750765bf2f8fc966239820b2c12"
+    },
+    {
+      "program": "audit.py",
+      "exit_code": 0,
+      "seconds": 12.491,
+      "log_sha256": "88cf152c3cb992e7ce63b441c1ee13d90664a7229252427bd459615bb1bb31d4"
+    }
+  ],
+  "outputs": {
+    "bank.json": {
+      "bytes": 73690,
+      "sha256": "aa17fa8bca771f52746356df981684308865242eabb8df7abbd2bd644346df8e",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "bridge_records.jsonl.gz": {
+      "bytes": 9815966,
+      "sha256": "12d2e5c03d22b20eeef898480cb47cba2282e04e52f60e1f9ce29311131dca52",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "bridge_summary.json": {
+      "bytes": 143073,
+      "sha256": "8e5c6dbb4eb4e05b5ddea323c6cfa0d500c534868909843cf0f921d3f4e3de35",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "slide_records.jsonl.gz": {
+      "bytes": 990176,
+      "sha256": "522f803d8a80d55b4bacc4a6adb172bac8a0c8b3eea74d77f0ae46dd0e3e22ea",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "slide_summary.json": {
+      "bytes": 160661,
+      "sha256": "8711c26a5ca359115fdcdab27205b9e4932a7d4f3a214a823bff4a855db0459d",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "forest_bank.json": {
+      "bytes": 62573,
+      "sha256": "8a63b626dfa62674632650e6e026df981e7fcac0bb2d02121a08fa06d8bb2d50",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "forest_records.jsonl.gz": {
+      "bytes": 2367371,
+      "sha256": "7866cef0c6e8c4b1a14b7d793756a35e16d897b2083cd12b8175cc382cb2bcfe",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "forest_summary.json": {
+      "bytes": 396533,
+      "sha256": "72fc162744c09e5c103a2792ca1702667ed9f2a3522097d52216157378c0225e",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "corridor_records.jsonl.gz": {
+      "bytes": 210138,
+      "sha256": "f71e9e830c1caef2711f86a7e02d511390ca6fb50a3527db25850b6738ed6267",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "corridor_summary.json": {
+      "bytes": 286649,
+      "sha256": "15edd653dfeea26c4f02249bd348084ab5242760838d0dabe8dceb33f7113e6f",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "materials_full.json": {
+      "bytes": 51483541,
+      "sha256": "2bda6c494477f7ef910a8ef92452fafd2d94af479e1249c1a8527770453897f0",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    },
+    "AUDIT.json": {
+      "bytes": 3768,
+      "sha256": "cfa747c868fc4ea22e082c2b7051e3783c095b0fab8fdf1ae96bd6e983b77ebb",
+      "comparison": "ALL_BYTES_NO_EXCLUSIONS"
+    }
+  },
+  "source_and_input_sha256": {
+    "src/audit.py": "eef8c7cbec4a7ac61425797d02ee049c138646b91cc402c7fde14255362ee5e8",
+    "src/bridge_search.py": "6467556ca0c0b788508d9fded534193475a36e54438b29503c3304d087e1a189",
+    "src/build_bank.py": "8b9ebc515bce7d0cce4cf81392afb0f7fb12a2b78ad75d75d2544cd431c3d2da",
+    "src/corridor_search.py": "f2ea02d54add6ff16bf6ae24eb5d595813d5de339c88387455cc182ee61b889a",
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/forest_search.py": "456cd44b1d423da260f52330e899e9a3217671a5ed2938e61c6f80bfa8f8c34d",
+    "src/replay.py": "494242ca77708724a5988a197b977835a1aea8db4d7f824b388c6430c57f4725",
+    "src/slide_search.py": "df5d0edf7f2ef0ef5040ca4309af64d1139fc369d16f750a0e7903b9f3ff36e7",
+    "sources/phase6_seeds.json": "a2b0e67ee4e1aee77a2c6cf08ed39d1271d91004026dde4797b3266abb00f38d",
+    "sources/prior_inventory.json": "ab88139dbca5f1f0025dd90a99d88bfc4ac9c77097bc008db588813be8ff73ef"
+  },
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "fresh_directory_removed": true,
+  "independent_external_peer_review": false,
+  "Lean_build": "NOT_RUN",
+  "original_math": "NOT_CLOSED"
+}

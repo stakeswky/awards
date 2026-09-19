@@ -1,0 +1,19 @@
+{
+  "counterexample_implication": "Any counterexample to Erdős #993 must contain a tree component of order at least 31.",
+  "external_heavy_computation_rerun": false,
+  "first_gap_reduced": false,
+  "fresh_axiom_audit": "NOT_RUN",
+  "fresh_lean_build": "NOT_RUN",
+  "fresh_local_check": "PASS_TRANSCRIPTION_ONLY",
+  "J_H": "UNRESOLVED",
+  "legal_original_counterexample": false,
+  "original_formal": "NOT_ESTABLISHED",
+  "original_math": "NOT_CLOSED",
+  "publication_scope": "research directory only",
+  "review_type": "SAME_MODEL_AUDIT; external finding separately reports independent reproduction",
+  "RSM": "UNRESOLVED",
+  "run_id": "20260918T153445Z_component30_closure_audit",
+  "scoped_result": "PROVED_CONDITIONAL_ON_PINNED_EXTERNAL_COMPUTATION_AND_CLASSICAL_THEOREMS",
+  "scoped_theorem": "Every finite forest whose tree components all have order at most 30 has a unimodal independent-set sequence.",
+  "structural_progress": "SCOPED_DOMAIN_REDUCTION"
+}

@@ -1,0 +1,13 @@
+test_all_plateau_sequences (__main__.StudyTests.test_all_plateau_sequences) ... ok
+test_canonical_reroot (__main__.StudyTests.test_canonical_reroot) ... ok
+test_corrupt_count_rejected (__main__.StudyTests.test_corrupt_count_rejected) ... ok
+test_invalid_parents (__main__.StudyTests.test_invalid_parents) ... ok
+test_known_tree14 (__main__.StudyTests.test_known_tree14) ... ok
+test_optimized_mode_refused (__main__.StudyTests.test_optimized_mode_refused) ... ok
+test_palette_and_symbolic_bounds (__main__.StudyTests.test_palette_and_symbolic_bounds) ... ok
+test_small_direct_subsets (__main__.StudyTests.test_small_direct_subsets) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.643s
+
+OK

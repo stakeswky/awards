@@ -1,0 +1,26 @@
+{
+  "run_id": "20260919T_phase11_global_L3",
+  "status": "SCOPED_UNIFORM_THEOREM / ORIGINAL_NOT_CLOSED",
+  "theorem": "For every finite simple undirected unweighted forest F, p_3(F)^2 >= p_2(F) p_4(F).",
+  "mathematical_status": "PROVED_WITH_FINITE_COMPUTER_ASSISTED_BASE",
+  "large_order_proof": "Written elementary proof for every n>=12",
+  "finite_base": {
+    "orders": "1..11",
+    "unlabelled_forests": 1347,
+    "unlabelled_tree_types": 436,
+    "coefficient_entries_compared": 10342,
+    "algorithms": ["rooted tree DP plus component convolution", "literal vertex-subset enumeration"],
+    "result": "PASS"
+  },
+  "consequence": "Any PREFIX_BETA failure, and therefore any negative minor forced by a genuine valley, must occur at index k>=4.",
+  "original_math": "NOT_CLOSED",
+  "original_counterexample": false,
+  "PREFIX_BETA": "UNRESOLVED_FOR_K_GE_4",
+  "BARRIER": "UNRESOLVED",
+  "J_H": "UNRESOLVED",
+  "RSM": "UNRESOLVED",
+  "fresh_lean_build": "NOT_RUN",
+  "fresh_axiom_audit": "NOT_RUN",
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "novelty": "NOT_CLAIMED"
+}

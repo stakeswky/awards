@@ -1,0 +1,92 @@
+[
+  {
+    "path": "STATEMENT.md",
+    "expected": "2a74d01e2739d0bbadae25b06fb1399831f76a5a",
+    "actual": "2a74d01e2739d0bbadae25b06fb1399831f76a5a",
+    "match": true
+  },
+  {
+    "path": "PROOF_ATTEMPT.md",
+    "expected": "e08d9213f015dc487671a58a02039c60622117f8",
+    "actual": "e08d9213f015dc487671a58a02039c60622117f8",
+    "match": true
+  },
+  {
+    "path": "GAP.md",
+    "expected": "f5559bc7bae899aa6d2427bc2e065507a3bca540",
+    "actual": "f5559bc7bae899aa6d2427bc2e065507a3bca540",
+    "match": true
+  },
+  {
+    "path": "REVIEW.md",
+    "expected": "cf02145dea2071d86160327d1c4658e5b49770a7",
+    "actual": "cf02145dea2071d86160327d1c4658e5b49770a7",
+    "match": true
+  },
+  {
+    "path": "VERDICT.json",
+    "expected": "283133305b5cb6700b59870b4022585f8911b3f8",
+    "actual": "283133305b5cb6700b59870b4022585f8911b3f8",
+    "match": true
+  },
+  {
+    "path": "src/check.py",
+    "expected": "326e90b7e6d9553cb3389efc044595b0642a292f",
+    "actual": "326e90b7e6d9553cb3389efc044595b0642a292f",
+    "match": true
+  },
+  {
+    "path": "src/forest.py",
+    "expected": "ea0f8f3dc56d0175cbffa80ffec22afe6a0e4b94",
+    "actual": "ea0f8f3dc56d0175cbffa80ffec22afe6a0e4b94",
+    "match": true
+  },
+  {
+    "path": "src/search.py",
+    "expected": "3634eb4adb8392bbec5c15c8618fb1c0364a8e81",
+    "actual": "3634eb4adb8392bbec5c15c8618fb1c0364a8e81",
+    "match": true
+  },
+  {
+    "path": "provenance/SCOPE_CORRECTION.json",
+    "expected": "42b892b6376f3c57dc73c52e7bda7afb32a2ea96",
+    "actual": "42b892b6376f3c57dc73c52e7bda7afb32a2ea96",
+    "match": true
+  },
+  {
+    "path": "certificates/CLEAN_REPLAY.json",
+    "expected": "ef37ae88b59a6376e5fe8841934213eb0355131b",
+    "actual": "ef37ae88b59a6376e5fe8841934213eb0355131b",
+    "match": true
+  },
+  {
+    "path": "certificates/MATERIAL_GRAPHS.json",
+    "expected": "25eb4efd79cd54b98804ef6a80b48661ac0f6b7d",
+    "actual": "25eb4efd79cd54b98804ef6a80b48661ac0f6b7d",
+    "match": true
+  },
+  {
+    "path": "stage2/STATEMENT.md",
+    "expected": "42b4e2e784d549df07c022c9fc0b520afd04ae4b",
+    "actual": "42b4e2e784d549df07c022c9fc0b520afd04ae4b",
+    "match": true
+  },
+  {
+    "path": "stage2/PROOF_ATTEMPT.md",
+    "expected": "34475106c02789a11fbf26ac4bdece3c5f837f7e",
+    "actual": "34475106c02789a11fbf26ac4bdece3c5f837f7e",
+    "match": true
+  },
+  {
+    "path": "stage2/REVIEW.md",
+    "expected": "cbf88be1700c1d2eabeb2ded93d2f35c7009352a",
+    "actual": "cbf88be1700c1d2eabeb2ded93d2f35c7009352a",
+    "match": true
+  },
+  {
+    "path": "stage2/VERDICT.json",
+    "expected": "7b7f43bab26a123cee1dbbec89c7bd47aac3d672",
+    "actual": "7b7f43bab26a123cee1dbbec89c7bd47aac3d672",
+    "match": true
+  }
+]

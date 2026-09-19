@@ -1,0 +1,19 @@
+cwd=/tmp/erdos993-stage2-clean-kjlkn4ry
+command=["/opt/pyvenv/bin/python", "-S", "-B", "src/verify_material.py", "--inputs", "inputs/stress.json", "--out", "certificates/material.json"]
+{
+  "status": "PASS_WITH_SCOPE",
+  "material_graphs": 4,
+  "material_whole_and_2n_counts": 174,
+  "star_induced_masks": 128,
+  "negative_minor": -5,
+  "abstract_valley": [
+    2,
+    3
+  ],
+  "original_candidate": false,
+  "elapsed_seconds": 0.032199
+}
+
+STDERR:
+
+exit_code=0

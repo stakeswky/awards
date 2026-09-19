@@ -1,0 +1,14 @@
+{
+  "material_records": 11,
+  "unique_polynomials": 533,
+  "full_decoded_material_equal": true,
+  "full_gzip_bytes_equal": true,
+  "sha256": {
+    "material.json": "e95595af543b6c0e32d718b1a10d934ec21e0d2a02b330059f9576e9ae95c81a",
+    "search_material.json": "711ded3d6760b458de1d4ac008c92514f0b281ab3aacddfd3a6d72139209ae36",
+    "material_compact.json": "75a10170409a3e5c39b50628a1e47270e92ca09a2c69570bd3cba9291500078d",
+    "material_compact.json.gz.b64": "29042b2a2c149d218f38b283f7dc74a17fa73200ea6b8cbe5d08736c96885b5c"
+  },
+  "discovery_records": "search_records.json contains each full P and edge set; reproducible by search.py and included in the delivery archive",
+  "compression_is_not_a_mathematical_proof": true
+}

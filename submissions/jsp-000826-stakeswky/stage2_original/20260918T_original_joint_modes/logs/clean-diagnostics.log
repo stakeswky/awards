@@ -1,0 +1,43 @@
+cwd=/tmp/erdos993-stage2-clean-kjlkn4ry
+command=["/opt/pyvenv/bin/python", "-S", "-B", "src/run_diagnostics.py", "--inputs", "inputs/stress.json", "--generate", "--out", "certificates"]
+completed 1 last old25 U,D 8 8
+completed 21 last bush-c3-m3 U,D 7 7
+completed 41 last bush-c5-m7 U,D 24 24
+completed 61 last tree-5 U,D 6 6
+completed 81 last tree-15 U,D 9 9
+completed 101 last tree-25 U,D 11 11
+completed 121 last tree-35 U,D 18 18
+completed 141 last tree-45 U,D 18 18
+completed 161 last tree-55 U,D 20 20
+completed 181 last path-3 U,D 1 1
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "seed": 99320260918,
+  "regressions": {
+    "labeled_forests_per_order": [
+      1,
+      1,
+      2,
+      7,
+      38,
+      291
+    ],
+    "labeled_forests_total": 340,
+    "all_graph_whole_and_2n_deletions_dp_recursion_and_bruteforce": true,
+    "unimodal_sequence_pair_tests": 16641,
+    "stored_padded_coefficient_slots": 21149
+  },
+  "input_records": 193,
+  "completed": 193,
+  "excluded": [],
+  "original_candidates": [],
+  "single_vertex_failures": [],
+  "joint_failures": [],
+  "max_D_minus_U": 1,
+  "all_split_polynomials_recomputed": 15499,
+  "elapsed_seconds": 7.404254
+}
+
+STDERR:
+
+exit_code=0
