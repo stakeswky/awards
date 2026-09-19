@@ -1,0 +1,11 @@
+{
+  "status": "PASS_EXACT_CODE_MEMBERSHIP_AUDIT",
+  "prior_inventory_types": 21756,
+  "prior_inventory_sha256": "03a53313d09a0d081ca642c0af3d47dfeaa3f790dfdc249aee3b036acb2ed50c",
+  "compared_new_records": 233,
+  "overlaps": [],
+  "absent_from_fixed_inventory": 233,
+  "scope": "Supplied Phase7/8/9 exact canonical codes only; not a global novelty or complete research-history claim",
+  "old_graph_coefficients_recomputed": false,
+  "historical_filtering_used_by_search": false
+}
