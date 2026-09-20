@@ -1,0 +1,30 @@
+{
+  "run_id": "20260920T_global_L4",
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "scoped_theorem": "For every finite simple undirected unweighted forest F, p_4(F)^2 >= p_3(F) p_5(F).",
+  "scoped_math": "PROVED_WITH_FINITE_COMPUTER_ASSISTED_LOCAL_CLASSIFICATION",
+  "scoped_formal": "NOT_ESTABLISHED",
+  "dependency": "E4-S signed-sector theorem from parallel/window_e/20260920T_round4_pair_compensation_e/PROOF.md",
+  "finite_classification_scope": "All labeled connected trees of orders 1 through 8, twice by independent generators",
+  "prufer_labeled_tree_counts": [1,1,3,16,125,1296,16807,262144],
+  "edge_enum_labeled_tree_counts": [1,1,3,16,125,1296,16807,262144],
+  "unsplittable_high_types": {
+    "orders_le_6": 0,
+    "order_7": "Q7 only; 630 labeled copies; bipartition (2,5)",
+    "order_8": "Q8 only; 3360 labeled copies; bipartition (2,6)"
+  },
+  "residual_negative_type": "Q7 disjoint union K1, deficit 1",
+  "residual_target": "four unit components with fixed |C|=2, surplus 2",
+  "target_collision_bound": "At most one deficit-one source total from the E4-S star source or the new residual source can use such a target",
+  "prefix_beta_consequence": "Any remaining PREFIX_BETA failure must occur at k>=5",
+  "legal_original_counterexample": false,
+  "fresh_lean_build": "NOT_RUN",
+  "fresh_axiom_audit": "NOT_RUN",
+  "review": "SAME_MODEL_SELF_REVIEW",
+  "novelty": "NOT_CLAIMED",
+  "prufer_source_sha256": "98d5054e82db0d432865577f7909290eb516c6b55c58fa2479c321301da46f14",
+  "prufer_output_sha256": "da8c0292fda3d9a74486a367550fbb82b5880487f179dc9a4a184e4d586e4b94",
+  "edge_enum_source_sha256": "ac49eb29f7bf804b1ad274cb4cf3e362d8c8361535f4a6e9ee0e237407ba0a95",
+  "edge_enum_output_sha256": "fed24a45040a8d149e73852c8b76844461b2bc5bb0808d150896f102b8a9fb36"
+}
