@@ -1,0 +1,51 @@
+{
+  "status": "PASS_ORIGINAL_A4_SOURCE_REPLAY_IN_ROUND5",
+  "commands": 2,
+  "files": [
+    {
+      "fresh": "native/DECISIVE_CASES.json",
+      "archive_path": "certificates/native/DECISIVE_CASES.json",
+      "bytes": 4091767,
+      "sha256": "47d8d0b8659f470242d39207b7b3c872507313b1b92393e57e2a295422a55896",
+      "all_bytes_equal": true
+    },
+    {
+      "fresh": "native/VERIFICATION.json",
+      "archive_path": "certificates/native/VERIFICATION.json",
+      "bytes": 628,
+      "sha256": "6c990400d23f5b3dd9ae14fb48fb1558fef04377eb51d188ae7e96b1bed5a981",
+      "all_bytes_equal": true
+    },
+    {
+      "fresh": "native/ALL_M_THEOREM_ARITHMETIC.json",
+      "archive_path": "certificates/native/ALL_M_THEOREM_ARITHMETIC.json",
+      "bytes": 750,
+      "sha256": "9a999498e74c376ff970704391c70feb2095b0ba7de8714db7c0551f1697a46a",
+      "all_bytes_equal": true
+    },
+    {
+      "fresh": "native/PATH32_GATE_FAILURE.json",
+      "archive_path": "certificates/native/PATH32_GATE_FAILURE.json",
+      "bytes": 20031,
+      "sha256": "08520ca450cc947284c9aa19326c3295459dd8c5d490e1548b06e9e08c620e27",
+      "all_bytes_equal": true
+    },
+    {
+      "fresh": "leaf/LEAF_THEOREM_CONTROLS.json",
+      "archive_path": "certificates/leaf_native/LEAF_THEOREM_CONTROLS.json",
+      "bytes": 221979,
+      "sha256": "bcd8ab1a1c5bc082cee468813fc24f541a316aee2f7ae6e067a080ba2c0d2240",
+      "all_bytes_equal": true
+    },
+    {
+      "fresh": "leaf/LEAF_VERIFICATION.json",
+      "archive_path": "certificates/leaf_native/LEAF_VERIFICATION.json",
+      "bytes": 333,
+      "sha256": "523ee1f1d7b332ea0f93c8e0bd486f761f33698891c59ba1daded310c052a2f2",
+      "all_bytes_equal": true
+    }
+  ],
+  "total_bytes": 4335488,
+  "archive_sha256": "28316283fe54781a955def03dd41a74301fcde8111483b94b13d8ccfde9d057e",
+  "not_new_math_or_new_graph_coverage": true
+}
