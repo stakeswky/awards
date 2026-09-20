@@ -6,158 +6,100 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "b7e76b0737428c08e549ffd2b274122d67772b1a",
+  "last_read_head": "bb4fd6802c6fb53beea870b804373b82d3a099c6",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
-  "previous_checkpoint": "b7e76b0737428c08e549ffd2b274122d67772b1a:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
-  "previous_state_full": "The complete inherited Phase-11 state, its detailed certificate receipts and all earlier history remain at the immutable previous_checkpoint. This run appends a new package without changing any earlier research file.",
+  "previous_checkpoint": "d35f5703ddcdc878ac667f39af15b5f36792d1b3:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "previous_state_full": "The complete inherited Phase-12 state, preserved Phase-10/11 work, B59 FAMILY status, parallel-window index and all earlier run history remain at the immutable previous_checkpoint. This state records the bounded Phase-13 addition without deleting earlier evidence.",
   "current_work": {
-    "run_id": "20260920T_grouped_dispersion",
-    "task": "Prove or refute the general selected-branch-count grouped no-rebound estimate; continue the exact original route after a refutation",
-    "package": "stage12_original/20260920T_grouped_dispersion/README.md",
-    "statement": "stage12_original/20260920T_grouped_dispersion/STATEMENT.md",
-    "proof": "stage12_original/20260920T_grouped_dispersion/PROOF.md",
-    "gap": "stage12_original/20260920T_grouped_dispersion/GAP.md",
-    "review": "stage12_original/20260920T_grouped_dispersion/REVIEW.md",
-    "verdict": "stage12_original/20260920T_grouped_dispersion/VERDICT.json",
-    "certificate": "stage12_original/20260920T_grouped_dispersion/certificates/NATIVE_CERTIFICATE.json",
-    "clean_replay": "stage12_original/20260920T_grouped_dispersion/certificates/CLEAN_REPLAY.json",
+    "run_id": "20260920T_global_L4",
+    "task": "Close the next unresolved fixed prefix minor k=4 using the exact signed-pair decomposition, or produce a directed refutation.",
+    "package": "stage13_original/20260920T_global_L4/",
+    "proof": "stage13_original/20260920T_global_L4/PROOF.md",
+    "review": "stage13_original/20260920T_global_L4/REVIEW.md",
+    "verdict": "stage13_original/20260920T_global_L4/VERDICT.json",
     "original_math": "NOT_CLOSED",
     "original_formal": "NOT_ESTABLISHED",
-    "general_core": "NO_STRUCTURAL_ADVANCE",
-    "first_core_gap_reduced": false,
-    "grouped_sufficient_bound": "REFUTED_FOR_GENERAL_FORESTS_AND_CONNECTED_TREES",
+    "scoped_theorem": "For every finite simple undirected unweighted forest F, p_4(F)^2 >= p_3(F) p_5(F).",
+    "scoped_math": "PROVED_WITH_FINITE_COMPUTER_ASSISTED_LOCAL_CLASSIFICATION",
+    "scoped_formal": "NOT_ESTABLISHED",
+    "dependency": "The published E4-S all-size/all-index signed-sector compensation theorem from parallel/window_e/20260920T_round4_pair_compensation_e/PROOF.md.",
+    "new_structural_step": "At j=4 every negative group outside E4-S must contain one unsplittable high component of order at most 8. Complete classification leaves Q7 union K1 as the only negative residual. A direct map sends it to a four-unit target of surplus 2, and forest edge counts prove this target cannot be overloaded by either the inherited star source or another residual source.",
+    "PREFIX_BETA": "UNRESOLVED_FOR_K_GE_5",
     "exact_BARRIER": "UNPROVED_AND_UNREFUTED",
-    "PREFIX_BETA": "UNRESOLVED_FOR_K_GE_4",
     "J_H": "UNRESOLVED",
     "RSM": "UNRESOLVED",
-    "scoped_theorem": "For every integer r>=1, the alternating 2r-root backbone with three leaves on A roots and three private 2-edge arms on B roots has an LC independence polynomial. Any finite disjoint union of these trees is LC.",
-    "scoped_proof": "Whole-tree transfer recurrence and all-length factorization; complete positive Bernstein coefficient certificate for all real factor parameters in [0,4]",
-    "counterexample_scope": "Auxiliary grouped estimate only; both graphs are LC and unimodal, with no U/D residual pair",
-    "connected_witness": {
-      "n": 1122,
-      "r": 102,
-      "k": 363,
-      "alpha": 714,
-      "beta": 436,
-      "U": 363,
-      "D": 363,
-      "HEREDITARY": "UNKNOWN"
-    },
-    "disconnected_witness": {
-      "n": 638,
-      "r": 58,
-      "k": 206,
-      "alpha": 406,
-      "beta": 248,
-      "U": 206,
-      "D": 206,
-      "HEREDITARY": "PROVED_BY_ALL_INDUCED_BASE_CASES_AND_LC_CONVOLUTION"
-    },
-    "fixed_graphs": 2,
-    "compressed_state_classes": 8837,
-    "sector_coefficient_entries_independently_recounted": 26511,
-    "whole_P_dual_recounts": 2,
-    "all_vertex_AB_computed": 3520,
-    "material_vertex_AB_dual_recounts": 48,
-    "residual_pairs": 0,
     "legal_original_counterexample": false,
     "all_forest_coverage": false,
-    "fresh_replay": "PASS_3_PROGRAMS_6_COMPLETE_OUTPUTS_ALL_BYTES",
+    "finite_classification_scope": "All labeled connected trees of orders 1 through 8, twice by independent generators.",
+    "prufer_labeled_tree_counts": [1,1,3,16,125,1296,16807,262144],
+    "edge_enum_labeled_tree_counts": [1,1,3,16,125,1296,16807,262144],
+    "unsplittable_high_labeled_counts": {"Q7": 630, "Q8": 3360},
+    "prufer_source_sha256": "98d5054e82db0d432865577f7909290eb516c6b55c58fa2479c321301da46f14",
+    "prufer_output_sha256": "da8c0292fda3d9a74486a367550fbb82b5880487f179dc9a4a184e4d586e4b94",
+    "edge_enum_source_sha256": "ac49eb29f7bf804b1ad274cb4cf3e362d8c8361535f4a6e9ee0e237407ba0a95",
+    "edge_enum_output_sha256": "fed24a45040a8d149e73852c8b76844461b2bc5bb0808d150896f102b8a9fb36",
+    "fresh_replay": "PASS_TWO_COMPLETE_ENUMERATORS",
     "fresh_lean_build": "NOT_RUN",
     "fresh_axiom_audit": "NOT_RUN",
     "review_type": "SAME_MODEL_SELF_REVIEW",
     "novelty": "NOT_CLAIMED",
-    "first_missing_arrow": "Actual arbitrary forest compatibility implies the exact plateau-safe no-rebound estimate; the selected-count grouped-range substitute is false.",
-    "concurrency_preserved": "The actual b7e76b head, concurrent private-arm Phase-10 theorem and global-L3 Phase-11 theorem are preserved. The user-facing Phase-10 separator artifact is a distinct supplied source."
+    "concurrency_preserved": "The run began from actual PR head d35f5703ddcdc878ac667f39af15b5f36792d1b3, eleven commits ahead of the Phase-11 state checkpoint. Stage-12 and parallel A/B/C/E files already present there were read or preserved. No force update was used."
   },
-  "preserved_family_work": {
-    "checkpoint": "36467feaa5bd486979077b97ad2bac5a75805986",
-    "package": "closure_v5/README.md",
-    "family_math": "PROVED_COMPUTER_ASSISTED: E and P log-concave, hence unimodal, for every t>=1 and every repeated B59 mixture",
-    "family_formal": "NOT_ESTABLISHED",
-    "fresh_replay_this_run": false
-  },
-  "preserved_phase10_work": {
-    "checkpoint": "c1c0f87f2d9425b2b9659c428a8a46f574c970cc",
-    "package": "stage10_original/20260919T_phase10_core_cover/README.md",
-    "status": "SCOPED_ARBITRARY_CORE_PRIVATE_ARM_THEOREM / ORIGINAL_NOT_CLOSED",
-    "scoped_theorem": "Arbitrary finite core shapes with explicit private-arm hypotheses, including an unbounded class of products of non-LC components; no arbitrary uncoated-exterior closure.",
-    "first_unproved_bridge": "Uniform whole-forest root-state/component-allocation no-rebound control for arbitrary uncovered exteriors, or a genuine counterexample.",
-    "fresh_replay_this_run": false
-  },
-  "preserved_phase11_work": {
-    "checkpoint": "b7e76b0737428c08e549ffd2b274122d67772b1a",
-    "run_id": "20260919T_phase11_global_L3",
-    "package": "stage11_original/20260919T_phase11_global_L3/README.md",
-    "proof": "stage11_original/20260919T_phase11_global_L3/PROOF.md",
-    "verdict": "stage11_original/20260919T_phase11_global_L3/VERDICT.json",
-    "scoped_theorem": "For every finite simple undirected unweighted forest F, p_3(F)^2 >= p_2(F) p_4(F).",
-    "mathematical_status": "PROVED_WITH_FINITE_COMPUTER_ASSISTED_BASE",
-    "large_order_scope": "Written proof for every forest of order n>=12",
-    "finite_base_scope": "Complete unlabelled-forest certificate for n<=11",
-    "finite_base_unlabelled_forests": 1347,
-    "finite_base_unlabelled_tree_types": 436,
-    "finite_base_coefficient_entries_compared": 10342,
-    "finite_base_result": "PASS",
-    "fresh_replay_this_run": false,
-    "complete_receipts": "Preserved in the immutable previous_checkpoint and unchanged stage11 files"
+  "preserved_results": {
+    "family_B59": {
+      "checkpoint": "36467feaa5bd486979077b97ad2bac5a75805986",
+      "status": "All positive branch counts and repeated B59 mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized."
+    },
+    "component_order_30": {
+      "status": "Forests whose every tree component has order at most 30 are excluded as original counterexamples, conditional on the pinned external exhaustive computation and classical convolution theorems."
+    },
+    "global_L3": {
+      "checkpoint": "b7e76b0737428c08e549ffd2b274122d67772b1a",
+      "status": "For every forest, p_3^2 >= p_2 p_4; written proof for n>=12 plus complete finite computer-assisted base n<=11."
+    },
+    "stage12_grouped_dispersion": {
+      "status": "General selected-branch-count grouped sufficient bound refuted; exact BARRIER still unresolved. Scoped alternating decorated-backbone family proved LC."
+    },
+    "round4_parallel": {
+      "window_a": "Connected-tree root compensation package contains an unproved compensating-root candidate and a proved pendant-leaf compensation theorem.",
+      "window_c": "Exact partition/refinement accounting proved; arbitrary-component budget comparison remains unproved.",
+      "window_e": "E4-S signed-sector compensation proved with finite CAP base plus infinite proof; general residual sector remained open before Phase 13."
+    }
   },
   "proved_scope": [
-    {
-      "name": "Expanded 59-type palette, including original 21-type subpalette",
-      "status": "All positive branch counts and repeated mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized",
-      "proof": "closure_v5/MAIN_PROOF.md"
-    },
-    {
-      "name": "Forests with every tree component of order at most 30",
-      "status": "Unimodal conditional on pinned externally reproduced exhaustive computation and classical convolution theorems",
-      "proof": "stage5_original/20260918T153445Z_component30_closure_audit/PROOF.md"
-    },
-    {
-      "name": "Global third log-concavity minor",
-      "parameters": "Every finite forest",
-      "status": "p_3^2 >= p_2 p_4; written proof for n>=12 plus complete exact finite base n<=11",
-      "proof": "stage11_original/20260919T_phase11_global_L3/PROOF.md"
-    },
-    {
-      "name": "Arbitrary-core private-arm forests",
-      "status": "Scoped sufficient theorem only; does not classify all forests",
-      "proof": "stage10_original/20260919T_phase10_core_cover/PROOF.md"
-    },
-    {
-      "name": "All-length alternating decorated backbone",
-      "parameters": "Every integer r>=1 and all finite disjoint products of these whole trees",
-      "status": "LC by transfer factorization and all-real-parameter coefficient proof; no arbitrary attachments or non-LC cofactors",
-      "proof": "stage12_original/20260920T_grouped_dispersion/PROOF.md"
-    }
+    "B59 FAMILY all positive branch counts and repeated mixtures: computer-assisted E/P log-concavity and unimodality.",
+    "Forests with every tree component of order at most 30: unimodal conditional on pinned external exhaustive computation and convolution theorems.",
+    "Every finite forest: p_3^2 >= p_2 p_4.",
+    "Every finite forest: p_4^2 >= p_3 p_5.",
+    "Arbitrary-core private-arm scoped theorem and all-length alternating decorated-backbone scoped theorem from inherited phases."
   ],
   "closed_mathematical_gaps": [
-    "B59 E/P log-concavity and unimodality for all positive branch counts is inherited from closure_v5.",
-    "Forests whose every component has order at most 30 are excluded as counterexamples, conditional on the pinned external computation and classical convolution theorems.",
-    "For every forest the log-concavity minor L_3=p_3^2-p_2 p_4 is nonnegative; together with earlier k=1,2 work, any PREFIX_BETA failure must occur at k>=4."
+    "The global adjacent log-concavity minors at k=1,2,3,4 are nonnegative for every forest under the accumulated project proofs.",
+    "The previous PREFIX_BETA lower endpoint k>=4 is advanced to k>=5.",
+    "At j=4 the E4-S residual signed sector is completely closed; the only uncovered negative local type Q7 union K1 is compensated without positive-capacity reuse."
   ],
   "next_tasks": [
     {
       "priority": 1,
-      "task": "Prove the exact whole-forest no-rebound estimate using actual compatibility and curvature. Do not assume the now-refuted selected-branch-count grouped range estimate or infer ORIGINAL failure from its auxiliary witnesses."
+      "task": "Attack the exact whole-forest no-rebound estimate with actual compatibility and curvature. Do not reuse the refuted grouped-range substitute or assume every local signed sector is nonnegative."
     },
     {
       "priority": 2,
-      "task": "Continue the inherited k>=4 prefix or uniform middle route. A refined grouping must have a proved global bound; singleton refinement only restates the exact condition."
+      "task": "Continue the fixed-prefix route at k=5. The j=4 proof succeeded because |D|<=8 made the residual high-component classification finite; determine whether the j=5 residual sector (|D|<=10) admits a finite compensated classification or yields a genuine negative minor."
     },
     {
       "priority": 3,
-      "task": "Keep directed actual forest counterexample work tied to genuinely new structures, including arbitrary exteriors and non-LC component combinations. The fixed two-type path theorem does not cover those general cases."
+      "task": "Keep bounded direct ordinary unweighted tree/forest counterexample search focused on structures not already covered by component-order-30, B59, private-arm, or fixed decorated-backbone results. A non-LC sequence alone is not an original counterexample."
     }
   ],
   "remaining_gaps": [
-    "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest",
-    "PREFIX_BETA for indices k>=4 before the Basit-Galvin tail boundary",
-    "Uniform exact middle BARRIER/root-state/component-allocation estimate for all actual forests; grouped-range sufficient substitute is false",
-    "HEREDITARY J_H and RSM remain unresolved",
-    "Component-order-30 reduction does not settle forests containing a component of order at least 31",
-    "General fast-DP formal correctness, all-parameter FAMILY Lean formalization, and top-level ORIGINAL Lean proof/axiom audit",
-    "Independent review and global novelty verification"
+    "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest.",
+    "PREFIX_BETA for indices k>=5 before the inherited tail boundary.",
+    "Uniform exact middle BARRIER/root-state/component-allocation estimate for all actual forests.",
+    "HEREDITARY J_H and RSM remain unresolved.",
+    "Component-order-30 reduction does not settle forests containing a component of order at least 31.",
+    "General fast-DP formal correctness, all-parameter FAMILY Lean formalization, and top-level ORIGINAL Lean proof/axiom audit.",
+    "Independent review and global novelty verification."
   ],
   "preserved_run_history": [
     "stage2_original/20260918T_original_joint_modes",
@@ -172,38 +114,13 @@
     "stage9_original/20260919T_phase9_aggregate_barrier",
     "stage10_original/20260919T_phase10_core_cover",
     "stage11_original/20260919T_phase11_global_L3",
-    "stage12_original/20260920T_grouped_dispersion"
+    "stage12_original/20260920T_grouped_dispersion",
+    "stage13_original/20260920T_global_L4"
   ],
-  "latest_original_attempt": "stage12_original/20260920T_grouped_dispersion/PROOF.md",
+  "latest_original_attempt": "stage13_original/20260920T_global_L4/PROOF.md",
   "completion": {
     "current": false,
-    "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
-    "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
-  },
-  "parallel_updates_20260920": {
-    "note": "Additive parallel index only. current_work and all inherited fields above are preserved.",
-    "window_b": {
-      "commit": "1ff2fa87a0dac00947bad858229e7e5d0333760e",
-      "package": "parallel/window_b/20260920T_structural_search_03eb16d/",
-      "original_math": "NOT_CLOSED",
-      "general_core": "NO_STRUCTURAL_ADVANCE",
-      "finite_forests": 1546,
-      "legal_original_counterexample": false
-    },
-    "window_a_round1": {
-      "package": "parallel/window_a/20260920T022849Z_degree_charge/",
-      "publication": "LOCAL_ONLY_PENDING_FULL_BYTE_EXACT_SYNC",
-      "result": "uniform prefix and rooted degree-charge proof; not yet Git-hosted as a complete package"
-    },
-    "window_a_round2": {
-      "commit": "060202c797878b16a9987bfb8e3051db6e62f7c4",
-      "package": "parallel/window_a/20260920T0323Z_middle_bridge/",
-      "original_math": "NOT_CLOSED",
-      "exact_component_barrier_decomposition": "PROVED",
-      "exact_C1_mixing_decomposition": "PROVED",
-      "minimal_disconnected_counterexample_LC_component_exclusion": "PROVED",
-      "C1": "UNPROVED",
-      "general_middle_no_rebound": "UNRESOLVED"
-    }
+    "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit.",
+    "on_success": "Publish final verification package, notify the user, and disable recurring continuation; do not self-award or alter live prize records."
   }
 }
