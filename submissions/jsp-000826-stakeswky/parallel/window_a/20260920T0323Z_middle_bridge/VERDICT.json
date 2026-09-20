@@ -1,0 +1,20 @@
+{
+  "window": "A",
+  "round": 2,
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "previous_prefix": "PRESERVED_PROVED_LOCAL_PACKAGE_PENDING_FULL_SYNC",
+  "new_exact_component_barrier_decomposition": "PROVED",
+  "new_exact_C1_mixing_decomposition": "PROVED",
+  "minimal_disconnected_counterexample_LC_component_exclusion": "PROVED",
+  "C1": "UNPROVED_NO_REFUTATION_IN_EXECUTED_CONTROLS",
+  "general_middle_no_rebound": "UNRESOLVED",
+  "first_unproved_step": "Control between-allocation/root-state second-order mixing strongly enough to force exact BARRIER after the first strict descent, or prove the history-restricted inequality directly.",
+  "C1_tree_census_orders": "2..17",
+  "C1_unlabelled_trees": 81136,
+  "C1_indices": 741584,
+  "lean_build": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "external_review": "NOT_CLAIMED",
+  "pr_must_remain_draft": true
+}
