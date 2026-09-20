@@ -33,8 +33,26 @@
     "scoped_theorem": "For every integer r>=1, the alternating 2r-root backbone with three leaves on A roots and three private 2-edge arms on B roots has an LC independence polynomial. Any finite disjoint union of these trees is LC.",
     "scoped_proof": "Whole-tree transfer recurrence and all-length factorization; complete positive Bernstein coefficient certificate for all real factor parameters in [0,4]",
     "counterexample_scope": "Auxiliary grouped estimate only; both graphs are LC and unimodal, with no U/D residual pair",
-    "connected_witness": {"n":1122,"r":102,"k":363,"alpha":714,"beta":436,"U":363,"D":363,"HEREDITARY":"UNKNOWN"},
-    "disconnected_witness": {"n":638,"r":58,"k":206,"alpha":406,"beta":248,"U":206,"D":206,"HEREDITARY":"PROVED_BY_ALL_INDUCED_BASE_CASES_AND_LC_CONVOLUTION"},
+    "connected_witness": {
+      "n": 1122,
+      "r": 102,
+      "k": 363,
+      "alpha": 714,
+      "beta": 436,
+      "U": 363,
+      "D": 363,
+      "HEREDITARY": "UNKNOWN"
+    },
+    "disconnected_witness": {
+      "n": 638,
+      "r": 58,
+      "k": 206,
+      "alpha": 406,
+      "beta": 248,
+      "U": 206,
+      "D": 206,
+      "HEREDITARY": "PROVED_BY_ALL_INDUCED_BASE_CASES_AND_LC_CONVOLUTION"
+    },
     "fixed_graphs": 2,
     "compressed_state_classes": 8837,
     "sector_coefficient_entries_independently_recounted": 26511,
@@ -85,11 +103,33 @@
     "complete_receipts": "Preserved in the immutable previous_checkpoint and unchanged stage11 files"
   },
   "proved_scope": [
-    {"name":"Expanded 59-type palette, including original 21-type subpalette","status":"All positive branch counts and repeated mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized","proof":"closure_v5/MAIN_PROOF.md"},
-    {"name":"Forests with every tree component of order at most 30","status":"Unimodal conditional on pinned externally reproduced exhaustive computation and classical convolution theorems","proof":"stage5_original/20260918T153445Z_component30_closure_audit/PROOF.md"},
-    {"name":"Global third log-concavity minor","parameters":"Every finite forest","status":"p_3^2 >= p_2 p_4; written proof for n>=12 plus complete exact finite base n<=11","proof":"stage11_original/20260919T_phase11_global_L3/PROOF.md"},
-    {"name":"Arbitrary-core private-arm forests","status":"Scoped sufficient theorem only; does not classify all forests","proof":"stage10_original/20260919T_phase10_core_cover/PROOF.md"},
-    {"name":"All-length alternating decorated backbone","parameters":"Every integer r>=1 and all finite disjoint products of these whole trees","status":"LC by transfer factorization and all-real-parameter coefficient proof; no arbitrary attachments or non-LC cofactors","proof":"stage12_original/20260920T_grouped_dispersion/PROOF.md"}
+    {
+      "name": "Expanded 59-type palette, including original 21-type subpalette",
+      "status": "All positive branch counts and repeated mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized",
+      "proof": "closure_v5/MAIN_PROOF.md"
+    },
+    {
+      "name": "Forests with every tree component of order at most 30",
+      "status": "Unimodal conditional on pinned externally reproduced exhaustive computation and classical convolution theorems",
+      "proof": "stage5_original/20260918T153445Z_component30_closure_audit/PROOF.md"
+    },
+    {
+      "name": "Global third log-concavity minor",
+      "parameters": "Every finite forest",
+      "status": "p_3^2 >= p_2 p_4; written proof for n>=12 plus complete exact finite base n<=11",
+      "proof": "stage11_original/20260919T_phase11_global_L3/PROOF.md"
+    },
+    {
+      "name": "Arbitrary-core private-arm forests",
+      "status": "Scoped sufficient theorem only; does not classify all forests",
+      "proof": "stage10_original/20260919T_phase10_core_cover/PROOF.md"
+    },
+    {
+      "name": "All-length alternating decorated backbone",
+      "parameters": "Every integer r>=1 and all finite disjoint products of these whole trees",
+      "status": "LC by transfer factorization and all-real-parameter coefficient proof; no arbitrary attachments or non-LC cofactors",
+      "proof": "stage12_original/20260920T_grouped_dispersion/PROOF.md"
+    }
   ],
   "closed_mathematical_gaps": [
     "B59 E/P log-concavity and unimodality for all positive branch counts is inherited from closure_v5.",
@@ -97,9 +137,18 @@
     "For every forest the log-concavity minor L_3=p_3^2-p_2 p_4 is nonnegative; together with earlier k=1,2 work, any PREFIX_BETA failure must occur at k>=4."
   ],
   "next_tasks": [
-    {"priority":1,"task":"Prove the exact whole-forest no-rebound estimate using actual compatibility and curvature. Do not assume the now-refuted selected-branch-count grouped range estimate or infer ORIGINAL failure from its auxiliary witnesses."},
-    {"priority":2,"task":"Continue the inherited k>=4 prefix or uniform middle route. A refined grouping must have a proved global bound; singleton refinement only restates the exact condition."},
-    {"priority":3,"task":"Keep directed actual forest counterexample work tied to genuinely new structures, including arbitrary exteriors and non-LC component combinations. The fixed two-type path theorem does not cover those general cases."}
+    {
+      "priority": 1,
+      "task": "Prove the exact whole-forest no-rebound estimate using actual compatibility and curvature. Do not assume the now-refuted selected-branch-count grouped range estimate or infer ORIGINAL failure from its auxiliary witnesses."
+    },
+    {
+      "priority": 2,
+      "task": "Continue the inherited k>=4 prefix or uniform middle route. A refined grouping must have a proved global bound; singleton refinement only restates the exact condition."
+    },
+    {
+      "priority": 3,
+      "task": "Keep directed actual forest counterexample work tied to genuinely new structures, including arbitrary exteriors and non-LC component combinations. The fixed two-type path theorem does not cover those general cases."
+    }
   ],
   "remaining_gaps": [
     "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest",
@@ -130,5 +179,31 @@
     "current": false,
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit",
     "on_success": "Publish final verification package, notify user and disable recurring continuation; do not self-award or alter live records"
+  },
+  "parallel_updates_20260920": {
+    "note": "Additive parallel index only. current_work and all inherited fields above are preserved.",
+    "window_b": {
+      "commit": "1ff2fa87a0dac00947bad858229e7e5d0333760e",
+      "package": "parallel/window_b/20260920T_structural_search_03eb16d/",
+      "original_math": "NOT_CLOSED",
+      "general_core": "NO_STRUCTURAL_ADVANCE",
+      "finite_forests": 1546,
+      "legal_original_counterexample": false
+    },
+    "window_a_round1": {
+      "package": "parallel/window_a/20260920T022849Z_degree_charge/",
+      "publication": "LOCAL_ONLY_PENDING_FULL_BYTE_EXACT_SYNC",
+      "result": "uniform prefix and rooted degree-charge proof; not yet Git-hosted as a complete package"
+    },
+    "window_a_round2": {
+      "commit": "060202c797878b16a9987bfb8e3051db6e62f7c4",
+      "package": "parallel/window_a/20260920T0323Z_middle_bridge/",
+      "original_math": "NOT_CLOSED",
+      "exact_component_barrier_decomposition": "PROVED",
+      "exact_C1_mixing_decomposition": "PROVED",
+      "minimal_disconnected_counterexample_LC_component_exclusion": "PROVED",
+      "C1": "UNPROVED",
+      "general_middle_no_rebound": "UNRESOLVED"
+    }
   }
 }
