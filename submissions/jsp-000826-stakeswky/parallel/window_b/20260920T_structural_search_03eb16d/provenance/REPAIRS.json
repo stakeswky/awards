@@ -1,0 +1,18 @@
+{
+  "complete_reruns": "Both completed; deterministic source replay passed.",
+  "interrupted_attempts": [
+    {
+      "complete_recoverable_rows": 129,
+      "counted_in_final_coverage": false,
+      "reason": "200 second process timeout in initial max-degree deletion verification; process ended",
+      "repair": "centroid pivot with exact isomorphism memoization in separate independent counter; original forest_exact.py untouched"
+    },
+    {
+      "complete_recoverable_rows": 296,
+      "counted_in_final_coverage": false,
+      "reason": "30 second outer tool timeout; clean full rerun uses bounded in-session process"
+    }
+  ],
+  "partial_rows_counted_as_new_coverage": 0,
+  "raw_partial_files_location": "Conversation archive only; not Git-hosted."
+}

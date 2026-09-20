@@ -1,0 +1,38 @@
+{
+  "archive_bytes": 14443,
+  "archive_format": "zip",
+  "archive_sha256": "2e900bb65bade63ae6781224c0742f8d1ef3df9d21dd07e80bd47dc8444cd3e6",
+  "files": [
+    {
+      "bytes": 6529,
+      "path": "src/audit_run.py",
+      "sha256": "56dc11564ae1685f2c237f05b2fa8ad5128b08a23587b379fc846d6f96594c3f"
+    },
+    {
+      "bytes": 8560,
+      "path": "src/forest_exact.py",
+      "sha256": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172"
+    },
+    {
+      "bytes": 2040,
+      "path": "src/independent_check.py",
+      "sha256": "af311778b8016c152e368d5d8e2b443867eb656abfa771ad1e6e3dab1a4173ca"
+    },
+    {
+      "bytes": 1982,
+      "path": "src/reproduce.py",
+      "sha256": "52445a8f8496bd2219c921dd18a5f2ac5a413bb2e4f73c13a9da83aaf4efb5d4"
+    },
+    {
+      "bytes": 13106,
+      "path": "src/search_run.py",
+      "sha256": "b286deec1da5ba4df744f1bb47b24290d559ab50695a6416e2a3a59b137ae8ee"
+    },
+    {
+      "bytes": 2670,
+      "path": "src/test_verifiers.py",
+      "sha256": "34688c07a864f036356340f2a551024bf883bac5c446980de81fc0cb32e5052f"
+    }
+  ],
+  "native_module_unchanged_git_blob": "56906b85b9d8fd30257401844633f908af56fc43"
+}

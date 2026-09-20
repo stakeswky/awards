@@ -1,0 +1,32 @@
+{
+  "all_output_bytes_equal": true,
+  "axiom_audit": "NOT_RUN",
+  "bounded_workers_finished": true,
+  "complete_deterministic_outputs_compared": 12,
+  "counts": {
+    "AB_arrays_dual_recounted": 1150,
+    "small_four_way_coefficient_entries": 586,
+    "small_four_way_regression_forests": 90,
+    "whole_P_arrays_dual_recounted": 1546,
+    "whole_P_coefficient_entries": 360758
+  },
+  "fresh_commands_completed": 6,
+  "lean_build": "NOT_RUN",
+  "outputs": [
+    {"all_bytes_equal": true, "bytes": 1859391, "file": "structure.jsonl.gz", "sha256": "7023c34e9e56fe9e191cd1f9a68faefa4a27b633b84bf7a3a7ddb937b0d16a32"},
+    {"all_bytes_equal": true, "bytes": 1796, "file": "structure_summary.json", "sha256": "20fe0feb5bc47faadd882abc8b476d81611e6eb9fdd7406621f1ba5ec713e916"},
+    {"all_bytes_equal": true, "bytes": 474462, "file": "exterior.jsonl.gz", "sha256": "a94567fb2e6e6e67189b13494ec98e575e1969e59ce8048ff0eb16a4839bc910"},
+    {"all_bytes_equal": true, "bytes": 1886, "file": "exterior_summary.json", "sha256": "d57a3c492c2a688cc25066e6c40d44384c994fc3d7bce910f97a2fdebbcc16e0"},
+    {"all_bytes_equal": true, "bytes": 17629244, "file": "products.jsonl.gz", "sha256": "111b9bb833489449ca5ebe19a0788dcaa5f8050b845fbc731a65ead637b7aab7"},
+    {"all_bytes_equal": true, "bytes": 2974, "file": "products_summary.json", "sha256": "22667a5214e28941e26158824ba26adabaa8552f7cd4fd6bd32374bee63cb1cd"},
+    {"all_bytes_equal": true, "bytes": 3247663, "file": "evolution.jsonl.gz", "sha256": "4cb3b5bc53e7fb4ce0f44c2857b7baa6da4d9da6383e381847e915676105cb0e"},
+    {"all_bytes_equal": true, "bytes": 2036, "file": "evolution_summary.json", "sha256": "831b80c462088e771f08b60d6f32298669ffdc9c134543d616e743faa4700552"},
+    {"all_bytes_equal": true, "bytes": 854432, "file": "product_bank.json", "sha256": "615da97ae6e83fc25cb59faa8e85f89563cb5d631e3476057760114694a4740b"},
+    {"all_bytes_equal": true, "bytes": 320, "file": "REGRESSION.json", "sha256": "8eda8185673ca8880e0d68eecc6124a204a92698d6165f2c442a869fe23df722"},
+    {"all_bytes_equal": true, "bytes": 6124, "file": "AUDIT.json", "sha256": "1b28fadfcf406640287bedaa18caaa4d1ec676549b758154ed3cdd1b2ee42b44"},
+    {"all_bytes_equal": true, "bytes": 8669618, "file": "MATERIAL_AB.json", "sha256": "b47e0d52937fc2850d6044a54308316dbaf58f4462356f118079f680ff45214e"}
+  ],
+  "review": "SAME_MODEL_SELF_REVIEW; NOT_EXTERNAL_PEER_REVIEW",
+  "source_reconstruction": "UNPACK_SOURCE.py executed successfully; six source files matched their hashes.",
+  "status": "PASS"
+}
