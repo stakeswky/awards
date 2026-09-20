@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "fresh_commands": 8,
+  "complete_outputs_compared": 22,
+  "all_bytes_equal": true,
+  "complete_output_bytes": 13643533,
+  "sources": "Final source drivers and wrapper copied into a new directory and executed; all eight commands returned zero.",
+  "inherited_counters_byte_identical": true,
+  "whole_P_distinct_graphs_independently_recounted": 164,
+  "whole_P_coefficient_entries_independently_recounted": 7943,
+  "full_vertex_AB_arrays": 1000,
+  "AB_entries": 109175,
+  "subsets_enumerated_for_three_material_graphs": 606208,
+  "Lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "review": "SAME_MODEL_SELF_REVIEW",
+  "outer_replay_timeout_was_repaired": true
+}
