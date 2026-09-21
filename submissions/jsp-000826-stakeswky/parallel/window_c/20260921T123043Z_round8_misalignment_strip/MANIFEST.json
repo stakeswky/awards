@@ -1,0 +1,104 @@
+{
+  "expanded_source_and_compact_receipt_hashes": "SOURCE_MANIFEST.json",
+  "large_raw_location": "Conversation ZIP and deterministic regeneration; not separate raw Git-hosted files",
+  "large_raw_output_hashes": "REPLAY.json after UNPACK_SOURCE.py",
+  "manifest_excludes_itself": true,
+  "new_C8_sources": [
+    "sources/strip.py",
+    "sources/screen_decline.py",
+    "sources/search_strip.py",
+    "sources/verify_material.py",
+    "sources/verify_algebra.py",
+    "sources/verify_range.py",
+    "sources/audit_saved.py"
+  ],
+  "public_files": [
+    {
+      "path": "CLAIMS_FOR_PEERS_v1.md",
+      "sha256": "5ac2e1fcf0a1e82dfb7ba207f58ac4812fb223665ec0305c585ef12251a3dcc4",
+      "size": 4574
+    },
+    {
+      "path": "CLAIMS_FINAL.md",
+      "sha256": "1b94f71836da92f95ef4607a16d2aa61beac692e197b9adaaa57a14afe57e302",
+      "size": 1804
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "e8d2c58ba312d6e6e4ab515b260380769040d3f7df94bdd6eb31320e68215086",
+      "size": 16658
+    },
+    {
+      "path": "STATEMENT.md",
+      "sha256": "7f78f806574a63257c3c79f2aeb9a8c9917e97b582c2df0ad6d475adf051f15b",
+      "size": 1715
+    },
+    {
+      "path": "GAP.md",
+      "sha256": "dda0a6022e08677ec5f0a81379c768e507a3a21b468f08b38aabfd593742c085",
+      "size": 2795
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "06e308d8b216e48bc3480befffdf9cac8d072ea0284f86ddbc45a5c4f96af2bc",
+      "size": 5386
+    },
+    {
+      "path": "README.md",
+      "sha256": "c93d87252ea68e5a77477c0e48c87941de7f05850e295722432cca6b62197be5",
+      "size": 2764
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "5f1a71fcecfc83ed8e7bd057036fd90ab8bf67f937f0ffbbc34db3d1bdd6a174",
+      "size": 1660
+    },
+    {
+      "path": "EXTERNAL_AUDIT.md",
+      "sha256": "5cd368c1cc2d4740fb1d7919f58924c002bb0a0e7853d38bb63703dcddcd7567",
+      "size": 3883
+    },
+    {
+      "path": "INPUT_AUDIT.md",
+      "sha256": "d5c4d6dca7ed7e6cf06879c0e68fd67015dfc65715b0787d841a9280bda06d26",
+      "size": 4081
+    },
+    {
+      "path": "VERDICT.json",
+      "sha256": "efb0c488e1e0dc67b35b60c0670ff3655a29d5d11a47999025e34ed9596a331d",
+      "size": 1946
+    },
+    {
+      "path": "UNPACK_SOURCE.py",
+      "sha256": "9f22b643c2049956301dc279a19e1c29c3b63a4875dd9d3a9c065d673d91b30a",
+      "size": 1100
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "sha256": "8d6ad2ec0f5ae5bcaba2358ace4b07b4484221216d34fb010d10f55fe73c38c3",
+      "size": 3301
+    },
+    {
+      "path": "SOURCE_BUNDLE.part00.b85",
+      "sha256": "d726040c29e368116a82004d8416d415b34655c8e9746cd04407ef105657cad2",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part01.b85",
+      "sha256": "04764c54c9414916faeca5bea706a6a904d002646f457b68e20e889365c7b1c1",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part02.b85",
+      "sha256": "8e6eb5368b163da2c099696d396dc3fb16d0bdf07e360a0f3e1b5e1c643231dd",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part03.b85",
+      "sha256": "098cff8d95e4b70eb2b1372ec1a205e1414877b4982e0106b16232d5db79e151",
+      "size": 6326
+    }
+  ],
+  "run_id": "20260921T123043Z_round8_misalignment_strip",
+  "scope": "Only this new window_c directory; original problem NOT_CLOSED"
+}
