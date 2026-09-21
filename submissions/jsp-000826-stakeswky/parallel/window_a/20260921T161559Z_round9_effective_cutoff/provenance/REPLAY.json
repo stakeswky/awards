@@ -1,0 +1,54 @@
+{
+  "Lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "command": "python src/run_all.py --output <new empty directory>",
+  "compiled_each_driver": true,
+  "exit_code": 0,
+  "external_review": "NOT_PERFORMED",
+  "finished_utc": "2026-09-21T16:38:08.038623+00:00",
+  "old_author_programs_replayed": false,
+  "previous_draft_outputs_counted": false,
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "run_id": "20260921T161559Z_round9_effective_cutoff",
+  "source_only_clean_copy": true,
+  "source_sha256": {
+    "run_all.py": "4915636a9b377a59fa70fd3a94abb291db1c2e4720214ed346660f64acd054be",
+    "verify_constants_fixedpoint.py": "ef3c4f60bda968337de2ab1dd3f8e11c7789c64e93014d311e0d7562b502097f",
+    "verify_constants_fraction.py": "18e2ea6a6e1d54e83b699c72aeb514523694398cccbe7663531f5d74ed9d439e",
+    "verify_graph_identities.py": "387a2aa74e0ecdb56326d3813c59cda88907c936355d0a4d544adca7a2457630"
+  },
+  "started_utc": "2026-09-21T16:38:05.207045+00:00",
+  "status": "PASS",
+  "stderr_bytes": 0,
+  "total_bytes": 217350,
+  "whole_outputs": [
+    {
+      "all_bytes_equal": true,
+      "bytes": 2440,
+      "complete_json_equal": true,
+      "file": "CONSTANTS_FIXEDPOINT.json",
+      "sha256": "5bf17054d91504754ea4a60043d1788e4e69dfe288f3de4ec1f0cde25d79f27c"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 15447,
+      "complete_json_equal": true,
+      "file": "CONSTANTS_FRACTION.json",
+      "sha256": "32f14e7dec0c8d0dea1d860f81a6e3e816c25715e85e5a6ba32a991a7577179f"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 197236,
+      "complete_json_equal": true,
+      "file": "GRAPH_IDENTITIES.json",
+      "sha256": "f0f5d771a016090243e035800567ccbeed43722adb374b96b4161d703d2091a3"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 2227,
+      "complete_json_equal": true,
+      "file": "SUMMARY.json",
+      "sha256": "4edee9cf4eb192d6d2806b276d5b45d4bfeb2a8117d8ee547e18a5ef5bae00b2"
+    }
+  ]
+}
