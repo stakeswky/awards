@@ -1,0 +1,79 @@
+{
+  "C4_F": "NOT_CLOSED",
+  "C4_four_type_closure": "RETAINED_UNCHANGED_FRESH_ORIGINAL_REPLAY",
+  "C5_173130": "INTERFACE_READ_ONLY_FINAL_NOT_ACQUIRED",
+  "C5_173613": "ACTUAL_FINAL_READ_AND_ORIGINAL_PROGRAMS_REPLAYED",
+  "C5_statistics_combined": false,
+  "C6_LCFREE": "PROVED_ALL_R_COMPONENT_COUNT_OBSTRUCTION",
+  "C6_SC": "PROVED_CONDITIONAL_FULL_SUPPORT_SIGNED_LOWER_BOUND",
+  "C6_SC_fixed_modal_specialization": "PROVED_CONDITIONAL",
+  "LC_free_regression": {
+    "coefficient_entries_three_way": 3224,
+    "graph_tasks": 20
+  },
+  "Lean": "NOT_RUN",
+  "PR_must_remain_draft": true,
+  "abstract_algebra": {
+    "array_pairs": 2000,
+    "explicit_boundary_positions": 8,
+    "is_forest_coverage": false,
+    "random_positions": 8929
+  },
+  "automatic_HEREDITARY_payment": "UNPROVED",
+  "axiom_audit": "NOT_RUN",
+  "external_peer_review": "NOT_RUN",
+  "fresh_C4_replay": {
+    "bytes": 7557632,
+    "outputs": 8
+  },
+  "fresh_C5_173613_replay": {
+    "bytes": 23852883,
+    "invocations": 12,
+    "outputs": 21,
+    "programs": 7
+  },
+  "fresh_new_replay": {
+    "bytes": 4231089,
+    "invocations": 5,
+    "outputs": 7,
+    "status": "PASS_BYTE_IDENTICAL"
+  },
+  "global_state_modified": false,
+  "historical_files_modified": false,
+  "initial_head": "e9d5986c1c3216465f4cc8608db2ddad08e31d9c",
+  "main_modified": false,
+  "new_material": {
+    "all_allocation_rows_reaudited": 665,
+    "array_tasks_dual": 24,
+    "coefficient_entries_dual": 1906,
+    "nonqualified_controls": 4,
+    "positions": 14,
+    "qualified_inverse_Toeplitz_pair": 1,
+    "qualified_middle_history": 10,
+    "qualified_negative_local_sigma": 6,
+    "qualified_no_C5_in_either_orientation": 9,
+    "two_block_controls": 8
+  },
+  "new_search": {
+    "admissible_cut_tests": 97,
+    "all_proposals_dual_recounted": false,
+    "component_valleys": 0,
+    "fixed_k": 141,
+    "fixed_n": 451,
+    "labelled_proposals": 250,
+    "nonidentity_whole_and_component_valley_scans": 165,
+    "payment_failures": 0,
+    "seed": 20260921,
+    "unlabelled_novelty_claim": false,
+    "whole_valleys": 0
+  },
+  "new_unconditional_all_shape_unimodality_range": false,
+  "novelty": "NOT_CLAIMED",
+  "original": "NOT_CLOSED",
+  "original_counterexample": false,
+  "other_windows_modified": false,
+  "published_interface_commit": "67fcf70502a8e10e557fa3780bba78dd8c73ec81",
+  "raw_large_arrays": "FULL_CONVERSATION_ZIP_AND_REGENERATABLE_NOT_SEPARATE_RAW_GIT_FILES",
+  "review": "SAME_MODEL_SELF_REVIEW_WITH_INDEPENDENT_ALGORITHMS",
+  "run_id": "20260921T012701Z_round6_signed_cut_compensation"
+}

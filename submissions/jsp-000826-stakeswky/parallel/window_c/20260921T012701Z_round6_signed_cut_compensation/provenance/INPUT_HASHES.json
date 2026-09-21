@@ -1,0 +1,61 @@
+{
+  "C5_standalone_key_equals_fresh_replay": true,
+  "files": [
+    {
+      "name": "Erdos993_Window_C_Round4_Component_Closure.zip",
+      "sha256": "962cb4cd88bb7a72ec8bb2853b59e3368b5b49b37dc9216e1c0469dd8d45d277",
+      "size": 3158064
+    },
+    {
+      "name": "Erdos993_Window_C_Round5_Window_Transport.zip",
+      "sha256": "020a8441492fe7b0a825d6132e2e6e4081ee38245ea27a375b2bb34110066ab8",
+      "size": 11785279
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Handoff.md",
+      "sha256": "5d91018f76f884e322c46f4cff36357b163bfe29c82d08e874dd33edb686c41c",
+      "size": 4026
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Gap.md",
+      "sha256": "0dc1e7d6056fa96743c59bd55ebb2d93c46bb1210d4b62e451ba1c717aee5e72",
+      "size": 4413
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Claims.md",
+      "sha256": "63532598e4d687aeb9362fe0191cea4e1c20e237ca27c55ea62691576d2a02a8",
+      "size": 5361
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Claims_Addendum.md",
+      "sha256": "72d49f5f982dddb4dc4eee2b508664124bbdf32881a34616fb42d0b53675690d",
+      "size": 2477
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Proof.md",
+      "sha256": "fcc6cbafa76ffdf03123de4cf54b4b8e48662aac4e01bc3b1d2853743327a1a6",
+      "size": 24065
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Review.md",
+      "sha256": "d514acb885165f72a01cfe765d83a6208c304ff372c706f71102fe7083e0897e",
+      "size": 7468
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Report.md",
+      "sha256": "bf68e19262544d34bc86b2fc403371f0854105bbb9dbf94b399d42da339b02bd",
+      "size": 8897
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Key_Certificate.json",
+      "sha256": "e08388871e65e7686ddf69446820443aa86f9424754c942964bd3f50cf4afc3e",
+      "size": 3043471
+    },
+    {
+      "name": "Window_C_Round5_Window_Transport_Hereditary_Guard.json",
+      "sha256": "592dac08a841706db98f5dfc9e2aab673f348b0ac8c5f37bf34ebd34a8b393da",
+      "size": 2211
+    }
+  ],
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+}

@@ -1,0 +1,119 @@
+{
+  "Lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "bytes_compared": 4231089,
+  "commands": [
+    {
+      "command": [
+        "sources/targeted_search.py",
+        "--out",
+        "certificates/TARGETED_SEARCH.json",
+        "--steps",
+        "250"
+      ],
+      "returncode": 0,
+      "seconds": 1.514387,
+      "stderr": "",
+      "stdout": "{'proposals': 250, 'identity': 85, 'nonLC_rejections': 2, 'history_rejections': 66, 'mode_rejections': 0, 'original_valleys': 0, 'component_valleys': 0, 'valid_gate_tests': 97, 'gate_failures': 0, 'accepted': 33}\nbest score 5.3249598675976507e-36 windows 0 0\n"
+    },
+    {
+      "command": [
+        "sources/verify_material.py",
+        "--outdir",
+        "certificates"
+      ],
+      "returncode": 0,
+      "seconds": 1.351365,
+      "stderr": "",
+      "stdout": "{'status': 'PASS', 'whole_graph_pairs': 8, 'array_tasks_dual_recounted': 24, 'coefficient_entries_dual_recounted': 1906, 'material_positions': 14, 'history_positions': 13, 'prior_history_positions': 8, 'qualified_middle_history_positions': 10, 'qualified_negative_sigma_positions': 6, 'qualified_inverse_Toeplitz_positions': 1, 'nonqualified_controls': 4, 'original_counterexamples': 0}\nT26_squared_guard 16 qual True noC5 True rev 0 G 74.34087391510151 bound 55.28145529907029\nT26_squared_guard 17 qual False noC5 True rev 0 G 102.33464201380919 bound 94.3841520088096\nT26_squared_guard 20 qual False noC5 True rev 1 G 121.84974285604405 bound 121.83549573190676\ncomparable_unequal_bushes 39 qual True noC5 True rev 0 G 161.04986315676715 bound 86.86468288125694\ncomparable_unequal_bushes 40 qual True noC5 True rev 0 G 261.3770817006087 bound 218.09287454688857\nB212_B226_control 137 qual True noC5 True rev 0 G 420.2371732635805 bound 63.98856036598598\nB212_B226_control 138 qual True noC5 True rev 0 G 814.2078377421243 bound 527.8698215399718\nB212_B226_control 150 qual True noC5 True rev 0 G 4649.837532753258 bound 4644.294580129827\nfixed_graft_seed 141 qual True noC5 True rev 0 G 481.1259422060172 bound 120.22709387023171\nfixed_graft_best 141 qual True noC5 True rev 0 G 461.5713174792984 bound 97.12604688714086\nfixed_graft_best 142 qual True noC5 True rev 0 G 868.7089501153001 bound 569.3352380930709\ninverse_pair_middle_control 78 qual True noC5 False rev 1 G 1030.0643978992812 bound 1030.0345307831408\nnegative_total_paid_tail_control 13 qual False noC5 False rev 1 G 3.529705441837244 bound 3.529705441837244\nplateau_boundary_control 1 qual False noC5 False rev 0 G 4.0 bound 4.0\n"
+    },
+    {
+      "command": [
+        "sources/verify_lcfree.py",
+        "--out",
+        "certificates/LCFREE_REGRESSION.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.795823,
+      "stderr": "",
+      "stdout": "PASS 20 3224\n"
+    },
+    {
+      "command": [
+        "sources/verify_abstract.py",
+        "--out",
+        "certificates/ABSTRACT_ALGEBRA.json"
+      ],
+      "returncode": 0,
+      "seconds": 1.080106,
+      "stderr": "",
+      "stdout": "{'status': 'PASS', 'seed': 99306, 'array_pairs': 2000, 'random_positions': 8929, 'positions_with_inverse_pairs': 5203, 'positive_birth_positions': 3347, 'current_plateaus': 40, 'payment_gates_pass': 4028, 'negative_total_H_positions': 2084, 'explicit_boundary_positions': 8, 'scope': 'arbitrary positive arrays; NOT forest coverage, NOT a forest theorem proof'}\n"
+    },
+    {
+      "command": [
+        "sources/audit_certificate.py",
+        "--outdir",
+        "certificates"
+      ],
+      "returncode": 0,
+      "seconds": 0.87064,
+      "stderr": "",
+      "stdout": "{'status': 'PASS', 'array_tasks_independently_reaudited': 24, 'coefficient_entries': 1906, 'material_positions': 14, 'all_allocation_rows_reaudited': 665, 'positions_with_inverse_pair_mass': 3, 'LC_free_tail_identities': 20, 'review': 'SAME_MODEL_SELF_REVIEW with independent arithmetic routes; not external review'}\n"
+    }
+  ],
+  "external_peer_review": false,
+  "files": [
+    {
+      "bytes": 12919,
+      "path": "certificates/ABSTRACT_ALGEBRA.json",
+      "sha256": "9fefe67781f96cee4a10c2d6123a1bc40b5a0ea7fcfaee55e2a91b64f4185778"
+    },
+    {
+      "bytes": 335,
+      "path": "certificates/AUDIT.json",
+      "sha256": "8bc951c5a5931500f2f3d9dd19ece16d95744734260c40269186113052b35b66"
+    },
+    {
+      "bytes": 981468,
+      "path": "certificates/KEY_CERTIFICATE.json",
+      "sha256": "9078969bc591c884589c7fdf9e416daf149333eab7377d7a0f52d85b28b564a5"
+    },
+    {
+      "bytes": 627751,
+      "path": "certificates/LCFREE_REGRESSION.json",
+      "sha256": "5b62a06c10e201bbead26e95b419380af860417beca4e7979b75717f3a818b46"
+    },
+    {
+      "bytes": 2373358,
+      "path": "certificates/MATERIAL_FULL.json",
+      "sha256": "419f14830efc6805e17fd9d54048e948db423a720ef29e146ac56c21263905e2"
+    },
+    {
+      "bytes": 13632,
+      "path": "certificates/MATERIAL_SUMMARY.json",
+      "sha256": "205ad8987709bade95aab97ade072769b24ef75ed177589687507ddac7e9d32d"
+    },
+    {
+      "bytes": 221626,
+      "path": "certificates/TARGETED_SEARCH.json",
+      "sha256": "db08776a24a441bb253e2539518ccfc66e8cdea79fe7aad2946229b2c33ec169"
+    }
+  ],
+  "finished_utc": "2026-09-21T02:01:10.496512+00:00",
+  "outputs": 7,
+  "program_invocations": 5,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "scope": "NEW_C6_ONLY",
+  "source_hashes": {
+    "sources/audit_certificate.py": "a7cd17c6f1b0d0080a8e84c5bd491268e7822673f9999cb471b657eb2c4e6624",
+    "sources/deletion_balanced.py": "f86d7db41c01e24ddf587682ec5016e99a91e6e85de48c4621bddbfb46c77f8f",
+    "sources/graph_controls.py": "215769f4ed10a9552f8e11311d0e33054c65d481a1d2b5452fd01ae8d914c3af",
+    "sources/inherited_exact.py": "acdb7c3af6f5d37469f5d527d86b99870b909b1de114965ad98cd4aa5c645c88",
+    "sources/signed_cut.py": "eb815d0b54c0cf1cfc2cb5c7b68ad98a82296d11fcf255b548b4c31cfd91d5f7",
+    "sources/targeted_search.py": "97d5f98fec121efc1674e475abad8ac864af32e1abe23349114a8cdf6ab1045a",
+    "sources/verify_abstract.py": "94213442b6c365816b79764d357d4c764c7990d74de14e73859f68c5f44d184b",
+    "sources/verify_lcfree.py": "cc4c426b2e4beb3a6b10ccfe24bb842495a39e5a95311673995c37b5d6f951a1",
+    "sources/verify_material.py": "757a567463dc4829fd37d167aceecac2b80943421a2684f1b5f1e227ec515d43"
+  },
+  "status": "PASS_BYTE_IDENTICAL"
+}

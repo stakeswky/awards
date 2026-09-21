@@ -1,0 +1,10 @@
+{
+  "LC_free_tail_identities": 20,
+  "all_allocation_rows_reaudited": 665,
+  "array_tasks_independently_reaudited": 24,
+  "coefficient_entries": 1906,
+  "material_positions": 14,
+  "positions_with_inverse_pair_mass": 3,
+  "review": "SAME_MODEL_SELF_REVIEW with independent arithmetic routes; not external review",
+  "status": "PASS"
+}
