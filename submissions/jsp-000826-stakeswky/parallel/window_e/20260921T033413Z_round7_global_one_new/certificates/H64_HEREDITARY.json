@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "arms_per_hub": 10,
+  "core_vertices": 64,
+  "branch_LC_cases_dual_counted": 66,
+  "state_options_including_absent_hub": 67,
+  "central_component_cases_dual_counted": 52394,
+  "central_coefficient_entries_dual_counted": 1141296,
+  "nonunimodal_central_cases": 0,
+  "nonLC_central_cases": 103,
+  "root_present_labelled_subsets": "9223372036854775808",
+  "root_absent_labelled_subsets": "9223372036854775808",
+  "total_labelled_subsets_covered": "18446744073709551616",
+  "factor_scope": "omitted components are K1/K2; branch core LC; central component unimodal; written LC-times-unimodal lemma"
+}

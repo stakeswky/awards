@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source_orbits": 399155,
+  "represented_source_groups": 7746986152,
+  "super_demand": 21337568904,
+  "paid_super_demand": 21337568904,
+  "used_target_orbits": 340754,
+  "used_target_capacity": 529230632968,
+  "used_target_old_envelope": 339424416,
+  "used_target_remaining": 507553639648,
+  "inverse_vertex_scan_iterations": 11926390,
+  "accepted_inverse_old_sources_in_representatives": 2112,
+  "automorphism_group_order": 9953280,
+  "flow_rows": 399155,
+  "operation_rows": [384845,6405,7905],
+  "operation_flow": [21160693226,55963174,120912504],
+  "scope": "ALL full-F35 j13 residual groups outside primary E5 classes, with invariant old-occupancy envelope and over-demand for already ordered-release-paid sources",
+  "independent_methods": "actual two-side polynomial counts; colored-tree stabilizers; complete inverse-center enumeration; direct operation/orbit and conservation checks"
+}
