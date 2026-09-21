@@ -1,0 +1,103 @@
+{
+  "does_not_change_base_16_commands": true,
+  "instances": [
+    {
+      "H_input_sha256": "d3e794b01a3b103fc69880b9806c322fb9151f8239331c8dfcfe6cb6ef810ba0",
+      "ORIGINAL": "NOT_CLOSED",
+      "arc_bytes": 27270813,
+      "arc_file": "network16_0_ALL_E6_ONE_ARCS.bin.gz",
+      "arc_file_sha256": "9f56086729ade45707628893c02305fe6f73ff630efe86106590253ebf024d4f",
+      "arcs": 19289220,
+      "beta": 7,
+      "claim_id": "E6-ONE-v1",
+      "complete_all_E6_arcs": true,
+      "complete_all_sources": true,
+      "complete_all_targets": true,
+      "demand": 1513,
+      "flow": 1513,
+      "flows": [
+        {
+          "assignment_rows": 1311,
+          "inherited_algorithm": "scipy_dinic",
+          "new_optimizer_call": false,
+          "validated_flow": 1513
+        },
+        {
+          "assignment_rows": 1311,
+          "inherited_algorithm": "scipy_edmonds_karp",
+          "new_optimizer_call": false,
+          "validated_flow": 1513
+        }
+      ],
+      "full_H_proper_masks": 65535,
+      "full_network_deficient_cut": false,
+      "h": 4,
+      "independent_adjacency_enumerators": [
+        "numpy bitwise count",
+        "Python scalar bit_count"
+      ],
+      "input_sha256": "eebf42d5001f052aa8fd23dbe96f1c855e78f9305468126b1a1ecb8999d6c618",
+      "j": 6,
+      "label": "network16_0",
+      "n": 16,
+      "network_bytes": 9452380,
+      "network_file": "network16_0_E6_ONE_NETWORK.json",
+      "network_file_sha256": "30efe099fe7c46f3ba6cabe10aa929fe4a1dc3bfb6f54be07114ad7b94775496",
+      "new_C_nongrowing_arcs": 6525088,
+      "positive_targets": 114807,
+      "previous_C_growing_arcs": 12764132,
+      "sources": 1236,
+      "zero_new_arcs": 1804379
+    },
+    {
+      "H_input_sha256": "7e7b80ca65c227bf17c72a66275e1cab651d355799e3e9ea06712e4047875738",
+      "ORIGINAL": "NOT_CLOSED",
+      "arc_bytes": 14278423,
+      "arc_file": "network16_2_ALL_E6_ONE_ARCS.bin.gz",
+      "arc_file_sha256": "4e43f9dcd67f1e58136d1d37040943ca2bde43bc2fab062f9d4d4e0c2481b478",
+      "arcs": 10008291,
+      "beta": 7,
+      "claim_id": "E6-ONE-v1",
+      "complete_all_E6_arcs": true,
+      "complete_all_sources": true,
+      "complete_all_targets": true,
+      "demand": 820,
+      "flow": 820,
+      "flows": [
+        {
+          "assignment_rows": 743,
+          "inherited_algorithm": "scipy_dinic",
+          "new_optimizer_call": false,
+          "validated_flow": 820
+        },
+        {
+          "assignment_rows": 743,
+          "inherited_algorithm": "scipy_edmonds_karp",
+          "new_optimizer_call": false,
+          "validated_flow": 820
+        }
+      ],
+      "full_H_proper_masks": 65535,
+      "full_network_deficient_cut": false,
+      "h": 4,
+      "independent_adjacency_enumerators": [
+        "numpy bitwise count",
+        "Python scalar bit_count"
+      ],
+      "input_sha256": "45fac6687823c391bfa21a5d5707543190f6e7dc834a3fe99c2e6c77c4c56bd8",
+      "j": 6,
+      "label": "network16_2",
+      "n": 16,
+      "network_bytes": 11323156,
+      "network_file": "network16_2_E6_ONE_NETWORK.json",
+      "network_file_sha256": "4a33d14047a9955ca028a7f19c8f6393a06a703d632665bb214d6d91826fabb6",
+      "new_C_nongrowing_arcs": 2609727,
+      "positive_targets": 135150,
+      "previous_C_growing_arcs": 7398564,
+      "sources": 694,
+      "zero_new_arcs": 956910
+    }
+  ],
+  "phase": "LATE_AFTER_BASE_REPLAY",
+  "status": "PASS"
+}

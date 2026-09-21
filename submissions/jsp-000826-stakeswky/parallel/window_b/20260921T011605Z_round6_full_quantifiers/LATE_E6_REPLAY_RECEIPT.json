@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python",
+    "/mnt/data/B6_clean_replay_011605Z/LATE_E6_ONE_AUDIT.py",
+    "--base",
+    "/mnt/data/B6_clean_replay_011605Z",
+    "--output",
+    "/mnt/data/B6_late_E6_clean_replay"
+  ],
+  "complete_bytes": 62328167,
+  "complete_output_count": 5,
+  "main_receipt_unchanged": true,
+  "outputs": [
+    {
+      "all_bytes_equal": true,
+      "bytes": 3395,
+      "path": "LATE_E6_ONE_SUMMARY.json",
+      "sha256": "3bb4593ba2806fe1d1aa6ce7d301b653409c0f82a49f2f03d59078401babc39f"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 27270813,
+      "path": "network16_0_ALL_E6_ONE_ARCS.bin.gz",
+      "sha256": "9f56086729ade45707628893c02305fe6f73ff630efe86106590253ebf024d4f"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 9452380,
+      "path": "network16_0_E6_ONE_NETWORK.json",
+      "sha256": "30efe099fe7c46f3ba6cabe10aa929fe4a1dc3bfb6f54be07114ad7b94775496"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 14278423,
+      "path": "network16_2_ALL_E6_ONE_ARCS.bin.gz",
+      "sha256": "4e43f9dcd67f1e58136d1d37040943ca2bde43bc2fab062f9d4d4e0c2481b478"
+    },
+    {
+      "all_bytes_equal": true,
+      "bytes": 11323156,
+      "path": "network16_2_E6_ONE_NETWORK.json",
+      "sha256": "4a33d14047a9955ca028a7f19c8f6393a06a703d632665bb214d6d91826fabb6"
+    }
+  ],
+  "phase": "LATE_E6_AFTER_ORIGINAL_16_COMMANDS",
+  "returncode": 0,
+  "seconds": 38.53011608123779,
+  "source_sha256": "978f639276fcdcd5c823e123c550d39fbe755420b8a00cd3a85856308d83bd9c",
+  "status": "PASS"
+}
