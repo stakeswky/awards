@@ -1,0 +1,54 @@
+{
+  "analytic_rational_constants": {
+    "Hn_bound": [
+      875,
+      1024
+    ],
+    "Ht_bound": [
+      640625,
+      262144
+    ],
+    "U_upper": [
+      2695,
+      841
+    ],
+    "Un_bound": [
+      650,
+      29
+    ],
+    "Ut_bound": [
+      40625,
+      696
+    ],
+    "V_lower": [
+      841,
+      2772
+    ],
+    "Vn_bound": [
+      8551695625,
+      1610612736
+    ],
+    "Vt_bound": [
+      110127280390625,
+      4947802324992
+    ],
+    "b_bound_poly_at_1024": [
+      10164238,
+      125
+    ],
+    "curvature_margin_times_N": [
+      649,
+      128
+    ],
+    "prefix_poly_at_1024": [
+      63999,
+      1
+    ],
+    "shortening_margin_times_N": [
+      393,
+      2560
+    ]
+  },
+  "kernel_regression_points": 60,
+  "status": "PASS_NOT_A_REPLACEMENT_FOR_WRITTEN_PROOF"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "native_exit": 0,
+  "compile_exit": 0,
+  "run_exit": 0,
+  "stderr_bytes": 0,
+  "command": "python src/verify_round7.py --output <new empty directory>",
+  "source_only_fresh_copy": true,
+  "outputs": [
+    {
+      "file": "CONSTANTS.json",
+      "bytes": 790,
+      "sha256": "7760c4f641e2d412d0848a702ec626b17e132fe996cca4fe875d7bd43cb27a61",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "KEY_CERTIFICATES.json",
+      "bytes": 6029659,
+      "sha256": "496e33bfc97c46fef836e11fb4a02f5801d80852363e833a322df9e67ac0c851",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "SUMMARY.json",
+      "bytes": 1150,
+      "sha256": "2e86937d6660da7b2a5b568f2e4697c8f2e0ad0645042c4468548247d4da48ad",
+      "all_bytes_equal": true
+    }
+  ],
+  "total_output_bytes": 6031599,
+  "sources": {
+    "root_core.py": "a3ce7e975088b177e56d6c582cbb983f7a6190b0fed606282cdbd01b5127b7e2",
+    "verify_round7.py": "0b272523233a6ae2c75ada6db435683dca1fe55b73d82b68c9539da3ba2d47d4"
+  },
+  "old_author_runs_replayed": false,
+  "superseded_validation": "Earlier successful run before explicit support mask checks not added. One 20-second outer timeout interrupted the previous clean run; no output/coverage from it is counted.",
+  "Lean": "NOT_RUN",
+  "external_review": false
+}

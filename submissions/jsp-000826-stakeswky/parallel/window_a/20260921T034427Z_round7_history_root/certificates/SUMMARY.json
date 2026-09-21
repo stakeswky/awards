@@ -1,0 +1,45 @@
+{
+  "Lean": "NOT_RUN",
+  "ORIGINAL": "NOT_CLOSED",
+  "central_minor_positions": 1780,
+  "complete_coefficients_compared": 13151,
+  "complete_graph_array_tasks_three_methods": 10,
+  "first_declines": [
+    {
+      "N": 2048,
+      "alpha": 1026,
+      "beta": 684,
+      "d": 2,
+      "first_strict_decline": 567,
+      "h": 513,
+      "n": 2051,
+      "name": "P3_center_exterior"
+    },
+    {
+      "N": 3200,
+      "alpha": 1603,
+      "beta": 1069,
+      "d": 3,
+      "first_strict_decline": 886,
+      "h": 801,
+      "n": 3204,
+      "name": "Claw_center_exterior"
+    }
+  ],
+  "full_distant_mass_edge_checks": 4,
+  "general_A4_R": "UNPROVED",
+  "literal": {
+    "available_unselected_occurrences_retained": 7752,
+    "graph_records": 31,
+    "literal_root_index_checks": 973,
+    "scope": "Deterministic correctness controls, not general existence coverage.",
+    "seed": 993707,
+    "whole_coefficient_comparisons": 137,
+    "zero_selected_mass_checks": 236
+  },
+  "material_root_records_saved": 6,
+  "materials": 2,
+  "qualified_middle_history_tip_checks": 298,
+  "shortening_positions": 1335,
+  "status": "PASS_SCOPED_NOT_ORIGINAL_PROOF"
+}
