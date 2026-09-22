@@ -1,0 +1,10 @@
+{
+  "a": "31998/31999",
+  "b": "999/1000",
+  "charfn_bound_c": "1/114244",
+  "p": "31999/16000",
+  "status": "PASS_EXACT_RATIONAL_REDUCTION",
+  "theta": "7999/8000",
+  "u": "31999",
+  "variance_lower_c": "1/228488"
+}
