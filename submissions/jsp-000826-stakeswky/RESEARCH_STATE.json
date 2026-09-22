@@ -1,42 +1,49 @@
 {
   "schema_version": 1,
-  "updated_utc_date": "2026-09-21",
+  "updated_utc_date": "2026-09-22",
   "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
   "repository": "stakeswky/awards",
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "a3f6ec75164f4c3a8be719ea590975e76e5f189b",
+  "last_read_head": "48810290ec2b54ebda2919c0732bad71c7241bce",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
-  "previous_checkpoint": "a50dca327a1f6e44e98beb21d7c6b5e796088923:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
-  "previous_state_full": "The complete inherited Phase-13 state, preserved Phase-10/11/12 work, B59 FAMILY status, component-order-30 exclusion, parallel-window history and all earlier evidence remain in Git history. This checkpoint adds only the bounded external Lean source/interface audit and does not reclassify parallel mathematical claims as independently verified.",
+  "previous_checkpoint": "48810290ec2b54ebda2919c0732bad71c7241bce:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "previous_state_full": "All inherited Phase-2 through Phase-14 work, closure_v5/B59 FAMILY status, component-order-30 exclusion, global L3/L4 results, and parallel-window history remain in Git. This checkpoint adds only a bounded effective-threshold source audit and does not reclassify parallel same-model claims as independently verified.",
   "current_work": {
-    "run_id": "20260921T_external_lean_repo_audit",
-    "task": "Audit the newly readable external Lean formalization of sufficiently-large forest unimodality, pin its source, check theorem semantics and determine whether it yields an explicit finite cutoff for the remaining all-order problem.",
-    "package": "stage14_original/20260921T_external_lean_repo_audit/",
-    "audit": "stage14_original/20260921T_external_lean_repo_audit/AUDIT.md",
-    "verdict": "stage14_original/20260921T_external_lean_repo_audit/VERDICT.json",
+    "run_id": "20260922T_effective_threshold_chain_audit",
+    "task": "Trace the pinned external sufficiently-large-forest Lean theorem from main_fin through central, mean_lc and curvature_limit far enough to obtain a numerical threshold or identify the first precise non-numerical witness.",
+    "package": "stage15_original/20260922T_effective_threshold_chain_audit/",
+    "audit": "stage15_original/20260922T_effective_threshold_chain_audit/AUDIT.md",
+    "data": "stage15_original/20260922T_effective_threshold_chain_audit/threshold_chain.json",
     "external_repository": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality",
     "external_commit": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
-    "external_tree": "1e08c8d267130280e307257626c609418c89628b",
-    "external_paper": "arXiv:2609.20961v1",
-    "external_statement": "There exists an absolute N0 such that every finite acyclic simple graph with at least N0 vertices has a unimodal independence sequence.",
-    "statement_interface": "MATCHED_SUFFICIENTLY_LARGE_FORESTS",
+    "result": "FIRST_CONFIRMED_UNEFFECTIVIZED_WITNESS_IDENTIFIED",
     "explicit_threshold": "NOT_EXTRACTED",
-    "threshold_reason": "main_fin uses max 1000 N1, central obtains its threshold existentially from mean_lc, and this audit did not derive a numeral for N1.",
-    "external_source_now_readable": true,
+    "first_confirmed_uneffectivized_step": "ErdosProblem993.Curvature.exists_tail_small as used inside curvature_limit to choose the Gaussian-tail radius R.",
+    "threshold_reason": "main_fin, central and mean_lc merely wrap lower witnesses; stdCharFn_tendsto_gaussian has an explicit ceiling threshold once its real constants and R are supplied. curvature_limit first chooses R through abstract integral convergence, with no numeral or arithmetic formula in the pinned source.",
+    "exact_rational_reductions": {
+      "scalar_b": "999/1000",
+      "theta": "7999/8000",
+      "p": "31999/16000",
+      "u": "31999",
+      "a": "31998/31999",
+      "linear_variance_lower_c": "1/228488",
+      "charFn_bound_c": "1/114244"
+    },
+    "program_check": "PASS_EXACT_RATIONAL_REDUCTION",
+    "program_check_scope": "Only exact rational reductions copied from pinned source formulas; no transcendental inequality, graph theorem or Lean proof term is validated by this Python check.",
     "fresh_external_lean_build": "NOT_RUN_RUNTIME_MISSING",
     "fresh_external_axiom_audit": "NOT_RUN_RUNTIME_MISSING",
-    "external_readme_claim": "The external README reports a zero-sorry build and only propext, Classical.choice and Quot.sound for headline results; this run records that claim but does not treat it as fresh execution evidence.",
-    "source_search_observation": "A GitHub code-index search for the token sorry showed comment/documentation occurrences and no displayed executable sorry occurrence; this is not a build certificate.",
+    "runtime_observation": "No lean or lake executable was present; Python 3.13.5 and git 2.47.3 were present.",
     "original_math": "NOT_CLOSED",
     "original_formal": "NOT_ESTABLISHED",
     "legal_original_counterexample": false,
     "all_order_forest_coverage": false,
-    "review_type": "SAME_MODEL_SOURCE_INTERFACE_AUDIT",
+    "review_type": "SAME_MODEL_PINNED_SOURCE_AUDIT",
     "independent_external_peer_review_by_project": false,
     "novelty": "NOT_CLAIMED",
-    "concurrency_preserved": "The bounded run began from actual PR head a50dca327a1f6e44e98beb21d7c6b5e796088923, which already contained later parallel A/B/C/D/E work beyond the stale Phase-13 state file. Those commits were preserved; no force update or shared-history rewrite was used."
+    "concurrency_preserved": "The bounded run started from actual PR head 48810290ec2b54ebda2919c0732bad71c7241bce, which already contained parallel A10/C10/D10/E10 and other later work beyond the stale Stage-14 state file. Those commits are preserved; no force update or shared-history rewrite is used."
   },
   "preserved_results": {
     "family_B59": {
@@ -55,13 +62,13 @@
     },
     "external_large_forests": {
       "source": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality@b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
-      "status": "Pinned external theorem/formal source states an absolute existential N0 above which every forest is unimodal. The statement interface was audited in this run; no fresh Lean build or axiom audit was executed, and no explicit N0 was extracted."
+      "status": "Pinned external theorem/formal source states an absolute N0 above which every forest is unimodal. Source semantics were audited previously; this run narrows the first confirmed non-numerical witness to the tail-radius choice in curvature_limit. No fresh Lean build or axiom audit was run."
     },
     "stage12_grouped_dispersion": {
       "status": "General selected-branch-count grouped sufficient bound refuted; exact BARRIER remains unresolved. Scoped alternating decorated-backbone family proved LC."
     },
-    "latest_parallel_head_material": {
-      "status": "The starting head already contained later parallel A/B/C/D/E work through 2026-09-21. Those files are preserved. This bounded audit does not promote their same-model claims to independent review and does not overwrite their exact scopes."
+    "parallel_window_material_at_start": {
+      "status": "Actual starting head already contained parallel A10/C10/D10/E10 and related work. C10 refutes an EVERY-root premerge surrogate U_v<=S on an actual hereditary 25-vertex tree but does not refute the raw D<=S entrance, an EXISTS-root gate, or ORIGINAL. This Stage-15 source audit does not independently reverify or supersede those parallel claims."
     }
   },
   "proved_scope": [
@@ -72,26 +79,27 @@
     "Arbitrary-core private-arm scoped theorem and all-length alternating decorated-backbone scoped theorem from inherited phases."
   ],
   "external_scope": [
-    "Fang--Lu--Nevo--Yao--Zheng: there exists an absolute N0 such that every forest of order at least N0 has a unimodal independence sequence; public Lean source pinned above. This is external work, not project novelty, and the threshold remains existential in the audited source."
+    "Fang--Lu--Nevo--Yao--Zheng: there exists an absolute N0 such that every forest of order at least N0 has a unimodal independence sequence; public Lean source pinned above. This is external work, not project novelty. The pinned source still does not provide a numerical N0."
   ],
   "closed_mathematical_gaps": [
     "The global adjacent log-concavity minors at k=1,2,3,4 are nonnegative for every forest under the accumulated project proofs.",
     "The previous PREFIX_BETA lower endpoint k>=4 is advanced to k>=5.",
-    "At j=4 the E4-S residual signed sector is completely closed under the Phase-13 argument."
+    "At j=4 the E4-S residual signed sector is closed under the Phase-13 argument.",
+    "For the external large-forest threshold audit, main_fin -> central -> mean_lc wrappers and stdCharFn_tendsto_gaussian are no longer treated as the unidentified source of the non-numerical threshold; the first confirmed source obstruction is the Gaussian-tail radius R in curvature_limit."
   ],
   "new_boundaries": [
-    "The external sufficiently-large theorem is now pinned to readable formal source and its graph/count/unimodality interface has been checked against the source.",
-    "The external theorem does not supply an explicit finite cutoff in the audited source. Therefore it cannot yet replace the project's all-order middle-range work by a finite enumeration.",
-    "Combining the external existential large-order theorem with the preserved component-order-30 exclusion implies only qualitatively that any remaining original counterexample must have total order below the external N0 and contain a tree component of order at least 31."
+    "The pinned external threshold chain is explicit after a radius R is supplied: curvature_limit returns max N1 (ceil(X/c)+1), and stdCharFn_tendsto_gaussian returns ceil(Lambda^2/c)+1.",
+    "The root-moment exponent is extremely close to one in the source construction: a=31998/31999 exactly. This helps explain why direct numerical effectivization can be enormous, but it is not itself a proof obstruction.",
+    "A numerical N0 still requires an explicit Gaussian-tail radius and certified evaluation/bounding of downstream explicit real constants."
   ],
   "next_tasks": [
     {
       "priority": 1,
-      "task": "Effectivize the external mean_lc -> central -> main_fin threshold chain far enough to obtain a numerical N0, or identify the first precise theorem whose proof still contains an uneffectivized constant. Do not claim a numeric threshold without a complete derivation."
+      "task": "Replace the specific exists_tail_small use in curvature_limit by an explicit proved tail bound for t^2 exp(-c0 t^2), propagate a symbolic radius through the threshold chain, and only then attempt certified rational interval evaluation of the remaining explicit real constants."
     },
     {
       "priority": 2,
-      "task": "Continue the exact all-order whole-forest no-rebound/BARRIER route using actual compatibility and curvature. The external asymptotic theorem does not close orders below its unknown N0."
+      "task": "Continue the exact all-order whole-forest no-rebound/BARRIER route using actual compatibility and curvature. Preserve the new C10 distinction between premerge root mass and true merged colour mass."
     },
     {
       "priority": 3,
@@ -100,10 +108,12 @@
   ],
   "remaining_gaps": [
     "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest.",
-    "An explicit effective value of the external sufficiently-large threshold N0, if obtainable from the published proof/formalization.",
+    "A numerical effective value of the external sufficiently-large threshold N0.",
+    "An explicit certified replacement for the Gaussian-tail radius R chosen by exists_tail_small in curvature_limit.",
     "All finite orders below the external existential threshold remain unresolved as a complete class.",
     "PREFIX_BETA for indices k>=5 before the inherited tail boundary.",
     "Uniform exact middle BARRIER/root-state/component-allocation estimate for all actual forests.",
+    "The true colour-mass entrance D<=S under HEREDITARY/history remains unresolved after the C10 EVERY-root premerge surrogate failure.",
     "HEREDITARY J_H and RSM remain unresolved under the accumulated project state.",
     "Component-order-30 reduction does not settle forests containing a component of order at least 31.",
     "General fast-DP formal correctness, all-parameter FAMILY Lean formalization, and top-level ORIGINAL Lean proof/axiom audit.",
@@ -125,10 +135,11 @@
     "stage11_original/20260919T_phase11_global_L3",
     "stage12_original/20260920T_grouped_dispersion",
     "stage13_original/20260920T_global_L4",
-    "stage14_original/20260921T_external_lean_repo_audit"
+    "stage14_original/20260921T_external_lean_repo_audit",
+    "stage15_original/20260922T_effective_threshold_chain_audit"
   ],
   "latest_original_attempt": "stage13_original/20260920T_global_L4/PROOF.md",
-  "latest_verification_audit": "stage14_original/20260921T_external_lean_repo_audit/AUDIT.md",
+  "latest_verification_audit": "stage15_original/20260922T_effective_threshold_chain_audit/AUDIT.md",
   "completion": {
     "current": false,
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit.",
