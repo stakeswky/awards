@@ -1,0 +1,7 @@
+{
+ "redacted_file": "logs/toolchain.log",
+ "rule": "home directory prefix replaced by ~ (one line: elan toolchain install path)",
+ "original_sha256": "94ed3b9ce638a4d01abcd6f44faaff3a9d5f84c0111cb5b36a87a9a372244621",
+ "published_sha256": "2005c17d2df4afb6c5447dac55c08734d88297993d7d811d5587b690941d9a86",
+ "other_files_modified": false
+}

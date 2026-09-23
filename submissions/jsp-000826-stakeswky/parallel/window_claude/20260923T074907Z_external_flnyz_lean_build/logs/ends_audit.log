@@ -1,0 +1,13 @@
+@monotoneOn_icoeff_prefix : ∀ {V : Type u_1} [Fintype V] [inst : DecidableEq V] {G : SimpleGraph V},
+  G.IsAcyclic → ∀ (S : Finset V) ⦃j k : ℕ⦄, j ≤ k → k ≤ (S.card + 3) / 4 → icoeff G S j ≤ icoeff G S k
+@antitoneOn_icoeff_tail : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}
+  {S : Finset V}, IsBipartiteOn G S → ∀ ⦃j k : ℕ⦄, (2 * alpha G S + 1) / 3 ≤ j → j ≤ k → icoeff G S k ≤ icoeff G S j
+central : ∃ N₀,
+  ∀ (n : ℕ) (G : SimpleGraph (Fin n)),
+    G.IsAcyclic →
+      ∀ (S : Finset (Fin n)),
+        N₀ ≤ S.card →
+          ∀ (k : ℕ),
+            (S.card + 4) / 5 ≤ k → k ≤ 64 * alpha G S / 95 → icoeff G S (k - 1) * icoeff G S (k + 1) < icoeff G S k ^ 2
+'ErdosProblem993.monotoneOn_icoeff_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem993.antitoneOn_icoeff_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

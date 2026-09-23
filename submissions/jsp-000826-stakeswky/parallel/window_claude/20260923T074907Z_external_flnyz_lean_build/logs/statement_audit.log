@@ -1,0 +1,23 @@
+main_fin : ∃ N₀, ∀ (n : ℕ), N₀ ≤ n → ∀ (G : SimpleGraph (Fin n)), G.IsAcyclic → IsUnimodal (icoeff G Finset.univ)
+unimodal_of_isAcyclic : ∃ N₀,
+  ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] (G : SimpleGraph V),
+    G.IsAcyclic → N₀ ≤ Fintype.card V → IsUnimodal (icoeff G Finset.univ)
+@isUnimodal_iff_finite : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}
+  (S : Finset V),
+  IsUnimodal (icoeff G S) ↔
+    ∃ m ≤ alpha G S,
+      (∀ (j k : ℕ), j ≤ k → k ≤ m → icoeff G S j ≤ icoeff G S k) ∧
+        ∀ (j k : ℕ), m ≤ j → j ≤ k → k ≤ alpha G S → icoeff G S k ≤ icoeff G S j
+def ErdosProblem993.IsUnimodal : (ℕ → ℕ) → Prop :=
+fun f => ∃ m, (∀ ⦃j k : ℕ⦄, j ≤ k → k ≤ m → f j ≤ f k) ∧ ∀ ⦃j k : ℕ⦄, m ≤ j → j ≤ k → f k ≤ f j
+def ErdosProblem993.icoeff.{u} : {V : Type u} → [DecidableEq V] → SimpleGraph V → Finset V → ℕ → ℕ :=
+fun {V} [DecidableEq V] G S k => {J ∈ indepFinsets G S | J.card = k}.card
+def ErdosProblem993.indepFinsets.{u} : {V : Type u} → [DecidableEq V] → SimpleGraph V → Finset V → Finset (Finset V) :=
+fun {V} [DecidableEq V] G S => {J ∈ S.powerset | G.IsIndepSet ↑J}
+@[reducible] def SimpleGraph.IsIndepSet.{u_1} : {α : Type u_1} → SimpleGraph α → Set α → Prop :=
+fun {α} G s => s.Pairwise fun v w => ¬G.Adj v w
+def SimpleGraph.IsAcyclic.{u_1} : {V : Type u_1} → SimpleGraph V → Prop :=
+fun {V} G => ∀ ⦃v : V⦄ (c : G.Walk v v), ¬c.IsCycle
+'ErdosProblem993.main_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem993.unimodal_of_isAcyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem993.isUnimodal_iff_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
