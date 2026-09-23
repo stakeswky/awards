@@ -1,0 +1,11 @@
+c=1/2 eta=1/10 R=160 algebraic_bound=1/10 ok=True
+c=1/100 eta=1/1000 R=40000000 algebraic_bound=1/1000 ok=True
+c=3/7 eta=2/13 R=142 algebraic_bound=98/639 ok=True
+c=1/114244 eta=1/100 R=5220676614400 algebraic_bound=1/100 ok=True
+mean_lc c=0.5 R_formula1=77 R_formula2=77 equal=True
+mean_lc c=0.1 R_formula1=1915 R_formula2=1915 equal=True
+mean_lc c=0.01 R_formula1=191493 R_formula2=191493 equal=True
+numeric_tail c=0.5 R=10 exact=3.8956999740056222e-21 coarse=1.6000000000000001 ok=True
+numeric_tail c=0.1 R=100 exact=0 coarse=3.9999999999999991 ok=True
+numeric_tail c=0.01 R=10000 exact=0 coarse=4 ok=True
+PASS_EFFECTIVE_GAUSSIAN_TAIL_SANITY

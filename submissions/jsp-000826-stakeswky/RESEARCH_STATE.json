@@ -1,49 +1,50 @@
 {
   "schema_version": 1,
-  "updated_utc_date": "2026-09-22",
+  "updated_utc_date": "2026-09-23",
   "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
   "repository": "stakeswky/awards",
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "48810290ec2b54ebda2919c0732bad71c7241bce",
+  "last_read_head": "cb6e203d83b0dfe98473225da06c87c5ee001c27",
   "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
-  "previous_checkpoint": "48810290ec2b54ebda2919c0732bad71c7241bce:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
-  "previous_state_full": "All inherited Phase-2 through Phase-14 work, closure_v5/B59 FAMILY status, component-order-30 exclusion, global L3/L4 results, and parallel-window history remain in Git. This checkpoint adds only a bounded effective-threshold source audit and does not reclassify parallel same-model claims as independently verified.",
+  "previous_checkpoint": "cb6e203d83b0dfe98473225da06c87c5ee001c27:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "concurrency_preserved": {
+    "status": "The run started from actual PR head cb6e203d83b0dfe98473225da06c87c5ee001c27 and inspected changes since the prior state checkpoint. No history rewrite or force update is used.",
+    "newer_parallel_material_present": [
+      "parallel/window_claude/20260923T063246Z_independent_colour_mass_audit/",
+      "parallel/window_claude/20260923T074907Z_external_flnyz_lean_build/",
+      "parallel/window_claude/20260923T153415Z_window_lc_reduction_exhaustive_n29/"
+    ],
+    "boundary": "Those parallel results are preserved and are not reclassified here as independently reverified by this Stage-16 run."
+  },
   "current_work": {
-    "run_id": "20260922T_effective_threshold_chain_audit",
-    "task": "Trace the pinned external sufficiently-large-forest Lean theorem from main_fin through central, mean_lc and curvature_limit far enough to obtain a numerical threshold or identify the first precise non-numerical witness.",
-    "package": "stage15_original/20260922T_effective_threshold_chain_audit/",
-    "audit": "stage15_original/20260922T_effective_threshold_chain_audit/AUDIT.md",
-    "data": "stage15_original/20260922T_effective_threshold_chain_audit/threshold_chain.json",
+    "run_id": "20260923T_explicit_gaussian_tail",
+    "task": "Replace the Stage-15 existential Gaussian-tail radius used by curvature_limit with an explicit mathematical witness.",
+    "package": "stage16_original/20260923T_explicit_gaussian_tail/",
+    "proof": "stage16_original/20260923T_explicit_gaussian_tail/PROOF.md",
+    "result_file": "stage16_original/20260923T_explicit_gaussian_tail/result.json",
     "external_repository": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality",
     "external_commit": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
-    "result": "FIRST_CONFIRMED_UNEFFECTIVIZED_WITNESS_IDENTIFIED",
-    "explicit_threshold": "NOT_EXTRACTED",
-    "first_confirmed_uneffectivized_step": "ErdosProblem993.Curvature.exists_tail_small as used inside curvature_limit to choose the Gaussian-tail radius R.",
-    "threshold_reason": "main_fin, central and mean_lc merely wrap lower witnesses; stdCharFn_tendsto_gaussian has an explicit ceiling threshold once its real constants and R are supplied. curvature_limit first chooses R through abstract integral convergence, with no numeral or arithmetic formula in the pinned source.",
-    "exact_rational_reductions": {
-      "scalar_b": "999/1000",
-      "theta": "7999/8000",
-      "p": "31999/16000",
-      "u": "31999",
-      "a": "31998/31999",
-      "linear_variance_lower_c": "1/228488",
-      "charFn_bound_c": "1/114244"
-    },
-    "program_check": "PASS_EXACT_RATIONAL_REDUCTION",
-    "program_check_scope": "Only exact rational reductions copied from pinned source formulas; no transcendental inequality, graph theorem or Lean proof term is validated by this Python check.",
-    "fresh_external_lean_build": "NOT_RUN_RUNTIME_MISSING",
-    "fresh_external_axiom_audit": "NOT_RUN_RUNTIME_MISSING",
-    "runtime_observation": "No lean or lake executable was present; Python 3.13.5 and git 2.47.3 were present.",
+    "result": "EXPLICIT_GAUSSIAN_TAIL_RADIUS_PROVED_IN_WRITING",
+    "tail_bound": "For c>0,R>0, integral_{|t|>R} t^2 exp(-c t^2) dt <= 4/(c^2 R).",
+    "generic_radius": "ceil(4/(c^2*eta))",
+    "curvature_limit_radius": "ceil(12/(pi*epsilon*c0^2))",
+    "mean_lc_radius": "ceil(48/(sqrt(2*pi)*c0^2))",
+    "stage15_obstruction": "REMOVED_AT_WRITTEN_MATHEMATICS_LEVEL",
+    "numerical_N0": "NOT_EXTRACTED",
+    "program_check": "PASS_EFFECTIVE_GAUSSIAN_TAIL_SANITY",
+    "program_check_scope": "Exact rational ceiling/bound checks plus floating-point controls only; the analytic lemma is proved in writing, not by the program.",
+    "verify_script_sha256": "15147ae1ab25d91c6e447219eba6a80f38cbdc2d5fbf637cd9c97092bb5c3f20",
+    "run_log_sha256": "f3929f4c563ea6350ef5fee8ba952f36321e8d904dba63bf095d7e7bebc5739b",
+    "fresh_lean_build_for_new_lemma": "NOT_RUN",
+    "fresh_axiom_audit_for_new_lemma": "NOT_RUN",
     "original_math": "NOT_CLOSED",
     "original_formal": "NOT_ESTABLISHED",
     "legal_original_counterexample": false,
-    "all_order_forest_coverage": false,
-    "review_type": "SAME_MODEL_PINNED_SOURCE_AUDIT",
+    "review_type": "SAME_MODEL_WRITTEN_PROOF_AND_SANITY_CHECKS",
     "independent_external_peer_review_by_project": false,
-    "novelty": "NOT_CLAIMED",
-    "concurrency_preserved": "The bounded run started from actual PR head 48810290ec2b54ebda2919c0732bad71c7241bce, which already contained parallel A10/C10/D10/E10 and other later work beyond the stale Stage-14 state file. Those commits are preserved; no force update or shared-history rewrite is used."
+    "novelty": "NOT_CLAIMED"
   },
   "preserved_results": {
     "family_B59": {
@@ -51,7 +52,7 @@
       "status": "All positive branch counts and repeated B59 mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized."
     },
     "component_order_30": {
-      "status": "Forests whose every tree component has order at most 30 are excluded as original counterexamples, conditional on the pinned external exhaustive computation and classical convolution theorems."
+      "status": "Forests whose every tree component has order at most 30 are excluded as original counterexamples, conditional on pinned external exhaustive computation and classical convolution theorems."
     },
     "global_L3": {
       "checkpoint": "b7e76b0737428c08e549ffd2b274122d67772b1a",
@@ -62,62 +63,48 @@
     },
     "external_large_forests": {
       "source": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality@b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
-      "status": "Pinned external theorem/formal source states an absolute N0 above which every forest is unimodal. Source semantics were audited previously; this run narrows the first confirmed non-numerical witness to the tail-radius choice in curvature_limit. No fresh Lean build or axiom audit was run."
+      "status": "Pinned external theorem states an absolute N0 above which every forest is unimodal. The project has source/statement audits and later parallel build material; this Stage-16 run does not re-run Lean."
     },
-    "stage12_grouped_dispersion": {
-      "status": "General selected-branch-count grouped sufficient bound refuted; exact BARRIER remains unresolved. Scoped alternating decorated-backbone family proved LC."
-    },
-    "parallel_window_material_at_start": {
-      "status": "Actual starting head already contained parallel A10/C10/D10/E10 and related work. C10 refutes an EVERY-root premerge surrogate U_v<=S on an actual hereditary 25-vertex tree but does not refute the raw D<=S entrance, an EXISTS-root gate, or ORIGINAL. This Stage-15 source audit does not independently reverify or supersede those parallel claims."
+    "window_reduction_parallel": {
+      "checkpoint": "cb6e203d83b0dfe98473225da06c87c5ee001c27",
+      "status": "Current head contains a parallel same-project Lean-checked reduction to window log-concavity and reported exhaustive tree checks through n=29. Preserved, not independently reverified in Stage 16."
     }
   },
-  "proved_scope": [
-    "B59 FAMILY all positive branch counts and repeated mixtures: computer-assisted E/P log-concavity and unimodality.",
-    "Forests with every tree component of order at most 30: unimodal conditional on pinned external exhaustive computation and convolution theorems.",
-    "Every finite forest: p_3^2 >= p_2 p_4.",
-    "Every finite forest: p_4^2 >= p_3 p_5.",
-    "Arbitrary-core private-arm scoped theorem and all-length alternating decorated-backbone scoped theorem from inherited phases."
-  ],
-  "external_scope": [
-    "Fang--Lu--Nevo--Yao--Zheng: there exists an absolute N0 such that every forest of order at least N0 has a unimodal independence sequence; public Lean source pinned above. This is external work, not project novelty. The pinned source still does not provide a numerical N0."
-  ],
   "closed_mathematical_gaps": [
-    "The global adjacent log-concavity minors at k=1,2,3,4 are nonnegative for every forest under the accumulated project proofs.",
-    "The previous PREFIX_BETA lower endpoint k>=4 is advanced to k>=5.",
-    "At j=4 the E4-S residual signed sector is closed under the Phase-13 argument.",
-    "For the external large-forest threshold audit, main_fin -> central -> mean_lc wrappers and stdCharFn_tendsto_gaussian are no longer treated as the unidentified source of the non-numerical threshold; the first confirmed source obstruction is the Gaussian-tail radius R in curvature_limit."
+    "The global adjacent log-concavity minors at k=1,2,3,4 are nonnegative for every forest under accumulated project proofs.",
+    "B59 FAMILY E/P log-concavity and unimodality for all positive branch counts and repeated mixtures is computer-assisted proved.",
+    "The Stage-15 Gaussian-tail radius in curvature_limit is no longer merely existential at the written-mathematics level: R=ceil(4/(c0^2*eta)) suffices, equivalently ceil(12/(pi*epsilon*c0^2)) in the source call."
   ],
   "new_boundaries": [
-    "The pinned external threshold chain is explicit after a radius R is supplied: curvature_limit returns max N1 (ceil(X/c)+1), and stdCharFn_tendsto_gaussian returns ceil(Lambda^2/c)+1.",
-    "The root-moment exponent is extremely close to one in the source construction: a=31998/31999 exactly. This helps explain why direct numerical effectivization can be enormous, but it is not itself a proof obstruction.",
-    "A numerical N0 still requires an explicit Gaussian-tail radius and certified evaluation/bounding of downstream explicit real constants."
+    "Effectivizing the external large-order theorem no longer needs abstract tail convergence for the t^2 exp(-c0 t^2) tail.",
+    "At mean_lc's epsilon=1/(2 sqrt(2 pi)), one explicit choice is R=ceil(48/(sqrt(2 pi)*c0^2)).",
+    "A numerical N0 still requires certified numerical bounds for explicit real constants entering c0 and the downstream characteristic-function/root-moment thresholds.",
+    "Current head also contains a reduction of the original problem to WindowLC below the external N0; Stage 16 does not prove that remaining window inequality."
   ],
   "next_tasks": [
     {
       "priority": 1,
-      "task": "Replace the specific exists_tail_small use in curvature_limit by an explicit proved tail bound for t^2 exp(-c0 t^2), propagate a symbolic radius through the threshold chain, and only then attempt certified rational interval evaluation of the remaining explicit real constants."
+      "task": "Effectivize the next real-constant layer: derive certified rational upper/lower intervals for the explicit constants determining c0 (including the variance upper constant inherited from root moments), then substitute the Stage-16 radius formula and propagate a concrete threshold."
     },
     {
       "priority": 2,
-      "task": "Continue the exact all-order whole-forest no-rebound/BARRIER route using actual compatibility and curvature. Preserve the new C10 distinction between premerge root mass and true merged colour mass."
+      "task": "Continue the all-order WindowLC/BARRIER route for ordinary unweighted forests, preserving exact compatibility and the distinction between premerge root mass and true merged colour mass."
     },
     {
       "priority": 3,
-      "task": "Continue bounded direct ordinary unweighted tree/forest counterexample checks focused on graphs with a component of order at least 31 and outside already proved restricted families. Non-log-concavity alone is not an original counterexample."
+      "task": "Retain bounded direct ordinary unweighted tree/forest counterexample checks outside already covered orders/families. Non-log-concavity alone is not an original counterexample."
     }
   ],
   "remaining_gaps": [
     "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest.",
     "A numerical effective value of the external sufficiently-large threshold N0.",
-    "An explicit certified replacement for the Gaussian-tail radius R chosen by exists_tail_small in curvature_limit.",
-    "All finite orders below the external existential threshold remain unresolved as a complete class.",
+    "Certified rational interval bounds for the explicit real constants that determine c0 and downstream threshold formulas.",
+    "WindowLC for all forests in the unresolved finite range below the external threshold.",
     "PREFIX_BETA for indices k>=5 before the inherited tail boundary.",
     "Uniform exact middle BARRIER/root-state/component-allocation estimate for all actual forests.",
-    "The true colour-mass entrance D<=S under HEREDITARY/history remains unresolved after the C10 EVERY-root premerge surrogate failure.",
-    "HEREDITARY J_H and RSM remain unresolved under the accumulated project state.",
-    "Component-order-30 reduction does not settle forests containing a component of order at least 31.",
+    "HEREDITARY J_H and RSM remain unresolved under accumulated project state.",
     "General fast-DP formal correctness, all-parameter FAMILY Lean formalization, and top-level ORIGINAL Lean proof/axiom audit.",
-    "Fresh replay of the external Lean development was not possible in this runtime because Lean/Lake were unavailable.",
+    "The new Stage-16 explicit tail lemma has not yet been compiled in Lean or axiom-audited.",
     "Independent review and global novelty verification."
   ],
   "preserved_run_history": [
@@ -136,10 +123,11 @@
     "stage12_original/20260920T_grouped_dispersion",
     "stage13_original/20260920T_global_L4",
     "stage14_original/20260921T_external_lean_repo_audit",
-    "stage15_original/20260922T_effective_threshold_chain_audit"
+    "stage15_original/20260922T_effective_threshold_chain_audit",
+    "stage16_original/20260923T_explicit_gaussian_tail"
   ],
   "latest_original_attempt": "stage13_original/20260920T_global_L4/PROOF.md",
-  "latest_verification_audit": "stage15_original/20260922T_effective_threshold_chain_audit/AUDIT.md",
+  "latest_effective_threshold_work": "stage16_original/20260923T_explicit_gaussian_tail/PROOF.md",
   "completion": {
     "current": false,
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit.",
