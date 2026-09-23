@@ -1,0 +1,166 @@
+⚠ [8248/8264] Replayed ErdosProblem993.ForMathlib.EsseenSmoothing
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:393:17: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:470:26: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:470:10: This simp argument is unused:
+  max_eq_left (by simpa using abs_nonneg t : (0 : ℝ) - |t| ≤ 0)
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵m̵a̵x̵_̵e̵q̵_̵l̵e̵f̵t̵ ̵(̵b̵y̵ ̵s̵i̵m̵p̵a̵ ̵u̵s̵i̵n̵g̵ ̵a̵b̵s̵_̵n̵o̵n̵n̵e̵g̵ ̵t̵ ̵:̵ ̵(̵0̵ ̵:̵ ̵ℝ̵)̵ ̵-̵ ̵|̵t̵|̵ ̵≤̵ ̵0̵)̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:714:36: unused variable `hvu`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:714:50: unused variable `hδ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:841:38: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+warning: ErdosProblem993/ForMathlib/EsseenSmoothing.lean:1026:5: `MeasureTheory.Integrable.bdd_mul'` has been deprecated: Use `MeasureTheory.Integrable.bdd_mul` instead
+⚠ [8250/8264] Replayed ErdosProblem993.Basic
+warning: ErdosProblem993/Basic.lean:67:8: automatically included section variable(s) unused in theorem `ErdosProblem993.mem_indepFinsets`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Basic.lean:135:8: automatically included section variable(s) unused in theorem `ErdosProblem993.mem_nbr`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8252/8264] Replayed ErdosProblem993.Components
+warning: ErdosProblem993/Components.lean:200:0: automatically included section variable(s) unused in theorem `ErdosProblem993.components_nonempty_mem`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:204:0: automatically included section variable(s) unused in theorem `ErdosProblem993.subset_of_mem_components`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:219:0: automatically included section variable(s) unused in theorem `ErdosProblem993.compOf_eq_of_mem_components`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:225:0: automatically included section variable(s) unused in theorem `ErdosProblem993.mem_of_adj_of_mem_components`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:243:0: automatically included section variable(s) unused in theorem `ErdosProblem993.connected_of_mem_components`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:314:0: automatically included section variable(s) unused in theorem `ErdosProblem993.exists_adj_of_reachOn`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/Components.lean:369:29: unused variable `S`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8254/8264] Replayed ErdosProblem993.RootMoments
+warning: ErdosProblem993/RootMoments.lean:839:53: unused variable `hρ0`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [8260/8264] Replayed ErdosProblem993.CLT
+warning: ErdosProblem993/CLT.lean:255:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExp_add`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:262:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExp_sub`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:269:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExp_const_mul`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:282:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExp_congr`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:407:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcCharFn_eq_Zgen`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:437:0: automatically included section variable(s) unused in theorem `ErdosProblem993.separated_biUnion`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:498:0: automatically included section variable(s) unused in theorem `ErdosProblem993.compOf_mono`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:542:0: automatically included section variable(s) unused in theorem `ErdosProblem993.separated_compOf_sdiff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:548:0: automatically included section variable(s) unused in theorem `ErdosProblem993.erase_eq_union_sdiff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:907:15: unused variable `x`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ErdosProblem993/CLT.lean:1540:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcCharFn_eq_hcExpC`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:1543:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExpC_const_mul`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:1550:0: automatically included section variable(s) unused in theorem `ErdosProblem993.hcExpC_congr`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:1713:0: automatically included section variable(s) unused in theorem `ErdosProblem993.sum_pot_le`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: ErdosProblem993/CLT.lean:1777:48: unused variable `hE0`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8264/8264] Built ErdosProblem993.WindowReduction (4.6s)
+Build completed successfully (8264 jobs).
