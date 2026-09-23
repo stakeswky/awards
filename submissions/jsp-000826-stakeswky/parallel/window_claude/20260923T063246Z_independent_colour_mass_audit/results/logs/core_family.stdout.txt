@@ -1,0 +1,4 @@
+core trees 5958 History positions 71253 violations 0 non-LC trees 708
+max ratio 0.015326 arms=[1, 1, 1] centre_leaves=0 n=10 j=5
+middle-range positions 7271 with Dmass>0: 0
+T26 History positions: [{'j': 9, 'ratio': '0/1', 'Dmass': 0, 'S': 2126257408}, {'j': 10, 'ratio': '0/1', 'Dmass': 0, 'S': 2477752855}, {'j': 11, 'ratio': '0/1', 'Dmass': 0, 'S': 687833328}, {'j': 12, 'ratio': '0/1', 'Dmass': 0, 'S': 46782216}, {'j': 13, 'ratio': '92/9333', 'Dmass': 1472, 'S': 149328}, {'j': 14, 'ratio': '0/1', 'Dmass': 0, 'S': 50}]

@@ -1,0 +1,5 @@
+(a) generator counts n=2..18 match OEIS A000055; n<=12 pairwise non-isomorphic
+(b) bivariate rows equal literal enumeration: 986 trees, 7911 rows
+(c,d) literal capacities and cut-DP = max-flow on 4837 (tree,j,leaf) cases, n=3..10
+(d,e) middle-range sample: {'trees': 413, 'positions': 413, 'leaf_checks': 3403, 'coordinator_poly_entries': 26872, 'deletion_recursion_trees': 22}
+(f) published values reproduced: [('F14', 0, 0), ('G25', 3158, 2666), ('T26', 1472, 1472), ('F56', 1181067781056125771069280, 298125284806617840)]
