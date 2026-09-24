@@ -4,6 +4,8 @@ Independent Claude window, 2026-09-24. It continues `20260924T092515Z_centroid_n
 
 **ORIGINAL=NOT_CLOSED.** Erdős #993 is neither proved nor refuted here.
 
+**Correction (run `20260924T150627Z_ma_exhaustive_n26_forests18`).** The statement that an aligned vertex of degree at most 3 always exists holds for n <= 22 but not in general: hubs(6,3) (n = 25) has aligned hubs (degree 4) and centre (degree 6) but no aligned vertex of degree <= 3. The main statement (MA) is unaffected and is verified there for all trees with n <= 26 and all forests of order <= 20.
+
 ## 0. Why this direction
 
 Every induction tried so far on this problem carries a log-concavity (LC) hypothesis. These fail to

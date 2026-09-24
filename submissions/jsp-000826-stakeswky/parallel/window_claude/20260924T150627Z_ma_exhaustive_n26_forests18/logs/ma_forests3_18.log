@@ -1,0 +1,18 @@
+trees per order: {1: 1, 2: 1, 3: 1, 4: 2, 5: 3, 6: 6, 7: 11, 8: 23, 9: 47, 10: 106, 11: 235, 12: 551, 13: 1301, 14: 3159, 15: 7741, 16: 19320, 17: 48629}
+n=3: forests(>=2 components, with an edge)=1 without_aligned_vertex=0 worst_best_dist=0 tries_hist={1: 1} secs=0 []
+n=4: forests(>=2 components, with an edge)=3 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 3} secs=0 []
+n=5: forests(>=2 components, with an edge)=6 without_aligned_vertex=0 worst_best_dist=0 tries_hist={1: 6} secs=0 []
+n=6: forests(>=2 components, with an edge)=13 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 13} secs=0 []
+n=7: forests(>=2 components, with an edge)=25 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 25} secs=0 []
+n=8: forests(>=2 components, with an edge)=52 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 52} secs=0 []
+n=9: forests(>=2 components, with an edge)=105 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 105} secs=0 []
+n=10: forests(>=2 components, with an edge)=222 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 222} secs=0 []
+n=11: forests(>=2 components, with an edge)=474 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 469, 2: 4, 3: 1} secs=0 []
+n=12: forests(>=2 components, with an edge)=1049 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 1049} secs=0 []
+n=13: forests(>=2 components, with an edge)=2356 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 2348, 2: 6, 3: 2} secs=0 []
+n=14: forests(>=2 components, with an edge)=5439 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 5413, 2: 25, 3: 1} secs=0 []
+n=15: forests(>=2 components, with an edge)=12772 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 12756, 2: 14, 3: 2} secs=0 []
+n=16: forests(>=2 components, with an edge)=30584 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 30459, 2: 99, 3: 22, 4: 4} secs=1 []
+n=17: forests(>=2 components, with an edge)=74333 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 74143, 2: 167, 3: 21, 4: 2} secs=1 []
+n=18: forests(>=2 components, with an edge)=183331 without_aligned_vertex=0 worst_best_dist=1 tries_hist={1: 182919, 2: 323, 3: 59, 4: 19, 5: 8, 6: 3} secs=4 []
+TOTAL forests=310765 without_aligned_vertex=0 secs=6

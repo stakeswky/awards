@@ -4,6 +4,8 @@
 `20260924T092515Z_centroid_n31_drift_strict_product`. PR #1 stays Draft; `RESEARCH_STATE.json` is not
 modified. No novelty, priority or award claim is made.
 
+**Correction (run `20260924T150627Z_ma_exhaustive_n26_forests18`).** The statement that an aligned vertex of degree at most 3 always exists holds for n <= 22 but not in general: hubs(6,3) (n = 25) has aligned hubs (degree 4) and centre (degree 6) but no aligned vertex of degree <= 3. The main statement (MA) is unaffected and is verified there for all trees with n <= 26 and all forests of order <= 20.
+
 ## What this run does
 
 It tests a sufficient condition for unimodality that mentions only unimodality and mode positions

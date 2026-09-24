@@ -1,0 +1,33 @@
+{
+ "run_id": "20260924T150627Z_ma_exhaustive_n26_forests18",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "what_was_checked": "mode-alignment statements (MA), (S1), (S2) of run 20260924T143534Z, exhaustively",
+ "trees": {
+  "program": "src/cma.c (centroid enumeration of run 20260924T092515Z; one deletion DP per vertex; leaves grouped by support)",
+  "orders": "19..26 (4..22 in the previous run with a second program)",
+  "counts_equal_A000055": true,
+  "MA_trees_without_aligned_vertex": 0,
+  "trees_without_aligned_leaf_by_order": {"19": 3, "20": 11, "21": 7, "22": 7, "23": 93, "24": 23, "25": 224, "26": 335},
+  "S2_leaf_shift_outside_minus1_0": 0,
+  "S1_all_vertex_shift_range_full_runs": "[-1, 1] for n = 20..26",
+  "leaf_at_degree2_support_always_aligned": true,
+  "sharper_claim_of_previous_run_refuted": "hubs(6,3) (n = 25) has no aligned vertex of degree <= 3; its hubs (degree 4) and centre (degree 6) are aligned",
+  "cross_validation": "n = 14..22: per-tree counts and S2 histograms identical to modes.c (WROM, two DPs per vertex); FULL variant at n = 20: S1 leaf row and alignment histogram identical",
+  "printed_exceptional_trees_reverified_in_python": "examples 703 problems 0 by n {19: 3, 20: 11, 21: 7, 22: 7, 23: 93, 24: 23, 25: 224, 26: 335} first aligned vertex degree {2: 699, 3: 3, 4: 1}"
+ },
+ "forests": {
+  "program": "src/ma_forests3.py (multisets of free trees; components of order <= n-1)",
+  "orders": "3..20, at least two components and an edge",
+  "forests_checked": 1923150,
+  "forests_without_aligned_vertex": 0,
+  "counts_note": "n = 18: 183,331 = A005195(18) - A000055(18) - 1"
+ },
+ "lean_status": "NOT_RUN",
+ "review_type": "SAME_MODEL_EXACT_COMPUTATION",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}
