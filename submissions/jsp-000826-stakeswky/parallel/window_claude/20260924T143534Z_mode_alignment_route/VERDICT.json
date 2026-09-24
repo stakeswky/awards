@@ -1,0 +1,34 @@
+{
+ "run_id": "20260924T143534Z_mode_alignment_route",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "results": {
+  "lemma1_aligned_sum": {"status": "PROVED_IN_WRITING", "statement": "sum of two unimodal sequences with mode sets at distance <= 1 is unimodal", "novelty": "NOT_CLAIMED"},
+  "theorem3_reduction": {"status": "PROVED_IN_WRITING", "statement": "(MA): every forest with an edge has an aligned vertex ==> every forest is unimodal"},
+  "MA_evidence": {
+   "trees_exhaustive": "all trees 4 <= n <= 22 (6,594,041 trees): aligned vertex exists, always of degree <= 3",
+   "forests_exhaustive": "all 35,704 forests of order <= 15 with an edge",
+   "large_trees": "140 random/structured trees, n <= 120",
+   "trees_without_aligned_leaf": {"14": 1, "16": 1, "18": 1, "20": 11, "22": 7},
+   "local_rule_found": false
+  },
+  "mode_shift_under_single_deletion": {"range_all_vertices": [-1, 1], "range_leaves": [-1, 0], "orders": "4..22 exhaustive; large trees sampled"},
+  "pendant_leaf_lemma_S2": {"status": "EMPIRICAL_NEVER_VIOLATED", "consequence": "settles every forest with a degree-2 support vertex, given the induction hypothesis"},
+  "obstruction": "unimodality of the pieces plus the mediant property allows the +1 mode shift; (S2)/(MA) need one quantitative increment-vs-decrement inequality next to the modes (NOTE Section 5); local concavity of the smallest piece would suffice but its radius is only about 0.2 sqrt(n)",
+  "mean_addable_comparison_window": {"max_increase_on_deletion": 0.405, "max_decrease_on_deletion": 1.488, "orders": "6..15 exhaustive"},
+  "normalised_LC_margin_window": {"min": "3.43 (n=12) .. 3.69 (n=24)", "max": "8.0 (n=12) .. 10.2 (n=24)"},
+  "concavity_radius": {"min_over_trees": "0 (n<=14, n=18), 1 (n=16,20,22,24)", "min_radius_over_sqrt_n_n_ge_16": "0.20..0.25"}
+ },
+ "recommended_next": [
+  "prove the pendant-leaf lemma (S2) for forests",
+  "identify and prove alignment of a vertex in hub forests (every support vertex of degree >= 3)",
+  "extend the exhaustive (MA) check to n = 26 and forests of order <= 18"
+ ],
+ "lean_status": "NOT_RUN",
+ "review_type": "SAME_MODEL_WRITTEN_PROOFS_AND_EXACT_COMPUTATION",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}

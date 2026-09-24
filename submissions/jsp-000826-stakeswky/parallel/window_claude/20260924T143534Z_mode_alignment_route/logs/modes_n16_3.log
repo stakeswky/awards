@@ -1,0 +1,46 @@
+EX n=16 min_dist=0 leaf_min=2 levels=0,1,2,3,4,4,4,4,1,2,3,3,3,1,1,1 p=1,16,105,379,868,1382,1595,1360,856,389,121,23,2
+SUMMARY n=16 trees=4830 nonunimodal=0 any_aligned=4830 leaf_aligned=4829 rule_leaf_at_min_degree_support=4829 deg2or3_aligned=4821 deg1to3_aligned=4830 all_leaves_aligned=4789 worst_min_dist=1
+SHIFT_MODE_TminusV_vs_T (rows: degree of v; cols: signed shift -4..4)
+SHIFT deg=1 0 0 0 6963 30835 0 0 0 0
+SHIFT deg=2 0 0 0 1273 20943 5 0 0 0
+SHIFT deg=3 0 0 0 193 10176 101 0 0 0
+SHIFT deg=4 0 0 0 17 4050 181 0 0 0
+SHIFT deg=5 0 0 0 2 1459 136 0 0 0
+SHIFT deg=6 0 0 0 0 541 38 0 0 0
+SHIFT deg=7 0 0 0 0 216 9 0 0 0
+SHIFT deg=8 0 0 0 0 88 0 0 0 0
+SHIFT deg=9 0 0 0 0 37 0 0 0 0
+SHIFT deg=10 0 0 0 0 9 0 0 0 0
+SHIFT deg=11 0 0 0 0 4 0 0 0 0
+SHIFT deg=12 0 0 0 0 1 0 0 0 0
+SHIFT deg=13 0 0 0 0 2 0 0 0 0
+SHIFT deg=15 0 0 0 0 1 0 0 0 0
+ALIGN_MC1_vs_MA (rows: degree of v; cols: signed shift of M(C)+1 relative to M(A), -4..4)
+ALIGN deg=1 0 0 0 0 8166 29389 243 0 0
+ALIGN deg=2 0 0 0 8 13972 8228 13 0 0
+ALIGN deg=3 0 0 0 306 8586 1577 1 0 0
+ALIGN deg=4 0 0 0 860 3237 151 0 0 0
+ALIGN deg=5 0 0 165 791 631 10 0 0 0
+ALIGN deg=6 0 0 288 231 60 0 0 0 0
+ALIGN deg=7 0 1 190 25 9 0 0 0 0
+ALIGN deg=8 0 32 54 2 0 0 0 0 0
+ALIGN deg=9 0 24 13 0 0 0 0 0 0
+ALIGN deg=10 2 6 1 0 0 0 0 0 0
+ALIGN deg=11 3 1 0 0 0 0 0 0 0
+ALIGN deg=12 1 0 0 0 0 0 0 0 0
+ALIGN deg=13 2 0 0 0 0 0 0 0 0
+ALIGN deg=15 1 0 0 0 0 0 0 0 0
+LEAFSPLIT M(T-v-u) relative to M(T-v), rows: degree of support u; cols -4..4
+LEAFSPLIT suppdeg=2 0 0 0 5347 4666 0 0 0 0
+LEAFSPLIT suppdeg=3 0 0 0 2342 8744 0 0 0 0
+LEAFSPLIT suppdeg=4 0 0 0 222 7713 18 0 0 0
+LEAFSPLIT suppdeg=5 0 0 0 3 4348 108 0 0 0
+LEAFSPLIT suppdeg=6 0 0 0 0 2194 59 0 0 0
+LEAFSPLIT suppdeg=7 0 0 0 0 1047 40 0 0 0
+LEAFSPLIT suppdeg=8 0 0 0 0 516 18 0 0 0
+LEAFSPLIT suppdeg=9 0 0 0 0 254 0 0 0 0
+LEAFSPLIT suppdeg=10 0 0 0 0 73 0 0 0 0
+LEAFSPLIT suppdeg=11 0 0 0 0 36 0 0 0 0
+LEAFSPLIT suppdeg=12 0 0 0 0 11 0 0 0 0
+LEAFSPLIT suppdeg=13 0 0 0 0 24 0 0 0 0
+LEAFSPLIT suppdeg=15 0 0 0 0 15 0 0 0 0

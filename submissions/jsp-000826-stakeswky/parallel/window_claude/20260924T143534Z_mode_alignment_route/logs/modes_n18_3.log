@@ -1,0 +1,46 @@
+EX n=18 min_dist=0 leaf_min=2 levels=0,1,2,3,4,4,4,4,4,4,1,2,3,4,4,4,4,4 p=1,18,136,585,1660,3372,5094,5831,5074,3325,1606,551,126,17,1
+SUMMARY n=18 trees=30966 nonunimodal=0 any_aligned=30966 leaf_aligned=30965 rule_leaf_at_min_degree_support=30964 deg2or3_aligned=30950 deg1to3_aligned=30966 all_leaves_aligned=29228 worst_min_dist=1
+SHIFT_MODE_TminusV_vs_T (rows: degree of v; cols: signed shift -4..4)
+SHIFT deg=1 0 0 0 138272 130896 0 0 0 0
+SHIFT deg=2 0 0 0 43610 117213 12 0 0 0
+SHIFT deg=3 0 0 0 6428 70067 849 0 0 0
+SHIFT deg=4 0 0 0 446 30281 533 0 0 0
+SHIFT deg=5 0 0 0 8 11521 290 0 0 0
+SHIFT deg=6 0 0 0 0 4250 140 0 0 0
+SHIFT deg=7 0 0 0 0 1600 37 0 0 0
+SHIFT deg=8 0 0 0 0 579 4 0 0 0
+SHIFT deg=9 0 0 0 0 221 1 0 0 0
+SHIFT deg=10 0 0 0 0 78 0 0 0 0
+SHIFT deg=11 0 0 0 0 34 0 0 0 0
+SHIFT deg=12 0 0 0 0 12 0 0 0 0
+SHIFT deg=13 0 0 0 0 4 0 0 0 0
+SHIFT deg=14 0 0 0 0 2 0 0 0 0
+ALIGN_MC1_vs_MA (rows: degree of v; cols: signed shift of M(C)+1 relative to M(A), -4..4)
+ALIGN deg=1 0 0 0 0 39671 223190 6307 0 0
+ALIGN deg=2 0 0 0 18 79367 81037 413 0 0
+ALIGN deg=3 0 0 0 8269 54228 14834 13 0 0
+ALIGN deg=4 0 0 9 14097 15974 1180 0 0 0
+ALIGN deg=5 0 0 320 8727 2740 32 0 0 0
+ALIGN deg=6 0 0 841 3265 284 0 0 0 0
+ALIGN deg=7 0 166 790 656 25 0 0 0 0
+ALIGN deg=8 0 286 228 68 1 0 0 0 0
+ALIGN deg=9 2 182 30 8 0 0 0 0 0
+ALIGN deg=10 26 48 3 1 0 0 0 0 0
+ALIGN deg=11 27 7 0 0 0 0 0 0 0
+ALIGN deg=12 11 1 0 0 0 0 0 0 0
+ALIGN deg=13 4 0 0 0 0 0 0 0 0
+ALIGN deg=14 2 0 0 0 0 0 0 0 0
+LEAFSPLIT M(T-v-u) relative to M(T-v), rows: degree of support u; cols -4..4
+LEAFSPLIT suppdeg=2 0 0 0 24066 46650 0 0 0 0
+LEAFSPLIT suppdeg=3 0 0 0 12062 67157 2 0 0 0
+LEAFSPLIT suppdeg=4 0 0 0 2439 52635 1670 0 0 0
+LEAFSPLIT suppdeg=5 0 0 0 255 28791 3238 0 0 0
+LEAFSPLIT suppdeg=6 0 0 0 14 15170 1219 0 0 0
+LEAFSPLIT suppdeg=7 0 0 0 0 7624 152 0 0 0
+LEAFSPLIT suppdeg=8 0 0 0 0 3364 26 0 0 0
+LEAFSPLIT suppdeg=9 0 0 0 0 1517 0 0 0 0
+LEAFSPLIT suppdeg=10 0 0 0 0 617 0 0 0 0
+LEAFSPLIT suppdeg=11 0 0 0 0 309 0 0 0 0
+LEAFSPLIT suppdeg=12 0 0 0 0 122 0 0 0 0
+LEAFSPLIT suppdeg=13 0 0 0 0 45 0 0 0 0
+LEAFSPLIT suppdeg=14 0 0 0 0 24 0 0 0 0

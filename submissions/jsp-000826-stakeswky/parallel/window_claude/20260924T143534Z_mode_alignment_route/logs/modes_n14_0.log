@@ -1,0 +1,33 @@
+SUMMARY n=14 trees=790 nonunimodal=0 any_aligned=790 leaf_aligned=790 rule_leaf_at_min_degree_support=790 deg2or3_aligned=787 deg1to3_aligned=790 all_leaves_aligned=769 worst_min_dist=1
+SHIFT_MODE_TminusV_vs_T (rows: degree of v; cols: signed shift -4..4)
+SHIFT deg=1 0 0 0 2400 3088 0 0 0 0
+SHIFT deg=2 0 0 0 581 2569 0 0 0 0
+SHIFT deg=3 0 0 0 99 1354 39 0 0 0
+SHIFT deg=4 0 0 0 11 505 68 0 0 0
+SHIFT deg=5 0 0 0 0 211 7 0 0 0
+SHIFT deg=6 0 0 0 0 73 0 0 0 0
+SHIFT deg=7 0 0 0 0 37 0 0 0 0
+SHIFT deg=8 0 0 0 0 13 0 0 0 0
+SHIFT deg=9 0 0 0 0 3 0 0 0 0
+SHIFT deg=11 0 0 0 0 2 0 0 0 0
+ALIGN_MC1_vs_MA (rows: degree of v; cols: signed shift of M(C)+1 relative to M(A), -4..4)
+ALIGN deg=1 0 0 0 0 301 5090 97 0 0
+ALIGN deg=2 0 0 0 0 979 2164 7 0 0
+ALIGN deg=3 0 0 0 178 884 430 0 0 0
+ALIGN deg=4 0 0 0 323 216 45 0 0 0
+ALIGN deg=5 0 0 1 190 24 3 0 0 0
+ALIGN deg=6 0 0 28 41 4 0 0 0 0
+ALIGN deg=7 0 1 29 7 0 0 0 0 0
+ALIGN deg=8 0 2 8 3 0 0 0 0 0
+ALIGN deg=9 0 3 0 0 0 0 0 0 0
+ALIGN deg=11 2 0 0 0 0 0 0 0 0
+LEAFSPLIT M(T-v-u) relative to M(T-v), rows: degree of support u; cols -4..4
+LEAFSPLIT suppdeg=2 0 0 0 189 1286 0 0 0 0
+LEAFSPLIT suppdeg=3 0 0 0 64 1589 0 0 0 0
+LEAFSPLIT suppdeg=4 0 0 0 5 1102 28 0 0 0
+LEAFSPLIT suppdeg=5 0 0 0 0 595 38 0 0 0
+LEAFSPLIT suppdeg=6 0 0 0 0 265 21 0 0 0
+LEAFSPLIT suppdeg=7 0 0 0 0 176 10 0 0 0
+LEAFSPLIT suppdeg=8 0 0 0 0 78 0 0 0 0
+LEAFSPLIT suppdeg=9 0 0 0 0 23 0 0 0 0
+LEAFSPLIT suppdeg=11 0 0 0 0 19 0 0 0 0

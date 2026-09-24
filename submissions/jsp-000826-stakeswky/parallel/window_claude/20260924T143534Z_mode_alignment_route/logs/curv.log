@@ -1,0 +1,7 @@
+n=12 MARGIN min_n_margin_window=3.428571 max_n_margin_window=8.011687 min_n_margin_1_to_top=3.428571 mode_over_n_min=0.333333 mode_over_alpha_max=0.666667
+n=14 MARGIN min_n_margin_window=3.500000 max_n_margin_window=7.888889 min_n_margin_1_to_top=3.500000 mode_over_n_min=0.285714 mode_over_alpha_max=0.714286
+n=16 MARGIN min_n_margin_window=3.555556 max_n_margin_window=8.408780 min_n_margin_1_to_top=3.555556 mode_over_n_min=0.312500 mode_over_alpha_max=0.666667
+n=18 MARGIN min_n_margin_window=3.600000 max_n_margin_window=9.395510 min_n_margin_1_to_top=3.600000 mode_over_n_min=0.277778 mode_over_alpha_max=0.666667
+n=20 MARGIN min_n_margin_window=3.636364 max_n_margin_window=9.062500 min_n_margin_1_to_top=3.636364 mode_over_n_min=0.300000 mode_over_alpha_max=0.700000
+n=22 MARGIN min_n_margin_window=3.666667 max_n_margin_window=9.398809 min_n_margin_1_to_top=3.666667 mode_over_n_min=0.272727 mode_over_alpha_max=0.666667
+n=24 MARGIN min_n_margin_window=3.692308 max_n_margin_window=10.180397 min_n_margin_1_to_top=3.692308 mode_over_n_min=0.291667 mode_over_alpha_max=0.666667

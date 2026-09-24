@@ -1,0 +1,252 @@
+{
+ "14": {
+  "n": 14,
+  "trees": 3159,
+  "nonunimodal": 0,
+  "any_aligned": 3159,
+  "leaf_aligned": 3158,
+  "rule_leaf_at_min_degree_support": 3158,
+  "deg2or3_aligned": 3146,
+  "deg1to3_aligned": 3159,
+  "all_leaves_aligned": 3059,
+  "worst_min_dist": 1,
+  "shift_range_all": [
+   -1,
+   1
+  ],
+  "leaf_shift_hist": [
+   [
+    -1,
+    9948
+   ],
+   [
+    0,
+    12059
+   ]
+  ],
+  "deletion_increases_mode_by_degree": {
+   "3": 179,
+   "4": 232,
+   "5": 29
+  },
+  "leafsplit_support_shift_plus1_by_support_degree": {
+   "3": 2,
+   "4": 85,
+   "5": 142,
+   "6": 159,
+   "7": 51
+  },
+  "leafsplit_minus2": {},
+  "align_range": [
+   -4,
+   2
+  ],
+  "trees_with_no_aligned_leaf": 1
+ },
+ "16": {
+  "n": 16,
+  "trees": 19320,
+  "nonunimodal": 0,
+  "any_aligned": 19320,
+  "leaf_aligned": 19319,
+  "rule_leaf_at_min_degree_support": 19317,
+  "deg2or3_aligned": 19292,
+  "deg1to3_aligned": 19320,
+  "all_leaves_aligned": 19158,
+  "worst_min_dist": 1,
+  "shift_range_all": [
+   -1,
+   1
+  ],
+  "leaf_shift_hist": [
+   [
+    -1,
+    28373
+   ],
+   [
+    0,
+    122891
+   ]
+  ],
+  "deletion_increases_mode_by_degree": {
+   "2": 8,
+   "3": 392,
+   "4": 731,
+   "5": 479,
+   "6": 190,
+   "7": 24,
+   "8": 2
+  },
+  "leafsplit_support_shift_plus1_by_support_degree": {
+   "4": 107,
+   "5": 388,
+   "6": 279,
+   "7": 131,
+   "8": 23,
+   "9": 6
+  },
+  "leafsplit_minus2": {},
+  "align_range": [
+   -4,
+   2
+  ],
+  "trees_with_no_aligned_leaf": 1
+ },
+ "18": {
+  "n": 18,
+  "trees": 123867,
+  "nonunimodal": 0,
+  "any_aligned": 123867,
+  "leaf_aligned": 123866,
+  "rule_leaf_at_min_degree_support": 123864,
+  "deg2or3_aligned": 123801,
+  "deg1to3_aligned": 123867,
+  "all_leaves_aligned": 116761,
+  "worst_min_dist": 1,
+  "shift_range_all": [
+   -1,
+   1
+  ],
+  "leaf_shift_hist": [
+   [
+    -1,
+    554756
+   ],
+   [
+    0,
+    522307
+   ]
+  ],
+  "deletion_increases_mode_by_degree": {
+   "2": 33,
+   "3": 3400,
+   "4": 1993,
+   "5": 1292,
+   "6": 564,
+   "7": 135,
+   "8": 12,
+   "9": 7
+  },
+  "leafsplit_support_shift_plus1_by_support_degree": {
+   "3": 8,
+   "4": 6993,
+   "5": 13293,
+   "6": 4562,
+   "7": 628,
+   "8": 98,
+   "9": 6
+  },
+  "leafsplit_minus2": {},
+  "align_range": [
+   -4,
+   2
+  ],
+  "trees_with_no_aligned_leaf": 1
+ },
+ "20": {
+  "n": 20,
+  "trees": 823065,
+  "nonunimodal": 0,
+  "any_aligned": 823065,
+  "leaf_aligned": 823054,
+  "rule_leaf_at_min_degree_support": 823051,
+  "deg2or3_aligned": 822905,
+  "deg1to3_aligned": 823065,
+  "all_leaves_aligned": 800875,
+  "worst_min_dist": 1,
+  "shift_range_all": [
+   -1,
+   1
+  ],
+  "leaf_shift_hist": [
+   [
+    -1,
+    2843452
+   ],
+   [
+    0,
+    5027798
+   ]
+  ],
+  "deletion_increases_mode_by_degree": {
+   "2": 202,
+   "3": 42588,
+   "4": 64020,
+   "5": 29877,
+   "6": 4821,
+   "7": 746,
+   "8": 162,
+   "9": 21
+  },
+  "leafsplit_support_shift_plus1_by_support_degree": {
+   "3": 170,
+   "4": 18385,
+   "5": 38155,
+   "6": 34006,
+   "7": 16326,
+   "8": 3079,
+   "9": 426,
+   "10": 18
+  },
+  "leafsplit_minus2": {},
+  "align_range": [
+   -4,
+   2
+  ],
+  "trees_with_no_aligned_leaf": 11
+ },
+ "22": {
+  "n": 22,
+  "trees": 5623756,
+  "nonunimodal": 0,
+  "any_aligned": 5623756,
+  "leaf_aligned": 5623749,
+  "rule_leaf_at_min_degree_support": 5623704,
+  "deg2or3_aligned": 5623346,
+  "deg1to3_aligned": 5623756,
+  "all_leaves_aligned": 5431070,
+  "worst_min_dist": 1,
+  "shift_range_all": [
+   -1,
+   1
+  ],
+  "leaf_shift_hist": [
+   [
+    -1,
+    17727827
+   ],
+   [
+    0,
+    40944762
+   ]
+  ],
+  "deletion_increases_mode_by_degree": {
+   "2": 1559,
+   "3": 113588,
+   "4": 194550,
+   "5": 137349,
+   "6": 60437,
+   "7": 14528,
+   "8": 1790,
+   "9": 187,
+   "10": 41
+  },
+  "leafsplit_support_shift_plus1_by_support_degree": {
+   "3": 621,
+   "4": 268519,
+   "5": 244670,
+   "6": 95747,
+   "7": 47675,
+   "8": 18362,
+   "9": 5117,
+   "10": 736,
+   "11": 101
+  },
+  "leafsplit_minus2": {},
+  "align_range": [
+   -4,
+   2
+  ],
+  "trees_with_no_aligned_leaf": 7
+ }
+}

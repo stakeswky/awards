@@ -1,0 +1,9 @@
+n=8 CONCAVITY min_radius=0 trees_radius_lt1=14 trees_radius_lt2=23 min_radius_over_sqrt_n=0.0000
+n=10 CONCAVITY min_radius=0 trees_radius_lt1=11 trees_radius_lt2=106 min_radius_over_sqrt_n=0.0000
+n=12 CONCAVITY min_radius=0 trees_radius_lt1=60 trees_radius_lt2=551 min_radius_over_sqrt_n=0.0000
+n=14 CONCAVITY min_radius=0 trees_radius_lt1=240 trees_radius_lt2=3159 min_radius_over_sqrt_n=0.0000
+n=16 CONCAVITY min_radius=1 trees_radius_lt1=0 trees_radius_lt2=19320 min_radius_over_sqrt_n=0.2500
+n=18 CONCAVITY min_radius=0 trees_radius_lt1=1 trees_radius_lt2=123785 min_radius_over_sqrt_n=0.0000
+n=20 CONCAVITY min_radius=1 trees_radius_lt1=0 trees_radius_lt2=822079 min_radius_over_sqrt_n=0.2236
+n=22 CONCAVITY min_radius=1 trees_radius_lt1=0 trees_radius_lt2=5555567 min_radius_over_sqrt_n=0.2132
+n=24 CONCAVITY min_radius=1 trees_radius_lt1=0 trees_radius_lt2=38822973 min_radius_over_sqrt_n=0.2041
