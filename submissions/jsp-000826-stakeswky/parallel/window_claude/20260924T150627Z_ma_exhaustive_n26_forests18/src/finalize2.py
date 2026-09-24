@@ -1,6 +1,7 @@
-"""Fill placeholders of NOTE2/README2/VERDICT2 from the logs and write them into the run directory."""
+"""Fill placeholders of the NOTE/README/VERDICT drafts from the logs and write them into the run directory.
+usage: finalize2.py <draft directory containing NOTE2_draft.md README2_draft.md VERDICT2_draft.json and RUNDIR2>"""
 import json, re, os, subprocess, sys
-W = '/tmp/claude-0/-home-user-awards/f1fcff3d-1896-5cf7-84a3-152aa4558009/scratchpad/w'
+W = sys.argv[1]
 R = open(W + '/RUNDIR2').read().strip(); runid = os.path.basename(R)
 os.chdir(R + '/results')
 logs = [f'../logs/cma_n{n}.log' for n in range(19, 27)] + [f'../logs/cma_full_n{n}.log' for n in range(20, 27) if os.path.exists(f'../logs/cma_full_n{n}.log')]
