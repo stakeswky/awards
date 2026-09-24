@@ -1,0 +1,18 @@
+{
+  "run_id": "20260924T_root_moment_claim_audit",
+  "task": "Audit the claim that the adaptive nested-hub certificates refute every polylogarithmic root-moment bound.",
+  "source_checkpoint": "63c6a11f66e3735e19e47855248fbc56b66d727e",
+  "fixed_examples": "CORROBORATED_BY_SEPARATE_HIGH_PRECISION_RECURRENCE",
+  "interval_certificate_implementation": "NOT_INDEPENDENTLY_CERTIFIED",
+  "universal_polylog_refutation": "NOT_ESTABLISHED",
+  "reason": "Finite examples only lower-bound a possible universal constant; the claimed power-law exponent remains numerical rather than an analytic infinite-family lower bound.",
+  "lambda1_ratio_M_over_ln2": "2324.610177413913...",
+  "lambda3_ratio_M_over_ln2": "1.715597512220218e37",
+  "lambda3_logM_over_logn": "0.588213865103882...",
+  "lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "original_math": "NOT_CLOSED",
+  "legal_original_counterexample": false,
+  "review_type": "SAME_PROJECT_LOGICAL_AUDIT_PLUS_INDEPENDENT_RECOMPUTATION",
+  "novelty": "NOT_CLAIMED"
+}
