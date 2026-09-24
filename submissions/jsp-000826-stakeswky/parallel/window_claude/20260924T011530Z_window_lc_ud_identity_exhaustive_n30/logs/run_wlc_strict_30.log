@@ -1,0 +1,1 @@
+EQ=0 C-WLC n=30 trees=14830871802 (OEIS ok=True) nonunimodal=0 nonLC_trees=121 nonLC_in_window[ceil(n/4),LM]=0 in_window[ceil(n/4),beta]=0 min(first nonLC/alpha)=0.9375 exits={0} time=2210s

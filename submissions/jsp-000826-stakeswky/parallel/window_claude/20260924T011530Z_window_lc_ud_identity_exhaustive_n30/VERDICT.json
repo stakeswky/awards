@@ -1,0 +1,14 @@
+{
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "WindowLC": "OPEN for 31 <= n < N0; VERIFIED (strict) for all trees n <= 30 and (non-strict via Hoggar + 237 checked forests) all forests of order <= 30",
+  "extension_identity": "PROVED_WRITTEN (every graph); VERIFIED_BY_ENUMERATION on 985 trees 3<=n<=12",
+  "UD_implies_LC": "PROVED_WRITTEN",
+  "UD_in_window": "CONJECTURE; no failure on all trees 8<=n<=19, 28 non-LC trees n<=29, 4,425 family trees n<=60",
+  "real_rootedness_of_free_count_slices": "REFUTED",
+  "exhaustive_n30": "14,830,871,802 trees; unimodal; strict window LC; 121 non-LC trees (breaks >= 0.9375 alpha)",
+  "Lean": "NOT_RUN in this continuation (reduction already formalized in the previous run)",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED"
+}
