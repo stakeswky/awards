@@ -1,0 +1,70 @@
+{
+ "run_id": "20260924T092515Z_centroid_n31_drift_strict_product",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "results": {
+  "lemma1_open_window": {
+   "status": "PROVED_IN_WRITING",
+   "statement": "Given the formal prefix/tail lemmas, non-strict LC on [ceil(n/4)+1, ceil((2a-1)/3)-1], or the post-descent drift condition on [ceil(n/4), ceil((2a-1)/3)-2], implies unimodality.",
+   "lean": "NOT_RUN"
+  },
+  "lemma2_drift_identity": {
+   "status": "PROVED_IN_WRITING",
+   "statement": "m_{r+1}-m_r = E_r|N(J)| - E_{r+1}|N(J)| - 1 = Var_r(e)/m_r - 1 - D_{r+1}, with m_r=(r+1)p_{r+1}/p_r",
+   "exact_check": "1207 brute-force identities, 0 violations"
+  },
+  "proposition3_global_drift_false": {
+   "status": "EXACT_CERTIFICATE",
+   "tree": "core((8,)^17), n=290, alpha=153, unimodal",
+   "failure": "m_138 - m_137 = 1.2184 > 1 at r=137 (0.895 alpha), outside window [73,100]",
+   "file": "results/m1_certificate.json"
+  },
+  "window_drift_evidence": {
+   "exhaustive_trees_n_le_31_max": -0.7619,
+   "families_1065_trees_n_le_220_max": -0.7719,
+   "local_search_max": -0.824,
+   "large_random_and_spherical_n_le_800_max": -0.8395,
+   "forests_2578_max": -0.8038,
+   "nonLC_149_trees_max": -1.685,
+   "conjecture_DG": "STATED_NOT_PROVED"
+  },
+  "lemma4_strict_hoggar": {
+   "status": "PROVED_IN_WRITING",
+   "statement": "Dc_k >= sum_j Da_{k-j} Db_j; products of sequences strictly LC on their supports are strictly LC on their supports; isolated equalities in one factor are harmless",
+   "exact_check": "200182 random adjacent-term inequalities, 0 violations",
+   "novelty": "NOT_CLAIMED"
+  },
+  "exhaustive_trees": {
+   "algorithm": "centroid decomposition over rooted-tree multisets (src/cwlc.c), independent of WROM wlc/wlc2",
+   "orders": "4..31",
+   "n31_trees": 40330829030,
+   "n31_count_equals_A000055": true,
+   "n31_nonunimodal": 0,
+   "n31_nonLC": 159,
+   "n31_nonLC_in_window": 0,
+   "n31_window_equalities": 0,
+   "n31_interior_equality_trees": 1,
+   "n31_consecutive_equality_trees": 0,
+   "interior_equality_trees_n_le_30": 0,
+   "drift_condition_failures_any_r_n_le_31": 0,
+   "checksums_equal_wlc2": "n=4..27",
+   "nonLC_multisets_equal_earlier_runs": "n=26..30",
+   "examples_reverified_in_python": 308,
+   "second_implementation_for_n31": "NOT_RUN (count, cross-validated program, and Python re-verification of all non-LC trees only)"
+  },
+  "theorem6_forests_le_31": {
+   "status": "COMPUTER_ASSISTED",
+   "statement": "Every forest of order <= 31 satisfies strict WindowLC and is unimodal",
+   "forest_pairs_checked": 608,
+   "failures": 0
+  }
+ },
+ "open_range_for_formal_reduction": "32 <= n < N0 (N0 existential)",
+ "lean_status": "NOT_RUN: external repository returned HTTP 403 and mathlib cache host unreachable from this container",
+ "review_type": "SAME_MODEL_WRITTEN_PROOFS_AND_EXACT_COMPUTATION",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}

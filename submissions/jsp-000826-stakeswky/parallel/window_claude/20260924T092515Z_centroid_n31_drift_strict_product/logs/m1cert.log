@@ -1,0 +1,4 @@
+core((8,)*17) n 290 alpha 153 mode 91 window [73, 100] unimodal True M1 fails at r = [137] in window: [] (1.218380824098746, 0.8954248366013072)
+core((8,)*16) n 273 alpha 144 mode 86 window [69, 94] unimodal True M1 fails at r = [129] in window: [] (1.1994782584274037, 0.8958333333333334)
+core((8,)*18) n 307 alpha 162 mode 96 window [77, 106] unimodal True M1 fails at r = [145] in window: [] (1.2066190094232325, 0.8950617283950617)
+core((8,)*20) n 341 alpha 180 mode 107 window [86, 118] unimodal True M1 fails at r = [161] in window: [] (1.0878352455569449, 0.8944444444444445)

@@ -1,0 +1,5 @@
+trees 170 max window drift ('sph[1, 2, 1]', 190, -0.8394889497297296) min -1.6898641593461465 failures(>1) 0 secs 1
+{'sph': (11, -0.8395), 'pruefer': (106, -1.1469), 'recursive': (53, -1.1811)}
+exit=0
+
+[exited with code 0]

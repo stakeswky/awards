@@ -1,0 +1,1 @@
+RESULT line present (normal termination); numeric exit code not captured because the run was started with nohup without an exit-code wrapper

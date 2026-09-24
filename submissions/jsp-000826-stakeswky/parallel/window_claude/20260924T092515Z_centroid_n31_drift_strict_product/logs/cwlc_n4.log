@@ -1,0 +1,5 @@
+ROOTED 1:1 2:1
+M1 bad_any_trees=0 bad_window_trees=0 max_drift_any=-0.500000 max_drift_window=-1000000000000000000.000000 window_argmax 
+EQ window_positions=0 window_trees=0 interior_equality_trees=0 consecutive_interior_equality_trees=0
+MARGIN min_n_margin_window=2.222222 min_n_margin_1_to_top=2.222222 mode_over_n_min=0.250000 mode_over_alpha_max=0.500000
+RESULT n=4 trees=2 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum=13306735003898700616 seconds=0.0 threads=4
