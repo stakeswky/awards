@@ -1,0 +1,17 @@
+n=4: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=5: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=6: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=7: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=8: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=9: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=10: +1 configurations=5 min fall/rise=7.333 (deg w=4) sufficient-condition-S failures=0
+n=11: +1 configurations=17 min fall/rise=10.333 (deg w=3) sufficient-condition-S failures=0
+n=12: +1 configurations=0 min fall/rise=n/a (deg w=None) sufficient-condition-S failures=0
+n=13: +1 configurations=119 min fall/rise=9.250 (deg w=3) sufficient-condition-S failures=0
+   deg2 example (7, [-1, 0, 1, 2, 1, 4, 0, 6, 7, 0, 0, 0, 0], 4, [140, 215, 216, 141], [36, 63, 61, 35], [176, 278, 277, 176])
+n=14: +1 configurations=440 min fall/rise=7.353 (deg w=4) sufficient-condition-S failures=0
+n=15: +1 configurations=237 min fall/rise=9.957 (deg w=5) sufficient-condition-S failures=0
+n=16: +1 configurations=1826 min fall/rise=7.615 (deg w=4) sufficient-condition-S failures=0
+n=17: +1 configurations=8011 min fall/rise=7.650 (deg w=4) sufficient-condition-S failures=0
+n=18: +1 configurations=7436 min fall/rise=9.118 (deg w=4) sufficient-condition-S failures=0
+n=19: +1 configurations=29987 min fall/rise=8.303 (deg w=4) sufficient-condition-S failures=0

@@ -1,0 +1,25 @@
+{
+ "run_id": "20260924T175223Z_s2_pendant_leaf_analysis",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "S2_status": "PROVED_CONDITIONALLY (Corollary 4): unimodality + (S1) for smaller forests + (Q1) ==> (S2); not proved unconditionally",
+ "results": {
+  "theorem1_reduction": {"status": "PROVED_IN_WRITING", "statement": "three-case analysis of I(H + leaf at w) = P + xQ; in the +1 case (q1 = p2 + 1) nonincreasing from m+1 iff Q_m + Q'_m >= Q_{m+2} + Q'_{m+1}; Q_m >= Q_{m+2} suffices", "exact_check": "all 188,254 pairs (tree H, n <= 15, any w): (a) 188254/188254, (b) 187436/187436, (c) 818/818 equivalence, q1 >= p2+2 never"},
+  "lemma2_curvature_form": {"status": "PROVED_IN_WRITING", "statement": "Q_m >= Q_{m+2} <=> gamma >= 2 rise; the +1 case forces rise < phi; so gamma >= 2 phi (Q1) suffices"},
+  "lemma3_degree_one": {"status": "PROVED_IN_WRITING", "statement": "if deg_H(w) = 1 and (S1-lower) holds for (H-w, y), the +1 case cannot occur"},
+  "corollary4_conditional_S2": {"status": "PROVED_IN_WRITING"},
+  "plus1_configurations": {"orders": "trees 10..19, every vertex", "counts": {"10": 5, "11": 17, "12": 0, "13": 119, "14": 440, "15": 237, "16": 1826, "17": 8011, "18": 7436, "19": 29987},
+   "min_fall_over_rise": 7.33, "Q1_failures": 0, "min_gamma_over_2phi_n_le_17": 3.13, "max_n_rise_over_Q": 0.68, "max_n_phi_over_Q": 0.84, "min_n_gamma_over_Q": 4.04, "deg_w_eq_1": 0, "Q_peak_plateau": 0},
+  "S1_configurations_n_le_15": {"S1_lower_case_r1_eq_q2_plus_1": 1939, "Q2_failures": 0, "Q2_min_ratio": 6.93, "S1_upper_case_r2_le_q1_minus_2": 11407, "Q3_failures": 0, "Q3_min_ratio": 9.0, "r1_ge_q2_plus_2": 0},
+  "right_heavy_peaks_general": {"n20": "510571 of 823065 trees", "n22": "2711971 of 5623756 trees", "meaning": "(Q1) is specific to the +1 configuration, not a general peak property"},
+  "theorem5_conditional": "(Q1),(Q2),(Q3) for all forests ==> (S1),(S2) everywhere and every forest with a degree-2 support vertex is unimodal; hub forests not covered"
+ },
+ "remaining_hypothesis": "(Q1): in the +1 configuration, concavity gap of I(H-w) at its mode >= 2 x fall of I(H-N[w]) one step earlier; a log-concavity-with-margin statement at one index plus a slope bound for the smaller piece; second order, not implied by unimodality or mode positions",
+ "lean_status": "NOT_RUN",
+ "review_type": "SAME_MODEL_WRITTEN_PROOFS_AND_EXACT_COMPUTATION",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}

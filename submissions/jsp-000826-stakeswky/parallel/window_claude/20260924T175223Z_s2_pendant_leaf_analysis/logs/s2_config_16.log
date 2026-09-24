@@ -1,0 +1,5 @@
+{'configs': 2644, 'deg5': 611, 'left_heavy': 2644, 'margin_ge_0': 2644, 'dagger_ok': 2644, 'concave': 1907, 'LC_Qp_at_m': 2644, 'fall_ge_rise': 2440, 'Q_plateau': 0, 'Qp_mode_le_m-1': 2644, 'deg4': 1118, 'deg3': 648, 'deg6': 227, 'deg2': 9, 'deg7': 28, 'deg8': 3}
+min relative margin (margin/Q'_m): 59/46 at n=16 w=9 margin/fall/rhs/rise/fall_prev (354, 97, -257, 1, 3)
+min fall ratio Q' (fall at m)/(fall at m-1): 0 0.0 n=10 w=2
+right-skewed examples (Q_m < Q_{m+2}): 0
+exit=0

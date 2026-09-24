@@ -1,0 +1,10 @@
+n=8 PEAK right_heavy_at_first_max=7 right_heavy_at_last_max=2 plateau_trees=5
+n=8 RESULT n=8 trees=23 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum=14227
+n=12 PEAK right_heavy_at_first_max=159 right_heavy_at_last_max=157 plateau_trees=2
+n=12 RESULT n=12 trees=551 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum=13
+n=16 PEAK right_heavy_at_first_max=11901 right_heavy_at_last_max=11870 plateau_trees=31
+n=16 RESULT n=16 trees=19320 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum=
+n=20 PEAK right_heavy_at_first_max=510571 right_heavy_at_last_max=510125 plateau_trees=446
+n=20 RESULT n=20 trees=823065 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum
+n=22 PEAK right_heavy_at_first_max=2711971 right_heavy_at_last_max=2711415 plateau_trees=556
+n=22 RESULT n=22 trees=5623756 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksu

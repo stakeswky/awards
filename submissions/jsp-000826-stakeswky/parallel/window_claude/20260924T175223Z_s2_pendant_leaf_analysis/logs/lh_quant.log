@@ -1,0 +1,8 @@
+n=10: configs=5 max n*rise/Q=0.508 max n*phi/Q=0.678 min n*gamma/Q=4.035087719298246 min gamma/(2phi)=3.125 by_deg={4: (2, 3.12), 5: (3, 3.5)}
+n=11: configs=17 max n*rise/Q=0.440 max n*phi/Q=0.696 min n*gamma/Q=4.821917808219178 min gamma/(2phi)=3.9 by_deg={3: (12, 4.25), 4: (5, 3.9)}
+n=12: configs=0 max n*rise/Q=0.000 max n*phi/Q=0.000 min n*gamma/Q=None min gamma/(2phi)=None by_deg={}
+n=13: configs=119 max n*rise/Q=0.457 max n*phi/Q=0.740 min n*gamma/Q=4.3136363636363635 min gamma/(2phi)=3.1538461538461537 by_deg={2: (1, 19.0), 3: (30, 3.32), 4: (42, 3.15), 5: (35, 4.08), 6: (11, 6.75)}
+n=14: configs=440 max n*rise/Q=0.676 max n*phi/Q=0.841 min n*gamma/Q=5.036303630363037 min gamma/(2phi)=3.375 by_deg={3: (179, 3.41), 4: (232, 3.38), 5: (29, 4.59)}
+n=15: configs=237 max n*rise/Q=0.403 max n*phi/Q=0.554 min n*gamma/Q=4.1984231274638635 min gamma/(2phi)=4.037037037037037 by_deg={3: (35, 4.38), 4: (106, 4.04), 5: (65, 4.65), 6: (26, 6.45), 7: (4, 9.71), 8: (1, 23.14)}
+n=16: configs=1826 max n*rise/Q=0.559 max n*phi/Q=0.684 min n*gamma/Q=4.586433260393873 min gamma/(2phi)=3.6511627906976742 by_deg={2: (8, 26.6), 3: (392, 3.82), 4: (731, 3.65), 5: (479, 4.65), 6: (190, 6.55), 7: (24, 10.31), 8: (2, 17.61)}
+n=17: configs=8011 max n*rise/Q=0.664 max n*phi/Q=0.788 min n*gamma/Q=4.191015339663989 min gamma/(2phi)=3.6048387096774195 by_deg={2: (5, 40.0), 3: (2629, 3.75), 4: (3931, 3.6), 5: (1270, 4.56), 6: (155, 6.03), 7: (20, 8.67), 8: (1, 14.25)}

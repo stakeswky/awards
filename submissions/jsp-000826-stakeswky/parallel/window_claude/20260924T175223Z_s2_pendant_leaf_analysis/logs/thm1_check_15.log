@@ -1,0 +1,4 @@
+{'pairs': 188254, 'a_hyp': 188254, 'a_ok': 188254, 'b_hyp': 187436, 'b_ok': 187436, 's1up_config': 11407, 's1up_ineq_ok': 11407, 's1up_P_nondec_to_q1-2': 11407, 'c_hyp': 818, 'c_iff_ok': 818, 'c_tail_ok': 818, 's1low_config': 1939, 's1low_ineq_ok': 1939, 's1low_P_noninc_from_q2+1': 1939}
+(S1-lower) configuration: min fall(Q at q2+1)/rise(Qp at q2) = (Fraction(97, 14), 14, 6, 2)
+(S1-upper) configuration: min rise(Q at k)/fall(Qp at k-1) over k in [r2+1,q1-1] = (Fraction(9, 1), 7, 0, 6, 1, 2) (ratio, n, w, deg w, k-r2, q1-k)
+exit=0
