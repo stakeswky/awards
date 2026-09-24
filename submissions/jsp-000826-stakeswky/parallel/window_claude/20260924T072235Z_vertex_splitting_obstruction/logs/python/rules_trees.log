@@ -1,0 +1,11 @@
+trees n=5: non-star-forest cases 2 | Pmin uniform fails: 0 [] | P2 exists: 2, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=6: non-star-forest cases 5 | Pmin uniform fails: 0 [] | P2 exists: 4, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=7: non-star-forest cases 10 | Pmin uniform fails: 0 [] | P2 exists: 8, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=8: non-star-forest cases 22 | Pmin uniform fails: 0 [] | P2 exists: 17, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=9: non-star-forest cases 46 | Pmin uniform fails: 0 [] | P2 exists: 37, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=10: non-star-forest cases 105 | Pmin uniform fails: 0 [] | P2 exists: 85, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=11: non-star-forest cases 234 | Pmin uniform fails: 0 [] | P2 exists: 196, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=12: non-star-forest cases 550 | Pmin uniform fails: 0 [] | P2 exists: 469, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=13: non-star-forest cases 1300 | Pmin uniform fails: 0 [] | P2 exists: 1134, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=14: non-star-forest cases 3158 | Pmin uniform fails: 0 [] | P2 exists: 2799, P2 uniform fails: 0 [] | Pall uniform fails: 0
+trees n=15: non-star-forest cases 7740 | Pmin uniform fails: 1 [[-1, 0, 1, 1, 0, 4, 4, 0, 7, 7, 0, 10, 10, 0, 13]] | P2 exists: 6975, P2 uniform fails: 1 [[-1, 0, 1, 1, 0, 4, 4, 0, 7, 7, 0, 10, 10, 0, 13]] | Pall uniform fails: 0

@@ -1,0 +1,8 @@
+7 no support witness at some k: ['degs=[6, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[6, 1, 1, 1, 1, 1, 1]']
+8 no support witness at some k: ['degs=[7, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[7, 1, 1, 1, 1, 1, 1, 1]']
+9 no support witness at some k: ['degs=[8, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: []
+10 no support witness at some k: ['degs=[9, 1, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[9, 1, 1, 1, 1, 1, 1, 1, 1, 1]']
+11 no support witness at some k: ['degs=[10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]']
+12 no support witness at some k: ['degs=[11, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: []
+13 no support witness at some k: ['degs=[12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]']
+14 no support witness at some k: ['degs=[13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]'] | no uniform witness: ['degs=[13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]']

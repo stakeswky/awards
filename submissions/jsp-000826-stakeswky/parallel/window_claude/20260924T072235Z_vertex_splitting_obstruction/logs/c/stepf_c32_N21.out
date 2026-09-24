@@ -1,0 +1,5 @@
+STEPFAIL forest=T-r r=2 alpha=16 top=11 k: 11 T_levels=0,1,2,3,3,3,3,3,3,3,3,3,3,3,1,2,3,2,3,2,3 
+STEPFAIL forest=T-r r=1 alpha=16 top=11 k: 11 T_levels=0,1,2,2,2,2,2,2,2,2,2,2,2,1,2,1,2,1,2,1,2 
+STEPFAIL forest=T-r r=8 alpha=16 top=11 k: 11 T_levels=0,1,2,3,2,3,2,3,1,2,2,2,2,2,2,2,2,2,2,2,1 
+RESULT forests_of_order=20 (from trees N=21, edgeless skipped) c=3/2 forest_instances=45034604 Qc_fail=0 STEP_fail=3 avg_v_tried=1.179 min_n_margin_on_1_top=3.595590 checksum=11485529995095673508
+exit=0 N=21 elapsed=11s

@@ -1,0 +1,24 @@
+(a) T + mK1, |T|<=7, m<=60: 1464 forests | Q/STEP failures: 58 [(35, [23]), (38, [25]), (41, [27]), (62, [41]), (44, [29]), (47, [31])] | min slack -3.2475
+(b) star forests n=4: 4 | failures: 0 | min slack 0.7222
+(b) star forests n=5: 6 | failures: 0 | min slack 0.2882
+(b) star forests n=6: 10 | failures: 0 | min slack 0.3480
+(b) star forests n=7: 14 | failures: 0 | min slack 0.4444
+(b) star forests n=8: 21 | failures: 0 | min slack 0.5356
+(b) star forests n=9: 29 | failures: 0 | min slack 0.6144
+(b) star forests n=10: 41 | failures: 0 | min slack 0.4498
+(b) star forests n=11: 55 | failures: 0 | min slack 0.4980
+(b) star forests n=12: 76 | failures: 0 | min slack 0.4435
+(b) star forests n=13: 100 | failures: 0 | min slack 0.2385
+(b) star forests n=14: 134 | failures: 0 | min slack 0.2678
+(b) star forests n=15: 175 | failures: 0 | min slack 0.2225
+(b) star forests n=16: 230 | failures: 0 | min slack 0.0782
+(b) star forests n=17: 296 | failures: 0 | min slack 0.0716
+(b) star forests n=18: 384 | failures: 0 | min slack 0.0658
+(b) star forests n=19: 489 | failures: 0 | min slack 0.0718
+(b) star forests n=20: 626 | failures: 0 | min slack 0.0678
+(b) star forests n=21: 791 | failures: 0 | min slack 0.0638
+(b) star forests n=22: 1001 | failures: 0 | min slack 0.0613
+(b) star forests n=23: 1254 | failures: 0 | min slack 0.0597
+(b) star forests n=24: 1574 | failures: 0 | min slack 0.0566
+(b) star forests n=25: 1957 | failures: 0 | min slack 0.0552
+(b) star forests n=26: 2435 | failures: 0 | min slack 0.0537

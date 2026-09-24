@@ -1,0 +1,23 @@
+(1) R(s,0), bounds IH + TRnu:
+  R(18,0): n=55 alpha=37 top=25 | Q holds: True | STEP failing (k, best slack, orbit): []
+  R(19,0): n=58 alpha=39 top=26 | Q holds: True | STEP failing (k, best slack, orbit): [(26, -0.0842, 'centre')]
+  R(20,0): n=61 alpha=41 top=27 | Q holds: True | STEP failing (k, best slack, orbit): []
+  R(21,0): n=64 alpha=43 top=29 | Q holds: True | STEP failing (k, best slack, orbit): [(29, -0.2774, 'centre')]
+  R(22,0): n=67 alpha=45 top=30 | Q holds: True | STEP failing (k, best slack, orbit): [(30, -0.4404, 'centre')]
+  R(24,0): n=73 alpha=49 top=33 | Q holds: True | STEP failing (k, best slack, orbit): [(33, -0.6401, 'centre')]
+(2) P5 + 16 K1 with the LM gap bound, k = 13:
+  v=K1     slack = -1.4110
+  v=end    slack = -3.9863
+  v=second slack = -0.0402
+  v=middle slack = -6.2609
+  alpha=19 top=13, Q holds at k=13: True
+(3) Newton diagnostic, R(s,0), v = cherry centre, k = top:
+  s=19: slack with TRnu -0.0842 | with Newton for C 1.8154
+  s=21: slack with TRnu -0.2774 | with Newton for C 1.8489
+  s=22: slack with TRnu -0.4404 | with Newton for C 1.8884
+  s=24: slack with TRnu -0.6401 | with Newton for C 1.9082
+  s=30: slack with TRnu -1.3764 | with Newton for C 1.9676
+  s=40: slack with TRnu -2.6383 | with Newton for C 2.0046
+  s=60: slack with TRnu -5.0166 | with Newton for C 2.0205
+(4) weak LC (p_k/k! LC) fails:
+  n=30 alpha=16 tail=[76126, 10238, 77, 1] ratio p_{a-2}p_a/p_{a-1}^2 = 1.726767 > 1 + 1/(a-1) = 1.066667

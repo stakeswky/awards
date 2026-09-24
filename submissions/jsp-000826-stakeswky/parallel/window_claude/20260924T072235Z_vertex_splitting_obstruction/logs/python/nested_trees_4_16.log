@@ -1,0 +1,13 @@
+trees n=4: 2 | unique MIS (no nested v): 1 | STEP_nested holds: 1 | fails: 0 []
+trees n=5: 3 | unique MIS (no nested v): 2 | STEP_nested holds: 1 | fails: 0 []
+trees n=6: 6 | unique MIS (no nested v): 3 | STEP_nested holds: 3 | fails: 0 []
+trees n=7: 11 | unique MIS (no nested v): 6 | STEP_nested holds: 5 | fails: 0 []
+trees n=8: 23 | unique MIS (no nested v): 9 | STEP_nested holds: 14 | fails: 0 []
+trees n=9: 47 | unique MIS (no nested v): 19 | STEP_nested holds: 28 | fails: 0 []
+trees n=10: 106 | unique MIS (no nested v): 35 | STEP_nested holds: 71 | fails: 0 []
+trees n=11: 235 | unique MIS (no nested v): 73 | STEP_nested holds: 162 | fails: 0 []
+trees n=12: 551 | unique MIS (no nested v): 145 | STEP_nested holds: 406 | fails: 0 []
+trees n=13: 1301 | unique MIS (no nested v): 314 | STEP_nested holds: 987 | fails: 0 []
+trees n=14: 3159 | unique MIS (no nested v): 661 | STEP_nested holds: 2498 | fails: 0 
+trees n=15: 7741 | unique MIS (no nested v): 1458 | STEP_nested holds: 6283 | fails: 0 
+trees n=16: 19320 | unique MIS (no nested v): 3206 | STEP_nested holds: 16114 | fails: 0 

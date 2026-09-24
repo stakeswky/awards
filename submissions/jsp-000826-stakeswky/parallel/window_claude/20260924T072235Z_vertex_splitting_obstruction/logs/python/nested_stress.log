@@ -1,0 +1,3 @@
+(a) sP3+mK1+K2, n<=140: 2140 cases | Q fails 0 | with nested vertex 2140 | STEP_nested fails 0 [] | min slack 0.8265
+(b) R(s,1), n<=88: 29 cases | Q fails 0 | with nested vertex 29 | STEP_nested fails 0 [] | min slack 1.1000
+(c) random trees n=40..70: 210 cases | Q fails 0 | with nested vertex 209 | STEP_nested fails 0 [] | min slack 1.0071

@@ -1,0 +1,3 @@
+LM  : T + mK1 (|T|<=7, m<=45): 1104 forests | Q fails 0 | STEP fails 47 | smallest failing: [('T[-1, 0, 1, 0, 3]+16K1', 21, [13]), ('T[-1, 0, 1, 2, 0, 4, 5]+15K1', 22, [13]), ('T[-1, 0, 1, 0, 3, 0, 5]+15K1', 22, [13])]
+TR  : T + mK1 (|T|<=7, m<=45): 1104 forests | Q fails 0 | STEP fails 33 | smallest failing: [('T[-1, 0, 1, 0, 3, 0, 5]+21K1', 28, [17]), ('T[-1, 0, 1, 0, 3]+25K1', 30, [19]), ('T[-1, 0, 1, 2, 0, 4, 5]+24K1', 31, [19])]
+TRnu: T + mK1 (|T|<=7, m<=45): 1104 forests | Q fails 0 | STEP fails 0 | smallest failing: []
