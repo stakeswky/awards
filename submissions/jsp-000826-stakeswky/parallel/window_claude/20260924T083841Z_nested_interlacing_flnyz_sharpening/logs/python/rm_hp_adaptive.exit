@@ -1,0 +1,1 @@
+exit=0 cmd=python3 rm_hp_adaptive.py 24

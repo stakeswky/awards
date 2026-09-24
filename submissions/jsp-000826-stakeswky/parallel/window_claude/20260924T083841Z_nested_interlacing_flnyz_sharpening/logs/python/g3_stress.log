@@ -1,0 +1,11 @@
+G3 stress: 5763 partner forests g x 149 non-LC trees f | window-LC failures: 0
+  g=K1,29                    n_g= 30 | min window n*margin 5.2293 at k=21 (alpha=43, k/alpha=0.488), f order 26
+  g=K1,28                    n_g= 29 | min window n*margin 5.2589 at k=20 (alpha=42, k/alpha=0.476), f order 26
+  g=K1,27                    n_g= 28 | min window n*margin 5.2882 at k=20 (alpha=41, k/alpha=0.488), f order 26
+  g=K1,26                    n_g= 27 | min window n*margin 5.3206 at k=19 (alpha=40, k/alpha=0.475), f order 26
+  g=K1,25                    n_g= 26 | min window n*margin 5.3529 at k=19 (alpha=39, k/alpha=0.487), f order 26
+  g=K1,24                    n_g= 25 | min window n*margin 5.3886 at k=18 (alpha=38, k/alpha=0.474), f order 26
+  g=K1,23                    n_g= 24 | min window n*margin 5.4244 at k=18 (alpha=37, k/alpha=0.486), f order 26
+  g=K1,22                    n_g= 23 | min window n*margin 5.4638 at k=17 (alpha=36, k/alpha=0.472), f order 26
+  g=K1,21                    n_g= 22 | min window n*margin 5.5037 at k=17 (alpha=35, k/alpha=0.486), f order 26
+  g=K1,20                    n_g= 21 | min window n*margin 5.5475 at k=16 (alpha=34, k/alpha=0.471), f order 26

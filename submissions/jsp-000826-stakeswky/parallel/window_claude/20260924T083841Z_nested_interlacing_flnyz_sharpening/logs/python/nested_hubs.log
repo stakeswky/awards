@@ -1,0 +1,14 @@
+check small instance: float M=0.345856958411 exact M=0.345856958411, n=321 (log n float 5.771441 exact 5.771441)
+l=0.25  best nested-hub pattern: k=39, 6 double levels: M=6.66e+05 at n~10^24.4, log M/log n = 0.239
+l=1.0   best nested-hub pattern: k=13, 6 double levels: M=2.16e+06 at n~10^19.4, log M/log n = 0.326
+l=2.0   best nested-hub pattern: k=7, 6 double levels: M=2.591e+05 at n~10^15.0, log M/log n = 0.360
+l=2.6   best nested-hub pattern: k=6, 6 double levels: M=1.958e+05 at n~10^14.3, log M/log n = 0.370
+l=3.0   best nested-hub pattern: k=5, 6 double levels: M=4.644e+04 at n~10^12.4, log M/log n = 0.375
+l=12.0  best nested-hub pattern: k=3, 6 double levels: M=7454 at n~10^10.9, log M/log n = 0.356
+growth along one pattern (l=1, k=14):
+   double levels=1: n~10^5.4  M=9.634  log M/log n=0.183  (0.13 ln n would be 1.61)
+   double levels=2: n~10^8.4  M=135.5  log M/log n=0.252  (0.13 ln n would be 2.53)
+   double levels=3: n~10^11.5  M=1893  log M/log n=0.285  (0.13 ln n would be 3.44)
+   double levels=4: n~10^14.5  M=2.665e+04  log M/log n=0.304  (0.13 ln n would be 4.36)
+   double levels=5: n~10^17.6  M=3.74e+05  log M/log n=0.317  (0.13 ln n would be 5.27)
+   double levels=6: n~10^20.6  M=5.254e+06  log M/log n=0.325  (0.13 ln n would be 6.18)

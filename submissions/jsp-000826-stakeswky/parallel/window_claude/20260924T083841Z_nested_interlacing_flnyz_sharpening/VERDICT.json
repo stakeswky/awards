@@ -1,0 +1,16 @@
+{
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "WindowLC": "OPEN for 31 <= n < N0; no proof obtained in this run",
+  "nested_split_ratio_interlacing": "OBSERVED on all trees n <= 16 with a nested vertex (full range [1, alpha-1]); shown equivalent to beyond-top LC of components for U + K2 (exact identity), hence not a reduction",
+  "G3_disjoint_union_stress": "NO FAILURE: 149 non-LC trees x 5,763 partners + 7,152 unions with slow-saturating trees; min normalised window margin 5.23",
+  "window_activity_range": "OBSERVED lambda* <= 2.581 (trees n <= 20); FLNYZ use [1/4, 12]",
+  "root_moment_growth": "REFUTED log/polylog conjecture: adaptive nested-hub trees give q(1-q)delta^2 ~ n^(a*(l)) with a*(l) = 2 - 2/p*(l) (e.g. 0.521 at l=1, 0.672 at l=3); matches the Hoelder upper exponent to ~3 decimals (250/400-digit states); FLNYZ root-moment exponent is sharp",
+  "FLNYZ_free_improvements": "COMPUTED: optimal Hoelder p = 1.8915 gives u = 17.4 (vs 31999); joint Fourier bound ~1/2380 (vs 1/114244)",
+  "FLNYZ_paid_improvements": "OPEN: mean-range lemma mu(3) >= top(alpha) (paper's argument gives 0.513 alpha); root-moment exponent cannot be improved beyond a*(Lambda)",
+  "zero_free_route_for_all_trees": "NOT VIABLE (literature: zeros accumulate at lambda_c(Delta) in the needed range)",
+  "Lean": "NOT_RUN (read-only audit)",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED"
+}

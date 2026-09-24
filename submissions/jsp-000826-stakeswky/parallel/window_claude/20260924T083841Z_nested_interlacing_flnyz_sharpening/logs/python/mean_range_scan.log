@@ -1,0 +1,15 @@
+exact trees 4..20: max lambda*(top) = 2.5809 (n=17) | min lambda_lo(n/4) = 0.3576 (n=20)
+families, largest lambda* (activity where mean = 2 alpha/3):
+  spider 3 legs of 3                 n=  10 alpha=   6  lambda*=2.5340  lambda_lo=0.6372
+  spider 3 legs of 5                 n=  16 alpha=   9  lambda*=2.4942  lambda_lo=0.6760
+  spider 5 legs of 5                 n=  26 alpha=  15  lambda*=2.4615  lambda_lo=0.6599
+  spider 8 legs of 5                 n=  41 alpha=  24  lambda*=2.4203  lambda_lo=0.6384
+  spider 13 legs of 5                n=  66 alpha=  39  lambda*=2.4144  lambda_lo=0.6219
+  spider 30 legs of 5                n= 151 alpha=  90  lambda*=2.4142  lambda_lo=0.6092
+  spider 60 legs of 5                n= 301 alpha= 180  lambda*=2.4142  lambda_lo=0.6047
+  spider 2 legs of 2                 n=   5 alpha=   3  lambda*=2.4142  lambda_lo=0.6003
+families, smallest lambda_lo (activity where mean = n/4):
+  spider 60 legs of 1                n=  61 alpha=  60  lambda*=2.0000  lambda_lo=0.3408
+  spider 30 legs of 1                n=  31 alpha=  30  lambda*=2.0000  lambda_lo=0.3483
+  complete 30-ary depth 1            n=  31 alpha=  30  lambda*=2.0000  lambda_lo=0.3483
+  spider 13 legs of 1                n=  14 alpha=  13  lambda*=2.0000  lambda_lo=0.3706

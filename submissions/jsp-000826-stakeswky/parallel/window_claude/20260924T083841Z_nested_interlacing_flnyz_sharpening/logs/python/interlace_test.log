@@ -1,0 +1,13 @@
+(1) U+K2 identity checked on all trees U with n <= 14: 45115 (U,k) pairs, mismatches 0
+(2) n=5: trees with a nested vertex 1 | some nested v interlaces on [1,top]: 1 | on [1,alpha-1]: 1 | X<=0 on [1,top]: 1 | first non-interlacing: None
+(2) n=6: trees with a nested vertex 3 | some nested v interlaces on [1,top]: 3 | on [1,alpha-1]: 3 | X<=0 on [1,top]: 3 | first non-interlacing: None
+(2) n=7: trees with a nested vertex 5 | some nested v interlaces on [1,top]: 5 | on [1,alpha-1]: 5 | X<=0 on [1,top]: 5 | first non-interlacing: None
+(2) n=8: trees with a nested vertex 14 | some nested v interlaces on [1,top]: 14 | on [1,alpha-1]: 14 | X<=0 on [1,top]: 14 | first non-interlacing: None
+(2) n=9: trees with a nested vertex 28 | some nested v interlaces on [1,top]: 28 | on [1,alpha-1]: 28 | X<=0 on [1,top]: 28 | first non-interlacing: None
+(2) n=10: trees with a nested vertex 71 | some nested v interlaces on [1,top]: 71 | on [1,alpha-1]: 71 | X<=0 on [1,top]: 71 | first non-interlacing: None
+(2) n=11: trees with a nested vertex 162 | some nested v interlaces on [1,top]: 162 | on [1,alpha-1]: 162 | X<=0 on [1,top]: 162 | first non-interlacing: None
+(2) n=12: trees with a nested vertex 406 | some nested v interlaces on [1,top]: 406 | on [1,alpha-1]: 406 | X<=0 on [1,top]: 406 | first non-interlacing: None
+(2) n=13: trees with a nested vertex 987 | some nested v interlaces on [1,top]: 987 | on [1,alpha-1]: 987 | X<=0 on [1,top]: 987 | first non-interlacing: None
+(2) n=14: trees with a nested vertex 2498 | some nested v interlaces on [1,top]: 2498 | on [1,alpha-1]: 2498 | X<=0 on [1,top]: 2498 | first non-interlacing: None
+(2) n=15: trees with a nested vertex 6283 | some nested v interlaces on [1,top]: 6283 | on [1,alpha-1]: 6283 | X<=0 on [1,top]: 6283 | first non-interlacing: None
+(2) n=16: trees with a nested vertex 16114 | some nested v interlaces on [1,top]: 16114 | on [1,alpha-1]: 16114 | X<=0 on [1,top]: 16114 | first non-interlacing: None

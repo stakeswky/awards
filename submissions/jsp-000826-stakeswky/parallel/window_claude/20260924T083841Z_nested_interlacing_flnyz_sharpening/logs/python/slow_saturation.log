@@ -1,0 +1,16 @@
+n=4: max lambda* = 2.214  levels=0,1,1,1
+n=5: max lambda* = 2.414  levels=0,1,2,1,2
+n=6: max lambda* = 2.362  levels=0,1,2,2,1,2
+n=7: max lambda* = 2.371  levels=0,1,2,3,1,2,3
+n=8: max lambda* = 2.466  levels=0,1,2,3,1,2,3,1
+n=9: max lambda* = 2.380  levels=0,1,2,2,1,2,2,1,2
+n=10: max lambda* = 2.534  levels=0,1,2,3,1,2,3,1,2,3
+n=11: max lambda* = 2.450  levels=0,1,2,3,3,2,3,1,2,3,1
+n=12: max lambda* = 2.523  levels=0,1,2,3,4,2,3,4,1,2,3,4
+n=13: max lambda* = 2.509  levels=0,1,2,3,4,2,1,2,3,4,2,1,2
+n=14: max lambda* = 2.510  levels=0,1,2,3,4,5,1,2,3,4,5,1,2,3
+n=15: max lambda* = 2.551  levels=0,1,2,3,4,2,3,4,1,2,3,4,2,3,4
+n=16: max lambda* = 2.496  levels=0,1,2,3,4,2,1,2,3,4,2,1,2,2,1,2
+n=17: max lambda* = 2.581  levels=0,1,2,3,4,2,3,4,1,2,3,4,2,3,4,1,2
+n=18: max lambda* = 2.536  levels=0,1,2,3,4,2,1,2,3,4,2,1,2,3,4,2,1,2
+G3 with slow-saturating partners: 7152 unions tested | window-LC failures 0 | min n*margin 7.5075 at k=10 alpha=23 (partner lambda*=2.53, 1 copies of order 10)
