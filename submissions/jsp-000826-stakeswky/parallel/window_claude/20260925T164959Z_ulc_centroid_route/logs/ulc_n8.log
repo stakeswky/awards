@@ -1,0 +1,5 @@
+ROOTED 1:1 2:1 3:2 4:4
+TAILS R=3 0:1 1:1 2:2 3:4 build_seconds=0.0
+FLAGGED 0
+EQ window_positions=0 window_trees=0 interior_equality_trees=0 consecutive_interior_equality_trees=0
+RESULT n=8 trees=23 nonunimodal=0 nonLC=0 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=9.000000 checksum=14227298495273872442 seconds=0.0 threads=1

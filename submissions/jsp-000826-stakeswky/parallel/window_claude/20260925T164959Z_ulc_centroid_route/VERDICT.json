@@ -1,0 +1,35 @@
+{
+ "run_id": "20260925T164959Z_ulc_centroid_route",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "goal_of_run": "complete proof requested; not achieved; enumeration stopped at n = 34 at the user's request, theory only",
+ "results": {
+  "ulc_small_trees": {
+   "statement": "k p_k^2 >= (k+1) p_{k-1} p_{k+1} for all interior k",
+   "orders_all_ulc": "4..23 and 25",
+   "order_24_failures": 1,
+   "order_24_failure": {"alpha": 13, "k": 12, "values": "12*42^2 = 21168 < 13*1653*1 = 21489", "LC_at_k": true},
+   "python_crosscheck_n_le_18": "0 failures",
+   "status": "VERIFIED_BY_EXHAUSTIVE_COMPUTATION"
+  },
+  "lemma_U": {
+   "statement": "d >= 2; g_i, h_i positive, no internal zeros, constant term 1, h_i <= g_i, g_i, h_i, f_i = g_i + x h_i ULC  ==>  prod f_i + x prod g_i unimodal",
+   "evidence": "adversarial hill-climbing, 8 seeded searches (d = 2..8 and d = 2,3): no dip; best relative distance to a dip 0.062 to 0.088",
+   "status": "CONJECTURAL"
+  },
+  "conditional_consequence": "Lemma U ==> every forest of order <= 47 is unimodal (branches of order <= 23 are ULC; ULC closed under convolution; at most one component of order >= 26; LC * unimodal is unimodal)",
+  "refuted_variants": {
+   "LC_with_coefficientwise_sandwich": "false (random search, relative dip 0.158)",
+   "lemma_U_with_LC_instead_of_ULC": "false (one of four hill-climbs, d = 2, dip 0.25 %, non-forest branch shape)",
+   "ULC_two_sequences_without_branch_structure": "false (all four hill-climbs, dips 16 to 28 %, non-forest shapes)"
+  },
+  "verified_frontier_unchanged": "every forest of order <= 34 unimodal with strict window LC (run 20260925T090935Z); open range of the formal reduction 35 <= n < N0"
+ },
+ "lean_status": "NOT_RUN",
+ "review_type": "SAME_MODEL_EXACT_COMPUTATION_AND_NUMERICAL_SEARCH",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}
