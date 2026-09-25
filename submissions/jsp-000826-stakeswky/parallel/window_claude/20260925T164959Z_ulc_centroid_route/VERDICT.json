@@ -10,20 +10,28 @@
    "statement": "k p_k^2 >= (k+1) p_{k-1} p_{k+1} for all interior k",
    "orders_all_ulc": "4..23 and 25",
    "order_24_failures": 1,
-   "order_24_failure": {"alpha": 13, "k": 12, "values": "12*42^2 = 21168 < 13*1653*1 = 21489", "LC_at_k": true},
+   "order_24_failure": {
+    "alpha": 13,
+    "k": 12,
+    "values": "12*42^2 = 21168 < 13*1653*1 = 21489",
+    "LC_at_k": true
+   },
    "python_crosscheck_n_le_18": "0 failures",
    "status": "VERIFIED_BY_EXHAUSTIVE_COMPUTATION"
   },
   "lemma_U": {
    "statement": "d >= 2; g_i, h_i positive, no internal zeros, constant term 1, h_i <= g_i, g_i, h_i, f_i = g_i + x h_i ULC  ==>  prod f_i + x prod g_i unimodal",
    "evidence": "adversarial hill-climbing, 8 seeded searches (d = 2..8 and d = 2,3): no dip; best relative distance to a dip 0.062 to 0.088",
-   "status": "CONJECTURAL"
+   "status": "CONJECTURAL",
+   "proof_status": "not proved; natural two-sequence reductions are false, so a proof must use the product structure or finer forest constraints"
   },
   "conditional_consequence": "Lemma U ==> every forest of order <= 47 is unimodal (branches of order <= 23 are ULC; ULC closed under convolution; at most one component of order >= 26; LC * unimodal is unimodal)",
   "refuted_variants": {
    "LC_with_coefficientwise_sandwich": "false (random search, relative dip 0.158)",
    "lemma_U_with_LC_instead_of_ULC": "false (one of four hill-climbs, d = 2, dip 0.25 %, non-forest branch shape)",
-   "ULC_two_sequences_without_branch_structure": "false (all four hill-climbs, dips 16 to 28 %, non-forest shapes)"
+   "ULC_two_sequences_without_branch_structure": "false (all four hill-climbs, dips 16 to 28 %, non-forest shapes)",
+   "ULC_two_sequences_with_sandwich_and_d": "false (all four hill-climbs, dips 4 to 16 %, non-forest shapes)",
+   "ULC_two_sequences_with_sandwich_d_and_alpha_ge_order_over_2": "false (one of four hill-climbs, dip 0.8 %, F_2 far below C(F_1,2) - edges)"
   },
   "verified_frontier_unchanged": "every forest of order <= 34 unimodal with strict window LC (run 20260925T090935Z); open range of the formal reduction 35 <= n < N0"
  },

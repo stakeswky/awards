@@ -22,7 +22,8 @@ route beyond the exhaustively verified range (every forest of order <= 34, run
    counterexamples:
    - log-concavity with a coefficientwise sandwich;
    - Lemma U with LC in place of ULC;
-   - ULC without the per-branch structure.
+   - ULC without the per-branch structure, even with a coefficientwise sandwich,
+     d = F_1 - G_1 and alpha >= order/2.
 
    Both the ULC hypothesis and the branch structure are needed.
 
@@ -39,7 +40,8 @@ stays open, so this is not a route to a complete proof on its own.
   - `ulc_trees_py.py` (independent Python check), with its helpers `ma_forests.py`, `modelib.py`
     and `ip.py`;
   - the lemma searches `lemma_search.py`, `lemma_search2.py`, `lemma_climb.py`,
-    `lemma_climb_ulc.py`, `lemma_climb_ulc23.py` and `lemma_fg.py`, run by `run_lemma_logs.sh`.
+    `lemma_climb_ulc.py`, `lemma_climb_ulc23.py` and `lemma_fg.py`, run by `run_lemma_logs.sh`;
+    `lemma_fg_sandwich.py` and `lemma_fg_sandwich_bip.py` (seeds 1..4, run directly).
 - `logs/`:
   - `ulc_n4..25.log`, `ulc_summary.log` and `ulc_trees_py.log`;
   - one log per lemma search and seed.

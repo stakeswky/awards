@@ -67,8 +67,10 @@ positive exactly when p is not unimodal. All scripts are seeded (`src/lemma_*.py
 | Lemma U with LC in place of ULC | false. Random sampling (10^5 cases) finds no dip, but one of four hill-climbs finds one with d = 2, 0.25 % deep, built on a near-flat plateau and a branch with g = (1, 46.9) |
 | F, G ULC; F_0 = G_0 = 1; G <= F coefficientwise; F + xG unimodal (no branch structure) | false; F_1 is far larger than any forest with deg F vertices allows |
 | **Lemma U** (branch-structured, ULC) | **no counterexample**; best configurations stay 6 to 9 % away from a dip (d = 2..8) |
+| F, G ULC; G <= F <= (1+x)^d G with d = F_1 - G_1 <= deg F | false (all four hill-climbs, dips 4 to 16 %); again G_1 far exceeds 2 deg G |
+| the same, plus deg F >= F_1/2 and deg G >= G_1/2 (alpha >= order/2 for forests) | false (one of four hill-climbs, dip 0.8 %); F_1 = 13.6 with F_2 = 9.9, whereas a forest has F_2 = C(F_1, 2) - (edges) |
 
-So both ingredients matter. ULC excludes the plateaus behind the LC counterexamples. The per-branch
+So both ingredients matter. Every attempt to replace the branch structure by product-stable consequences for the two sequences (coefficientwise sandwich, d = F_1 - G_1, alpha >= order/2) fails, and each counterexample has coefficients no forest can have. A proof of Lemma U will have to use the product structure itself, or finer forest constraints such as p_2 = C(p_1, 2) - (edges). ULC excludes the plateaus behind the LC counterexamples. The per-branch
 link f_i = g_i + x h_i with h_i <= g_i keeps prod g_i from sitting to the right of prod f_i with
 large mass, which is what the unstructured ULC counterexamples exploit.
 
