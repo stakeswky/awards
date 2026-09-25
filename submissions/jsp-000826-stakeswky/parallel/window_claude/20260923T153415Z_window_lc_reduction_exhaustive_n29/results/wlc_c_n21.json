@@ -1,0 +1,31 @@
+{
+ "summary": {
+  "n": 21,
+  "K": 10,
+  "trees": 2144505,
+  "nonunimodal": 0,
+  "nonLC": 0,
+  "nonLC_in_window_LM": 0,
+  "nonLC_in_window_beta": 0,
+  "minrel": 9.0,
+  "total_generated": [
+   2144505
+  ],
+  "exit_codes": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "OEIS_A000055": 2144505,
+  "count_ok": true,
+  "seconds": 0.2
+ },
+ "examples": []
+}

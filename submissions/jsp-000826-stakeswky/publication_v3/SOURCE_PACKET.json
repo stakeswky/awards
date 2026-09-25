@@ -1,0 +1,19 @@
+{
+  "format": "base64-text-parts-with-declared-transport-edit-v1",
+  "archive_bytes": 42292,
+  "archive_sha256": "3e8097b02c257edfc5d07d5e203beeb92810b94b4db10449454b58786144e7b6",
+  "files": 67,
+  "parts": [
+    {"name":"source.part00.b64","sha256":"75958d0031f7b690d4a535aeb065805ca6f0f024702a1dd77b3b58e1b31da57d","git_blob":"16bdda680f730822755105f601a21573539fb56e"},
+    {"name":"source.part01.b64","sha256":"90a7122b848fda6b18313455d3165388df5054324e1f5dde812a619d7df6b663","git_blob":"78518c4d22355b3bffbc17654f81cfe272538ce8"},
+    {"name":"source.part02.b64","sha256":"962cf9b9535a25e5694d236d361984f48c599634af02a8c8df00687583483678","git_blob":"afbd5cc77e8de66f17f43e919376124a0bd3fe96"},
+    {"name":"source.part03.b64","sha256":"c742b745b3cfa9b9919fdf5ee05d7fb7c48fadce07d051f01225be51aab83ffa","git_blob":"cdac7a56608363bce3b213a01b4b8a8b25a54d26"},
+    {"name":"source.part04.b64","sha256":"11aa9fa395b8505d0a1ad23a2ff5d22f8d925cbd0313fe7a1718b8a18636f086","git_blob":"d6e69896b71d20caf23a58129ee5d74dd3214491"}
+  ],
+  "transport_edits": [{"part":3,"offset":9702,"remove":"D","insert":""}],
+  "restored_lean_modules": 182,
+  "historical_modules": 176,
+  "v3_modules": 6,
+  "fresh_lean_build_this_publication": false,
+  "raw_search_logs_in_packet": false
+}

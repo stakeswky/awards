@@ -1,0 +1,53 @@
+{
+  "files": {
+    "REPLAY.json": "c42c4cea3a0d2a88c187ed4afe029d695a6399ca8f866d5ce2f47fd3385f74ff",
+    "certificates/ALGEBRA_SUMMARY.json": "20ed5eda9d2bf86a636233064c974349a1230e53d933186cb22361e73c24c942",
+    "certificates/INDEPENDENT_AUDIT.json": "d9fc6ee98f097a0f3d7df311b9020d84e43d717893b1257d3811a67d63ef72a9",
+    "certificates/KEY_COMPACT.json": "0372943bc95a639a686f23f07abd1233420cb34b212f8bda72ac53d533bca5b2",
+    "certificates/MATERIAL_SUMMARY.json": "60134c0f67070186a88865c6bf284f3d6a3a520bdd525b7c19277558ae332d01",
+    "certificates/RANGE_AUDIT.json": "b53bfc9fd7c363dc3afeb7fcbd0edefe9a429f14cb303ad170cab0a2cc86f776",
+    "provenance/C7_RELAXATION_GUARD.json": "d8b913b65c347b19998b19ea64057a966684ea397e6012baeb2497259a685a2b",
+    "provenance/INPUTS.json": "2010f4beca4e1a2f7d612835b3eadc446926d912ba0c45253d7994a42563b4f3",
+    "provenance/SEARCH_SEED.json": "37736f244405dba65aaa7a5fea01ccca4bd48e436ef69ee5acbb438c76efe76a",
+    "provenance/STANDALONE_BYTE_CHECK.json": "c18359e8713b23be87bf65ac15c6287c2cb4cfe35093b056cc5c58b0b70835e3",
+    "replay.py": "80a2beda27b92a61ea7f686f47345c683ca6e9717978b17f58c8a322e7cd5757",
+    "reproduce.py": "9e427c60cf22dc9ee4831eee1c75166b610c20ae5f42f2f5d9acbc4d35ef2114",
+    "sources/assess_entrances.py": "d3403a36e987460b1849765d55bf64e1ef603ec560b4cc9b73a14b00e0af37e1",
+    "sources/audit_saved.py": "364d441eaf4837e431929d2c87447335a3938205f91a47de1d45b48fabc4f542",
+    "sources/deletion_balanced.py": "f86d7db41c01e24ddf587682ec5016e99a91e6e85de48c4621bddbfb46c77f8f",
+    "sources/exact.py": "acdb7c3af6f5d37469f5d527d86b99870b909b1de114965ad98cd4aa5c645c88",
+    "sources/independent.py": "657894a484559a29505fcc32d69715b989fad7022e7991c34829f4e199f48e1c",
+    "sources/inherited_graft.py": "3ab85cfc16409a04e5bf016362bb118dfd01777c9b83ea76086ece5d5ecc73ab",
+    "sources/payment.py": "de495834f1a40b717bdaca9ba004c0d45af4daff44e787395df9991a34405d5a",
+    "sources/remote_signed_cut.py": "eb815d0b54c0cf1cfc2cb5c7b68ad98a82296d11fcf255b548b4c31cfd91d5f7",
+    "sources/screen_decline.py": "53326b0a9bea20cec3178679c00bdd9f635e8309ca119e942ae0ca085130e16b",
+    "sources/search_strip.py": "3d7edbe6bf72b2287abf3ff11eff9d055a092f37a92a892c13902456f519ffad",
+    "sources/strip.py": "caf0abe053b29322487a19db4fdd5524b6ca6c5dfa2666a596275cd3656fc15d",
+    "sources/verify_algebra.py": "bfb667f6871656a423f7e97835ba2a4c9c909c58686b85e0eb60b5a61a7eed36",
+    "sources/verify_material.py": "ae98c571b86d9c602c57179591092b149a6bf71c8d386cb196d7c6879b107ba6",
+    "sources/verify_range.py": "2797877b784981183f8ba7a2fdf5823ff742738f0f97edfc28f2877e81cb29d5"
+  },
+  "parts": [
+    {
+      "path": "SOURCE_BUNDLE.part00.b85",
+      "sha256": "d726040c29e368116a82004d8416d415b34655c8e9746cd04407ef105657cad2",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part01.b85",
+      "sha256": "04764c54c9414916faeca5bea706a6a904d002646f457b68e20e889365c7b1c1",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part02.b85",
+      "sha256": "8e6eb5368b163da2c099696d396dc3fb16d0bdf07e360a0f3e1b5e1c643231dd",
+      "size": 10100
+    },
+    {
+      "path": "SOURCE_BUNDLE.part03.b85",
+      "sha256": "098cff8d95e4b70eb2b1372ec1a205e1414877b4982e0106b16232d5db79e151",
+      "size": 6326
+    }
+  ],
+  "schema": 1
+}

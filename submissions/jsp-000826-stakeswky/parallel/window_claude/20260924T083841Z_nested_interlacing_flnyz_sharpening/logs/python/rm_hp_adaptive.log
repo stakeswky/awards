@@ -1,0 +1,9 @@
+l=0.25  k=450 y_t=3.95   levels=24: precisions agree=True | final n~10^157.8, M~10^45.3, q_root=0.005 | exponent slope (levels 12..24) = 0.3854
+l=0.5   k=260 y_t=3.517  levels=24: precisions agree=True | final n~10^162.4, M~10^54.8, q_root=0.015 | exponent slope (levels 12..24) = 0.4561
+l=1.0   k=70  y_t=3.146  levels=24: precisions agree=True | final n~10^107.0, M~10^46.2, q_root=0.040 | exponent slope (levels 12..24) = 0.5212
+l=2.0   k=28  y_t=2.894  levels=24: precisions agree=True | final n~10^81.8, M~10^43.1, q_root=0.097 | exponent slope (levels 12..24) = 0.6092
+l=2.6   k=20  y_t=2.836  levels=24: precisions agree=True | final n~10^72.5, M~10^41.2, q_root=0.130 | exponent slope (levels 12..24) = 0.6486
+l=3.0   k=18  y_t=2.814  levels=24: precisions agree=True | final n~10^70.8, M~10^41.7, q_root=0.158 | exponent slope (levels 12..24) = 0.6717
+l=5.0   k=10  y_t=2.783  levels=24: precisions agree=True | final n~10^54.5, M~10^36.8, q_root=0.217 | exponent slope (levels 12..24) = 0.7603
+l=7.0   k=8   y_t=2.8    levels=24: precisions agree=True | final n~10^49.4, M~10^36.3, q_root=0.301 | exponent slope (levels 12..24) = 0.8279
+l=12.0  k=6   y_t=2.877  levels=24: precisions agree=True | final n~10^43.6, M~10^35.9, q_root=0.394 | exponent slope (levels 12..24) = 0.9340

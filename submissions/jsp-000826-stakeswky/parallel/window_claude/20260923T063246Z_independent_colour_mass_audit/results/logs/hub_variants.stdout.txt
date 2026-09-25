@@ -1,0 +1,3 @@
+trees 49786 History positions 1114517 violations 0 nonunimodal positions 0
+max overall ratio 0.851675 groups=[[2, 20]] s=0 q=0 n=43 j=21 beta=21
+max middle-range ratio 0.155315 groups=[[1, 14], [4, 15]] s=0 q=0 n=80 j=38 beta=39

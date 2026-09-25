@@ -1,0 +1,169 @@
+{
+ "all_n_lemmas": {
+  "antitoneOn_icoeff_tail": "every G bipartite on S: nonincreasing from (2 alpha+1)/3 = ceil((2 alpha-1)/3)",
+  "monotoneOn_icoeff_prefix": "every acyclic G, every S: nondecreasing up to (|S|+3)/4 = ceil(|S|/4)"
+ },
+ "build_summary": [
+  "Build completed successfully (8267 jobs)."
+ ],
+ "commit": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
+ "date_utc": "2026-09-23T07:38:33.490280+00:00",
+ "elan": "elan 4.2.4 ( )",
+ "ends_audit": {
+  "exit": 0,
+  "file": "audit/EndsAudit.lean",
+  "output": "@monotoneOn_icoeff_prefix : \u2200 {V : Type u_1} [Fintype V] [inst : DecidableEq V] {G : SimpleGraph V},\n  G.IsAcyclic \u2192 \u2200 (S : Finset V) \u2983j k : \u2115\u2984, j \u2264 k \u2192 k \u2264 (S.card + 3) / 4 \u2192 icoeff G S j \u2264 icoeff G S k\n@antitoneOn_icoeff_tail : \u2200 {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}\n  {S : Finset V}, IsBipartiteOn G S \u2192 \u2200 \u2983j k : \u2115\u2984, (2 * alpha G S + 1) / 3 \u2264 j \u2192 j \u2264 k \u2192 icoeff G S k \u2264 icoeff G S j\ncentral : \u2203 N\u2080,\n  \u2200 (n : \u2115) (G : SimpleGraph (Fin n)),\n    G.IsAcyclic \u2192\n      \u2200 (S : Finset (Fin n)),\n        N\u2080 \u2264 S.card \u2192\n          \u2200 (k : \u2115),\n            (S.card + 4) / 5 \u2264 k \u2192 k \u2264 64 * alpha G S / 95 \u2192 icoeff G S (k - 1) * icoeff G S (k + 1) < icoeff G S k ^ 2\n'ErdosProblem993.monotoneOn_icoeff_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ErdosProblem993.antitoneOn_icoeff_tail' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+ },
+ "error_lines": 0,
+ "executed_by": "Anthropic Claude via Claude Code on a local macOS workstation (arm64); elan installed from Homebrew formula elan-init",
+ "independent_statement_audit": {
+  "exit": 0,
+  "file": "audit/StatementAudit.lean",
+  "output": "main_fin : \u2203 N\u2080, \u2200 (n : \u2115), N\u2080 \u2264 n \u2192 \u2200 (G : SimpleGraph (Fin n)), G.IsAcyclic \u2192 IsUnimodal (icoeff G Finset.univ)\nunimodal_of_isAcyclic : \u2203 N\u2080,\n  \u2200 {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] (G : SimpleGraph V),\n    G.IsAcyclic \u2192 N\u2080 \u2264 Fintype.card V \u2192 IsUnimodal (icoeff G Finset.univ)\n@isUnimodal_iff_finite : \u2200 {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}\n  (S : Finset V),\n  IsUnimodal (icoeff G S) \u2194\n    \u2203 m \u2264 alpha G S,\n      (\u2200 (j k : \u2115), j \u2264 k \u2192 k \u2264 m \u2192 icoeff G S j \u2264 icoeff G S k) \u2227\n        \u2200 (j k : \u2115), m \u2264 j \u2192 j \u2264 k \u2192 k \u2264 alpha G S \u2192 icoeff G S k \u2264 icoeff G S j\ndef ErdosProblem993.IsUnimodal : (\u2115 \u2192 \u2115) \u2192 Prop :=\nfun f => \u2203 m, (\u2200 \u2983j k : \u2115\u2984, j \u2264 k \u2192 k \u2264 m \u2192 f j \u2264 f k) \u2227 \u2200 \u2983j k : \u2115\u2984, m \u2264 j \u2192 j \u2264 k \u2192 f k \u2264 f j\ndef ErdosProblem993.icoeff.{u} : {V : Type u} \u2192 [DecidableEq V] \u2192 SimpleGraph V \u2192 Finset V \u2192 \u2115 \u2192 \u2115 :=\nfun {V} [DecidableEq V] G S k => {J \u2208 indepFinsets G S | J.card = k}.card\ndef ErdosProblem993.indepFinsets.{u} : {V : Type u} \u2192 [DecidableEq V] \u2192 SimpleGraph V \u2192 Finset V \u2192 Finset (Finset V) :=\nfun {V} [DecidableEq V] G S => {J \u2208 S.powerset | G.IsIndepSet \u2191J}\n@[reducible] def SimpleGraph.IsIndepSet.{u_1} : {\u03b1 : Type u_1} \u2192 SimpleGraph \u03b1 \u2192 Set \u03b1 \u2192 Prop :=\nfun {\u03b1} G s => s.Pairwise fun v w => \u00acG.Adj v w\ndef SimpleGraph.IsAcyclic.{u_1} : {V : Type u_1} \u2192 SimpleGraph V \u2192 Prop :=\nfun {V} G => \u2200 \u2983v : V\u2984 (c : G.Walk v v), \u00acc.IsCycle\n'ErdosProblem993.main_fin' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ErdosProblem993.unimodal_of_isAcyclic' depends on axioms: [propext, Classical.choice, Quot.sound]\n'ErdosProblem993.isUnimodal_iff_finite' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+ },
+ "kind": "FRESH_LOCAL_LEAN_BUILD_OF_EXTERNAL_REPOSITORY",
+ "lake_version": "Lake version 5.0.0-src+f72c35b (Lean version 4.29.1)",
+ "lean_toolchain": "leanprover/lean4:v4.29.1",
+ "logs": "logs/ (toolchain, cache, build, README axiom check, statement audit, ends audit; exit codes in *.exit; see REDACTION.json)",
+ "mathlib_rev": "5e932f97dd25535344f80f9dd8da3aab83df0fe6",
+ "project_modules_compiled": [
+  {
+   "module": "ErdosProblem993.ForMathlib.BerryEsseen",
+   "seconds": 16.0
+  },
+  {
+   "module": "ErdosProblem993.Basic",
+   "seconds": 20.0
+  },
+  {
+   "module": "ErdosProblem993.ForMathlib.EsseenSmoothing",
+   "seconds": 6.9
+  },
+  {
+   "module": "ErdosProblem993.Recursion",
+   "seconds": 2.8
+  },
+  {
+   "module": "ErdosProblem993.Extensions",
+   "seconds": 3.3
+  },
+  {
+   "module": "ErdosProblem993.Components",
+   "seconds": 3.4
+  },
+  {
+   "module": "ErdosProblem993.HardCore",
+   "seconds": 3.9
+  },
+  {
+   "module": "ErdosProblem993.DegreeLemma",
+   "seconds": 6.5
+  },
+  {
+   "module": "ErdosProblem993.MeanRange",
+   "seconds": 8.6
+  },
+  {
+   "module": "ErdosProblem993.Ends",
+   "seconds": 3.4
+  },
+  {
+   "module": "ErdosProblem993.Fourier",
+   "seconds": 10.0
+  },
+  {
+   "module": "ErdosProblem993.RootMoments",
+   "seconds": 13.0
+  },
+  {
+   "module": "ErdosProblem993.CLT",
+   "seconds": 21.0
+  },
+  {
+   "module": "ErdosProblem993.Curvature",
+   "seconds": 15.0
+  },
+  {
+   "module": "ErdosProblem993.Central",
+   "seconds": 2.7
+  },
+  {
+   "module": "ErdosProblem993.Main",
+   "seconds": 2.6
+  },
+  {
+   "module": "ErdosProblem993.Transfer",
+   "seconds": 2.5
+  },
+  {
+   "module": "ErdosProblem993.AxiomCheck",
+   "seconds": 12.0
+  },
+  {
+   "module": "ErdosProblem993",
+   "seconds": 2.3
+  }
+ ],
+ "readme_axiom_check": {
+  "command": "lake env lean ErdosProblem993/AxiomCheck.lean",
+  "exit": 0,
+  "lines": [
+   "'ErdosProblem993.main_fin' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.unimodal_of_isAcyclic' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.central' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.root_moments' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.linear_variance' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.uniform_clt' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.charFn_bound' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.curvature_limit' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.mean_lc' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.mean_range' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.sum_degOn_le' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.monotoneOn_icoeff_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.antitoneOn_icoeff_tail' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "'ErdosProblem993.isUnimodal_iff_finite' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "standard_axioms_only": 14,
+  "theorems": 14
+ },
+ "repository": "https://github.com/junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality",
+ "residual_trust": [
+  "Lean 4.29.1 kernel and the three standard axioms",
+  "Mathlib .olean files downloaded from the official Mathlib cache (lake exe cache get), not rebuilt from source; lean4checker not run",
+  "Statement correspondence checked by reading the elaborated statements (this audit), not by a second formalization"
+ ],
+ "run_id": "20260923T074907Z_external_flnyz_lean_build",
+ "sorry_warnings": 0,
+ "source_sha256": {
+  "ErdosProblem993.lean": "d24960e993de3e7e9bb29bb9e30f5d9380026bd80fddb03152efa52ca927c307",
+  "ErdosProblem993/AxiomCheck.lean": "3010dc1205f829def8e0231f190b66e90e7364e1e25e0b8e3d9501b32e06661d",
+  "ErdosProblem993/Basic.lean": "7d151865616cd66f01e04c0abed5b09287f6d3436b3248af63681459d9469d8d",
+  "ErdosProblem993/CLT.lean": "39b02c8323becf208a7e67d036c9943889fc01858348f2d70f40d2363b490250",
+  "ErdosProblem993/Central.lean": "124708b1dbb6a3dfe44cffb84aa5097c21b8a72722f5380485b87fe28848a324",
+  "ErdosProblem993/Components.lean": "49bf54ca4d00ee79bb9ad4ac9ed8d40208aad99d2e3b699659ba6373d05d1854",
+  "ErdosProblem993/Curvature.lean": "bd8f28d5936abae183969987d2889b9c36c8c6675b1cf965ffc52bb53cbbdf99",
+  "ErdosProblem993/DegreeLemma.lean": "2ba38c14dc737ba7ee6f571a3a812bfbca926a4e69d248595609b8c2ee2c535c",
+  "ErdosProblem993/Ends.lean": "473d0a262b07f3b5f48be27adff8a978fc4c69d0ba4c67833a77dc911df909c4",
+  "ErdosProblem993/Extensions.lean": "42fcb03174e625bb88cadec49d652bdaad0f8b92d8d69660af6315649d73f0fc",
+  "ErdosProblem993/ForMathlib/BerryEsseen.lean": "8f3bfa7c2989722aa30308c370c43d5dca0a06c208eac61786acd6539355683a",
+  "ErdosProblem993/ForMathlib/EsseenSmoothing.lean": "d09ab81770295b1ad8c5fffda7f09ac31c2a8a3dd2ac63517bf7de9c53520740",
+  "ErdosProblem993/Fourier.lean": "cb6fcb101a859a07feaddf66f8f7a3744abee769e8a8138fae3c85adda7c0fad",
+  "ErdosProblem993/HardCore.lean": "53c98bf232f3dd090c7a889f83af8f920cd3146856a93e79fff849ac2bee2884",
+  "ErdosProblem993/Main.lean": "617a019938cf0f4fd759afca1c682a2cd394fcc26d8179394d25dd9d43d24a0d",
+  "ErdosProblem993/MeanRange.lean": "1614413146552126722285352a1da66ceda7b589d5b457da5ecf9bd85d3cac07",
+  "ErdosProblem993/Recursion.lean": "9ed64b5848ff2e59c105bceeaab7d59468c940477d768c64c9759fd6b1fae829",
+  "ErdosProblem993/RootMoments.lean": "0ebbb994d089e6c89948ce75f101a16a264e459b528a854e9a1d6844c15cfe8d",
+  "ErdosProblem993/Transfer.lean": "a108b0ba25ac5ba15796a6f63e642a2b784b45ac092e0b2d4364a24cbf319855",
+  "lake-manifest.json": "67c42f035e6953200de4d0e09bfbe05710cd01e7e7259ee738e10196943c3f1c",
+  "lakefile.toml": "3eb4d891372578487ce7805336631aacf95e9404e39325155e4eb50457839afe",
+  "lean-toolchain": "7dc000621e0046d1aada809e2b7177e64454645cf4c741e9daaf79c99ec2e7a2"
+ },
+ "statement_correspondence": "main_fin: exists N0, for all n>=N0 and every G : SimpleGraph (Fin n) with G.IsAcyclic, IsUnimodal (icoeff G univ). icoeff = number of independent k-subsets (Mathlib IsIndepSet: pairwise non-adjacent); IsAcyclic = no cycle walk (forests, possibly disconnected); isUnimodal_iff_finite shows IsUnimodal equals the finite plateau-allowing definition on 0..alpha. N0 is existential (max 1000 N1, N1 from central); no numeric value.",
+ "steps": {
+  "build": 0,
+  "cache": 0,
+  "toolchain": 0
+ },
+ "warning_lines": 32,
+ "worktree_clean": true
+}

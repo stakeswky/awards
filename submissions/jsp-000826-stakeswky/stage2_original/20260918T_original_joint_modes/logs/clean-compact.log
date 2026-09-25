@@ -1,0 +1,7 @@
+cwd=/tmp/erdos993-stage2-clean-kjlkn4ry
+command=["/opt/pyvenv/bin/python", "-S", "-B", "src/check_compact.py", "--material", "certificates/material.json", "--out", "certificates/material_compact.json"]
+{"status": "FULL_COEFFICIENT_ROUNDTRIP_EQUAL", "graphs": 4, "vertices": 85, "unique_padded_polynomials": 74}
+
+STDERR:
+
+exit_code=0

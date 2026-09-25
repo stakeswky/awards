@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "C1": {
+    "unlabelled_trees_orders_2_through_17": 81136,
+    "indices_exactly_checked": 741584,
+    "previous_A_material_graphs": 10,
+    "repeated_three_nonLC_components_copies": "1..10",
+    "failures": 0
+  },
+  "decomposition": {
+    "literal_disconnected_forests": 40,
+    "allocation_indices_exactly_checked": 197,
+    "max_order": 12,
+    "failures": 0
+  },
+  "arithmetic": "exact integers and rational arithmetic",
+  "note": "Finite C1 success is evidence only; exact decompositions are proved algebraically in PROOF_ATTEMPT.md."
+}

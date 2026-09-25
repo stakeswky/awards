@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "program": "core_cover.py",
+      "exit_code": 0,
+      "seconds": 15.72,
+      "log_sha256": "1d9afa725b577a1c036e07a245de5ed60d60c181a75e09ae26f34793c1a7573e"
+    },
+    {
+      "program": "explore.py",
+      "exit_code": 0,
+      "seconds": 29.87,
+      "log_sha256": "19f703fd96229ec07936ca4e5ed44eb7333c3656b0452314605466747e3b7d1b"
+    },
+    {
+      "program": "mixture_audit.py",
+      "exit_code": 0,
+      "seconds": 0.262,
+      "log_sha256": "54743ca65109baf95422f954a56372190ce0de6b728caea5e787616a7ef4f4a8"
+    },
+    {
+      "program": "regressions.py",
+      "exit_code": 0,
+      "seconds": 0.04,
+      "log_sha256": "71f682b1df92da7e5cede1309fe3d86d4b7dccbf5048ddc5a3b39aa119169108"
+    },
+    {
+      "program": "history_audit.py",
+      "exit_code": 0,
+      "seconds": 0.109,
+      "log_sha256": "3e5564af36b8d85a3ecd45859b3d26c915b15f4ef4088483b261cf70fb0758c4"
+    },
+    {
+      "program": "compact.py",
+      "exit_code": 0,
+      "seconds": 0.111,
+      "log_sha256": "ea7a93790fa54e18f99495cf3af3e245204b81ea00e6f2f7c49fa72537146afb"
+    }
+  ],
+  "outputs": {
+    "certificates/CORE_COVER_FULL.json": {
+      "sha256": "052450873a5e6ae94e934618e942ed425d1750ceaa76b05a6b05ed2615d1c6e9",
+      "bytes": 6454928,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/SEARCH_SUMMARY.json": {
+      "sha256": "acd7cd82ccb52cb0347a069d51a4cec7264ee4180ffb7639d68bfc3a117f9d1e",
+      "bytes": 1588,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/EXPLORATION.jsonl.gz": {
+      "sha256": "071304674d7dee10b957294a726fbf4559c722032bb3b672d2654f4b123ba2e5",
+      "bytes": 727798,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/MATERIALS.jsonl.gz": {
+      "sha256": "20951c6ae83170caf8198c93611d854ca1a0f67ad44ab78893addd1bf840b32b",
+      "bytes": 34579928,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/PROPOSALS.json": {
+      "sha256": "248127bd0f5c7a76cd5a1855af25827c9c0a29a9cd48422623fdd6cf5d00e016",
+      "bytes": 83257,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "inputs/nonLC_bank.json": {
+      "sha256": "f118dc76a6bc85612b7cc53b0df9ff77d084c76bef1b9b73ee23f42f68e2a545",
+      "bytes": 11289,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/MIXTURE_AUDIT.json": {
+      "sha256": "304d8c18ea5b0b991428aca4725fe95084d9f0ef9a495e03c8201204e887dd45",
+      "bytes": 125118,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/REGRESSIONS.json": {
+      "sha256": "1eef1cbaa1b9b675f8a740426ad568c12a934b2c3c3f17e346457d4b21536f86",
+      "bytes": 952,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/HISTORY_CHECK.json": {
+      "sha256": "782ea5e410a0cf81dfd76684de4ca1fda9019857115e128f5944df5ab1eff310",
+      "bytes": 480,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    },
+    "certificates/NATIVE_CERTIFICATE.json": {
+      "sha256": "8e50af45e4dc5d774f75d238e03744e1571912f8d16b3d6ab26067c110b1c979",
+      "bytes": 26593,
+      "comparison": "ALL_BYTES_NO_FIELDS_EXCLUDED"
+    }
+  },
+  "source_sha256": {
+    "src/availability.py": "ed5102760fad470f9321948d6b2f2a3dc63f1ad0ef1130135dada86e2fc336d2",
+    "src/compact.py": "46051635a84fbd638cc42bdcbe058b0daccc4572f02a42472aae9a9b29ed18e7",
+    "src/core_cover.py": "d6f63a4d22559a5276a2d1dc0fc2a603b595ad911437b3da92b353c6ace9657b",
+    "src/engine.py": "bd9d6a52b26d3a9d0127476cb7bc56133e7a18ac92cfa2b8eb79046ffeb684c2",
+    "src/explore.py": "9b3eeb82f1e76b39f7058215761057bfdc3899c5b2ec69d2787a5ec2e1b45826",
+    "src/forest_exact.py": "897199820b50cf1750fa7a5d3934e4fcf8d7921a1fb8dacba0d1d875e7cba172",
+    "src/history_audit.py": "830ce1bb46a3a96c3851730519982525899b5b2d9528b13a49a34736bb31f7c4",
+    "src/mixture_audit.py": "4347885af8db9ede1d0d2506a1f372c0e16d8e5d3dc8b50f2bf18454597ffeb2",
+    "src/regressions.py": "9aa5bf9562b88600a7e9dc0d258bf849e7c76cc9bc14a627e45fcf1e6c46dd10",
+    "src/replay.py": "c2f60add2f99929f9600176ca53ae00a87c6f2c38ede4652826659dfe337c671"
+  },
+  "input_sha256": {
+    "inputs/prior_codes.jsonl.gz": "03a53313d09a0d081ca642c0af3d47dfeaa3f790dfdc249aee3b036acb2ed50c"
+  },
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "fresh_directory_removed": true,
+  "external_review": false,
+  "Lean_build": "NOT_RUN",
+  "ORIGINAL": "NOT_CLOSED"
+}

@@ -1,0 +1,4 @@
+# Tested: Python 3.13.5
+networkx==3.6.1
+scipy==1.17.0
+numpy==2.3.5

@@ -1,0 +1,20 @@
+cwd=/tmp/erdos993-stage2-clean-kjlkn4ry
+command=["/opt/pyvenv/bin/python", "-S", "-B", "src/verify_reductions.py", "--material", "certificates/material.json", "--out", "certificates/reductions.json"]
+{
+  "status": "PASS_WITH_SCOPE",
+  "unimodal_sequences": 129,
+  "weighted_linear_factor_controls": 387,
+  "common_sum_groups": 1316,
+  "joint_overlap_groups": 1028,
+  "joint_adjacent_groups": 3,
+  "joint_unresolved_groups": 285,
+  "abstract_valley_pairs_checked": 1662,
+  "material_leaf_identities": 45,
+  "invalid_graph_controls_rejected": 4,
+  "original_structural_bridge_proved": false,
+  "scope": "Finite regression, with nonvacuous abstract valleys; no residual RSM forest case."
+}
+
+STDERR:
+
+exit_code=0

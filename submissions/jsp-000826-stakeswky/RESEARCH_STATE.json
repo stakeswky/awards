@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "updated_utc_date": "2026-09-25",
+  "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
+  "repository": "stakeswky/awards",
+  "branch": "jsp-000826-research-snapshot",
+  "pull_request": 1,
+  "pr_must_remain_draft": true,
+  "last_read_head": "0544e1ae7f892a426aca5d656bc3abc143b50b7a",
+  "previous_checkpoint": "af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "concurrency_preserved": {
+    "status": "The run started from af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02, found no newer concurrent commit, published Stage 18 incrementally without force updates, and re-read PR #1 at 0544e1ae7f892a426aca5d656bc3abc143b50b7a before the final state update.",
+    "publication_boundary": "Stage 18 files were added only under submissions/jsp-000826-stakeswky/stage18_original/20260925T_nested_hub_infinite_family/."
+  },
+  "current_work": {
+    "run_id": "20260925T_nested_hub_infinite_family",
+    "task": "Close the Stage-17 asymptotic root-moment gap with an analytic infinite family.",
+    "package": "stage18_original/20260925T_nested_hub_infinite_family/",
+    "derivation_parts": [
+      "DERIVATION_A.md",
+      "DERIVATION_B.md",
+      "DERIVATION_C.md",
+      "DERIVATION_D.md"
+    ],
+    "result": "ANALYTIC_INFINITE_FAMILY_POWER_LOWER_BOUND_PROVED_IN_WRITING",
+    "construction": "Finite unweighted rooted trees at activity lambda=1; each step uses a 14-child hub followed by a nearest-integer gather level.",
+    "theorem": "M_root(T_m) >= C |T_m|^alpha",
+    "alpha": "log(4761/400)/log(1936) = 0.327249517292562...",
+    "coarse_C": "(147/16)*245776^(-alpha) = 0.158177938799633...",
+    "consequence": "Every universal fixed-degree polylogarithmic root-moment upper bound is false for this tree family.",
+    "sharper_parallel_exponent_equality": "NOT_ESTABLISHED_BY_THIS_STAGE",
+    "exact_side_condition_check": "PASS; source sha256 fed8f0590af9453822f41f46b2417ba00772bd4cf469db78b9985be121df0a89; output sha256 c4cdedb0cf7acae0b6cb44924e62b819a7b29af6365568c05b463be57cb5631b",
+    "numeric_prefix_check": "PASS for m=1..12; source sha256 1306bb6ab65ad6a6bd8d1dc783d7601f61852bb5295f41c550b344760629fd4d; output sha256 f7f45573fda49d7ab781629f878aefcbd58a7d693f2372f7560e4358da69273a",
+    "source_upload_note": "Connector safety checks prevented publication of the full Python check sources in this run; the executed source/output hashes are recorded. A placeholder check_stage18.py exists but must not be treated as the executed checker.",
+    "fresh_lean_build": "NOT_RUN",
+    "fresh_axiom_audit": "NOT_RUN",
+    "original_math": "NOT_CLOSED",
+    "original_formal": "NOT_ESTABLISHED",
+    "legal_original_counterexample": false,
+    "novelty": "NOT_CLAIMED"
+  },
+  "preserved_results": {
+    "family_B59": "Computer-assisted E/P log-concavity and unimodality for all positive branch counts and repeated B59 mixtures; not top-level Lean formalized.",
+    "component_order_30": "Forests whose every component has order at most 30 are excluded as original counterexamples under the pinned computation and convolution results.",
+    "global_L3_L4": "Accumulated project proofs establish p3^2>=p2*p4 and p4^2>=p3*p5 for every finite unweighted forest, with stated finite assisted subcases.",
+    "external_large_forests": "Pinned external formalization states an absolute N0 above which every forest is unimodal; this project has not extracted a useful concrete N0.",
+    "window_lc_parallel": "Same-project parallel work reports strict WindowLC through order 30 and the exact extension/under-dispersion identity."
+  },
+  "closed_mathematical_gaps": [
+    "Stage 17 correctly found that finite root-moment examples did not prove asymptotic growth. Stage 18 now supplies an analytic infinite family with a positive power lower bound.",
+    "The adjacent log-concavity minors through k=4 remain proved under the accumulated project record.",
+    "The Gaussian tail radius in the effective-threshold chain has an explicit written witness."
+  ],
+  "corrected_boundaries": [
+    "The new exponent 0.3272495... is a coarse proved lower exponent, sufficient to rule out every fixed-degree polylog upper bound.",
+    "Stage 18 does not prove the sharper numerical root-moment exponent, WindowLC, or the original forest unimodality conjecture.",
+    "No legal non-unimodal unweighted forest was found in this run."
+  ],
+  "next_tasks": [
+    {
+      "priority": 1,
+      "task": "Return to WindowLC: seek one all-order inequality from the exact extension identity and under-dispersion criterion for ordinary unweighted forests."
+    },
+    {
+      "priority": 2,
+      "task": "Continue effective-N0 extraction using only proved constants; do not expect a universal polylog root-moment shortcut."
+    },
+    {
+      "priority": 3,
+      "task": "Retain bounded direct unweighted tree/forest counterexample checks outside covered orders, testing the full coefficient sequence."
+    }
+  ],
+  "remaining_gaps": [
+    "Full Erdos #993 proof or explicit legal unweighted nonunimodal forest.",
+    "WindowLC for all forests above 30 and below the external sufficiently-large threshold.",
+    "A useful numerical effective value of the external threshold N0.",
+    "PREFIX_BETA for indices k>=5 before the inherited tail boundary.",
+    "Uniform exact middle BARRIER/root-state/component-allocation estimate.",
+    "HEREDITARY J_H and RSM.",
+    "Top-level ORIGINAL Lean proof and axiom audit.",
+    "Independent external review and global novelty verification."
+  ],
+  "latest_original_attempt": "stage13_original/20260920T_global_L4/PROOF.md",
+  "latest_effective_threshold_work": "stage16_original/20260923T_explicit_gaussian_tail/PROOF.md",
+  "latest_audit": "stage17_original/20260924T_root_moment_claim_audit/AUDIT.md",
+  "latest_auxiliary_proof": "stage18_original/20260925T_nested_hub_infinite_family/DERIVATION_A.md through DERIVATION_D.md",
+  "completion": {
+    "current": false,
+    "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit.",
+    "on_success": "Publish final verification package, notify the user, and disable recurring continuation; do not alter live prize records."
+  }
+}

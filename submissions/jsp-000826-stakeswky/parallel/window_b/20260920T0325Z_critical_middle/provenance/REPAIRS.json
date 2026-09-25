@@ -1,0 +1,20 @@
+{
+  "pre_replay_repair": "The first automatic first14 selection did not match the previously saved min-hash representative; assertion detected this. Corrected selection to the min-hash connected n14 qualified graph. No graph, polynomial or search outcome changed.",
+  "inherited_counter_files_modified": false,
+  "streaming_exec_unavailable": "An unsupported session request failed before any audit process or source file was created. Standard bounded execution then succeeded.",
+  "interrupted_searches": 0,
+  "discarded_partial_counts": 0,
+  "interrupted_replay_calls": 1,
+  "interrupted_replay_description": "The first outer call timed out after four complete programs while step4 was running. No step4 partial file was accepted. Step4 was restarted from scratch and all remaining four programs completed; the complete output comparison is in REPLAY_RECEIPT.json.",
+  "search_coverage_from_interrupted_replay": 0,
+  "source_transport_hash_failure": "A 9001-byte source fragment typed into the connector did not match its expected Git blob ID. That unattached blob was never inserted into a tree or branch. The fragment is retransmitted as three smaller fragments; every final fragment must match its precomputed Git blob hash.",
+  "publication_fragment_transport": {
+    "unreferenced_rejected_blobs": [
+      "323f37042581cdda8c4ae97461b17cbe4aeb4983",
+      "eb73521e173d55e3dc1869a4ac07f233ba334f11"
+    ],
+    "reason": "Manual tool-payload transcription changed source-archive text. Exact local Git-blob hash check rejected the results before any tree/branch update. Smaller fragments or corrected payloads were uploaded; all 11 accepted returned blob hashes match local bytes.",
+    "source_programs_changed": false,
+    "research_results_changed": false
+  }
+}

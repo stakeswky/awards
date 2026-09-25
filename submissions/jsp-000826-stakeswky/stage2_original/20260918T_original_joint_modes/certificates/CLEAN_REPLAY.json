@@ -1,0 +1,122 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "source_sha256": {
+    "check_compact.py": "76b58abd6c7a2f51b0b84a749311b94c013324b9d833f46a8c60fc7f80344800",
+    "clean_replay.py": "d9940169cde884bbb2209ef7b7cc3adf645ab418b24d9b7482e234d4f5ae58b9",
+    "forest_counts.py": "fc9cc06f157895f907cd06e56e3215b97dffadaf4cd2827d6e74a9777106c904",
+    "run_diagnostics.py": "7ceb9f54e7001162a62fd5a6c268a9c50fb38af6d05fcc73e63594d4c0ee9f81",
+    "verify_material.py": "80b99e2e585bea9e3cc8e07baae5c5a35cb3c760a0b5e15035d1e244ded39452",
+    "verify_reductions.py": "6d74fa550b5b33df6a581b9ad182cfb1c7d6bda897aca540dd4f9e8aea6bd69a"
+  },
+  "commands": [
+    {
+      "name": "diagnostics",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/run_diagnostics.py",
+        "--inputs",
+        "inputs/stress.json",
+        "--generate",
+        "--out",
+        "certificates"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.541277,
+      "log": "logs/clean-diagnostics.log"
+    },
+    {
+      "name": "material",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/verify_material.py",
+        "--inputs",
+        "inputs/stress.json",
+        "--out",
+        "certificates/material.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.060332,
+      "log": "logs/clean-material.log"
+    },
+    {
+      "name": "reductions",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/verify_reductions.py",
+        "--material",
+        "certificates/material.json",
+        "--out",
+        "certificates/reductions.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.114434,
+      "log": "logs/clean-reductions.log"
+    },
+    {
+      "name": "compact",
+      "command": [
+        "/opt/pyvenv/bin/python",
+        "-S",
+        "-B",
+        "src/check_compact.py",
+        "--material",
+        "certificates/material.json",
+        "--out",
+        "certificates/material_compact.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.02685,
+      "log": "logs/clean-compact.log"
+    }
+  ],
+  "output_comparisons": {
+    "inputs/stress.json": {
+      "full_parsed_equality": true,
+      "byte_equality": true,
+      "bytes": 276945,
+      "sha256": "fbf7b74a3d9355aece7c51e76802fbd68735a77f16d440baa813bfe211708478"
+    },
+    "certificates/diagnostics.json": {
+      "full_parsed_equality": true,
+      "byte_equality": true,
+      "bytes": 18347839,
+      "sha256": "2e242985d9a00a28c1c253d14a5366acdb46d272d5dcf732eb8ac0ad92a3dafb"
+    },
+    "certificates/material.json": {
+      "full_parsed_equality": true,
+      "byte_equality": true,
+      "bytes": 119436,
+      "sha256": "a659844d9cd8db5c9667f6f7df2ff24024e84b3f802bcc3b5586387c68ef4af1"
+    },
+    "certificates/reductions.json": {
+      "full_parsed_equality": true,
+      "byte_equality": true,
+      "bytes": 29890,
+      "sha256": "b7eae62568e7ffe043244cd761487826747274cb9230d9b9ab6cc752fb1ae0b6"
+    },
+    "certificates/material_compact.json": {
+      "full_parsed_equality": true,
+      "byte_equality": true,
+      "bytes": 12858,
+      "sha256": "f1c201a257573333653cdd42cda241b9f3b414755a9c6ff3260a8d6f391bf98b"
+    },
+    "certificates/summary.json": {
+      "full_equality_except": [
+        "elapsed_seconds"
+      ],
+      "original_elapsed_seconds": 7.28329,
+      "clean_elapsed_seconds": 7.404254
+    }
+  },
+  "temporary_directory_removed": true,
+  "fresh_lean_build": false,
+  "original_proof": false,
+  "review": "Algorithmic replay, not independent mathematical peer review."
+}

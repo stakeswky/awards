@@ -1,0 +1,74 @@
+{
+  "C8_author_program_rerun": false,
+  "C8_external_audit_blob": "90ba82c73a417764b81e767140fa44eb1d81fcc9",
+  "C8_full_body_read": true,
+  "C8_proof_blob": "e39b68c1c518786145c80cf8feab4c044bb40203",
+  "coordination_audit_file_id": "file_00000000306081fdac862a0b971ee9e5",
+  "external_Central_blob": "3da5eec63721ef3f063969cae39f3de052533c4a",
+  "external_formal_head": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
+  "external_formal_tree": "1e08c8d267130280e307257626c609418c89628b",
+  "mounted_inputs": [
+    {
+      "author_program_rerun": false,
+      "body_read": true,
+      "bytes": 10551,
+      "filename": "Window_A_Round8_Final_Report.md",
+      "raw_bytes_obtained": true,
+      "run_id": "20260921T124336Z_round8_nonlong_history",
+      "sha256": "0b37d3c2fbe295aece8d0cc97fcb0456f95c244ace93ce14d96c91bbb1fc8550"
+    },
+    {
+      "author_program_rerun": false,
+      "body_read": true,
+      "bytes": 16368,
+      "filename": "Window_A_Round8_Proof.md",
+      "raw_bytes_obtained": true,
+      "run_id": "20260921T124336Z_round8_nonlong_history",
+      "sha256": "51c0d86bd2065ca4a2db8c4e080126d1591854f32fed7f1011d85b6afdb2a44a"
+    },
+    {
+      "author_program_rerun": false,
+      "body_read": true,
+      "bytes": 1780,
+      "filename": "Window_A_Round8_External_Source_Audit.md",
+      "raw_bytes_obtained": true,
+      "run_id": "20260921T124336Z_round8_nonlong_history",
+      "sha256": "fb6efe6d01a946500a25c7a56826dc30074f727bce37cfb62b0a6269949dcf15"
+    },
+    {
+      "author_program_rerun": false,
+      "body_read": true,
+      "bytes": 2431,
+      "filename": "Window_A_Round8_Gap.md",
+      "raw_bytes_obtained": true,
+      "run_id": "20260921T124336Z_round8_nonlong_history",
+      "sha256": "e3808f87fc943916ad1b1b75c02c8dff98b3d7cf1821dfe2209a579342e964df"
+    },
+    {
+      "author_program_rerun": false,
+      "body_read": true,
+      "bytes": 4978,
+      "filename": "Window_A_Round8_Review.md",
+      "raw_bytes_obtained": true,
+      "run_id": "20260921T124336Z_round8_nonlong_history",
+      "sha256": "5c59c7cde5f9831ece0cd0857cd17eab27151ce4770c82a8d4b99bdc1339d63f"
+    }
+  ],
+  "no_external_author_repo_writes": true,
+  "paper_official_full_HTML_read": true,
+  "paper_raw_TeX_PDF_bytes_obtained": false,
+  "paper_version": "arXiv:2609.20961v1",
+  "phase14_audit_blob": "c65ead3ef111d12192a542e13e1be0f0f1c11cc3",
+  "project_initial_head": "6a0a90696a080d70b2aeaa04d3265c0f593222fa",
+  "project_protocol_blob": "32a1f2e37f6df29757e11f6c8018128290292de6",
+  "project_state_blob": "1a874b69d6ab3cbd2a4c1e7c960b37aa511dbf85",
+  "raw_download_failure": "DNS; separate successful official HTML reads retained",
+  "run_id": "20260921T161559Z_round9_effective_cutoff",
+  "task_body_read": true,
+  "task_file_id": "file_00000000b0cc82309ef21236fc4db713",
+  "unread_or_not_performed": [
+    "Complete external Lean dependency audit/build/axioms (D task, not presumed)",
+    "No original A8/C8 author-program rerun",
+    "No mathematical dependency on separate A8 short-fork interface"
+  ]
+}

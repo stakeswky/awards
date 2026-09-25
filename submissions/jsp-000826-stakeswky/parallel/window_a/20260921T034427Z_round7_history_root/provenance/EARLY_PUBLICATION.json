@@ -1,0 +1,10 @@
+{
+  "parent": "aff85efb5d3e08f03d4d0cbba074b5389c446732",
+  "commit": "df7dfd8092a62a8dddccebc3c0fb71ec8a663653",
+  "force": false,
+  "claims_blob": "c9803e1f6d5eb6fbd61d14bbd3aafd30e1511f9e",
+  "claims_sha256": "59ef323c9a07e79b02e133ea7737b828696e2d0053b4562ac99e405d9ed6650a",
+  "full_text_read_back": true,
+  "comment_id": 5755141065,
+  "no_peer_read_receipt_claimed": true
+}

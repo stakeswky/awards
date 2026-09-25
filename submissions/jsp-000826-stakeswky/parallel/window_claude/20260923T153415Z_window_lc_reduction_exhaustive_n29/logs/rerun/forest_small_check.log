@@ -1,0 +1,2 @@
+non-LC trees collected: [(26, 2), (27, 0), (28, 19), (29, 7)]
+forests of order <= 29 with a non-LC component checked: 59  strict window-LC or unimodality failures: 0

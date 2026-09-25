@@ -1,0 +1,10 @@
+@isUnimodal_of_windowLC : ∀ {n : ℕ} (G : SimpleGraph (Fin n)),
+  G.IsAcyclic → WindowLC G → IsUnimodal (icoeff G Finset.univ)
+erdos993_of_windowLC : (∀ (n : ℕ) (G : SimpleGraph (Fin n)), G.IsAcyclic → WindowLC G) →
+  ∀ (n : ℕ) (G : SimpleGraph (Fin n)), G.IsAcyclic → IsUnimodal (icoeff G Finset.univ)
+erdos993_of_windowLC_below : ∃ N₀,
+  (∀ n < N₀, ∀ (G : SimpleGraph (Fin n)), G.IsAcyclic → WindowLC G) →
+    ∀ (n : ℕ) (G : SimpleGraph (Fin n)), G.IsAcyclic → IsUnimodal (icoeff G Finset.univ)
+'ErdosProblem993.isUnimodal_of_windowLC' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem993.erdos993_of_windowLC' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ErdosProblem993.erdos993_of_windowLC_below' depends on axioms: [propext, Classical.choice, Quot.sound]

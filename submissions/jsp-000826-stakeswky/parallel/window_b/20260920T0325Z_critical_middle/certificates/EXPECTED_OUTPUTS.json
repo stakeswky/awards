@@ -1,0 +1,115 @@
+{
+  "outputs": [
+    {
+      "path": "certificates/ARCHIVE_C1_SCAN.json",
+      "bytes": 111573,
+      "sha256": "a6213b095a67c17f414318faee9d6d40bcc66f56229e7f835fb55897c41f31d8"
+    },
+    {
+      "path": "certificates/AUDIT_SUMMARY.json",
+      "bytes": 1487,
+      "sha256": "2db3316bef1611cd16d416653111eadecd836bfaa0e4a34bcad4376b920dc529"
+    },
+    {
+      "path": "certificates/BARRIER_SEARCH_SUMMARY.json",
+      "bytes": 8876,
+      "sha256": "c7dac8ba05aaf7afd8def8f1d269084d6d3e6776cc484de817d1d64be5e23471"
+    },
+    {
+      "path": "certificates/BRUTE_MOMENTS.json",
+      "bytes": 8731,
+      "sha256": "52dfda0b8436e74d34e98c6a28087835fe9b7d2af3659511490f2f4bb320907c"
+    },
+    {
+      "path": "certificates/BUSH_PHASE_MOMENTS.json",
+      "bytes": 95785,
+      "sha256": "0a69cba9c45060f8734a42939ea9cf4ece7ad59f7beb7eb5e427e59f78e4a737"
+    },
+    {
+      "path": "certificates/C1_B8_14_ORIGINAL.json",
+      "bytes": 15122,
+      "sha256": "7a839f475026896b1e6198815b46501608721863a558b4f56585f95117a0dbcd"
+    },
+    {
+      "path": "certificates/C1_REDUCED.json",
+      "bytes": 12658,
+      "sha256": "247e8576afcadf0989a9355269e4c99741b4005ceae5f766d54b6fa411b9c0bb"
+    },
+    {
+      "path": "certificates/C1_REDUCTION.json",
+      "bytes": 6877,
+      "sha256": "18a56ee91568538513524774181401eff41d17fa0edf5f58a22fea1ac2a16868"
+    },
+    {
+      "path": "certificates/CRITICAL_RECOUNTS.json",
+      "bytes": 43662,
+      "sha256": "cc4535af3f0bd59fc1c5fcf2123dff5666602513b1c1027eaa8e0827cb9b16dd"
+    },
+    {
+      "path": "certificates/CRITICAL_SEARCH_SUMMARY.json",
+      "bytes": 92161,
+      "sha256": "9f7d59cbcd0403452d5960c9436448b8c21235ba2a424df54cbb06f289f62e7b"
+    },
+    {
+      "path": "certificates/EQUALITY_FAMILIES.json",
+      "bytes": 151929,
+      "sha256": "12db4046acdb8c122781da119a09025d4ac78891e5b12f6e4ff1d8504e5ddc0a"
+    },
+    {
+      "path": "certificates/EQUALITY_FIRST14.json",
+      "bytes": 1389,
+      "sha256": "8a62eddee385cd8c874df3dc3a8c0b8c327fc9f0ac1726859aea33cec1d3e101"
+    },
+    {
+      "path": "certificates/EQUALITY_SMALL.json",
+      "bytes": 179296,
+      "sha256": "f0b60c97b18ed7e32cb1beb1e90ad8a54c0356d80d93555052b9805931f6443b"
+    },
+    {
+      "path": "certificates/FIRST_EQUALITY.json",
+      "bytes": 865,
+      "sha256": "3f1a9e9d8aa69ba426660a8b6b90b180023ccf34963bf279f46d11bb0e217989"
+    },
+    {
+      "path": "certificates/MATERIAL_PROFILES.json",
+      "bytes": 5645857,
+      "sha256": "85c91934481e495981d10b0b6c191fbcd90f52fad99db98b518abc06a2711998"
+    },
+    {
+      "path": "certificates/QUALIFIED_EQUALITIES.json",
+      "bytes": 309848,
+      "sha256": "cde3bad52ffe3db8a498338d23c2e01e350cada48861cbccbaf2480eff8f4fcc"
+    },
+    {
+      "path": "certificates/REDUCTION_INDEPENDENT_AUDIT.json",
+      "bytes": 2882,
+      "sha256": "b226b743ebfb16de25f0f79542d6156d13dda93fb9c34596e87548e77a413f1e"
+    },
+    {
+      "path": "certificates/REGRESSION.json",
+      "bytes": 300,
+      "sha256": "64d7ec68938f76a2dcadea58e17b629062ebf618ff90ac23052c8b259ff18ae7"
+    },
+    {
+      "path": "certificates/SIGNED_MIDDLE_BUDGETS.jsonl.gz",
+      "bytes": 1153133,
+      "sha256": "0ab307ca5bfcd90dbe9f9e0353f5956431f812eb5324316b6d9abe22f415fd30"
+    },
+    {
+      "path": "certificates/barrier_search.jsonl.gz",
+      "bytes": 2614466,
+      "sha256": "b27eb5226071e26243d66d132fadbd96875fb51bcd750d66d792d034a9233c77"
+    },
+    {
+      "path": "certificates/critical_search.jsonl.gz",
+      "bytes": 2862059,
+      "sha256": "e10724df10330addca150e8ae94f88d9666340bc6747af158f46b02145a29670"
+    },
+    {
+      "path": "certificates/reduction_trials.jsonl.gz",
+      "bytes": 324577,
+      "sha256": "14301991067288c8d3fa45f3b64b2d5c844fe989f75dba0c3a9cd2f63f01bf2d"
+    }
+  ],
+  "note": "Complete deterministic files; includes every mathematical field. Runtime logs excluded."
+}

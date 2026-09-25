@@ -1,0 +1,56 @@
+{
+  "clean_runner_returncode": 0,
+  "external_review": "NOT_PERFORMED",
+  "inherited_F35_audit_bytes": 918,
+  "inherited_F35_audit_sha256": "86b0b8c771b661f81a2fb2d36e270ea23c681a8d8529a96ddb725b6bde4ffcbe",
+  "inherited_F35_auditor_source_unchanged": true,
+  "inherited_F35_optimizer_rerun": false,
+  "inherited_full_E5_history_rerun": false,
+  "lean": "NOT_RUN",
+  "new_deterministic_bytes": 10250878,
+  "new_deterministic_files": 7,
+  "new_outputs": {
+    "files": {
+      "F87_HALL_CUT.json": {
+        "bytes": 9957,
+        "file": "F87_HALL_CUT.json",
+        "sha256": "898e2107b5613256b490309d8315503e2fabe70e53a219efe43551b58c5a8064"
+      },
+      "F87_SOURCE_ORBITS.csv": {
+        "bytes": 27785,
+        "file": "F87_SOURCE_ORBITS.csv",
+        "sha256": "d91c4d6b4d1f705cf88320f3f01178a2d46288fe4679af17244ef1be9bf3876a"
+      },
+      "H64_HEREDITARY.json": {
+        "bytes": 620,
+        "file": "H64_HEREDITARY.json",
+        "sha256": "7945978ca74f4f5ba2b22263e553eabb4dd13eead176ad0924dca01ac7b5d8a3"
+      },
+      "H64_HEREDITARY_branches.csv": {
+        "bytes": 2269,
+        "file": "H64_HEREDITARY_branches.csv",
+        "sha256": "c60917a2bd6aa2913c38a0aa85c3e5087518d31eb61c17b3877048ea95c9e56e"
+      },
+      "H64_HEREDITARY_classes.csv": {
+        "bytes": 10199827,
+        "file": "H64_HEREDITARY_classes.csv",
+        "sha256": "0a90bc189f914779d40a8f7fbf912e61cab9209f064deebe1c347c9451e3aeae"
+      },
+      "HEREDITARY_TABLE_AUDIT.json": {
+        "bytes": 423,
+        "file": "HEREDITARY_TABLE_AUDIT.json",
+        "sha256": "027ee59ae8b260ae1df4d941561778cb0eff5ec59cdc2cc4d75ca78b7cf27708"
+      },
+      "REGRESSION.json": {
+        "bytes": 9997,
+        "file": "REGRESSION.json",
+        "sha256": "6eb1204730695a0a46013113fed61a8e357e5bcafaf73f23cb732d421d186f3a"
+      }
+    }
+  },
+  "receipts": "Full command stdout/stderr/exit codes are in conversation provenance/WORKING_REPLAY.json, CLEAN_REPLAY.json, PAYLOAD_REPLAY.json",
+  "run_id": "20260921T033413Z_round7_global_one_new",
+  "status": "PASS",
+  "transport_reconstruction_runner_returncode": 0,
+  "working_runner_returncode": 0
+}

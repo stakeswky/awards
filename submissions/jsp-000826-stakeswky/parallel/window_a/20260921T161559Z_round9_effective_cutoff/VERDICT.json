@@ -1,0 +1,23 @@
+{
+  "A4_R": "UNPROVED",
+  "A9_CUTOFF_v1": "PROVED_WRITTEN",
+  "A9_EFFECTIVE_v1": "PROVED_WRITTEN",
+  "Lean": "NOT_RUN",
+  "N_LC": "2^2600000",
+  "N_unimodal": "2^2600000",
+  "ORIGINAL": "NOT_CLOSED",
+  "all_lower_orders_covered": false,
+  "axiom_audit": "NOT_RUN",
+  "decimal_digits": 782678,
+  "effective_full_error_chain": "COMPLETE_IN_WRITTEN_PROOF",
+  "eight_named_graphs_are_regressions": true,
+  "external_author_attribution": "Fang, Lu, Nevo, Yao, Zheng; arXiv:2609.20961v1",
+  "finite_arithmetic_audit": "PASS_TWO_IMPLEMENTATIONS",
+  "first_unproved_original_step": "Cover all remaining forest orders below 2^2600000, or give a legal ordinary nonunimodal forest.",
+  "fresh_source_replay": "PASS_FOUR_COMPLETE_OUTPUTS_217350_BYTES",
+  "new_derivation": "Explicit constants and direct finite Gaussian characteristic-function comparison replacing qualitative CLT conversion",
+  "publication": "See actual separate publication receipt; early interface already published; final status not predicted here.",
+  "review": "SAME_MODEL_NOT_EXTERNAL",
+  "run_id": "20260921T161559Z_round9_effective_cutoff",
+  "unknown_analytic_constant_remaining": null
+}

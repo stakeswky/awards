@@ -1,0 +1,133 @@
+{
+  "Lean": "NOT_RUN",
+  "bytes_compared": 23852883,
+  "command_invocations": 12,
+  "external_review": false,
+  "finished_utc": "2026-09-21T01:25:55.477132+00:00",
+  "no_C4_counts_included": true,
+  "outputs": 21,
+  "outputs_manifest": [
+    {
+      "path": "certificates/BUDGET_SUMMARY.json",
+      "sha256": "85563610ac6dcbe7193ad69287c13346134b41f5d9c36446d1b03c53fe791d05",
+      "size": 28820
+    },
+    {
+      "path": "certificates/BUDGET_equal256_nonLC40.json",
+      "sha256": "eec123458c8e420290a752390e908fd2656279df412c6474d51db6b31928b0fb",
+      "size": 459653
+    },
+    {
+      "path": "certificates/BUDGET_equal432_B212_boundary.json",
+      "sha256": "7d2012f204d03a1e55fb990ca9e20e7366503c123ff5b4965ff8f547e1469d61",
+      "size": 4877613
+    },
+    {
+      "path": "certificates/BUDGET_unequal256_384_512_deep48.json",
+      "sha256": "6a0cba06e35e55ebfe2bd01b8eddd5bec864b1d071eeadc1679462c3f1f91d26",
+      "size": 802459
+    },
+    {
+      "path": "certificates/C5_WINDOW_GATE_GUARD.json",
+      "sha256": "592dac08a841706db98f5dfc9e2aab673f348b0ac8c5f37bf34ebd34a8b393da",
+      "size": 2211
+    },
+    {
+      "path": "certificates/CORE_FORMULA_SMALL_AUDIT.json",
+      "sha256": "7486b0a58c612e99de00abde733468b568d49139434eab22434073b6e3fdb52c",
+      "size": 68329
+    },
+    {
+      "path": "certificates/GUARD_INDEPENDENT_RECOUNT.json",
+      "sha256": "8e6364449bf75a571048ac6f2059e10114fb0834ac7e5862676c26232fe305a5",
+      "size": 425
+    },
+    {
+      "path": "certificates/INHERITED_GRAPH_CROSSCHECK.json",
+      "sha256": "67266fe79cf95bc5e787f8c79bc352920722a6f9f983d2fc77d10c6d2efd9478",
+      "size": 163
+    },
+    {
+      "path": "certificates/INTEGER_ARITHMETIC_AUDIT.json",
+      "sha256": "300eb39189682bd053b01ba85fa988f2041b95b5046dbca6d4f9a7cbf3700f0b",
+      "size": 30
+    },
+    {
+      "path": "certificates/KEY_CRITICAL_CERTIFICATE.json",
+      "sha256": "e08388871e65e7686ddf69446820443aa86f9424754c942964bd3f50cf4afc3e",
+      "size": 3043471
+    },
+    {
+      "path": "certificates/PARAMETER_INEQUALITIES.json",
+      "sha256": "1997f41a1b6b10610586db658943470b0f5e71ea5c6c07173d04fabe7bbe8ac1",
+      "size": 340
+    },
+    {
+      "path": "certificates/RUN_SUMMARY.json",
+      "sha256": "f18b7d7d8623cbb8c928e975cac8c879c78d7b3f56df7abbf3301c9b02e042fb",
+      "size": 2723
+    },
+    {
+      "path": "certificates/T26_INDUCED_REPRESENTATIVES.jsonl.gz",
+      "sha256": "3a96f67680cdc2c347dd87b11b0afeea4d26a8484d7ea1cecc12b58b39a7a12f",
+      "size": 1504221
+    },
+    {
+      "path": "certificates/WINDOW_ABSTRACT_AUDIT.json",
+      "sha256": "e2e6c56cd6f4c3c458bde612733295911d19e1f257654a06a7db0be6a70d7e8d",
+      "size": 813
+    },
+    {
+      "path": "certificates/equal256_empty.json",
+      "sha256": "5255a724dc83f45d253c25a8db96f4dcf6bc6907b1957780220d2dae76f1ba56",
+      "size": 900841
+    },
+    {
+      "path": "certificates/equal256_nonLC40.json",
+      "sha256": "5cae19f896b6862f124607aaa6b403e6415e74c34db5a42d7f2c6238f361bd5c",
+      "size": 946596
+    },
+    {
+      "path": "certificates/equal432_B212_boundary.json",
+      "sha256": "01523d804e4a70418318829fe42655b247a8cabf213de8191d741f6d4ddcac12",
+      "size": 2880509
+    },
+    {
+      "path": "certificates/path7_cover_independent.json",
+      "sha256": "432d87ab6a1e467da7a54e80c28543a0d1f6c3311ce901b56c92fec390f68221",
+      "size": 2517238
+    },
+    {
+      "path": "certificates/path8_cover_adjacent.json",
+      "sha256": "1aa5f8f41b06d5a497a2bc0b822485cb95309689b568ab2a71f8d483cd564604",
+      "size": 3705163
+    },
+    {
+      "path": "certificates/unequal256_384_512_deep48.json",
+      "sha256": "aa33344a36f9c171ac538a7bd788fc83a25a0bd620e20bac3062295eb3a2dd0c",
+      "size": 2078572
+    },
+    {
+      "path": "controls/EXTERIOR_SELECTION.json",
+      "sha256": "ce52d3e412b0da9a2385eb5ed9894525604989339557c839ed3949546934e218",
+      "size": 32693
+    }
+  ],
+  "program_files": 7,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "source_hashes": {
+    "audit_guard.py": "feae86bf417489d8f357fa3e611a923fc73535c7aa233c7ac4dd84811a63e46c",
+    "check_gate_guard.py": "1dbe78a9091b0d9f315aa9d21a0acb2b2fd472983794327841b7808c1aa9e8bd",
+    "controls/select_exterior.py": "98ef52d0ef13968fa451ed29a4859d246877991913cce804d87fe5e4d91cc60e",
+    "replay_run.py": "00c922dca2f984e6d44e4daa77134bd8606554849a7bda1b0d36cd92cd85e4a3",
+    "sources/constructions.py": "056095d3dd64c77ba12884f466a4541e02ef91e30f2a7966f4779970d0f4b99b",
+    "sources/deletion_balanced.py": "f86d7db41c01e24ddf587682ec5016e99a91e6e85de48c4621bddbfb46c77f8f",
+    "sources/exact.py": "acdb7c3af6f5d37469f5d527d86b99870b909b1de114965ad98cd4aa5c645c88",
+    "sources/independent.py": "657894a484559a29505fcc32d69715b989fad7022e7991c34829f4e199f48e1c",
+    "summarize_results.py": "87fcf3682512c513cee166c41acc3400c7a8fb8a227a0f7c2f3409315209ed84",
+    "verify_budgets.py": "c12aa21c30c16ba8e696fc439a85cb5b59029616801cd99c6b08597c23e04199",
+    "verify_material.py": "9d4070b22194061d44e25d79c255f6ab1b0cfe0ae4e3fb7f843cc14caa4348e1",
+    "verify_window_and_core.py": "309627abb968a710ba45cb0a293a4f1d07e2f752061d13b568486ebc3f8b5f27"
+  },
+  "status": "PASS_BYTE_IDENTICAL"
+}

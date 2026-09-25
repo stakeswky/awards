@@ -1,0 +1,59 @@
+{
+  "date": "2026-09-17",
+  "files": {
+    "audit_study.py": "9eaf1f51211d8367710e9e40f6fc059629449ea18d0a1e13e28904ec5acd7cc2",
+    "branch_study.py": "2baf20350a971accd6de5a7a1cd984dfb053200c4ea3eaa068c593f00909b4e2",
+    "continued_probe.py": "e8222d6c32b33df39179fc3e0b44c2ea838b54efd42d72b176a83cf1dea4d5ba",
+    "test_branch_study.py": "d1d0ff5f82a4fe4164169762778ecb25653f84f6c26c6c0032a20172899bd063",
+    "test_threshold.py": "e1f5a0026542d2b7fad0e255ad782e8d46a9dcfd395a97339ca22b57f24e29fa",
+    "threshold_certificate.py": "c2b3952d8786d16fb631222f970107138544484549f10e03848d5d4f811bd8de"
+  },
+  "finite_certificate_detail": "Per-t summaries, failures and row hashes are regenerated in threshold_summary.json; all raw bound rows are emitted by threshold_certificate.py.",
+  "fresh_replay": {
+    "checks": {
+      "results-probe/probe_summary.json": "52f95a69834dade3a53a9b4040e6414c0876ef48efe9eea93f5439ebb7b2555a",
+      "results-probe/trials.jsonl": "ef90e9af56e0a3e2028ae3049c79a064ded529e5d977746dc9e6592502e4d0f7",
+      "results-threshold/bound_rows.jsonl": "8322abbea3b0aa62220b9b093411a5e655b5393982b55c51fea7db1f90900fd5",
+      "results-threshold/threshold_summary.json": "eac6a49efda201f1dfbd78c1c87b2451f6f89533d4efeb5a618ee5b6c5da7ea8"
+    },
+    "fresh_lean_build": false,
+    "scope": "New threshold certificate and all 134 new graph records only; no historical whole-campaign replay.",
+    "status": "PASS_CLEAN_DIRECTORY_FULL_NEW_WORK_REPLAY",
+    "tests_passed": 16
+  },
+  "parent_commit": "ffdc73d09db28280e25905fa4d3f5b9fc841bf5f",
+  "probes": {
+    "by_stage": {
+      "outside-palette": {"counterexamples": 0, "max_n": 195, "min_n": 28, "records": 128},
+      "threshold-control": {"counterexamples": 0, "max_n": 847, "min_n": 529, "records": 6}
+    },
+    "full_coefficients_compared": 14810,
+    "hub_splits": 134,
+    "non_log_concave_records": 0,
+    "raw_log_sha256": "ef90e9af56e0a3e2028ae3049c79a064ded529e5d977746dc9e6592502e4d0f7",
+    "records": 134,
+    "scope": "128 bounded probes plus six controls. Formula, graph DP and deletion recurrence compared for every original graph; one hub split rebuilt by deletion per graph. Same-session algorithms, no Lean or third-party review; no across-round novelty claim.",
+    "split_coefficients": 28724,
+    "status": "PASS_BOUNDED_STUDY_NO_ORIGINAL_COUNTEREXAMPLE",
+    "within_batch_unlabelled_structures": 134,
+    "witness_records": 0
+  },
+  "public_replay": "The committed source regenerates every bound row and every graph, coefficient and selected split. Full raw rows are also supplied in the conversation archive; Git stores source and compact audit summaries, not raw-log bytes.",
+  "status": "COMPLETED_BOUNDED_WORK_ORIGINAL_PROBLEM_UNRESOLVED",
+  "tests": {"fresh_lean_build": false, "inherited": 8, "new": 8, "result": "PASS"},
+  "theorem_scope": {"LC_t_min": 45, "palette_size": 21, "root_hub_corridor_t_min": 47, "validation": "Written derivation and exact rational/algebraic certificates; not Lean or external review"},
+  "threshold": {
+    "LC_indices_checked": 25650,
+    "bound_rows_sha256": "8322abbea3b0aa62220b9b093411a5e655b5393982b55c51fea7db1f90900fd5",
+    "bound_values_compared": 25700,
+    "corridor_indices_checked": 24012,
+    "finite_t_range": [45,69],
+    "max_degree_a": 1242,
+    "new_LC_threshold": 45,
+    "new_corridor_threshold": 47,
+    "scope": "Same 21-type palette. Both E and P are log-concave for every t>=45; the r/h corridor is certified for every t>=47. Written proof plus exact algebra, not a full Erdos 993 theorem, Lean proof, or external review.",
+    "status": "PASS_EXACT_THRESHOLD_CERTIFICATE_NOT_LEAN",
+    "unbounded_tail": {"certificate_sha256": "e931d71dfb787d52f4b09292e60038f48749f8cd74d1b7c0224c2853a6d8aa5f", "positive_coefficients_per_polynomial": [25,25], "t_min": 70}
+  },
+  "unresolved": ["Original Erdos 993", "Heterogeneous 21-palette mixtures with t<45", "Root/hub corridor at t<47 except separately certified subfamilies", "Public upload and official-toolchain replay of all archived finite Lean sources", "External review and full family Lean formalization"]
+}

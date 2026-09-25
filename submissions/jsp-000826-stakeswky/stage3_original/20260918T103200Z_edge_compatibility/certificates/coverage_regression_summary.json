@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "original_batch_graphs": 6,
+  "extra_regression_graphs": 5,
+  "all_subsets_checked": 9573,
+  "entire_signature_distributions_equal": true,
+  "entire_coefficients_equal_three_algorithms": true,
+  "invalid_graphs_rejected": 5,
+  "plateau_and_shift_controls": 4,
+  "global_minimality_claim": false
+}

@@ -1,0 +1,3 @@
+trees 62688 middle History positions 62455 detailed 400
+smallest rho=(b-a)n/a 4.942e-07 ; smallest b-a among detailed = 1
+Dmass>S: 0  min_delta>S: 0  Dmass==0 exactly: 40  max Dmass/S=0.181958 {'groups': [[5, 16]], 's': 0, 'q': 0, 'n': 86, 'j': 41, 'rho': 0.00030447005250955843}

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260921T034427Z_round7_history_root",
+  "ORIGINAL": "NOT_CLOSED",
+  "A4_T": "UNPROVED",
+  "A4_R": "UNPROVED",
+  "A7_PENDANT_ROOT_v1": "PROVED_SCOPED_WRITTEN",
+  "middle_history_contraction": "PROVED_ON_THE_SAME_STRUCTURAL_CLASS",
+  "new_verified_class": "Arbitrary exterior E with N>=128(alpha(E)+2)^2 bare pendant vertices; whole unimodality and compensating tip.",
+  "relation_to_A6_remote": "SUBSET_OF_INTERFACE_CLAIMED_GRAPH_REGION; original constant64 not verified; new root/history results distinct",
+  "general_all_root_refutation": "NONE_PRODUCED_NO_NEW_GENERAL_ALL_ROOT_CENSUS",
+  "first_gap": "Show arbitrary HEREDITARY middle-History tree outside proved structural gates has tau>=0 or a root with q in[0,tau].",
+  "raw_key_git_hosted": false,
+  "Lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "review": "SAME_MODEL_NOT_EXTERNAL"
+}

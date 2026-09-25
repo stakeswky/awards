@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "run_id": "20260918T_original_joint_modes",
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "original_proof": false,
+  "legal_original_counterexample": false,
+  "first_unproved_bridge": "STATEMENT.md section 4: residual real-forest leaf-support signed-minor assertion RSM",
+  "nonvacuous_RSM_residual_graph_checks": 0,
+  "formal_details": {
+    "environment_probe": "BLOCKED",
+    "probe_exit_code": 127,
+    "complete_top_level_source": false,
+    "build": "NOT_RUN",
+    "axiom_audit": "NOT_RUN"
+  },
+  "family_math": {
+    "status": "PROVED_COMPUTER_ASSISTED",
+    "source_head": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "source": "closure_v5/VERDICT.json",
+    "scope": "Exact B59 repeated mixtures, all t>=1, E/P LC and unimodality",
+    "inherited": true,
+    "fresh_full_reverification": false
+  },
+  "family_formal": {
+    "status": "NOT_ESTABLISHED",
+    "source_head": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "inherited": true,
+    "changes_this_run": "NONE",
+    "fresh_build": false
+  },
+  "auxiliary_claims": [
+    {
+      "id": "actual_graph_decomposition",
+      "status": "PROVED",
+      "scope": "Every finite forest and vertex; actual subset bijections"
+    },
+    {
+      "id": "joint_sign_bounds_and_sufficiency",
+      "status": "PROVED",
+      "scope": "LOCAL and common P; D<=U+1 is sufficient, including both boundary cases"
+    },
+    {
+      "id": "minimal_component_exclusions",
+      "status": "PROVED",
+      "scope": "GLOBAL-MINIMAL implies no isolated or K2 component; not connectedness"
+    },
+    {
+      "id": "polarity_leaf_support_and_negative_minor",
+      "status": "PROVED",
+      "scope": "Necessary consequences of an actual valley under unimodal splits"
+    },
+    {
+      "id": "RSM_implies_ORIGINAL",
+      "status": "PROVED",
+      "scope": "Conditional implication only; RSM itself is unproved"
+    },
+    {
+      "id": "existential_good_vertex_LOCAL",
+      "status": "UNRESOLVED",
+      "scope": "Every nonempty forest satisfying LOCAL"
+    },
+    {
+      "id": "universal_joint_bound_LOCAL",
+      "status": "UNRESOLVED",
+      "scope": "Every nonempty forest satisfying LOCAL"
+    },
+    {
+      "id": "residual_leaf_support_minor_RSM",
+      "status": "UNRESOLVED",
+      "scope": "Full quantified statement in STATEMENT.md section 4"
+    },
+    {
+      "id": "every_leaf_good_LOCAL",
+      "status": "REFUTED",
+      "scope": "23-vertex tree-11, leaf 4; whole and every specified deletion are unimodal"
+    },
+    {
+      "id": "unlocalized_all_leaf_minor",
+      "status": "REFUTED",
+      "scope": "7-vertex star; all proper induced forests checked; indices outside residual interval"
+    },
+    {
+      "id": "abstract_leaf_shape_closure",
+      "status": "REFUTED",
+      "scope": "Explicit unrealizable abstract sequence pair; not a forest theorem"
+    },
+    {
+      "id": "negative_minor_implies_valley",
+      "status": "REFUTED",
+      "scope": "Abstract E=[3,2,1], L=[1,4,8] has increasing sum and Q=-1"
+    }
+  ],
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "review_verdict": "NOT_CLOSED; proved reductions PASS_WITH_SCOPE",
+  "external_peer_review": false,
+  "evidence": {
+    "stress_records": 193,
+    "stress_whole_and_2n_counts": 15499,
+    "exclusions": [],
+    "original_candidates": [],
+    "max_D_minus_U": 1,
+    "material_graphs": 4,
+    "material_whole_and_2n_counts": 174,
+    "star_induced_masks_three_algorithms": 128,
+    "material_leaf_identities": 45,
+    "clean_replay": "certificates/CLEAN_REPLAY.json",
+    "finite_search_is_not_proof": true
+  },
+  "publication": "SYNCED",
+  "publication_details": {
+    "repository": "stakeswky/awards",
+    "branch": "jsp-000826-research-snapshot",
+    "baseline_head": "36467feaa5bd486979077b97ad2bac5a75805986",
+    "pr": 1,
+    "draft_required": true,
+    "merge_permitted": false,
+    "scope": "submissions/jsp-000826-stakeswky/ only",
+    "commit_identity": "Use the commit containing this file and the separate post-write PUBLICATION_RECEIPT.json.",
+    "complete_raw_diagnostics_git_hosted": false,
+    "upstream_original_solution_claim": false
+  },
+  "ci_is_mathematical_evidence": false,
+  "background_work_promised": false
+}

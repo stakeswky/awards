@@ -1,0 +1,48 @@
+{
+  "regression_labeled_forests_per_order": [
+    1,
+    1,
+    2,
+    7,
+    38,
+    291
+  ],
+  "regression_total": 340,
+  "invalid_graphs_rejected": 5,
+  "plateau_controls": 5,
+  "material_records": 7,
+  "material_hereditary_verified": 4,
+  "material_hereditary_unknown": 3,
+  "original_candidates": [],
+  "residual_graphs": 0,
+  "residual_pairs": 0,
+  "eligible_RSM_tests": 0,
+  "non_LC_control": -219,
+  "ratio_shortcut": {
+    "positive_graph": "disconnected_control",
+    "positive": {
+      "edge": [
+        1,
+        4
+      ],
+      "k": 4,
+      "signed_cross_product": 42471
+    },
+    "negative_graph": "disconnected_control",
+    "negative": {
+      "edge": [
+        0,
+        1
+      ],
+      "k": 2,
+      "signed_cross_product": -7408
+    },
+    "all_eight_coefficients_positive": true,
+    "HEREDITARY": "VERIFIED",
+    "scope": "UNLOCALIZED_ONLY; neither residual J_H nor RSM refuted"
+  },
+  "material_all_P_A_B_C_H_edge_delete_contract_two_algorithms": true,
+  "all_W_recomputed_by_independent_one_edge_DP": true,
+  "brute_component_double_count_scope": "All 340 labeled forests on 0..5 vertices and four material controls of orders 5,6,7,11",
+  "universal_math_verification": false
+}

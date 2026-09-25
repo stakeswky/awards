@@ -1,0 +1,9 @@
+{
+  "rejected_unreferenced_binary_blob": "a55b847cd20dc557c3a22889d03b37d27908b779",
+  "expected_binary_blob": "207ee9a7d8b921485d5e7ef76f973f9f83deed9e",
+  "bad_blob_ever_referenced": false,
+  "final_source_parts_git_hashes_match": true,
+  "part_based_unpacker_exit": 0,
+  "part_based_stdout": "Verified and extracted 2 source files\n",
+  "source_bytes_equal_after_unpack": true
+}

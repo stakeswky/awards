@@ -1,0 +1,2 @@
+RESULT forests_of_order=6 (from trees N=7, edgeless skipped) c=3/2 forest_instances=76 Qc_fail=0 STEP_fail=0 avg_v_tried=1.118 min_n_margin_on_1_top=2.400000 checksum=16896759895243682536
+exit=0 N=7

@@ -1,0 +1,1 @@
+exit=0 cmd=python3 verify_obstruction_claims.py

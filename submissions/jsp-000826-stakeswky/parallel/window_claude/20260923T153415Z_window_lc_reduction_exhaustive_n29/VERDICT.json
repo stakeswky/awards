@@ -1,0 +1,16 @@
+{
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "G1_core_window_inequality": "OPEN for orders 30 <= n < N0",
+  "reduction_to_window_LC": "PROVED_WRITTEN_AND_FORMALIZED (lean/WindowReduction.lean; axioms propext, Classical.choice, Quot.sound)",
+  "G2_plateaus": "SUBSUMED_BY_WINDOW_LC (written); anchor lemma PROVED_WRITTEN",
+  "G3_forests": "REDUCED (written, via Hoggar and Keilson-Gerber) to forests with >= 2 non-LC components",
+  "population_lemmas": "PROVED_WRITTEN (Theorems 4-6; novelty not claimed; Theorem 4 already used by FLNYZ)",
+  "exhaustive_trees_n_le_29": "ALL_UNIMODAL; STRICT_WINDOW_LC_HOLDS; 28 non-LC trees (n=26: 2, 27: 0, 28: 19, 29: 7); all breaks >= 0.9286 alpha",
+  "forests_order_le_29_with_nonLC_component": "59 checked, 0 failures",
+  "failed_routes": ["colour-class population sufficient condition S1 (fails ~91% of middle positions at n=18)", "pairwise positive-part bounds", "turned-population-only arguments"],
+  "Lean": "REDUCTION_BUILT_AND_AXIOM_AUDITED; WindowLC itself NOT PROVED",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED"
+}

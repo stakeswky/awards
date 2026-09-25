@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "brute_graphs": 26,
+  "explicit_subsets": 16475,
+  "all_AB_brute_compared": 332,
+  "sequence_controls": 6,
+  "multiplication_controls": 160,
+  "invalid_graph_rejections": 4,
+  "graph_coverage": "Finite software controls, not a tree/forest order census"
+}

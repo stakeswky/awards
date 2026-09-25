@@ -1,0 +1,4 @@
+hubs(t,l) t=2..6 l=2..40: History positions=8366 violations=0
+  max in-middle ratio 0.314791 at t=5 l=40 n=206 j=101 beta=102
+  max out-of-middle ratio 0.925519 at t=2 l=40 n=83 j=41 beta=41
+closed form verified exactly for hubs(2,l), l=3..80; ratio at l=80 is 0.9626427910

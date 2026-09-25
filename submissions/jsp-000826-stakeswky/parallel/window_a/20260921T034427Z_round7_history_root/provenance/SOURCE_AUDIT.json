@@ -1,0 +1,27 @@
+{
+  "run": "20260921T034427Z_round7_history_root",
+  "initial_HEAD": "d9707fe9859fa015f5dc0ba8906b798ec6bb4857",
+  "protocol_blob": "32a1f2e37f6df29757e11f6c8018128290292de6",
+  "shared_state_blob": "e3688c32e7d5de76dd9b669c62aeb12a566fe527",
+  "old_A6_final_run": "20260921T014921Z_round6_leaf_history_guard",
+  "old_A6_remote_interface_run": "20260921T012734Z_round6_root_edge",
+  "old_A6_remote_status": "INTERFACE_ONLY",
+  "old_A6_remote_blob": "80225d1ba5bfffec7b3caeda24570ac7f1fcafd7",
+  "A6_original_run_replayed": false,
+  "main_input_sha256": {
+    "Window_A_Round6_Proof.md": "a1d36f17004d1e3c00ac87bf546ae09d52ff01dd7583db04bfff072c9fe1ebb0",
+    "Window_A_Round6_Root_Existence_And_Edge_Compatibility_NOT_CLOSED.zip": "259f585bd9896ea7d3073b52287224d785d3a30d39107614dedf17f13586628d"
+  },
+  "task_file_id": "file_00000000bcb881fd86eaa38022177f55",
+  "task_full_text_read": true,
+  "task_raw_bytes_obtained": false,
+  "D6_space_full_proof_read": "file_00000000cdd48230951440f33ef4de77",
+  "C6_space_full_proof_read": "file_0000000004cc81fbb6c76c7fc93ee476",
+  "C6_remote_other_full_proof_read_blob": "5d92c676381b8a261053b06f52b37c6e08372a22",
+  "peer_programs_replayed": false,
+  "AGENTS_search": "NO_MATCH_AT_df7dfd80",
+  "common_documents_full_text_read": [
+    "file_00000000a9dc81f78e4ea9baf2c1cb9a",
+    "file_00000000f34882309393f35af1056ef5"
+  ]
+}

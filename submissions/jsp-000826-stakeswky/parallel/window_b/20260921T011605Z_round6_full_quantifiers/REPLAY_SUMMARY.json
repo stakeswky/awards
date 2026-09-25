@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "commands": 16,
+  "complete_outputs": 64,
+  "complete_bytes": 687624863,
+  "receipt_sha256": "aeffd87a7184dfa17433bd191ac1c6e9aaa5b3bd2e7380ed38af3975c8534cbe",
+  "actual_original_B5_source_replay": false,
+  "new_B6_source_search_and_checks_replayed": true,
+  "review": "INTERNAL_NOT_EXTERNAL",
+  "Lean": "NOT_RUN",
+  "axiom_audit": "NOT_RUN"
+}

@@ -1,0 +1,1 @@
+F3 three-component forests (n1<=n2<=n3, pairwise sums bounded, see filter) NMAX=13: {'forests': 189, 'positions': 637, 'viol_best': 0, 'viol_worst': 0, 'max_worst': 0.6}

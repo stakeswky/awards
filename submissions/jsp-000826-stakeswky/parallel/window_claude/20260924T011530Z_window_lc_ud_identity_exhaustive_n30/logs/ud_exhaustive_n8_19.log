@@ -1,0 +1,12 @@
+UD n=8 trees=23 max window Var/mu=0.7500 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=9 trees=47 max window Var/mu=0.6071 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=10 trees=106 max window Var/mu=0.5987 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=11 trees=235 max window Var/mu=0.6500 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=12 trees=551 max window Var/mu=0.5916 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=13 trees=1301 max window Var/mu=0.5561 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=14 trees=3159 max window Var/mu=0.6123 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=15 trees=7741 max window Var/mu=0.5641 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=16 trees=19320 max window Var/mu=0.6327 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=17 trees=48629 max window Var/mu=0.5836 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0
+UD n=18 trees=123867 max window Var/mu=0.5533 over-dispersed in window=0 over-dispersed anywhere (k>=2)=2
+UD n=19 trees=317955 max window Var/mu=0.5959 over-dispersed in window=0 over-dispersed anywhere (k>=2)=0

@@ -1,0 +1,25 @@
+{
+  "format": "Concatenate binary parts in listed order to obtain SOURCE_BUNDLE.tar.xz; then extract. UNPACK_SOURCE.py performs validated extraction.",
+  "archive_bytes": 15948,
+  "archive_sha256": "8526e98948141066568208146ecad42a5d80c1f027c5fb8bda8978585ddd56ed",
+  "parts": [
+    {
+      "path": "SOURCE_BUNDLE.part01",
+      "bytes": 6000,
+      "sha256": "bb770957490fce0fb03a889a6ea31830f483b9bd954e8e93a247fcd9a464a43e",
+      "git_blob": "9428aa2e7bed4a29576de1cb4186ab9582170f92"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part02",
+      "bytes": 6000,
+      "sha256": "9c8a6a3e7b951d0fe3ff620eea7e73854423c24d9d9cbcb097c1109579048b8f",
+      "git_blob": "2eee8272b38ce50c7f0eac40c8a250d0ae2e4a7b"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part03",
+      "bytes": 3948,
+      "sha256": "5b65c86122bf095dfc0dce342d9db08986c15117e3710f689c0619428f291ed2",
+      "git_blob": "9d984ea668c38f86fdc137e7458ae6ad397a82e6"
+    }
+  ]
+}

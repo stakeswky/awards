@@ -1,0 +1,11 @@
+# Provenance and external inputs
+
+1. The current conversation's `Erdos993_Phase10_Exterior_Mixtures_Delivery.zip`, and especially `phase10/PROOF_ATTEMPT.md` equations (4.1)--(4.4), define the exact mixture and grouped sufficient bound audited here. The original archive and its files were read directly from their actual mounted paths. No missing prompt ZIP is claimed read.
+2. Live `stakeswky/awards` branch `jsp-000826-research-snapshot`: initial observed HEAD b7e76b0737428c08e549ffd2b274122d67772b1a. The live protocol, canonical state, PR metadata and the current arbitrary-core proof were read. The canonical state records an independently concurrent Phase-11 L3 result; this task does not rerun that theorem's finite base or replace its files. The artifact Phase-10 separator work and the remote Phase-10 core-cover work are different packages.
+3. Abdul Basit and David Galvin, *On the independent set sequence of a tree*, Electronic Journal of Combinatorics 28(3) (2021), P3.23, Theorem 1.3; arXiv:2006.12562v2, https://arxiv.org/html/2006.12562. Its HTML statement was freshly reread. It supplies the already-known decreasing-tail index beta. The new family proof does not need it.
+4. Classical LC convolution closure is proved in the notes by the Toeplitz 2-by-2-minor/Cauchy--Binet argument. The all-length factorization is derived directly from a two-state graph transfer and the elementary sine recurrence. No numerical approximation to its real parameters is used.
+5. `src/engine.py` and `forest_exact.py` are unchanged project code from the supplied earlier package (hashes in CLEAN_REPLAY.json). `separator.py` is the exact earlier definition used for regression comparison. New source is `verify_fixed.py`, `verify_family.py`, `regressions.py`, and `replay.py`.
+
+The external component-30 census and complete H2/H3 are not rerun and are not inputs to the two new counterexamples or the all-length LC theorem. The earlier 247-small-index limitation and the separate user-artifact 50-tree/803-index result are not generalized or relabeled as fresh work.
+
+No extensive novelty search, independent external review, Lean execution, organizer approval or award claim is made. Public repository material remains in English; the conversation report is Chinese.

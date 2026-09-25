@@ -1,0 +1,9 @@
+STEPFAIL forest=T-r r=3 alpha=19 top=13 k: 13 T_levels=0,1,2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,2,3,4 
+STEPFAIL forest=T-r r=6 alpha=19 top=13 k: 13 T_levels=0,1,2,3,2,3,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1 
+STEPFAIL forest=T-r r=7 alpha=19 top=13 k: 13 T_levels=0,1,2,3,1,2,3,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2 
+STEPFAIL forest=T-r r=1 alpha=19 top=13 k: 13 T_levels=0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,1,2,1,2 
+STEPFAIL forest=T-r r=2 alpha=19 top=13 k: 13 T_levels=0,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,1,2,3 
+STEPFAIL forest=T-r r=2 alpha=19 top=13 k: 13 T_levels=0,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,2,3,2,3 
+STEPFAIL forest=T-r r=6 alpha=19 top=13 k: 13 T_levels=0,1,2,3,4,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2 
+RESULT forests_of_order=22 (from trees N=23, edgeless skipped) c=3/2 forest_instances=341045701 Qc_fail=0 STEP_fail=7 avg_v_tried=1.149 min_n_margin_on_1_top=3.630802 checksum=11374001258682050849
+exit=0 N=23 elapsed=98s

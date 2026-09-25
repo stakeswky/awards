@@ -1,0 +1,15 @@
+{
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "WindowLC": "OPEN for 31 <= n < N0; no proof obtained in this run",
+  "quantitative_hypothesis_Q_3_2": "VERIFIED_EXHAUSTIVE: margin >= (3/2)/n on [1, min(top, alpha-1)] for all 23,522,619,472 trees with 4 <= n <= 30 and all forests of order <= 22 (T - r enumeration); 3/2 is the largest constant valid for all forests (2K1)",
+  "one_step_vertex_splitting_induction": "REFUTED_AS_PROOF_STRATEGY: STEP fails for explicit forests and trees (orders 20..58), every vertex, for all three gap-zone bounds tested (LM, TR = tail_ratio, TRnu = Koenig-improved); exact minimal order for the LM bound is 20 (S(2,2,2,2) + 11 K1); tree counterexample R(19,0), n = 58; confirmed by two independent computations",
+  "obstruction_mechanism": "IDENTIFIED: k = top(alpha) with a top jump, unique maximum independent set, extension-counting bounds lose a factor ~2 in the gap zone; Newton bound on a real-rooted piece restores slack ~ +2 (diagnostic)",
+  "nested_split_STEP_N": "CONJECTURE; no failure on non-unique-MIS trees n <= 26 (C) / n <= 16 (Python), forests n <= 12 (Python) and orders <= 20 (C), and stress families up to n = 140; not a genuine reduction (the cross term carries LC information of the pieces)",
+  "weak_LC_p_k_over_k_factorial": "REFUTED (n = 30 tree, ratio 1.7268 at k = alpha - 1)",
+  "FLNYZ_mean_lc_effectiveness": "AUDITED: effective in principle (no compactness); formalised root-moment exponent a = 31998/31999 forces an extracted N0 > 10^660000 (for eps <= 1, R >= 1)",
+  "Lean": "NOT_RUN in this run (read-only audit of the external FLNYZ sources)",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED"
+}

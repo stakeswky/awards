@@ -1,0 +1,3 @@
+trees tested: 95319 (core 37049, hub 58270); non-LC trees: 4497; non-unimodal: 0
+non-LC positions inside [ceil(n/4), beta]: 0  inside [ceil(n/4), ceil((2a-1)/3)]: 0
+smallest (first non-LC index)/alpha among non-LC trees: [0.875, 0.879, 0.88, 0.882, 0.885, 0.886, 0.889, 0.892, 0.893, 0.895]

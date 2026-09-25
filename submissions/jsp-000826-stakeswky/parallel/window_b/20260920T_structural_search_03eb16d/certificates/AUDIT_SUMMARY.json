@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "counts": {"unique_forests": 1546, "full_sequence_entries_dual_recounted": 360758, "nonLC_forests": 464, "barrier_premise_indices": 28032, "prefix_indices_checked": 222267, "vertices": 594407, "original_failure_candidates": 0, "prefix_failure_candidates": 0, "barrier_failure_candidates": 0, "component_occurrences_reaudited": 881},
+  "product_component_count_distribution": {"2": 253, "3": 24, "4": 24, "5": 21, "6": 17},
+  "bank_distinct_connected_nonLC_over30": 23,
+  "nonLC_first_index_minus_beta_min": [13, "17d04cf6f4e7587f4ad4d5ae592166aa81d970a7e02a12ca7b61075971ca28ed", 88, 30, 43],
+  "max_order": 2365,
+  "all_vertex_material_graphs": 6,
+  "selected_role_material_graphs": 4,
+  "AB_arrays_dual_recounted": 1150,
+  "all_vertex_residual_pairs": 0,
+  "original_candidate_reductions": 0,
+  "reason_no_original_reductions": "No actual graph passed the original failure predicate; reducing an auxiliary nonLC witness cannot certify ORIGINAL.",
+  "prefix_frontier": {"id": "95c4be5cf23e301d7d9d0ab2be422d087b660096966a121d54209a74808d648f", "n": 2343, "alpha": 1401, "beta": 877, "k": 700, "minor_sign": "STRICTLY_POSITIVE", "ratio_decimal_for_orientation_only": 0.9967571698307909}
+}

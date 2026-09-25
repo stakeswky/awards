@@ -1,0 +1,18 @@
+n=4 trees=2 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=1
+n=5 trees=3 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=2
+n=6 trees=6 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=2
+n=7 trees=11 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=2
+n=8 trees=23 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=2
+n=9 trees=47 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=3
+n=10 trees=106 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=3
+n=11 trees=235 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=3
+n=12 trees=551 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=4
+n=13 trees=1301 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=4
+n=14 trees=3159 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=4
+n=15 trees=7741 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=4
+n=16 trees=19320 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=5
+n=17 trees=48629 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=5
+n=18 trees=123867 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=5
+n=19 trees=317955 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=5
+n=20 trees=823065 h_viol=0 ceil(n/4)_viol=0 beta_viol=0 min_first_index=6
+deletion identity verified on 60 random general graphs ( 54 with cycles ), 509 positions

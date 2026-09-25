@@ -1,0 +1,19 @@
+{
+  "original_math": "NOT_CLOSED",
+  "original_formal": "NOT_ESTABLISHED",
+  "general_middle_LC": "UNPROVED",
+  "scoped_result": "E4-S all-size/all-index signed-sector compensation",
+  "scoped_math": "PROVED_WITH_FINITE_COMPUTER_ASSISTED_CAP_BASE",
+  "CAP_base_cases": 165,
+  "CAP_infinite_range": "d>=11, written proof",
+  "original_counterexample": false,
+  "general_remaining_forest_range_closed": false,
+  "first_missing_bound": "R_j>=-S_j at necessary actual middle/history positions without reusing positive capacity",
+  "review": "SAME_MODEL_SELF_REVIEW",
+  "lean_build": "NOT_RUN",
+  "axiom_audit": "NOT_RUN",
+  "novelty": "NOT_CLAIMED",
+  "input_boundary": "Two common Round4 documents unread because located ZIP raw access was denied",
+  "write_scope": "APPEND_OWN_WINDOW_E_DIRECTORY_ONLY",
+  "publication_parent": "441c7d95610a53cce97b3dd450f756840267117c"
+}

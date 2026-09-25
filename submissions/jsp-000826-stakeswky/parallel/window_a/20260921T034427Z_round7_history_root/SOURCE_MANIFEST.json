@@ -1,0 +1,17 @@
+{
+  "archive_bytes": 7738,
+  "archive_sha256": "59648da3be8df98cf3160e164d9cd11f06afa21bb5093135ccc1b5f06bd24ffb",
+  "bundle_sha256": "d7ed8a1c70ff2f4c814b3ed285c25c4eac0ad19abf3979f589ac4f22a1e21c40",
+  "files": [
+    {
+      "path": "src/root_core.py",
+      "bytes": 4033,
+      "sha256": "a3ce7e975088b177e56d6c582cbb983f7a6190b0fed606282cdbd01b5127b7e2"
+    },
+    {
+      "path": "src/verify_round7.py",
+      "bytes": 14554,
+      "sha256": "0b272523233a6ae2c75ada6db435683dca1fe55b73d82b68c9539da3ba2d47d4"
+    }
+  ]
+}

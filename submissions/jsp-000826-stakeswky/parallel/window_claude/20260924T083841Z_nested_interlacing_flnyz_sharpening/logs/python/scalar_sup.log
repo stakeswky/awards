@@ -1,0 +1,12 @@
+K=[1/4,12]   sup F_2 = 0.9103 at (l,y)=(12,2.74); sup F_1.5 = 1.5587
+   formalised interpolation with true b   p=1.99439  u=p/(2-p)=   355.58  a=2-2/p=0.99719  1/(1-a)=355.6
+   optimal interpolation 3/2..2           p=1.91260  u=p/(2-p)=    21.88  a=2-2/p=0.95430  1/(1-a)=21.9
+   direct smallest p                      p=1.89149  u=p/(2-p)=    17.43  a=2-2/p=0.94263  1/(1-a)=17.4
+K=[1/4,3]    sup F_2 = 0.4919 at (l,y)=(3,1.87); sup F_1.5 = 1.0128
+   formalised interpolation with true b   p=1.96824  u=p/(2-p)=    61.98  a=2-2/p=0.98386  1/(1-a)=62.0
+   optimal interpolation 3/2..2           p=1.50879  u=p/(2-p)=     3.07  a=2-2/p=0.67443  1/(1-a)=3.1
+   direct smallest p                      p=1.50671  u=p/(2-p)=     3.05  a=2-2/p=0.67261  1/(1-a)=3.1
+K=[1/4,2.6]  sup F_2 = 0.4549 at (l,y)=(2.6,1.8); sup F_1.5 = 0.9623
+   formalised interpolation with true b   p=1.96593  u=p/(2-p)=    57.71  a=2-2/p=0.98267  1/(1-a)=57.7
+   optimal interpolation 3/2..2           p=1.50000  u=p/(2-p)=     3.00  a=2-2/p=0.66667  1/(1-a)=3.0
+   direct smallest p                      p=1.48074  u=p/(2-p)=     2.85  a=2-2/p=0.64932  1/(1-a)=2.9

@@ -1,0 +1,19 @@
+{
+  "requested_graphs": 7,
+  "completed_graphs": 7,
+  "excluded": [],
+  "HEREDITARY_verified_graphs": [
+    "tree-11",
+    "star7-minor-control",
+    "join-0-0-length1",
+    "join-0-0-length3",
+    "join-0-1-length1",
+    "P4",
+    "double-star22"
+  ],
+  "proper_subset_occurrences": 8398025,
+  "proper_signature_occurrences": 22838,
+  "candidates": [],
+  "global_minimality_verified": false,
+  "finite_coverage_only": true
+}

@@ -1,0 +1,17 @@
+hubs(2,4) extremal tail position | n=11 j=5 middle=False Dmass/S=7/32
+hubs(2,8) extremal tail position | n=19 j=9 middle=False Dmass/S=26741/42546
+hubs(2,20) extremal tail position | n=43 j=21 middle=False Dmass/S=2177497764780/2556724903609
+hubs(2,40) extremal tail position | n=83 j=41 middle=False Dmass/S=1277725048743587797597860/1380549887758573095293743
+largest middle-range ratio in hubs(t,l) scan | n=206 j=101 middle=True Dmass/S=7510784461457667416150508516646085379012907812648767074174171398623249248/23859609406967247020579212288212413873076486213364449760218606694934729739
+exact near-plateau b-a=1 with Dmass=0 | n=34 j=14 middle=True Dmass/S=0/1
+published regression F56 | n=56 j=26 middle=True Dmass/S=229470786617263484/5455476920705755437
+sweep n=14: maximal middle-range Dmass/S | n=14 j=5 middle=True Dmass/S=0/1 min_delta=0
+sweep n=15: maximal middle-range Dmass/S | n=15 j=5 middle=True Dmass/S=0/1 min_delta=0
+sweep n=16: maximal middle-range Dmass/S | n=16 j=6 middle=True Dmass/S=10/401 min_delta=30
+sweep n=17: maximal middle-range Dmass/S | n=17 j=6 middle=True Dmass/S=0/1 min_delta=0
+sweep n=18: maximal middle-range Dmass/S | n=18 j=7 middle=True Dmass/S=67/2109 min_delta=114
+sweep n=19: maximal middle-range Dmass/S | n=19 j=7 middle=True Dmass/S=124/5395 min_delta=47
+sweep n=20: maximal middle-range Dmass/S | n=20 j=8 middle=True Dmass/S=188/14023 min_delta=168
+sweep n=21: maximal middle-range Dmass/S | n=21 j=8 middle=True Dmass/S=75/9352 min_delta=130
+sweep n=22: maximal middle-range Dmass/S | n=22 j=9 middle=True Dmass/S=765/59554 min_delta=765
+sweep n=23: maximal middle-range Dmass/S | n=23 j=9 middle=True Dmass/S=725/72908 min_delta=641

@@ -1,0 +1,42 @@
+{
+  "archive_sha256": "2409ce7dfa9cec6668c7753b74e66c65dc1e5b2dca9279fc92713d1e21888e92",
+  "archive_bytes": 7154,
+  "files": [
+    {
+      "path": "src/root_core.py",
+      "bytes": 4033,
+      "sha256": "a3ce7e975088b177e56d6c582cbb983f7a6190b0fed606282cdbd01b5127b7e2"
+    },
+    {
+      "path": "src/verify_round5.py",
+      "bytes": 12385,
+      "sha256": "d87544036a1c5871add1288c0a4beb5f797cd261fb8089739f5420e150656739"
+    }
+  ],
+  "parts": [
+    {
+      "path": "SOURCE_BUNDLE.part00.b64",
+      "bytes": 2401,
+      "sha256": "045e47c5a2eba4fb9c71957ddec7d4902f2a73d77714caed4a53673f24b74e14",
+      "git_blob": "677a8b8f50b827d3f671122a12b1f116037485a5"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part01.b64",
+      "bytes": 2401,
+      "sha256": "90a7750964533014e93c9a484f6242600fb59ddf0e84b63973a7d8a900b83986",
+      "git_blob": "e52e4aa524e5138204452b0ceff307ba214aad69"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part02.b64",
+      "bytes": 2401,
+      "sha256": "71e05618342116fdf50b215521bfeea2ef65b9c57264601b421ce1b9cd956206",
+      "git_blob": "b236968a43b3066f7e065e37ad965e9b7f5d9185"
+    },
+    {
+      "path": "SOURCE_BUNDLE.part03.b64",
+      "bytes": 2341,
+      "sha256": "8eb484dde3193ce26df6305453bf3167eabe0339d3ecc60d392dd1c38131e920",
+      "git_blob": "4638e77d1e3679311a876c335e7cd73a9d9f669a"
+    }
+  ]
+}

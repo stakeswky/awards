@@ -1,0 +1,52 @@
+{
+  "artifact_hashes_sha256": {
+    "AUDIT.md": "751c316377c2c446d954095e4376115b9e656788d61e577f76b7f5a02056b8a3",
+    "run.log": "122e36672e94286e66d331e3ac959c89227facb827ef0bb9c99bc3ccc24ae99d",
+    "verify_constants.py": "ee4ce460c1845089417ee2729a501c670ffd80f3d5b84eaa6fced6dadfbab1e4"
+  },
+  "chain": [
+    "main_fin -> max 1000 N_central",
+    "central -> max N_mean_lc 1",
+    "mean_lc -> max N_curvature 1 at epsilon=1/(2*sqrt(2*pi))",
+    "curvature_limit -> choose R via exists_tail_small; after R all size-threshold formulas inspected here are explicit",
+    "stdCharFn_tendsto_gaussian -> ceil(Lambda^2/c)+1"
+  ],
+  "date": "2026-09-22",
+  "exact_rational_reductions": {
+    "a": "31998/31999",
+    "charFn_bound_c": "1/114244",
+    "linear_variance_lower_c": "1/228488",
+    "p": "31999/16000",
+    "scalar_b": "999/1000",
+    "theta": "7999/8000",
+    "u": "31999"
+  },
+  "explicit_N0": null,
+  "external_commit": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
+  "external_repository": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality",
+  "first_confirmed_uneffectivized_step": {
+    "caller": "curvature_limit",
+    "file": "ErdosProblem993/Curvature.lean",
+    "method": "tendsto_setIntegral_of_monotone plus Metric.tendsto_atTop.1",
+    "specific_integrand": "t^2 * exp(-c0*t^2)",
+    "specific_target": "integral outside [-R,R] <= pi*epsilon/3",
+    "theorem": "exists_tail_small",
+    "witness": "R : Nat"
+  },
+  "fresh_axiom_audit": "NOT_RUN_RUNTIME_MISSING",
+  "fresh_lean_build": "NOT_RUN_RUNTIME_MISSING",
+  "independent_peer_review": false,
+  "novelty": "NOT_CLAIMED",
+  "original_math": "NOT_CLOSED",
+  "result": "FIRST_CONFIRMED_UNEFFECTIVIZED_WITNESS_IDENTIFIED",
+  "schema_version": 1,
+  "source_blobs": {
+    "ErdosProblem993/CLT.lean": "3def743fd721791b3e2ad6da1e144dea1f2198e7",
+    "ErdosProblem993/Central.lean": "3da5eec63721ef3f063969cae39f3de052533c4a",
+    "ErdosProblem993/Curvature.lean": "9213aa4f6dcc862190828d0c5d3943b8533024a9",
+    "ErdosProblem993/Fourier.lean": "a0fd4e517b059a503d104d92758e40a59acd9270",
+    "ErdosProblem993/Main.lean": "109ec849c2b23c9a5d35e95ad629f993a92b9793",
+    "ErdosProblem993/RootMoments.lean": "048972cbbf38ca33e0944f907e99a6f2565721ff"
+  },
+  "task": "audit_effective_large_forest_threshold_chain"
+}

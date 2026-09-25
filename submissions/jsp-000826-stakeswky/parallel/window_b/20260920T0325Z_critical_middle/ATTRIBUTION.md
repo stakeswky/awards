@@ -1,0 +1,12 @@
+# Sources, attribution and license scope
+
+- Task and prior A proof: Project files `Window_B_Round2_Critical_Search.md`, `Window_A_Proof_and_Gap.md`, `Window_A_研究结果_未闭合.md`, read in full through Files. A's prior proof is not attributed to B.
+- Prior B source and data: `Erdos993_Window_B_20260920_Evidence.zip`; repository package at 1ff2fa87a0dac00947bad858229e7e5d0333760e. `forest_exact.py` Git blob 56906b85b9d8fd30257401844633f908af56fc43 remains byte-identical. `independent_check.py` and the copied prior construction source remain byte-identical too. Parent LICENSE and LICENSE-CONTENT remain applicable; attribution is not removed.
+- Actual A2-C1 and A2-C2: `parallel/window_a/20260920T0323Z_middle_bridge/CLAIMS_FOR_B.md`, blob 38eaa9926194035bb1f66afb3dc4afcac8a8cfeb. Requests were read at published commits, not inferred from chat memory.
+- Attributed C1 starting example: `kylekaba/erdos-problem-993/README.md`, Git blob e6b4ef3540a09490be54e57fbccb4575498ac32c. The mathematical B(8,14) construction was used; no third-party program was copied. Our actual graph and coefficients were freshly independently verified. No novelty or global smallest claim.
+- External n26 seed: the project's `stage6_original/20260919T_phase6_minimal_blocks/sources/selected_external_trees.json`, blob 42750a7397c3c3fa9f38a5415d5b53b8be764a83, index0. The original source is scinet-ai/math-number-theory, commit fafb35784d4235c9e5dd701fd3b2c1f4955ae9ec, erdos-993/results/order26_exceptions.txt. Mathematical parent data only; no external source program copied.
+- Original statement: Erdős Problems #993, as read on the primary problem page.
+- Tail input: Abdul Basit and David Galvin, *On the independent set sequence of a tree*, Electronic Journal of Combinatorics 28(3), P3.23 (2021), Theorem1.3; arXiv:2006.12562v2, HTML version. The theorem applies to all finite graphs with n vertices and independence number alpha, giving the decreasing tail from ceil(alpha(n-1)/(n+alpha)). This is inherited external mathematics, not a theorem proved by B.
+- NetworkX 3.6.1 supplies the nonisomorphic-tree generator in the small equality census. All counting/sign tests use arbitrary-precision integers. The runtime version is recorded; source and library license are not redistributed or reattributed.
+
+OpenAI ChatGPT assisted research, computation and publication. No prize eligibility, priority, organizer acceptance or independent peer review is asserted.

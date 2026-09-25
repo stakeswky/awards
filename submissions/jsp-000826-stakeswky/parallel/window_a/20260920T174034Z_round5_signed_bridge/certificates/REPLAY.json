@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "command": "python src/verify_round5.py --output <new_directory>",
+  "fresh_source_copy": true,
+  "compiled": true,
+  "exit_code": 0,
+  "stderr_bytes": 0,
+  "whole_files": [
+    {
+      "file": "KEY_CERTIFICATES.json",
+      "bytes": 78091,
+      "sha256": "77ed07a6ce67022b097bc446733cf21cfb40e79639fd9113a4037b64bea90419",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "MATERIAL.json.gz",
+      "bytes": 6718348,
+      "sha256": "e0299fef3458f8944fde82b425a0ddf69b36805f20cb57878424480911ad10de",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "SUMMARY.json",
+      "bytes": 3803,
+      "sha256": "129f0d2620acf292cbb52f0e97ccc11ba1a8be0c43cbfe10fea47932a6d9e17d",
+      "all_bytes_equal": true
+    }
+  ],
+  "total_output_bytes": 6800242,
+  "source_sha256": {
+    "verify_round5.py": "d87544036a1c5871add1288c0a4beb5f797cd261fb8089739f5420e150656739",
+    "root_core.py": "a3ce7e975088b177e56d6c582cbb983f7a6190b0fed606282cdbd01b5127b7e2"
+  },
+  "external_review": false,
+  "Lean": "NOT_RUN"
+}

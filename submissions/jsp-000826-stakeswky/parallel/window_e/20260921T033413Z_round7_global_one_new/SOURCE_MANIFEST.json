@@ -1,0 +1,35 @@
+{
+  "comment": "Plain files also encoded without modification in compact Git source payload; no raw certificate rows in that payload.",
+  "payload": {
+    "format": "concatenated base64 of gzip JSON {relative_path:utf8_source}",
+    "gzip_bytes": 13364,
+    "gzip_sha256": "81c11cbcc1e9d6639a51b7191662d729ae064f4a7f832655d5c48ad29cd4f81e",
+    "parts": [
+      "SOURCE_BUNDLE.part00.b64",
+      "SOURCE_BUNDLE.part01.b64",
+      "SOURCE_BUNDLE.part02.b64"
+    ]
+  },
+  "source_files": {
+    "EXPECTED_OUTPUTS.json": {
+      "bytes": 1300,
+      "sha256": "73591015d408e6faec0a59b3767c3c63f17001fe75f90facf9f4f63f4e496935"
+    },
+    "RUN_ALL.py": {
+      "bytes": 6628,
+      "sha256": "337efd14ca66930014fd111e6eae5e73c48ce31a2222db9d5e987228efd97bda"
+    },
+    "src/hereditary_core.cpp": {
+      "bytes": 5914,
+      "sha256": "02485c16d5a471578c2723e968671ef6ddb8e8f7cf8391f25afd7b81df6150c3"
+    },
+    "src/regression.py": {
+      "bytes": 4909,
+      "sha256": "7259445bf20845c3a46e31a544b14fa88d3547493d52ea1e27a3af58230b01c7"
+    },
+    "src/verify_cut.py": {
+      "bytes": 17170,
+      "sha256": "eda4e89d1131d1e97495e143dadc85c013586babe2551413c58967ac6e5058a0"
+    }
+  }
+}

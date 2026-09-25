@@ -1,0 +1,57 @@
+{
+  "bytes_compared": 7557632,
+  "finished_utc": "2026-09-20T15:09:42.988794+00:00",
+  "outputs": 8,
+  "outputs_manifest": [
+    {
+      "path": "certificates/AUDIT.json",
+      "sha256": "b49fde33b91d40bfae3955b0780f1e346d67ce8f0022a9378e5adc51efe50a8a",
+      "size": 337
+    },
+    {
+      "path": "certificates/BUDGET_SUMMARY.json",
+      "sha256": "bedb8d390fe4ae4c3d67852b099c7faf2fea687d4b104e8a04c6a460f1da053f",
+      "size": 511
+    },
+    {
+      "path": "certificates/FULL_ALLOCATION_B212_B226.json",
+      "sha256": "b7011a1959db729d09d5eaa6540ed2b3e45b6f921c488acf8db87642b939915e",
+      "size": 200444
+    },
+    {
+      "path": "certificates/LITERAL_MOMENTS.json",
+      "sha256": "64f1e34a935f7d71ef1e3e86032468f251eba999fc454bd031fccb48729777a4",
+      "size": 3384
+    },
+    {
+      "path": "certificates/PALETTE_GRAPHS.json",
+      "sha256": "d72289587902fb9807cdab55b3108aafae1f3d650d6a17f06b82d28c2917c9fd",
+      "size": 6200549
+    },
+    {
+      "path": "certificates/PALETTE_SUMMARY.json",
+      "sha256": "67b637ed1585e4afcc939130252c8332e0e054580c3ba823f2b86cc933d32dc2",
+      "size": 5780
+    },
+    {
+      "path": "certificates/PARTITION_REFINEMENT.json",
+      "sha256": "5b66aef951d569d5ab5157beb929bbe9a58c594c05648ec1a2cae7aa8ea621e9",
+      "size": 201496
+    },
+    {
+      "path": "certificates/SIGNED_BUDGETS.json",
+      "sha256": "230c462b272dd4db3ffbf6b528da2896bf7b4eb49974391271ac6eaf228e0cf8",
+      "size": 945131
+    }
+  ],
+  "programs": 3,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "source_hashes": {
+    "audit_certificate.py": "97deb3be756d9964817e477676d681d777aaea068641d2dc3290f9256108d77d",
+    "exact.py": "acdb7c3af6f5d37469f5d527d86b99870b909b1de114965ad98cd4aa5c645c88",
+    "independent.py": "657894a484559a29505fcc32d69715b989fad7022e7991c34829f4e199f48e1c",
+    "verify_budgets.py": "1997626a16e23337b5a7b283090696e031a451de822470a3508f95d1b8113fa4",
+    "verify_palette.py": "26c8481295c2ddb625f7b0703484bae01e208d2b80d4146f984f79e9855887ec"
+  },
+  "status": "PASS_BYTE_IDENTICAL"
+}

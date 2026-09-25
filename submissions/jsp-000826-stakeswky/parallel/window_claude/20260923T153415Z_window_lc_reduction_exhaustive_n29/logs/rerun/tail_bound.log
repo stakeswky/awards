@@ -1,0 +1,15 @@
+TAIL n=4 trees=2 violations=0  best-side bound < beta: 1  < LM: 1 | trees with a colour class all deg>=3: 1, mu*=(|L|-1)/2 holds: 1
+TAIL n=5 trees=3 violations=0  best-side bound < beta: 0  < LM: 1 | trees with a colour class all deg>=3: 1, mu*=(|L|-1)/2 holds: 1
+TAIL n=6 trees=6 violations=0  best-side bound < beta: 1  < LM: 3 | trees with a colour class all deg>=3: 1, mu*=(|L|-1)/2 holds: 1
+TAIL n=7 trees=11 violations=0  best-side bound < beta: 2  < LM: 3 | trees with a colour class all deg>=3: 2, mu*=(|L|-1)/2 holds: 2
+TAIL n=8 trees=23 violations=0  best-side bound < beta: 1  < LM: 4 | trees with a colour class all deg>=3: 2, mu*=(|L|-1)/2 holds: 2
+TAIL n=9 trees=47 violations=0  best-side bound < beta: 13  < LM: 16 | trees with a colour class all deg>=3: 3, mu*=(|L|-1)/2 holds: 3
+TAIL n=10 trees=106 violations=0  best-side bound < beta: 8  < LM: 27 | trees with a colour class all deg>=3: 5, mu*=(|L|-1)/2 holds: 5
+TAIL n=11 trees=235 violations=0  best-side bound < beta: 24  < LM: 79 | trees with a colour class all deg>=3: 7, mu*=(|L|-1)/2 holds: 7
+TAIL n=12 trees=551 violations=0  best-side bound < beta: 65  < LM: 93 | trees with a colour class all deg>=3: 10, mu*=(|L|-1)/2 holds: 10
+TAIL n=13 trees=1301 violations=0  best-side bound < beta: 67  < LM: 215 | trees with a colour class all deg>=3: 18, mu*=(|L|-1)/2 holds: 18
+TAIL n=14 trees=3159 violations=0  best-side bound < beta: 494  < LM: 699 | trees with a colour class all deg>=3: 26, mu*=(|L|-1)/2 holds: 26
+TAIL n=15 trees=7741 violations=0  best-side bound < beta: 425  < LM: 1501 | trees with a colour class all deg>=3: 42, mu*=(|L|-1)/2 holds: 42
+TAIL n=16 trees=19320 violations=0  best-side bound < beta: 1471  < LM: 3940 | trees with a colour class all deg>=3: 70, mu*=(|L|-1)/2 holds: 70
+TAIL n=17 trees=48629 violations=0  best-side bound < beta: 3533  < LM: 6095 | trees with a colour class all deg>=3: 116, mu*=(|L|-1)/2 holds: 116
+TAIL n=18 trees=123867 violations=0  best-side bound < beta: 4989  < LM: 16074 | trees with a colour class all deg>=3: 190, mu*=(|L|-1)/2 holds: 190

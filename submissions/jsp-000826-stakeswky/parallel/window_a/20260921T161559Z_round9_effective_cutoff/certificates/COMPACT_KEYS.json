@@ -1,0 +1,161 @@
+{
+  "E_n": "2^199*n^(-1/4)+2^154*n^(-1/15992)+2^207*n^(-1/1999)+2^211*n^(-1/7996)+2^11/n+2^(-167)",
+  "ORIGINAL": "NOT_CLOSED",
+  "actual_threshold_order_graphs_tested": 0,
+  "central_rank_interval": "n/5<=j<=17*alpha/25",
+  "constant_intervals": {
+    "Qstar12": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 3767048163585066305,
+      "rounding": "outward",
+      "upper_numerator": 3767048163585066312
+    },
+    "log10": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 2302585092994045684,
+      "rounding": "outward",
+      "upper_numerator": 2302585092994045685
+    },
+    "log10_cutoff": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 782677988726351107555721,
+      "rounding": "outward",
+      "upper_numerator": 782677988726351107555722
+    },
+    "log13": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 2564949357461536735,
+      "rounding": "outward",
+      "upper_numerator": 2564949357461536737
+    },
+    "log2": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 693147180559945309,
+      "rounding": "outward",
+      "upper_numerator": 693147180559945310
+    },
+    "mean_factor12": {
+      "denominator": 1000000000000000000,
+      "lower_numerator": 680891044148609236,
+      "rounding": "outward",
+      "upper_numerator": 680891044148609238
+    }
+  },
+  "cutoff": {
+    "binary_exponent": 2600000,
+    "decimal_digits": 782678,
+    "error_strict_upper": [
+      21,
+      4096
+    ],
+    "error_target": [
+      1,
+      128
+    ],
+    "exact": "2^2600000",
+    "second_difference_strict_lower": [
+      125,
+      384
+    ],
+    "term_exponents": [
+      [
+        -649801,
+        1
+      ],
+      [
+        -17154,
+        1999
+      ],
+      [
+        -2186207,
+        1999
+      ],
+      [
+        -228211,
+        1999
+      ],
+      [
+        -2599989,
+        1
+      ]
+    ]
+  },
+  "effective_cutoff_status": "PROVED_WRITTEN_EXACT_FINITE_PREMISES_AUDITED",
+  "finite_error_domain": "n>=2^77; hard-core SIZE mean mu is an integer; lambda in [1/4,12]; every forest",
+  "full_raw_output_hashes": [
+    {
+      "bytes": 2440,
+      "path": "CONSTANTS_FIXEDPOINT.json",
+      "sha256": "5bf17054d91504754ea4a60043d1788e4e69dfe288f3de4ec1f0cde25d79f27c"
+    },
+    {
+      "bytes": 15447,
+      "path": "CONSTANTS_FRACTION.json",
+      "sha256": "32f14e7dec0c8d0dea1d860f81a6e3e816c25715e85e5a6ba32a991a7577179f"
+    },
+    {
+      "bytes": 197236,
+      "path": "GRAPH_IDENTITIES.json",
+      "sha256": "f0f5d771a016090243e035800567ccbeed43722adb374b96b4161d703d2091a3"
+    }
+  ],
+  "graph_regression_counts": {
+    "centroid_terminal_histories": 38,
+    "centroid_transition_checks": 52,
+    "coefficient_comparisons": 1225,
+    "complete_centroid_law_checks": 12,
+    "full_array_tasks": 136,
+    "literal_array_tasks": 83,
+    "named_graphs": 8,
+    "negative_delta_occurrences": 26,
+    "negative_gamma_occurrences": 141,
+    "prefix_recurrence_literal_checks": 38,
+    "root_activity_checks": 192
+  },
+  "not_claimed": [
+    "all lower orders covered",
+    "Lean/axiom audit",
+    "independent peer review",
+    "general A4-R",
+    "novelty"
+  ],
+  "run_id": "20260921T161559Z_round9_effective_cutoff",
+  "second_arithmetic_intervals": {
+    "Qstar12": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 3767048163585066308049343,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 3767048163585066308050520
+    },
+    "log10": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 2302585092994045684017917,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 2302585092994045684018242
+    },
+    "log10_cutoff": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 782677988726351107555618822177,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 782677988726351107556028657235
+    },
+    "log13": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 2564949357461536736053346,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 2564949357461536736053718
+    },
+    "log2": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 693147180559945309417218,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 693147180559945309417482
+    },
+    "mean_factor12": {
+      "denominator": 1000000000000000000000000,
+      "lower_numerator": 680891044148609237377741,
+      "rounding": "outward_fixedpoint",
+      "upper_numerator": 680891044148609237378056
+    }
+  }
+}

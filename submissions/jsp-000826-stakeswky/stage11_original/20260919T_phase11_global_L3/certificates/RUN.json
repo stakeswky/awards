@@ -1,0 +1,27 @@
+{
+  "command": "python3 src/check_l3.py",
+  "cwd": "submissions/jsp-000826-stakeswky/stage11_original/20260919T_phase11_global_L3",
+  "environment": {
+    "networkx": "3.6.1",
+    "python": "3.13.5"
+  },
+  "fresh_axiom_audit": "NOT_RUN",
+  "fresh_lean_build": "NOT_RUN",
+  "hashes_sha256": {
+    "PROOF.md": "676f7df0c7485c24598c613460c3b3cc184e45c0c688d6566601882bbd785dcc",
+    "README.md": "d8b58d98b5f398973a9aa83383548893f82e6d0a20a90acebf0c35922aba9c0b",
+    "VERDICT.json": "1a4b75c7775d133a18c60efb57a0d38a76382e36fdbe587ca026f9958ecb3c7b",
+    "certificates/L3_SMALL_FORESTS.json": "1e05be6f3beb95d377e96d330a9592e930431a5e86596944c578b11cfdd0a39a",
+    "src/check_l3.py": "678e36608a0c6d41c9c59ff71d14cf294f88615ac91ca2696373845dfb4697c5"
+  },
+  "observed_stdout": {
+    "coefficients": 10342,
+    "forests": 1347,
+    "status": "PASS",
+    "stream_sha256": "dc0c85dc6e13e9f1be5e334084992bddc95c3a1ca654c8613377fd13a6616d65",
+    "tree_types": 436
+  },
+  "review_type": "SAME_MODEL_SELF_REVIEW",
+  "run_id": "20260919T_phase11_global_L3",
+  "scope_note": "Finite n<=11 certificate plus written n>=12 proof; not a Lean proof and not an original-problem closure."
+}

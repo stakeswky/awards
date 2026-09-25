@@ -1,0 +1,2 @@
+S family (n<=90): 1305 trees | Q_{3/2} fails: 0 | STEP fails: 0 | smallest failing: [] | min slack: 1.1667
+R family (n<=90): 860 trees | Q_{3/2} fails: 0 | STEP fails: 7 | smallest failing: [(19, 0, 58, [26]), (21, 0, 64, [29]), (22, 0, 67, [30]), (24, 0, 73, [33])] | min slack: -1.1752

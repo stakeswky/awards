@@ -1,0 +1,11 @@
+{
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "WindowLC": "OPEN for 31 <= n < N0; no proof obtained",
+  "polylog_root_moment_bound": "REFUTED_WITH_RIGOROUS_CERTIFICATES: interval arithmetic (80 digits, rechecked at 300); l=1 tree with n ~ 4.4e20 has M = 5.254278e6 >= 2325 (ln n)^2; l=3 tree with n ~ 1e71 has M = 4.562450e41",
+  "root_moment_exponent": "a*(l) = 2 - 2/p*(l) (numerical, matches FLNYZ Hoelder exponent to ~3 decimals; see previous directory, Section 10.3)",
+  "Lean": "NOT_RUN",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED"
+}

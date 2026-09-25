@@ -1,0 +1,11 @@
+S1 n=8  History positions 48, S1 holds (best side) 38  | middle 0, holds 0  worst failing middle ratio None
+S1 n=9  History positions 126, S1 holds (best side) 97  | middle 0, holds 0  worst failing middle ratio None
+S1 n=10  History positions 328, S1 holds (best side) 214  | middle 0, holds 0  worst failing middle ratio None
+S1 n=11  History positions 764, S1 holds (best side) 554  | middle 0, holds 0  worst failing middle ratio None
+S1 n=12  History positions 1907, S1 holds (best side) 1322  | middle 0, holds 0  worst failing middle ratio None
+S1 n=13  History positions 5130, S1 holds (best side) 3425  | middle 0, holds 0  worst failing middle ratio None
+S1 n=14  History positions 13153, S1 holds (best side) 8587  | middle 240, holds 0  worst failing middle ratio (1000000000000.0, [0, 1, 2, 3, 4, 5, 5, 5, 3, 1, 2, 3, 4, 5], 5)
+S1 n=15  History positions 33257, S1 holds (best side) 22816  | middle 1, holds 0  worst failing middle ratio (1000000000000.0, [0, 1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 4, 2, 3, 4], 5)
+S1 n=16  History positions 91940, S1 holds (best side) 58112  | middle 1696, holds 311  worst failing middle ratio (1000000000000.0, [0, 1, 2, 3, 4, 5, 5, 5, 4, 1, 2, 3, 4, 4, 4, 4], 6)
+S1 n=17  History positions 245086, S1 holds (best side) 157612  | middle 2955, holds 0  worst failing middle ratio (1000000000000.0, [0, 1, 2, 3, 4, 5, 6, 6, 6, 4, 4, 1, 2, 3, 4, 5, 6], 6)
+S1 n=18  History positions 640451, S1 holds (best side) 410365  | middle 11866, holds 1021  worst failing middle ratio (1000000000000.0, [0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 1, 2, 3, 4, 5, 6, 7, 8], 6)

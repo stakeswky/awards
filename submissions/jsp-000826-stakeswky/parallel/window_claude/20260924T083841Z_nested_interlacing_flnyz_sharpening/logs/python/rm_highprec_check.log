@@ -1,0 +1,8 @@
+l=1 k=14 levels=1: M(60 digits)=9.6338488656E+00  M(double)=9.6338488656E+00  rel.diff=5.5e-16  n~10^5.39
+l=1 k=14 levels=2: M(60 digits)=1.3548998422E+02  M(double)=1.3548998422E+02  rel.diff=3.1e-15  n~10^8.45
+l=1 k=14 levels=3: M(60 digits)=1.8928882510E+03  M(double)=1.8928882510E+03  rel.diff=1.1e-14  n~10^11.49
+l=1 k=14 levels=4: M(60 digits)=2.6647435854E+04  M(double)=2.6647435854E+04  rel.diff=4.1e-14  n~10^14.55
+l=1 k=14 levels=5: M(60 digits)=3.7395102760E+05  M(double)=3.7395102760E+05  rel.diff=1.5e-13  n~10^17.60
+l=1 k=14 levels=6: M(60 digits)=5.2542784812E+06  M(double)=5.2542784812E+06  rel.diff=5.8e-13  n~10^20.65
+l=1.0 k=70 y_t=3.146, 40 double levels: log10 M (60 digits)=-0.602060  (double)=76.508512  log10 n=165.107  log M/log n=-0.0036
+l=3.0 k=18 y_t=2.814, 40 double levels: log10 M (60 digits)=-0.726999  (double)=69.069435  log10 n=111.631  log M/log n=-0.0065

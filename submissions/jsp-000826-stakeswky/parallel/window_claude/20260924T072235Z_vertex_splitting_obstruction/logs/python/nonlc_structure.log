@@ -1,0 +1,1 @@
+non-LC trees: 149 | unique MIS: 119 | #maximum independent sets: min 1 max 3 | max k*(ratio-1) = 10.9015 at n=30 k=15 alpha=16 ratio=1.726767

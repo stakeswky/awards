@@ -1,0 +1,18 @@
+{
+  "status": "EXACT_ALL_PASS",
+  "method": "primary",
+  "palette_size": 59,
+  "multisets": {
+    "1": 59,
+    "2": 1770,
+    "3": 35990
+  },
+  "total_multisets": 37819,
+  "block_multisets": 37760,
+  "branch_rate_and_FLC_checks": 4561,
+  "prefix_LC_inequalities": 2874321,
+  "block_ULC_inequalities": 2723570,
+  "canonical_branch_sha256": "552f8692a6a228f8718b4c39b12decb0dfd9ba18b478273ac7f026d438e51b69",
+  "canonical_multiset_sha256": "5737d1d2f050dde7349969329959a4e999e9812d6a385d4712c5984e227e6e03",
+  "elapsed_seconds": 4.630071
+}

@@ -1,0 +1,14 @@
+{
+  "first_actual_head":"b8831d70a30a23bc081f91b41bbfa94972a61b85",
+  "publication_parent":"441c7d95610a53cce97b3dd450f756840267117c",
+  "branch":"jsp-000826-research-snapshot",
+  "pr":1,
+  "pr_draft":true,
+  "pr_merged":false,
+  "read_complete":["Window_E_Round4_Pair_Counting.md (parsed text, not raw-byte recovery)","RESEARCH_PROTOCOL.md at first actual head","RESEARCH_STATE.json at first actual head","stage2_original/20260918T_original_joint_modes/STATEMENT.md","Window_A_Proof_and_Gap.md","Window B Round3 report, feedback and support obstruction","Window A Round3 CLAIMS_FOR_B.md","Window A Round4 TO_B/CLAIMS_v1.md at f899909d","Window C Round4 CLAIMS_FOR_AB.md at f899909d"],
+  "not_read":["ROUND4_RESEARCH_BRIEF.md","ROUND4_COMMON_PROTOCOL.md"],
+  "access_failure":"Round4 ZIP located; raw-byte materialization denied; parsed ZIP body empty",
+  "concurrency":"A4 interface, C4 interface and C4 full-delivery commits retained by building on actual parent 441c7d95; no peer or total-state file modified",
+  "math_dependencies":"No unproved peer claim. Inherited complete-graph prefix/tail used only to connect scoped result to ORIGINAL.",
+  "other_window_review_of_E":"NOT_PERFORMED"
+}

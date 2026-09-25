@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "small_regression_forests": 90,
+  "coefficient_entries_four_way": 586,
+  "label_permutation_checks": 90,
+  "synthetic_sequence_checks": 5,
+  "invalid_graph_rejections": 4,
+  "counted_as_new_research_coverage": false,
+  "unchanged_inherited_git_blob": "56906b85b9d8fd30257401844633f908af56fc43"
+}

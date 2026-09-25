@@ -1,0 +1,24 @@
+{
+  "canonical_payload_sha256": "32fd987e00f1bf3f0a3d0dbc108fc5f16686c784f70961f30386acf64b54f501",
+  "four_units_g": 2,
+  "four_units_orientation_poly": [1,4,6,4,1],
+  "q7_plus_unit_g": -1,
+  "q7_plus_unit_orientation_poly": [0,0,1,1,0,1,1],
+  "q8_g": 0,
+  "q8_orientation_poly": [0,0,1,0,0,0,1],
+  "rows": [
+    {"high_gap_trees":0,"labeled_trees":1,"n":1,"unsplittable_high_trees":0},
+    {"high_gap_trees":0,"labeled_trees":1,"n":2,"unsplittable_high_trees":0},
+    {"high_gap_trees":0,"labeled_trees":3,"n":3,"unsplittable_high_trees":0},
+    {"high_gap_trees":4,"labeled_trees":16,"n":4,"unsplittable_high_trees":0},
+    {"high_gap_trees":5,"labeled_trees":125,"n":5,"unsplittable_high_trees":0},
+    {"high_gap_trees":486,"labeled_trees":1296,"n":6,"unsplittable_high_trees":0},
+    {"high_gap_trees":1687,"labeled_trees":16807,"n":7,"unsplittable_high_trees":630},
+    {"high_gap_trees":118784,"labeled_trees":262144,"n":8,"unsplittable_high_trees":3360}
+  ],
+  "statement": "Complete labeled-tree classification needed for the j=4 residual sector",
+  "status": "PASS",
+  "unsplittable_pattern_labeled_counts": {"Q7":630,"Q8":3360},
+  "source_sha256": "98d5054e82db0d432865577f7909290eb516c6b55c58fa2479c321301da46f14",
+  "output_file_sha256": "da8c0292fda3d9a74486a367550fbb82b5880487f179dc9a4a184e4d586e4b94"
+}

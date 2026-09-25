@@ -1,0 +1,19 @@
+== checksum cross-check n=12 (wlc, wlc3, stepc must agree)
+trees=551 checksum=13619054559224269768 
+trees=551 checksum=13619054559224269768 
+RESULT n=12 c=3/2 trees=551 Qc_fail=0 STEP_fail=0 avg_v_tried=1.140 min_n_margin_on_1_top=3.428571 checksum=13619054559224269768
+== c=1 cross-check with Python (single failure at n=9)
+RESULT n=8 c=1/1 trees=23 Qc_fail=0 STEP_fail=0 avg_v_tried=1.391 min_n_margin_on_1_top=2.920635 checksum=14227298495273872442
+STEPFAIL alpha=7 top=5 k: 5 levels=0,1,2,2,2,1,2,2,2 
+RESULT n=9 c=1/1 trees=47 Qc_fail=0 STEP_fail=1 avg_v_tried=1.511 min_n_margin_on_1_top=3.214286 checksum=6553821678608312098
+RESULT n=10 c=1/1 trees=106 Qc_fail=0 STEP_fail=0 avg_v_tried=1.255 min_n_margin_on_1_top=3.333333 checksum=12671039109266918775
+RESULT n=11 c=1/1 trees=235 Qc_fail=0 STEP_fail=0 avg_v_tried=1.260 min_n_margin_on_1_top=3.361111 checksum=11985701261641977087
+RESULT n=12 c=1/1 trees=551 Qc_fail=0 STEP_fail=0 avg_v_tried=1.147 min_n_margin_on_1_top=3.428571 checksum=13619054559224269768
+== forests c=1 (T-r), orders 6..14
+RESULT forests_of_order=6 (from trees N=7, edgeless skipped) c=1/1 forest_instances=76 Qc_fail=0 STEP_fail=0 avg_v_tried=1.237 min_n_margin_on_1_top=2.400000 checksum=16896759895243682536
+RESULT forests_of_order=7 (from trees N=8, edgeless skipped) c=1/1 forest_instances=183 Qc_fail=0 STEP_fail=2 avg_v_tried=1.224 min_n_margin_on_1_top=2.644444 checksum=12385239929356286988
+RESULT forests_of_order=9 (from trees N=10, edgeless skipped) c=1/1 forest_instances=1059 Qc_fail=0 STEP_fail=6 avg_v_tried=1.368 min_n_margin_on_1_top=3.101170 checksum=16834897402599372826
+RESULT forests_of_order=10 (from trees N=11, edgeless skipped) c=1/1 forest_instances=2584 Qc_fail=0 STEP_fail=0 avg_v_tried=1.289 min_n_margin_on_1_top=3.203546 checksum=16227779008995429675
+RESULT forests_of_order=12 (from trees N=13, edgeless skipped) c=1/1 forest_instances=16912 Qc_fail=0 STEP_fail=0 avg_v_tried=1.158 min_n_margin_on_1_top=3.338215 checksum=18245992371277318950
+RESULT forests_of_order=13 (from trees N=14, edgeless skipped) c=1/1 forest_instances=44225 Qc_fail=0 STEP_fail=0 avg_v_tried=1.174 min_n_margin_on_1_top=3.380954 checksum=3615020071716573094
+RESULT forests_of_order=14 (from trees N=15, edgeless skipped) c=1/1 forest_instances=116114 Qc_fail=0 STEP_fail=0 avg_v_tried=1.209 min_n_margin_on_1_top=3.430727 checksum=15342206830595843037

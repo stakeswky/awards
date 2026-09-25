@@ -1,0 +1,6 @@
+l=1, k=14, 6 double levels (nested_hubs.py)
+   n = 21 digits (log10 n = 20.647); certified M in [5.254278E+06, 5.254278E+06]; q_root in [0.2680, 0.2680]
+   (ln n)^2 = 2260, (ln n)^3 = 1.075e+05, certified M / (ln n)^2 >= 2325, log M / log n >= 0.3255
+l=3, k=18, y_t=2.814, 24 double levels (rm_hp_adaptive.py)
+   n = 71 digits (log10 n = 70.823); certified M in [4.562450E+41, 4.562450E+41]; q_root in [0.1577, 0.1577]
+   (ln n)^2 = 2.659e+04, (ln n)^3 = 4.337e+06, certified M / (ln n)^2 >= 1.716e+37, log M / log n >= 0.5882

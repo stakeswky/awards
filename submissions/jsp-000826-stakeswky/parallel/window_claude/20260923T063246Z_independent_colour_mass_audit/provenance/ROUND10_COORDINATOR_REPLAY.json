@@ -1,0 +1,63 @@
+{
+ "author_window_programs_replayed": 0,
+ "date_utc": "2026-09-23",
+ "exit_code": 0,
+ "kind": "REPLAY_OF_HANDOFF_ROUND10_COORDINATOR_AUDIT",
+ "note": "This replays the Round-10 COORDINATOR checks only, not any author window program.",
+ "outputs": [
+  {
+   "byte_equal": true,
+   "bytes": 101439,
+   "file": "C_LEAF_AND_ROOT.json",
+   "sha256": "fca0130f9a15f48f03e7a8638e7dc054d04a3e891f5f9251473b83d17f590a4e"
+  },
+  {
+   "byte_equal": true,
+   "bytes": 586,
+   "file": "D_SELECTED_ANALYTIC_GUARDS.json",
+   "sha256": "0abd5bbecdffb12bdfed1b683664890892dbe3bab513a71e067dafae25495577"
+  },
+  {
+   "byte_equal": true,
+   "bytes": 79537,
+   "file": "E_RELATION_SEMANTICS.json",
+   "sha256": "6737f8c9b5eb2ffb497fc3310c19dd1f3017837c2a0cf843762fc6e881636bb5"
+  }
+ ],
+ "packaged_receipt_outputs": [
+  {
+   "byte_equal": true,
+   "bytes": 101439,
+   "file": "C_LEAF_AND_ROOT.json",
+   "sha256": "fca0130f9a15f48f03e7a8638e7dc054d04a3e891f5f9251473b83d17f590a4e"
+  },
+  {
+   "byte_equal": true,
+   "bytes": 586,
+   "file": "D_SELECTED_ANALYTIC_GUARDS.json",
+   "sha256": "0abd5bbecdffb12bdfed1b683664890892dbe3bab513a71e067dafae25495577"
+  },
+  {
+   "byte_equal": true,
+   "bytes": 79537,
+   "file": "E_RELATION_SEMANTICS.json",
+   "sha256": "6737f8c9b5eb2ffb497fc3310c19dd1f3017837c2a0cf843762fc6e881636bb5"
+  }
+ ],
+ "python": "3.14.3",
+ "sha256_equal_to_packaged_receipt": true,
+ "sources": [
+  {
+   "bytes": 12216,
+   "file": "audit_round10.py",
+   "sha256": "8dcc87379d630f247b3edaabefb0f55b681a0ad1c550d6b3bd25553298d7e19f"
+  },
+  {
+   "bytes": 9861,
+   "file": "graph_primitives.py",
+   "sha256": "e44127ffac665fbdfd01a3398d86864da09a9ca4248d73a9497d7aa6bc04a0ed"
+  }
+ ],
+ "status": "PASS",
+ "what": "hand-off package evidence/Erdos993_Round10_Audit, run with its own replay.py in a temporary copy (package left unmodified)"
+}

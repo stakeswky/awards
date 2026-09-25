@@ -1,0 +1,2 @@
+C-WLC n=28 trees=2023443032 (OEIS ok=True) nonunimodal=0 nonLC_trees=19 nonLC_in_window[ceil(n/4),LM]=0 in_window[ceil(n/4),beta]=0 min(first nonLC/alpha)=0.933333 exits={0} time=285s
+C-WLC n=29 trees=5469566585 (OEIS ok=True) nonunimodal=0 nonLC_trees=7 nonLC_in_window[ceil(n/4),LM]=0 in_window[ceil(n/4),beta]=0 min(first nonLC/alpha)=0.9375 exits={0} time=746s

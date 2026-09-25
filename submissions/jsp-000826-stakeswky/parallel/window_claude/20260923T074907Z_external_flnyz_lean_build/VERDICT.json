@@ -1,0 +1,17 @@
+{
+  "run_id": "20260923T074907Z_external_flnyz_lean_build",
+  "window": "claude (independent; Anthropic Claude via Claude Code)",
+  "ORIGINAL": "NOT_CLOSED",
+  "external_repository": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality",
+  "external_commit": "b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
+  "fresh_external_lean_build": "PASS (lake build, 8267 jobs, exit 0; all 19 project modules compiled in this run; 0 errors; 0 'declaration uses sorry' warnings; 32 linter/deprecation warnings)",
+  "fresh_external_axiom_audit": "PASS (lake env lean ErdosProblem993/AxiomCheck.lean: 14/14 headline declarations depend only on propext, Classical.choice, Quot.sound)",
+  "statement_correspondence": "CHECKED_BY_READING_ELABORATED_STATEMENTS: main_fin = exists N0, every acyclic SimpleGraph on Fin n with n>=N0 has unimodal independent-set sequence; definitions of icoeff/indepFinsets/IsIndepSet/IsAcyclic/IsUnimodal match the original problem (plateaus allowed; isUnimodal_iff_finite bridges to the finite definition)",
+  "N0": "EXISTENTIAL_ONLY (max 1000 N1, N1 from central); no numerical value is formalized; A9 2^2600000 is NOT formalized",
+  "all_order_lemmas_formalized": ["monotoneOn_icoeff_prefix: every forest nondecreasing through ceil(n/4)", "antitoneOn_icoeff_tail: every bipartite graph nonincreasing from ceil((2 alpha - 1)/3)"],
+  "residual_trust": ["Lean 4.29.1 kernel", "three standard axioms", "Mathlib oleans from the official cache (not rebuilt from source; lean4checker not run)"],
+  "author_programs_replayed": "N/A (formal build, not a numerical program)",
+  "external_peer_review": "NOT_PERFORMED",
+  "shared_RESEARCH_STATE_modified": false,
+  "novelty": "NOT_CLAIMED (the formalization is the external authors' work; this run only builds and audits it)"
+}

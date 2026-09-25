@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "files": 11,
+  "stdout": "PASS: verified and reconstructed 11 source/input files\n",
+  "all_bytes_matched": true
+}
