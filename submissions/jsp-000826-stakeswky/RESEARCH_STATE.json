@@ -6,10 +6,10 @@
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "f1fca803b5e9f3161a4a2f0e5885ef9d60f31421",
+  "last_read_head": "0544e1ae7f892a426aca5d656bc3abc143b50b7a",
   "previous_checkpoint": "af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "concurrency_preserved": {
-    "status": "The run started from af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02, found no newer concurrent commit, and re-read the Draft PR before each publication phase. No force update was used.",
+    "status": "The run started from af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02, found no newer concurrent commit, published Stage 18 incrementally without force updates, and re-read PR #1 at 0544e1ae7f892a426aca5d656bc3abc143b50b7a before the final state update.",
     "publication_boundary": "Stage 18 files were added only under submissions/jsp-000826-stakeswky/stage18_original/20260925T_nested_hub_infinite_family/."
   },
   "current_work": {
