@@ -1,120 +1,92 @@
 {
   "schema_version": 1,
-  "updated_utc_date": "2026-09-24",
+  "updated_utc_date": "2026-09-25",
   "status": "ACTIVE_ORIGINAL_PROBLEM_UNRESOLVED",
   "repository": "stakeswky/awards",
   "branch": "jsp-000826-research-snapshot",
   "pull_request": 1,
   "pr_must_remain_draft": true,
-  "last_read_head": "63c6a11f66e3735e19e47855248fbc56b66d727e",
-  "checkpoint_identity": "Use the Git commit containing this file; no self-referential future SHA is asserted.",
-  "previous_checkpoint": "63c6a11f66e3735e19e47855248fbc56b66d727e:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
+  "last_read_head": "f1fca803b5e9f3161a4a2f0e5885ef9d60f31421",
+  "previous_checkpoint": "af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02:submissions/jsp-000826-stakeswky/RESEARCH_STATE.json",
   "concurrency_preserved": {
-    "status": "The run re-read PR #1 immediately before publication and found head 63c6a11f66e3735e19e47855248fbc56b66d727e. No history rewrite or force update is used.",
-    "newer_parallel_material_present": [
-      "parallel/window_claude/20260924T011530Z_window_lc_ud_identity_exhaustive_n30/",
-      "parallel/window_claude/20260924T072235Z_vertex_splitting_obstruction/",
-      "parallel/window_claude/20260924T083841Z_nested_interlacing_flnyz_sharpening/",
-      "parallel/window_claude/20260924T084900Z_root_moment_certificates/"
-    ],
-    "boundary": "All parallel material is preserved. This Stage-17 run independently recomputed only the two fixed root-moment examples and audited the logical scope of the polylog-refutation claim."
+    "status": "The run started from af77dfc6a6c4f23fca9ad49fbb2c9ea8582d4e02, found no newer concurrent commit, and re-read the Draft PR before each publication phase. No force update was used.",
+    "publication_boundary": "Stage 18 files were added only under submissions/jsp-000826-stakeswky/stage18_original/20260925T_nested_hub_infinite_family/."
   },
   "current_work": {
-    "run_id": "20260924T_root_moment_claim_audit",
-    "task": "Audit the newest claim that finite adaptive nested-hub certificates refute every polylogarithmic root-moment bound.",
-    "package": "stage17_original/20260924T_root_moment_claim_audit/",
-    "audit": "stage17_original/20260924T_root_moment_claim_audit/AUDIT.md",
-    "result_file": "stage17_original/20260924T_root_moment_claim_audit/result.json",
-    "source_parallel_checkpoint": "63c6a11f66e3735e19e47855248fbc56b66d727e",
-    "fixed_examples": "CORROBORATED_BY_SEPARATE_HIGH_PRECISION_RECURRENCE",
-    "universal_polylog_refutation": "NOT_ESTABLISHED",
-    "reason": "Two finite examples can only lower-bound a possible universal constant. The stored claimed power-law exponent is explicitly numerical and does not supply an analytic infinite-family lower bound.",
-    "lambda1_M_over_ln2": "2324.610177413913...",
-    "lambda3_M_over_ln2": "1.715597512220218e37",
-    "lambda3_logM_over_logn": "0.588213865103882...",
-    "verify_script_sha256": "15977a0b85299221260759c7f9d9a0f6d3227f1d8cb87d13fd60a88ed2b9b80d",
-    "run_log_sha256": "893472c779a3f2fd27f7daff1e6047c26eda1850220bcfb8c418d408d2fe98b3",
-    "interval_certificate_implementation": "NOT_INDEPENDENTLY_CERTIFIED_IN_THIS_RUN",
+    "run_id": "20260925T_nested_hub_infinite_family",
+    "task": "Close the Stage-17 asymptotic root-moment gap with an analytic infinite family.",
+    "package": "stage18_original/20260925T_nested_hub_infinite_family/",
+    "derivation_parts": [
+      "DERIVATION_A.md",
+      "DERIVATION_B.md",
+      "DERIVATION_C.md",
+      "DERIVATION_D.md"
+    ],
+    "result": "ANALYTIC_INFINITE_FAMILY_POWER_LOWER_BOUND_PROVED_IN_WRITING",
+    "construction": "Finite unweighted rooted trees at activity lambda=1; each step uses a 14-child hub followed by a nearest-integer gather level.",
+    "theorem": "M_root(T_m) >= C |T_m|^alpha",
+    "alpha": "log(4761/400)/log(1936) = 0.327249517292562...",
+    "coarse_C": "(147/16)*245776^(-alpha) = 0.158177938799633...",
+    "consequence": "Every universal fixed-degree polylogarithmic root-moment upper bound is false for this tree family.",
+    "sharper_parallel_exponent_equality": "NOT_ESTABLISHED_BY_THIS_STAGE",
+    "exact_side_condition_check": "PASS; source sha256 fed8f0590af9453822f41f46b2417ba00772bd4cf469db78b9985be121df0a89; output sha256 c4cdedb0cf7acae0b6cb44924e62b819a7b29af6365568c05b463be57cb5631b",
+    "numeric_prefix_check": "PASS for m=1..12; source sha256 1306bb6ab65ad6a6bd8d1dc783d7601f61852bb5295f41c550b344760629fd4d; output sha256 f7f45573fda49d7ab781629f878aefcbd58a7d693f2372f7560e4358da69273a",
+    "source_upload_note": "Connector safety checks prevented publication of the full Python check sources in this run; the executed source/output hashes are recorded. A placeholder check_stage18.py exists but must not be treated as the executed checker.",
     "fresh_lean_build": "NOT_RUN",
     "fresh_axiom_audit": "NOT_RUN",
     "original_math": "NOT_CLOSED",
     "original_formal": "NOT_ESTABLISHED",
     "legal_original_counterexample": false,
-    "review_type": "SAME_PROJECT_LOGICAL_AUDIT_PLUS_SEPARATE_HIGH_PRECISION_RECOMPUTATION",
     "novelty": "NOT_CLAIMED"
   },
   "preserved_results": {
-    "family_B59": {
-      "checkpoint": "36467feaa5bd486979077b97ad2bac5a75805986",
-      "status": "All positive branch counts and repeated B59 mixtures: computer-assisted E/P log-concavity and unimodality; not top-level Lean formalized."
-    },
-    "component_order_30": {
-      "status": "Forests whose every tree component has order at most 30 are excluded as original counterexamples, conditional on pinned exhaustive computation and classical convolution theorems."
-    },
-    "global_L3_L4": {
-      "status": "Accumulated project proofs establish p_3^2 >= p_2 p_4 and p_4^2 >= p_3 p_5 for every finite unweighted forest, with stated finite computer-assisted subcases."
-    },
-    "external_large_forests": {
-      "source": "junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality@b2a1d3ede8aef259b1de6e319e7fd6cb56481ac1",
-      "status": "Pinned external formalization states an absolute N0 above which every forest is unimodal; a concrete N0 has not been extracted by this project."
-    },
-    "explicit_gaussian_tail": {
-      "checkpoint": "4ffb7f6efe45815be7a58d2a4ba1c749b681dafa",
-      "status": "Written bound integral_{|t|>R} t^2 exp(-c t^2) dt <= 4/(c^2 R), yielding an explicit radius; not newly Lean-compiled in this run."
-    },
-    "window_lc_parallel": {
-      "status": "Current branch contains same-project parallel work reporting strict WindowLC through order 30 and an exact extension/under-dispersion identity. Stage 17 preserves but does not independently rerun the huge enumerations."
-    },
-    "root_moment_parallel": {
-      "status": "Two explicit large finite root-moment examples are numerically corroborated. The stronger statement that every polylogarithmic root-moment bound is impossible is not yet proved by the stored evidence."
-    }
+    "family_B59": "Computer-assisted E/P log-concavity and unimodality for all positive branch counts and repeated B59 mixtures; not top-level Lean formalized.",
+    "component_order_30": "Forests whose every component has order at most 30 are excluded as original counterexamples under the pinned computation and convolution results.",
+    "global_L3_L4": "Accumulated project proofs establish p3^2>=p2*p4 and p4^2>=p3*p5 for every finite unweighted forest, with stated finite assisted subcases.",
+    "external_large_forests": "Pinned external formalization states an absolute N0 above which every forest is unimodal; this project has not extracted a useful concrete N0.",
+    "window_lc_parallel": "Same-project parallel work reports strict WindowLC through order 30 and the exact extension/under-dispersion identity."
   },
   "closed_mathematical_gaps": [
-    "B59 FAMILY E/P log-concavity and unimodality for all positive branch counts and repeated mixtures is computer-assisted proved.",
-    "The adjacent log-concavity minors through k=4 are nonnegative for every forest under accumulated project proofs.",
-    "The Gaussian tail radius used in the effective-threshold chain has an explicit written witness."
+    "Stage 17 correctly found that finite root-moment examples did not prove asymptotic growth. Stage 18 now supplies an analytic infinite family with a positive power lower bound.",
+    "The adjacent log-concavity minors through k=4 remain proved under the accumulated project record.",
+    "The Gaussian tail radius in the effective-threshold chain has an explicit written witness."
   ],
   "corrected_boundaries": [
-    "The fixed lambda=1 nested-hub tree forces C >= 2324.610... in any universal M <= C (ln n)^2 bound covering it.",
-    "The fixed lambda=3 tree forces C >= 1.7155975e37 in any such quadratic-log bound covering the tested activity range.",
-    "These finite lower bounds do not prove that the required constant is unbounded as n grows.",
-    "The numerical exponent match in the parallel note is evidence, not an analytic infinite-family theorem."
+    "The new exponent 0.3272495... is a coarse proved lower exponent, sufficient to rule out every fixed-degree polylog upper bound.",
+    "Stage 18 does not prove the sharper numerical root-moment exponent, WindowLC, or the original forest unimodality conjecture.",
+    "No legal non-unimodal unweighted forest was found in this run."
   ],
   "next_tasks": [
     {
       "priority": 1,
-      "task": "Either prove an analytic infinite-family lower bound for the adaptive nested-hub construction (enough to make M/(log n)^d unbounded for the claimed d), or keep the polylog-root-moment question open and do not use its alleged impossibility as a premise."
+      "task": "Return to WindowLC: seek one all-order inequality from the exact extension identity and under-dispersion criterion for ordinary unweighted forests."
     },
     {
       "priority": 2,
-      "task": "Continue the WindowLC route from the exact extension identity/under-dispersion criterion for ordinary unweighted forests, with a precise all-order inequality rather than more finite scoring."
+      "task": "Continue effective-N0 extraction using only proved constants; do not expect a universal polylog root-moment shortcut."
     },
     {
       "priority": 3,
-      "task": "Continue effective-N0 extraction using only proved constant bounds; do not rely on the unproved asymptotic root-moment sharpness claim."
-    },
-    {
-      "priority": 4,
-      "task": "Retain bounded direct unweighted tree/forest counterexample checks outside covered orders. Non-log-concavity alone is not an original counterexample."
+      "task": "Retain bounded direct unweighted tree/forest counterexample checks outside covered orders, testing the full coefficient sequence."
     }
   ],
   "remaining_gaps": [
-    "Full Erdős #993 proof or explicit legal unweighted nonunimodal forest.",
-    "WindowLC for all forests in the unresolved range above 30 and below the external sufficiently-large threshold.",
-    "A numerical effective value of the external threshold N0.",
-    "Analytic status of the adaptive nested-hub root-moment asymptotics; current finite certificates do not prove universal polylog impossibility.",
+    "Full Erdos #993 proof or explicit legal unweighted nonunimodal forest.",
+    "WindowLC for all forests above 30 and below the external sufficiently-large threshold.",
+    "A useful numerical effective value of the external threshold N0.",
     "PREFIX_BETA for indices k>=5 before the inherited tail boundary.",
-    "Uniform exact middle BARRIER/root-state/component-allocation estimate for all actual forests.",
-    "HEREDITARY J_H and RSM remain unresolved under accumulated project state.",
-    "General fast-DP formal correctness, all-parameter FAMILY Lean formalization, and top-level ORIGINAL Lean proof/axiom audit.",
+    "Uniform exact middle BARRIER/root-state/component-allocation estimate.",
+    "HEREDITARY J_H and RSM.",
+    "Top-level ORIGINAL Lean proof and axiom audit.",
     "Independent external review and global novelty verification."
   ],
   "latest_original_attempt": "stage13_original/20260920T_global_L4/PROOF.md",
   "latest_effective_threshold_work": "stage16_original/20260923T_explicit_gaussian_tail/PROOF.md",
   "latest_audit": "stage17_original/20260924T_root_moment_claim_audit/AUDIT.md",
+  "latest_auxiliary_proof": "stage18_original/20260925T_nested_hub_infinite_family/DERIVATION_A.md through DERIVATION_D.md",
   "completion": {
     "current": false,
     "required": "Original-statement proof or explicit valid unweighted forest counterexample, reproducible graph/count checks, actual formal source replay and axiom audit.",
-    "on_success": "Publish final verification package, notify the user, and disable recurring continuation; do not self-award or alter live prize records."
+    "on_success": "Publish final verification package, notify the user, and disable recurring continuation; do not alter live prize records."
   }
 }
