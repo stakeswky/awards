@@ -1,0 +1,19 @@
+families: min DT slack [(0.2024795851463313, 'hubs(2,3)', 9), (0.20411610370976388, 'hubs(5,1)', 11), (0.22320198489452642, 'hubs(8,1)', 17), (0.22909826948826725, 'core(5)x6', 67), (0.22961808060773908, 'hubs(12,1)', 25)]
+search: slack 0.3226 n=58
+search: slack 0.3145 n=56
+search: slack 0.3130 n=74
+search: slack 0.3074 n=57
+search: slack 0.2946 n=38
+search: slack 0.2864 n=32
+search: slack 0.2844 n=32
+search: slack 0.2829 n=40
+search: slack 0.2770 n=36
+search: slack 0.2656 n=35
+search: slack 0.2609 n=33
+search: slack 0.2534 n=30
+search: slack 0.2519 n=35
+search: slack 0.2500 n=30
+search: slack 0.2370 n=30
+search: slack 0.2369 n=30
+search: slack 0.2343 n=35
+local search best (exact): 0.23430802109722249 n 35 parents [-1, 0, 1, 2, 1, 4, 1, 6, 7, 8, 7, 10, 11, 12, 12, 14, 15, 14, 17, 18, 19, 18, 21, 14, 23, 14, 25, 7, 27, 7, 29, 6, 1, 32, 0]

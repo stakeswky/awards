@@ -1,0 +1,60 @@
+{
+ "run_id": "20260925T040924Z_targets_barriers_n32",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "goal_of_run": "complete proof requested; not achieved",
+ "literature_check_2026_09_25": "problem open; no complete proof or counterexample found (web search, Xeit-AI-Inc/erdos-993, arXiv 2603.03025, 2603.17114, 2604.18824)",
+ "results": {
+  "TC_tilted_concavity_at_mean": {
+   "implies": "LC at k (AM-GM) hence window LC",
+   "evidence": "all trees 6 <= n <= 25, 0 failures; min n*slack 1.33 (n=6) -> 1.923 (n=24,25)",
+   "status": "EMPIRICAL"
+  },
+  "DT_darroch_mean_mode": {
+   "statement": "rho_{k-1} <= lambda_k <= rho_k on the window",
+   "implies": "TC and LC at k",
+   "min_slack_mean_units": {
+    "trees_n_le_16": 0.105,
+    "forests_ge2_components_n_le_13": 0.157,
+    "products_of_nonLC_trees": 0.244,
+    "nonLC_tree_plus_K1_K2": 0.236,
+    "families": 0.202,
+    "adversarial_search_30_80": 0.234
+   },
+   "status": "EMPIRICAL"
+  },
+  "JDT_joint_interlacing_vertex_split": {
+   "status": "REFUTED_AS_UNIVERSAL_SUFFICIENT_CONDITION",
+   "failures": "all trees n=4,5; 1305/3159 at n=14"
+  },
+  "Phi3_kappa3_le_kappa2": {
+   "trees_n_le_16_lambda_in_e^-4_e^4": "holds, max 0.928",
+   "nonLC_trees": "fails for lambda >= 164 (all 308), core((8,)^17) from 54.6",
+   "status": "EMPIRICAL_ON_BOUNDED_ACTIVITY_ONLY; cannot imply coefficient LC"
+  },
+  "normalised_window_curvature": {
+   "min_kappa2_times_LCmargin": "0.465 (n=8) -> 0.652 (n=16)"
+  },
+  "charfn_decay_constant": {
+   "measured_c_eff": "0.134-0.148 (all trees n=12..20); 0.11-0.29 (families to n=290)",
+   "FLNYZ_proved": "1/114244"
+  },
+  "analytic_threshold_estimate": ">= 10^6 even with c = 0.1 and O(n) cumulants; uniform cumulant bounds unavailable (nested hubs)",
+  "forests_order_32_with_nonLC_component": {
+   "pairs": 1184,
+   "failures": 0
+  },
+  "trees_order_32": "RUNNING (follow-up commit)"
+ },
+ "what_would_close": [
+  "uniform explicit near-mode Gaussianity for forests valid down to n = 33",
+  "a closed invariant preserved by the rooted-tree recursion (products included) implying DT or TC on the window"
+ ],
+ "lean_status": "NOT_RUN (network policy denies github.com releases and lakecache.blob.core.windows.net)",
+ "review_type": "SAME_MODEL_WRITTEN_PROOFS_AND_COMPUTATION",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}

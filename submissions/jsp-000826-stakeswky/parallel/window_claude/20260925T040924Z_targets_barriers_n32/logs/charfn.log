@@ -1,0 +1,15 @@
+product formula check True
+all trees n=12: min c_eff = 0.14813 at (lambda, theta) = (2.6, 0.262); tree levels = [0, 1, 2, 3, 4, 3, 4, 1, 2, 3, 2, 3]
+all trees n=16: min c_eff = 0.14004 at (lambda, theta) = (2.6, 0.262); tree levels = [0, 1, 2, 3, 4, 3, 4, 3, 4, 1, 2, 3, 2, 3, 2, 3]
+all trees n=20: min c_eff = 0.13434 at (lambda, theta) = (2.6, 0.262); tree levels = [0, 1, 2, 3, 4, 3, 4, 3, 4, 3, 4, 1, 2, 3, 2, 3, 2, 3, 2, 3]
+hubs(2,20) n=43: c_eff = 0.27795 at (0.25, 3.142)
+hubs(5,20) n=106: c_eff = 0.27872 at (0.25, 3.142)
+hubs(10,10) n=111: c_eff = 0.28975 at (0.25, 0.052)
+hubs(20,5) n=121: c_eff = 0.24624 at (0.25, 0.052)
+hubs(40,3) n=161: c_eff = 0.21955 at (0.25, 0.052)
+core(5,)x8 n=89: c_eff = 0.13028 at (2.6, 0.052)
+core(8,)x17 n=290: c_eff = 0.11307 at (2.6, 3.037)
+core(10,)x10 n=211: c_eff = 0.13053 at (2.6, 0.052)
+star K_1,10: c_eff = 0.28799 at (0.25, 0.052)
+star K_1,50: c_eff = 0.24595 at (0.25, 3.142)
+star K_1,200: c_eff = 0.16411 at (2.6, 3.037)

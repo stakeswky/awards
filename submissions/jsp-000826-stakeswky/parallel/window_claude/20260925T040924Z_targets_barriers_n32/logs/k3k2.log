@@ -1,0 +1,11 @@
+n=6: max|r|(lam<=1)=0.914 max|r|(lam<=2)=0.914 max|r|(lam<=4)=0.914 max|r|(lam<=8)=0.914 max|r|(lam<=12)=0.914 max|r|(lam<=20)=0.927 max|r|(lam<=54.6)=0.976 | smallest lambda with |r|>1: None None
+n=7: max|r|(lam<=1)=0.915 max|r|(lam<=2)=0.915 max|r|(lam<=4)=0.915 max|r|(lam<=8)=0.915 max|r|(lam<=12)=0.915 max|r|(lam<=20)=0.950 max|r|(lam<=54.6)=0.989 | smallest lambda with |r|>1: None None
+n=8: max|r|(lam<=1)=0.916 max|r|(lam<=2)=0.916 max|r|(lam<=4)=0.916 max|r|(lam<=8)=0.916 max|r|(lam<=12)=0.916 max|r|(lam<=20)=0.938 max|r|(lam<=54.6)=0.984 | smallest lambda with |r|>1: None None
+n=9: max|r|(lam<=1)=0.917 max|r|(lam<=2)=0.917 max|r|(lam<=4)=0.917 max|r|(lam<=8)=0.917 max|r|(lam<=12)=0.917 max|r|(lam<=20)=0.940 max|r|(lam<=54.6)=0.983 | smallest lambda with |r|>1: None None
+n=10: max|r|(lam<=1)=0.918 max|r|(lam<=2)=0.918 max|r|(lam<=4)=0.918 max|r|(lam<=8)=0.918 max|r|(lam<=12)=0.918 max|r|(lam<=20)=0.958 max|r|(lam<=54.6)=0.991 | smallest lambda with |r|>1: None None
+n=11: max|r|(lam<=1)=0.920 max|r|(lam<=2)=0.920 max|r|(lam<=4)=0.920 max|r|(lam<=8)=0.920 max|r|(lam<=12)=0.920 max|r|(lam<=20)=0.945 max|r|(lam<=54.6)=0.987 | smallest lambda with |r|>1: None None
+n=12: max|r|(lam<=1)=0.921 max|r|(lam<=2)=0.921 max|r|(lam<=4)=0.921 max|r|(lam<=8)=0.921 max|r|(lam<=12)=0.921 max|r|(lam<=20)=0.949 max|r|(lam<=54.6)=0.988 | smallest lambda with |r|>1: None None
+n=13: max|r|(lam<=1)=0.923 max|r|(lam<=2)=0.923 max|r|(lam<=4)=0.923 max|r|(lam<=8)=0.923 max|r|(lam<=12)=0.923 max|r|(lam<=20)=0.966 max|r|(lam<=54.6)=0.994 | smallest lambda with |r|>1: None None
+n=14: max|r|(lam<=1)=0.925 max|r|(lam<=2)=0.925 max|r|(lam<=4)=0.925 max|r|(lam<=8)=0.925 max|r|(lam<=12)=0.925 max|r|(lam<=20)=0.952 max|r|(lam<=54.6)=0.991 | smallest lambda with |r|>1: None None
+n=15: max|r|(lam<=1)=0.926 max|r|(lam<=2)=0.926 max|r|(lam<=4)=0.926 max|r|(lam<=8)=0.926 max|r|(lam<=12)=0.926 max|r|(lam<=20)=0.957 max|r|(lam<=54.6)=0.995 | smallest lambda with |r|>1: None None
+n=16: max|r|(lam<=1)=0.928 max|r|(lam<=2)=0.928 max|r|(lam<=4)=0.928 max|r|(lam<=8)=0.928 max|r|(lam<=12)=0.928 max|r|(lam<=20)=0.973 max|r|(lam<=54.6)=0.995 | smallest lambda with |r|>1: None None

@@ -1,0 +1,18 @@
+non-LC trees: 308 max |k3|/k2 = (1.1981384207056758, 30, (1.1981384207056758, 735.095, 15.87)) trees with |k3|>k2 somewhere: 308
+   first violation (n, alpha, (lambda, ratio, mean)): (28, 15, (164.022, 1.001, 14.65))
+   first violation (n, alpha, (lambda, ratio, mean)): (31, 17, (164.022, 1.008, 16.64))
+   first violation (n, alpha, (lambda, ratio, mean)): (31, 17, (164.022, 1.004, 16.64))
+   first violation (n, alpha, (lambda, ratio, mean)): (31, 17, (164.022, 1.003, 16.64))
+   first violation (n, alpha, (lambda, ratio, mean)): (31, 17, (164.022, 1.008, 16.64))
+   first violation (n, alpha, (lambda, ratio, mean)): (31, 17, (164.022, 1.005, 16.64))
+hubs(2,20): n-ish alpha=41 max |k3|/k2 = 0.999 at lambda=2980.958 mean=40.99; first |r|>1: None
+hubs(5,10): n-ish alpha=51 max |k3|/k2 = 0.999 at lambda=2980.958 mean=50.98; first |r|>1: None
+hubs(10,10): n-ish alpha=101 max |k3|/k2 = 0.999 at lambda=2980.958 mean=100.97; first |r|>1: None
+hubs(20,5): n-ish alpha=101 max |k3|/k2 = 0.999 at lambda=2980.958 mean=100.97; first |r|>1: None
+hubs(40,3): n-ish alpha=121 max |k3|/k2 = 0.999 at lambda=2980.958 mean=120.96; first |r|>1: None
+hubs(3,30): n-ish alpha=91 max |k3|/k2 = 0.999 at lambda=2980.958 mean=90.97; first |r|>1: None
+core(3,)x3: n-ish alpha=14 max |k3|/k2 = 1.123 at lambda=445.858 mean=13.87; first |r|>1: (181.272, 1.003, 13.66)
+core(5,)x8: n-ish alpha=48 max |k3|/k2 = 0.979 at lambda=2980.958 mean=47.9; first |r|>1: None
+core(8,)x17: n-ish alpha=153 max |k3|/k2 = 1.295 at lambda=66.686 mean=137.19; first |r|>1: (54.598, 1.044, 136.5)
+core(10,)x10: n-ish alpha=110 max |k3|/k2 = 3.078 at lambda=632.702 mean=101.39; first |r|>1: (330.3, 1.148, 100.92)
+core(6,)x12: n-ish alpha=84 max |k3|/k2 = 0.958 at lambda=2980.958 mean=83.72; first |r|>1: None

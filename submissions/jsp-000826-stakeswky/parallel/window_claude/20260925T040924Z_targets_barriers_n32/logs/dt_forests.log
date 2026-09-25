@@ -1,0 +1,13 @@
+forests n=4: min DT slack 0.2000
+forests n=5: min DT slack 0.1566
+forests n=6: min DT slack 0.1590
+forests n=7: min DT slack 0.2086
+forests n=8: min DT slack 0.1655
+forests n=9: min DT slack 0.2290
+forests n=10: min DT slack 0.2297
+forests n=11: min DT slack 0.2256
+forests n=12: min DT slack 0.1996
+forests n=13: min DT slack 0.1849
+all forests (>=2 components) n<=13: 4393, min slack 0.1566
+products of 2-3 non-LC trees: 150, min DT slack 0.2442
+non-LC tree x K1^m / K2^m: 248, min DT slack 0.2363

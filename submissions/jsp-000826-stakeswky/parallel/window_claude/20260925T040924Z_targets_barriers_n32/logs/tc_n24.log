@@ -1,0 +1,2 @@
+ROOTED 1:1 2:1 3:2 4:4 5:9 6:20 7:48 8:115 9:286 10:719 11:1842 12:4766
+TC n=24 trees=39299897 window_positions=189833242 TC_failures(slack<1e-12)=0 min_n_slack=1.923077 max_lambda_k=2.8426 argmin  checksum=15091651344665018312 seconds=780.1
