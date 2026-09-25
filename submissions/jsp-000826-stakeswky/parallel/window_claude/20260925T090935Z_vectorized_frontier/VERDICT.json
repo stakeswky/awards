@@ -1,0 +1,47 @@
+{
+ "run_id": "20260925T090935Z_vectorized_frontier",
+ "executed_by": "Anthropic Claude via Claude Code (cloud container, 4 cores, AVX-512)",
+ "original_math": "NOT_CLOSED",
+ "original_formal": "NOT_ESTABLISHED",
+ "legal_original_counterexample": false,
+ "goal_of_run": "complete proof requested; not achieved",
+ "results": {
+  "vectorized_checker": {
+   "sources": ["src/cwlc_vec.c", "src/cwlc_vec2.c"],
+   "exactness": "uint32 modular arithmetic; every compared value is a forest coefficient < 2^32 for n <= 35; LC screened in double with factor 1+2^-40, flagged trees decided exactly with __int128",
+   "crosscheck_vs_cwlc_lean_n4_24": "63 comparisons, 0 differences",
+   "crosscheck_cwlc_lean_vs_committed_cwlc_n4_25": "22 comparisons, 0 differences",
+   "equal_to_committed_cwlc_logs": [26, 27, 28, 29, 30, 31],
+   "speedup_vs_cwlc_n29": "72 s vs 856 s on 4 cores"
+  },
+  "trees_order_33": {
+   "trees": 300628862480,
+   "count_equals_A000055_otter": true,
+   "nonunimodal": 0,
+   "nonLC": 1800,
+   "nonLC_distinct_polynomials": 1788,
+   "nonLC_break_positions": {"alpha18_t17": 1587, "alpha19_t18": 206, "alpha20_t19": 7},
+   "min_first_break_over_alpha": 0.9444,
+   "nonLC_in_window": 0,
+   "window_equalities": 0,
+   "interior_equality_trees": 1,
+   "checksum": "16974435275170290889",
+   "seconds_4_cores": 4705.7,
+   "python_reverified_examples": 1801,
+   "python_reverify_problems": 0
+  },
+  "interior_equality_trees": {
+   "n31": {"alpha": 17, "t": 16, "p_alpha_minus_2_1_0": [4624, 68, 1]},
+   "n33": {"alpha": 18, "t": 17, "p_alpha_minus_2_1_0": [4096, 64, 1]},
+   "note": "both LC, isolated equality at alpha-1, unique maximum independent set"
+  },
+  "forests_order_33_with_nonLC_component": {"pairs": 5797, "failures": 0},
+  "theorem": "every forest of order n <= 33 is strictly LC on [ceil(n/4), ceil((2alpha-1)/3)] and unimodal (computer-assisted)",
+  "open_range_of_formal_reduction": "34 <= n < N0"
+ },
+ "lean_status": "NOT_RUN (toolchain and mathlib cache not reachable)",
+ "review_type": "SAME_MODEL_EXACT_COMPUTATION_WITH_INDEPENDENT_CROSSCHECKS",
+ "independent_external_peer_review_by_project": false,
+ "novelty": "NOT_CLAIMED",
+ "research_state_json_modified": false
+}

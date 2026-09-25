@@ -24,13 +24,18 @@ def lam_of(p, k):
         if stats(p, math.exp(mid))[0] < k: lo = mid
         else: hi = mid
     return math.exp((lo + hi) / 2)
-NMAX = int(sys.argv[1])
-for n in range(8, NMAX + 1):
-    minF = 9; minpiece_leaf = 9; min_c = 9
-    for lv in free_trees(n):
-        par = parents_from_levels(lv); p = indep_poly_del(par); a = len(p) - 1
-        q, top = (n + 3) // 4, (2 * a + 1) // 3
-        for k in range(max(q, 1), min(top, a - 1) + 1):
-            lam = lam_of(p, k); mF, vF, _ = stats(p, lam)
-            r = vF * lcm(p, k); minF = min(minF, r)
-    print(f'n={n}: min over trees and window k of kappa2(lambda_k) * LCmargin(k) = {minF:.4f}', flush=True)
+def main():
+    NMAX = int(sys.argv[1])
+    for n in range(8, NMAX + 1):
+        minF = 9; minpiece_leaf = 9; min_c = 9
+        for lv in free_trees(n):
+            par = parents_from_levels(lv); p = indep_poly_del(par); a = len(p) - 1
+            q, top = (n + 3) // 4, (2 * a + 1) // 3
+            for k in range(max(q, 1), min(top, a - 1) + 1):
+                lam = lam_of(p, k); mF, vF, _ = stats(p, lam)
+                r = vF * lcm(p, k); minF = min(minF, r)
+        print(f'n={n}: min over trees and window k of kappa2(lambda_k) * LCmargin(k) = {minF:.4f}', flush=True)
+
+
+if __name__ == '__main__':
+    main()

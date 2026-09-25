@@ -67,7 +67,7 @@ d22b87dee7c2e44d4a54cdbf9fad9ddd01fd1737eb13dd6f93106c5c8a871b95  ./src/families
 ae12f6ce6bfeeb2b6fb6d9490d9ef6bca9966298f20520c2a1d5b000d02be49c  ./src/k3k2.py
 5a4e808c3edf8157c8d217d3ee036e544b8756e9a9d7c91fdf70447d8327eec6  ./src/k3k2_nonlc.py
 f1531a0d26e1c3cbe96ab085d61836bcdf661d0c792fc077c3de3afb9f040d11  ./src/ma_forests.py
-a1659150cb97438241b2cf10082253e70e4187a1268844d59ad5918920705e6b  ./src/mixture_test.py
+cf26203f73ee65ab0e705be6a650162d0ddfed9df7c322fa0ad6ec17f5772d6d  ./src/mixture_test.py
 c4e72b2bb35f3f02b6ae78b63bcafa4f5cf9c2caa5e6d33c533888a11d3ec9e3  ./src/modelib.py
 86b4aaea14209b9fc30747b6d97ea6b08611085a781f74683cdad207e2ae19d8  ./src/reverify_examples.py
 bb83efe1a233059d016cacecfcd8860550f829d49eb47311a1efb0a48f4d6be4  ./src/tcheck.c

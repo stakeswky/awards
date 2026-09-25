@@ -1,0 +1,7 @@
+ROOTED 1:1 2:1 3:2 4:4 5:9 6:20 7:48 8:115 9:286 10:719 11:1842 12:4766 13:12486
+TAILS R=12 0:1 1:1 2:2 3:4 4:9 5:20 6:48 7:115 8:286 9:719 10:1842 11:4766 12:12486 build_seconds=0.0
+EX first_bad=13 alpha=14 inLM=0 unimodal=1 eqwin=0 eqany=0 eqcons=0 parents=-1,0,1,2,1,4,1,6,1,8,0,10,11,10,13,10,15,10,17,0,19,20,19,22,19,24 p=1,26,300,2040,9142,28551,63933,103736,121376,100144,55499,18683,2979,51,1
+EX first_bad=13 alpha=14 inLM=0 unimodal=1 eqwin=0 eqany=0 eqcons=0 parents=-1,0,1,2,1,4,1,6,1,8,0,10,11,12,13,10,15,10,17,0,19,20,19,22,19,24 p=1,26,300,2037,9089,28147,62183,98968,112870,90178,48086,15498,2372,48,1
+FLAGGED 2
+EQ window_positions=0 window_trees=0 interior_equality_trees=0 consecutive_interior_equality_trees=0
+RESULT n=26 trees=279793450 nonunimodal=0 nonLC=2 nonLC_in_window_LM=0 nonLC_in_window_beta=0 minrel=0.928571 checksum=15187486801461999869 seconds=16.7 threads=2
