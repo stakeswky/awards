@@ -1,26 +1,7 @@
 # Stage 18: analytic nested-hub infinite family
 
-This bounded task addresses the precise Stage-17 gap: finite root-moment certificates did not prove asymptotic growth.
+The written derivation is split across `DERIVATION_A.md` through `DERIVATION_D.md`. It proves an explicit family of finite unweighted trees at activity 1 with `M >= C n^alpha`, where `alpha=0.327249517292562...` and one coarse `C=0.158177938799633...`.
 
-Result: an explicit recursively defined family of ordinary finite unweighted trees at hard-core activity `lambda=1` satisfies
+Thus `M/(log n)^d` is unbounded for every fixed degree `d`. This does not prove WindowLC or Erdős #993.
 
-`M_root(T_m) >= C |T_m|^alpha`
-
-with the proved coarse exponent
-
-`alpha = log(4761/400)/log(1936) = 0.327249517292562...`.
-
-Therefore `M/(log n)^d` is unbounded for every fixed `d`. This rules out every fixed-degree polylogarithmic universal root-moment upper bound of that form. It does not prove the sharper numerical exponent reported by the parallel window, and it does not solve Erdős #993.
-
-Files:
-
-- `PROOF.md`: complete written derivation;
-- `verify_bounds.py`: exact rational/integer side-condition checks;
-- `run.log`: completed script output;
-- `result.json`: machine-readable scope and verdict;
-- `verify_numeric_family.py`: independent high-precision recurrence check of the first 12 family members;
-- `numeric_prefix.log`: completed output of that finite sanity check.
-
-No Lean build or axiom audit was run in this stage.
-
-One local development run of the Decimal sanity script initially demanded exact Decimal equality for the identity `D_1=7` and failed only at the `1e-99` rounding level. The final script uses a `1e-90` tolerance; the exact identity itself is proved algebraically in `PROOF.md`.
+Two local Python checks completed: exact rational side conditions and a 100-digit recurrence check for the first 12 members. Their hashes and scope are recorded in `RESEARCH_STATE.json`. No Lean build or axiom audit was run.
