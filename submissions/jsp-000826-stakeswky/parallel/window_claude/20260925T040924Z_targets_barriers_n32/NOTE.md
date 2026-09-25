@@ -10,8 +10,8 @@ strongest general result remains the existential large-order theorem (FLNYZ, Lea
 
 The run has three parts:
 
-1. **Computational frontier.** The exhaustive run for n = 32 is in progress (Section 5); forests of
-   order 32 with a non-LC component are done.
+1. **Computational frontier.** Every forest of order <= 32 satisfies strict window log-concavity and is
+   unimodal (Section 5; 109,972,410,221 trees at n = 32).
 2. **Three reformulations of the window condition.** Their empirical margins are of order one (in
    natural units) rather than O(1/n) (Sections 1–3).
 3. **A quantified account of why none of the available routes closes the range 33 <= n < N0**
@@ -150,7 +150,7 @@ from the pieces' smaller variances.
 - Run `20260924T083841Z` showed that root moments grow polynomially (exponent up to 0.94) on nested
   hub trees, so uniform O(n) higher-cumulant bounds are themselves not available.
 
-Realistic analytic thresholds are therefore >= 10^6, against a computational frontier of 32.
+Realistic analytic thresholds are therefore >= 10^6, against a computational frontier of 32 (Section 5).
 
 **(b) Exhaustive computation.** The number of free trees grows like 2.955^n: 1.1·10^11 trees at
 n = 32 take about 5 hours on 4 cores, n = 33 would take about 15 hours, and each further order about
@@ -191,8 +191,30 @@ pairs. All are unimodal, strictly log-concave on the window, and satisfy the win
 tree of order 31 does, with isolated equalities. That tree can only occur as T + K1. The strict Hoggar
 lemma and its isolated-equality remark (same run, Section 5) then give strict LC on [0, alpha].
 
-**Trees of order 32** (`src/cwlc.c`, 109,972,410,221 trees): running at the time of this commit; the
-result will be added in a follow-up commit.
+**Trees of order 32** (`src/cwlc.c`, unchanged from run `20260924T092515Z`; `logs/cwlc_n32.log`,
+18,915 s on 4 cores, exit 0):
+
+- 109,972,410,221 trees, equal to OEIS A000055(32); rooted counts equal A000081 up to order 16;
+- every tree is unimodal;
+- no non-LC index and no LC equality lies in the window, so **strict** window LC holds;
+- 922 trees are non-LC, each breaking only at k = alpha - 1 (735 with alpha = 17, 180 with alpha = 18,
+  7 with alpha = 19; first break at >= 0.941 alpha). All 922 were rebuilt from their parent arrays and
+  re-verified by the Python DP (`logs/reverify_n32.log`, 0 problems);
+- no tree of order 32 has any interior LC equality;
+- the drift condition m_{r+1} <= m_r + 1 holds at every r for every tree, with maximum window drift
+  -0.814;
+- min n (1 - p_{k-1}p_{k+1}/p_k^2) over the window is 3.765; the mode/n minimum is 0.281 and the
+  mode/alpha maximum is 0.688.
+
+**Theorem (computer-assisted).** Every forest of order n <= 32 satisfies strict log-concavity on
+[ceil(n/4), ceil((2alpha-1)/3)] and is unimodal.
+
+*Proof.* Trees: the exhaustive runs for n <= 31 (run `20260924T092515Z`) and n = 32 above; trees with
+n <= 3 by inspection. Forests of order <= 31: Theorem 6 of run `20260924T092515Z`. Forests of order 32
+with at least two components are covered by the two paragraphs above. ∎
+
+So the Lean proposition `WindowLC` holds for every forest on Fin n with n <= 32, and the open range of
+`erdos993_of_windowLC_below` is **33 <= n < N0**.
 
 ## 6. Boundaries
 

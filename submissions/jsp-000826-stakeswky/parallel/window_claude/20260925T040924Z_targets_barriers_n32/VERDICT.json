@@ -46,7 +46,21 @@
    "pairs": 1184,
    "failures": 0
   },
-  "trees_order_32": "RUNNING (follow-up commit)"
+  "trees_order_32": {
+   "trees": 109972410221,
+   "count_equals_A000055": true,
+   "nonunimodal": 0,
+   "nonLC": 922,
+   "nonLC_in_window": 0,
+   "window_equalities": 0,
+   "interior_equality_trees": 0,
+   "drift_failures_any_r": 0,
+   "max_window_drift": -0.814,
+   "min_n_LC_margin_window": 3.765,
+   "python_reverified_nonLC": 922,
+   "seconds": 18915.1
+  },
+  "theorem_forests_le_32": "COMPUTER_ASSISTED: every forest of order <= 32 satisfies strict window LC and is unimodal"
  },
  "what_would_close": [
   "uniform explicit near-mode Gaussianity for forests valid down to n = 33",
@@ -56,5 +70,6 @@
  "review_type": "SAME_MODEL_WRITTEN_PROOFS_AND_COMPUTATION",
  "independent_external_peer_review_by_project": false,
  "novelty": "NOT_CLAIMED",
- "research_state_json_modified": false
+ "research_state_json_modified": false,
+ "open_range_for_formal_reduction": "33 <= n < N0 (N0 existential)"
 }

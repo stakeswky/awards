@@ -8,10 +8,10 @@ modified. No novelty, priority or award claim is made.
 
 ## Results
 
-1. **Frontier.** The exhaustive check of all 109,972,410,221 trees of order 32 is running (follow-up commit). Forests of order 32 with a non-LC component: all 1,184 distinct
+1. **Frontier.** All 109,972,410,221 trees of order 32 (= A000055) are unimodal and strictly LC on the window: 922 are non-LC, all at alpha - 1, and all were re-verified in Python. Forests of order 32 with a non-LC component: all 1,184 distinct
    (non-LC tree, small forest) polynomial pairs pass. Forests of order 32 whose components are all LC
    are strictly LC by the strict Hoggar lemma and the isolated-equality remark of run
-   `20260924T092515Z`. Once the tree run completes, this gives strict window LC and unimodality for every forest of order <= 32.
+   `20260924T092515Z`. **Hence every forest of order <= 32 satisfies strict window LC and is unimodal; the open range of the formal reduction is 33 <= n < N0.**
 2. **Tilted concavity at the mean (TC)** implies window LC (Lemma 1, AM–GM). It holds at every window
    position of every tree with n <= 25, with minimum normalised slack 1.33 → 2 (stars). Its
    Fourier form is the positivity of one weighted integral of the centred characteristic function.
@@ -62,5 +62,5 @@ Lean could not be run: the environment's network policy denies `github.com` rele
   - `tiltconc.py`, `dt_slack.py`, `dt_forests.py`, `dt_search.py`, `jdt.py`, `k3k2.py`,
     `k3k2_nonlc.py`, `charfn.py`, `mixture_test.py`, `forest_nonlc32.py`;
   - helpers `modelib.py`, `ip.py`, `ma_forests.py`, `families.py`.
-- `logs/`: `tc_n*.log` (with `tc_summary.log`), one log per script above; `cwlc_n32.log` follows.
-- `results/`: `forest_nonlc_N32.json`.
+- `logs/`: `cwlc_n32.log`/`.exit`, `reverify_n32.log`, `tc_n*.log` (with `tc_summary.log`), one log per script above.
+- `results/`: `forest_nonlc_N32.json`, `reverified_nonLC_n32.json`.
